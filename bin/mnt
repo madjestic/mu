@@ -1,0 +1,13 @@
+#!/bin/sh
+# A simple script to mount various devices.
+# version: 0.7
+
+usb() {
+sudo mount -o umask=0,uid=nobody,gid=nobody /dev/sdb1 /mnt/usb
+}
+
+cdrom() {
+sudo mount -o umask=0,uid=nobody,gid=nobody /dev/sdb1 /mnt/cdrom
+}
+
+

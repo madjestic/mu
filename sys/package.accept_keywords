@@ -1,0 +1,75 @@
+# required by sys-firmware/iwl2030-ucode (argument)
+=sys-firmware/iwl2030-ucode-18.168.6.1 ~amd64
+# required by =sci-mathematics/maxima-5.32.1-r1 (argument)
+=sci-mathematics/maxima-5.32.1-r1 ~amd64
+# required by =dev-lisp/sbcl-1.1.16 (argument)
+=dev-lisp/sbcl-1.1.16 ~amd64
+# required by dev-lisp/asdf-3.0.3
+# required by dev-lisp/sbcl-1.1.16
+# required by =dev-lisp/sbcl-1.1.16 (argument)
+=dev-lisp/uiop-3.0.3 ~amd64
+# required by dev-lisp/uiop-3.0.3
+=dev-lisp/asdf-3.0.3 ~amd64
+# required by sci-mathematics/wxmaxima-13.04.2
+# required by =sci-mathematics/wxmaxima-13.04.2 (argument)
+=media-fonts/jsmath-1.0 ~amd64
+# required by =sci-mathematics/wxmaxima-13.04.2 (argument)
+=sci-mathematics/wxmaxima-13.04.2 ~amd64
+# required by sci-mathematics/rstudio (argument)
+=sci-mathematics/rstudio-0.98.490 ~amd64
+# required by dev-haskell/haskell-platform (argument)
+=dev-haskell/haskell-platform-2013.2.0.0 ~amd64
+# required by games-util/steam-meta-0-r20131107::steam-overlay
+# required by games-util/steam-meta (argument)
+=games-util/steam-launcher-1.0.0.47 ~amd64
+# required by games-util/steam-meta-0-r20131107::steam-overlay
+# required by games-util/steam-meta (argument)
+=games-util/steam-client-meta-0-r20140210 ~amd64
+# required by games-util/steam-meta (argument)
+=games-util/steam-meta-0-r20131107 ~amd64
+# required by games-util/steam-meta-0-r20131107::steam-overlay
+# required by games-util/steam-meta (argument)
+=games-util/steam-games-meta-0-r20140325 ~amd64
+# required by net-im/skype (argument)
+=net-im/skype-4.2.0.13 ~amd64
+# required by dev-haskell/primes (argument)
+=dev-haskell/primes-0.2.1.0 ~amd64
+# required by dev-haskell/bindings-glfw-3.0.3.2::gentoo-haskell
+# required by dev-haskell/glfw-b-1.4.6::gentoo-haskell
+# required by dev-haskell/glfw-b (argument)
+=dev-haskell/bindings-dsl-1.0.21 ~amd64
+# required by dev-haskell/glfw-b-1.4.6::gentoo-haskell
+# required by dev-haskell/glfw-b (argument)
+=dev-haskell/bindings-glfw-3.0.3.2 ~amd64
+# required by dev-haskell/glfw-b (argument)
+=dev-haskell/glfw-b-1.4.6 ~amd64
+# required by dev-haskell/cabal-install (argument)
+=dev-haskell/cabal-install-1.18.0.3 ~amd64
+# required by dev-haskell/reactive-banana (argument)
+=dev-haskell/reactive-banana-0.8.0.0 ~amd64
+# required by dev-haskell/reactive-banana-0.8.0.0::gentoo-haskell
+# required by dev-haskell/reactive-banana (argument)
+=dev-haskell/pqueue-1.2.1 ~amd64
+# required by dev-haskell/hasktags (argument)
+=dev-haskell/hasktags-0.68.7 ~amd64
+# required by dev-haskell/hlint (argument)
+=dev-haskell/hlint-1.8.60 ~amd64
+# required by dev-haskell/hlint-1.8.60::gentoo-haskell
+# required by dev-haskell/hlint (argument)
+=dev-haskell/cpphs-1.18.4 ~amd64
+# required by dev-haskell/hlint-1.8.60::gentoo-haskell
+# required by dev-haskell/hlint (argument)
+=dev-haskell/haskell-src-exts-1.14.0.1 ~amd64
+# required by dev-haskell/hlint-1.8.60::gentoo-haskell
+# required by dev-haskell/hlint (argument)
+=dev-haskell/uniplate-1.6.12 ~amd64
+# required by dev-haskell/netwire (argument)
+=dev-haskell/netwire-5.0.0 ~amd64
+# required by dev-haskell/opengl-2.9.1.0::gentoo-haskell
+# required by =dev-haskell/opengl-2.9.1.0 (argument)
+=dev-haskell/openglraw-1.4.0.0 ~amd64
+# required by =dev-haskell/opengl-2.9.1.0 (argument)
+=dev-haskell/opengl-2.9.1.0 ~amd64
+# required by dev-haskell/opengl-2.9.1.0::gentoo-haskell
+# required by =dev-haskell/opengl-2.9.1.0 (argument)
+=dev-haskell/gluraw-1.4.0.0 ~amd64
