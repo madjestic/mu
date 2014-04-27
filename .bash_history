@@ -1,108 +1,3 @@
-locate ohaskell
-okular /home/madjestic/Documents/ohaskell.pdf 
-ls
-cd ..
-ls
-cd FRP/
-ls
-ghc ActuatePause.hs
-ls
-./ActuatePause 
-ls
-rm ActuatePause
-ghc ActuatePause.hs
-./ActuatePause 
-ls
-eix hlint
-su
-su
-cp ~/Downloads/gist3821030-d0c44d98525722be115a274d1c7068a52bf725f6/GameLoop.hs ./
-ls
-emacs GameLoop.hs &
-su
-cd ~/irclogs/
-ls
-cd freenode/
-ls
-emacs \#emacs-haskell.log 
-rm \#emacs-haskell.log 
-cd ~/Documents/
-ls
-okular ohaskell.pdf 
-okular ohaskell.pdf &
-ls
-cd ~/org/index.org
-emacs ~/org/index.org &
-ls
-cp -p ~/Downloads/push-pull-frp.pdf ./FRP/
-ls
-cp -p ~/Downloads/push-pull-frp.pdf ./FRP/
-cp -d ~/Downloads/push-pull-frp.pdf ./FRP/
-cp -P ~/Downloads/push-pull-frp.pdf ./FRP/
-info cp
-cp --parents ~/Downloads/push-pull-frp.pdf ./FRP/
-cp --parents ~/Downloads/push-pull-frp.pdf ./FRP
-mkdir FRP
-cp ~/Downloads/push-pull-frp.pdf ./FRP
-ls
-cd FRP/
-ls
-rm ~/Downloads/push-pull-frp.pdf 
-mv ~/Downloads/push-pull-frp-slides.pdf ./
-ls
-ln -s ~/org/index.org index.org
-ls
-emacs index.org &
-cd ~/org/
-ls
-cd ~/Documents/
-touch ou.org
-emacs ou.org &
-cd ..
-cd Downloads/
-ls
-tar xvfz 3D-CoatV4-1-03.tar.gz 
-ls
-cd 3D-CoatV4-1
-ls
-cd ..
-ls
-cp -R 3D-CoatV4-1 ../
-cd ..
-ls
-rm -rf ./3D-CoatV4-1
-cd Downloads/
-ls
-mv ./3D-CoatV4-1 ../
-ls
-cd ..
-ls
-ls
-eix netwire
-su
-cd Projects/Haskell/FRP/
-ls
-mkdir Netwire
-ls
-mkdir ReactiveBanana
-ls
-krusader 
-ls
-cd Netwire/
-touch Main.hs
-emacs Main.hs &
-cd ..
-ls
-cd ReactiveBanana/
-ls
-rm reactive-banana-examples 
-ls
-touch counter2.hs
-ls
-cd ..
-ls
-rm octave.hs*
-ls
 cd ReactiveBanana/
 ls
 emacs counter2.hs &
@@ -481,3 +376,158 @@ which optirun
 ls -lah /usr/bin/optirun
 su
 optirun bash
+cd ..
+git init
+git remote add origin https://github.com/madjestic/mu.git
+ls
+git add bin
+git add .bash*
+git status
+touch .gitignore
+emacs .gitignore &
+git --help
+git rm --cached ~/bin/*~
+git status
+git rm --cached ~/*~
+git status
+ls
+ls -lah
+ls -la
+ls -lh
+git add houdini
+git add .emacs.el
+git add .emacs.d/haskell.el
+ls
+ls -lh
+mkdir System
+ls
+rm System
+rm -R System
+ls
+mkdir sys
+ls
+ls -lh
+cd sys/
+ln /etc/portage/make.conf make.conf
+ls
+emacs make.conf &
+ln /etc/portage/package.use package.use
+ln /etc/portage/package.accept_keywords package.accept_keywords
+ls
+ls -lh
+ls /usr/src/linux/.config .config
+ln /usr/src/linux/.config .config
+ls
+ls -lh
+ls -lah
+ls -lh /boot/
+cd ~/sys/
+ls
+ln /boot/grub grub
+cp /boot/grub grub
+ls
+ln /boot/grub/grub.cfg grub.cfg
+cp /boot/grub/grub.cfg grub.cfg
+sudo cp /boot/grub/grub.cfg grub.cfg
+ls
+ls -lah
+ln /etc/fstab fstab
+ln /etc/X11/xorg.conf xorg.conf
+ls
+ls -lah
+cd ..
+ls
+ls -lah
+ls -lh
+git add sys/*
+git add sys
+cd sys
+ls
+ls -lh
+sudo chown madjestic -R .
+ls -lh
+cd ..
+git add ./sys
+git status
+git push
+git commit -am "first commit"
+git push
+git status
+touch README.md
+git add README.md 
+git status
+git commit -am "adding README"
+git push
+git push master
+git push master origin
+git push master
+history | grep -ir push
+history | grep -ir "git push"
+git push -u origin master
+ls
+rm README.md 
+ls
+cd ~
+cd /bin/
+ls
+ls -lh
+cd ~/bin/
+ls
+./houdini.sh &
+irssi 
+cd ~/Projects/
+ls -lah
+cd ~
+ls
+emacs .bashrc &
+source .bashrc
+echo $PATH
+emacs .bashrc &
+export 
+export HOUDINI_NODE_WIDTH=2
+cd bin/
+./houdini.sh
+./houdini.sh &
+cd /boot/grub/
+ls
+cd /etc/
+ls
+cd X11
+ls
+ls -lah
+su
+cd ~/bin/
+./houdini.sh &
+irssi 
+which optirun
+ls -lh /usr/bin/optirun
+ls
+./houdini.sh &
+glxgears 
+emacs houdini.sh &
+optirun bash
+glxgears 
+echo $PATH
+source ~/.bashrc
+echo $HOUDINI_NODE_WIDTH 
+echo $PATH
+cp houdini.sh houdini.sh.bak
+mv houdini.sh.bak .houdini.sh.bak 
+emacs houdini.sh &
+glxgears 
+export PS1="(optirun) $PS1"
+cd bi
+ls
+emacs optirun.sh &
+emacs ./houdini.sh &
+cd ~/bin/
+emacs ./houdini.sh &
+optirun bash
+cd bin/
+ls
+./houdini.sh
+emacs optirun.sh 
+export PS1="(optirun) $PS1"
+emacs .optirun
+ls -lah
+emacs houdini.sh &
