@@ -531,3 +531,58 @@ export PS1="(optirun) $PS1"
 emacs .optirun
 ls -lah
 emacs houdini.sh &
+cd ..
+git add -u
+git status
+git commit -am "updating some crap"
+git push
+cd ~/Projects/Houdini/
+ls
+cd Mantra/
+ls
+mv -R ./test_01 ./tests
+ls
+mv ./test_01 ./tests
+ls
+cd /opt/
+ls
+cd hfs13.0.343/
+ls
+cd ..
+sudo rm -rf hfs13.0.343
+cd ~/Downloads/
+ls
+rm -rf houdini-13.0.343-linux_x86_64_gcc4.6
+tar xvfz houdini-13.0.376-linux_x86_64_gcc4.6.tar.gz 
+ls
+cd houdini-13.0.376-linux_x86_64_gcc4.6
+ls
+su
+cd ~
+ls
+rm houdini
+ln /opt/hfs13.0.376 houdini
+ln =s /opt/hfs13.0.376 houdini
+ln -s /opt/hfs13.0.376 houdini
+ls
+ls
+cd bin/
+emacs houdini.sh
+./houdini.sh
+emacs houdini.sh
+ls
+emacs houdini.sh
+cd ~/Downloads/
+ls
+cd ~
+ln -s /opt/hfs13.0.376/bin/mplay mplay
+./mplay 
+/opt/hfs13.0.376/bin/mplay
+ls -lh
+./mplay 
+rm mplay 
+cd bin/
+cp houdini.sh mplay.sh
+emacs mplay.sh &
+gcc -V
+gcc --version
