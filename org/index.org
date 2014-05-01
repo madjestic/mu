@@ -1,0 +1,217 @@
+#+TAGS: { @OFFICE(o) @HOME(h) } COMPUTER(c) PHONE(p) READING(r)
+
+* How to use Journal?
+
+** Basics
+
+M-return       | to start a new entry |
+M-right/M-left | to change the depthe of insertion |
+C-u M-! date   | to insert date |
+
+*** Haskell
+(while inside /MyProjectDir/)   | generating tags |
+hasktags .
+** New Deep Entry
+
+** TODOs
+
+S-right/S-left to change the status
+
+C-c . to insert timestamp
+
+*** TODO buy *airplane* <2013-12-27 Fri>				:foo:
+** List and markup
+  + one
+  + two
+*bold*
+/italic/
+=code=
+
+** Links [[*Links][*]]
+   C-c l     (org-store-link)       | to store link to current location
+   C-c C-L to store the link        |
+   C-c C-l to inser the link        |
+   C-c C-l on existin link to edit  |
+   [[http://orgmode.org/manual/Handling-links.html][on_Links]]
+   [[http://orgmode.org/manual/External-links.html][gentoo]]
+   [[docview:~/Downloads/Abbelian_Categories.pdf::100][PDF]]
+
+* Emacs tips
+	‘M-x toggle-truncate-lines’ - turn on long lines warp
+* Haskell tips
+	Commenting code:
+  {-| @Event t a@ represents a stream of events as they occur in time.
+Semantically, you can think of @Event t a@ as an infinite list of values
+that are tagged with their corresponding time of occurence,
+
+> type Event t a = [(Time,a)]
+-}
+
+this code should be shown in haddock
+* Life Hacks
+** Tax-return related papers:
+	  Annual Mortgage Statement 
+		Jaaropgraaf
+		Student Costs
+		WOZ
+* New Task Example
+
+** Create a Designe
+
+*** Design Ideas:
+
+[[http://wordpress.org/themes/][Cool_Ideas]]
+* Projects
+
+** HNGL
+
+*** on HNGL
+
+>> Fri Dec 20 11:07:18 CET 2013
+>> Fri Dec 20 16:58:16 CET 2013
+>> Journal #3 (#1 and #2 got lost -_-)
+
+Editable -> Instancable -> Drawabale
+
+
+Graphics.HNGL.Rendering
+Graphics.HNGL.Data
+
+
+
+toInstancable :: Editable -> Instancable
+
+toDrawable :: Instancable -> Drawable
+
+draw :: Drawable -> IO ()
+
+toAnimatable :: Drawable -> Animation -> Animatable
+
+data Animation = Time Freq
+
+data Time = Float
+
+data Freq = Float
+
+animate :: Animatable -> IO ()
+*** HNGL progress
+**** Sun Dec 22 20:31:19 CET 2013
+***** on HNGL:
+
+managed to do inital HNGL commit with basic modules functioning OK
+next thing to do is introducing support for basic shapes instances draw, e.g.:
+
+draw Square pos side
+... too tired now, need to switch tasks for a 
+
+[[file:~/Projects/Haskell/OpenGL/Haskell-OpenGL-Tutorial/tutorial04/HNGL][Finished Here]]
+<2013-12-27 Fri>
+
+
+**** Thu Jan 16 21:42:27 CET 2014
+***** On FFI
+Looking into FFI.  Created Bookmarks on [[*FFI][FFI/Haskell]]
+
+**** Wed Jan 22 18:45:13 CET 2014
+Uploaded the preview version of tutorial03 to GitHub
+Noticed 2 stars - it looks like someone found code useful
+
+**** DONE : port the code to GLFW -> GLFW-b
+[[https://github.com/madjestic/Haskell-OpenGL-Tutorial/issues/2][proposed by listx]]
+[[http://hackage.haskell.org/package/GLFW-0.5.2.0/docs/Graphics-UI-GLFW.html][GLFW on Hackage]]
+[[http://hackage.haskell.org/package/GLFW-b][GLFW-b on hackage]]
+[[http://www.tapdancinggoats.com/opengl-in-haskell-glfw-b-boilerplate.htm][GLFW-b Boilerplate]]
+[[http://www.tapdancinggoats.com/haskell-life-repa.htm][Conway's Game of Life with GLFW-b]]
+
+**** DONE : introduce support for vertex colors
+[[https://github.com/madjestic/Haskell-OpenGL-Tutorial/issues/3][link to the issue]]
+
+[[http://www.opengl-tutorial.org/beginners-tutorials/tutorial-1-opening-a-window/][Modern OpenGL tutorial C++/Qt
+]]
+[[http://nopper.tv/norbert/opengl.html][OpenGL 3 and OpenGL 4 with GLSL]]
+[[https://github.com/McNopper/OpenGL]]
+
+[[http://www.swiftless.com/opengl4tuts.html][OpenGL4 Tutorial]]
+
+[[http://openglbook.com/the-book/preface-what-is-opengl/][OpenGL Book]]
+
+[[http://antongerdelan.net/opengl/][Anton's tutorials]]
+
+**** DONE : Vertex2 -> Vertex4
+**** DONE : polivariadic createWindow:
+createWindow title (sizex, sizey)
+createWindow title (sizex, sizey) color
+**** DONE : polivariadic intiResources:
+initResources vs = ...
+initResources cs vs = ...
+
+**** Wed Jan 29 00:35:22 CET 2014 on Rendering.hs, missing square
+I eddited the [[~/Projects/Haskell/OpenGL/Haskell-OpenGL-Tutorial/tutorial04/NGL/Rendering.hs][Rendering.hs]] file with intention to introduce a second 
+vertex array object to store color data, the code compiles, but the
+blue square seems to be missing now - need to investigate the situation.
+Too tired now.
+
+> Fixed.
+
+**** TODO : Animation Support...
+time to take a look into FRP and animation :)
+[[file:~/Projects/Haskell/reactive-banana/reactive-banana][reactive-banana source and examples]]
+See the project homepage <http://haskell.org/haskellwiki/Reactive-banana>
+
+Thu Apr 24 17:56:30 CEST 2014 [[https://github.com/madjestic/reactive-banana/blob/master/reactive-banana/doc/examples/Counter.hs][Added a Counter example]]
+** FRP
+*** Reactive Banana
+[[*:%20Animation%20Support...][Reactive Banana Animation Support...]]
+**** TODO Reading: [[http://johnlato.blogspot.nl/2011/04/thoughts-on-frp.html][Sound and Software]]
+**** TODO Reading: [[http://www.kazachonak.com/2012/06/reactive-programming.html][Reactive Programming]]
+**** TODO Reading: [[http://conal.net/fran/tutorial.htm][Fran Tutorial (Connal Elliot)]]
+**** TODO Watch  : [[http://vimeo.com/6686570][Push-pull Functional Reactive Programming]]
+*** NetWire
+[[http://hackage.haskell.org/package/netwire-4.0.5/docs/Control-Wire.html][Control.Wire]]
+[[http://hub.darcs.net/ertes/netwire/browse/README.md][Netwire on Darcs]]
+[[http://www.haskell.org/haskellwiki/Netwire][Netwire on Haskell Wiki]]
+[[https://github.com/MaxDaten/netwire-examples][Netwire Examples on GitHub]]
+
+** on Emacs
+
+*** DONE Lear to use Org-mode
+
+*** TODO Lear how to open pdfs at a given page with Okulus
+[[http://stackoverflow.com/questions/20792659/how-do-i-make-org-mode-open-pdf-files-in-okulus-at-page-nnn][stackoverflow_topi]]c
+<2013-12-27 Fri>
+
+** on Blogs
+*** TurtlesTurtlesTurtles
+**** DONE Update the content, according to the latest state of NGL tutorial
+**** DONE : Write a prime number calculator.
+*** PuurBliss.NL
+**** TODO : fix glyphicons:
+		 It turns out that the < > glyphs are not being displayed correctly.
+** Reading
+*** Prime Obsession
+p.55
+* Bookmarks:
+** Programming
+*** Haskell
+**** FFI
+[[http://www.haskell.org/haskellwiki/FFI_cook_book][FFI Cook Book]]
+[[http://book.realworldhaskell.org/read/interfacing-with-c-the-ffi.html][RealWorldHaskell FFI]]
+** Emacs
+*** Org Mode
+**** Links
+[[http://orgmode.org/manual/Handling-links.html][Handling Links]]
+* M140: Introducing Statistics
+** TMA02:
+*** IN-PROGRESS 26 April 2014
+**** DONE : TMA02: Q1: 
+Computer Book 1: pp.35-48
+surgeons.mtw (box-plotting in Minitab)
+**** IN-PROGRESS : TMA02: Q2
+***** DONE : Book2 pp.39-47 (on different sampling types)
+finished at p.44.
+done
+Sat Apr 26 16:03:45 CEST 2014
+
+
+
+**** TODO : TMA02: Q3
