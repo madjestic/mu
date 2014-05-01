@@ -586,3 +586,10 @@ cp houdini.sh mplay.sh
 emacs mplay.sh &
 gcc -V
 gcc --version
+cd ~
+git add houdini13.0/desktop/Technical2.desk 
+git commit -am "adding houdini technical desktop"
+git push
+alsamixer 
+alsamixer 
+alsamixer 
