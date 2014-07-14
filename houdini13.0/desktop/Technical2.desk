@@ -8,31 +8,31 @@ root {
     split 0.47625 H {
         split 0.187742 H L {
             tabs 0 1 {
-                pane panetab1 -a 0 -l 10 -H /obj/pyrojetexhaust1/jet_emitter/ -T SOP -m treecontrol
+                pane panetab1 -a 0 -l 10 -H /obj/shopnet1/vopmaterial1/ -T VOP -m treecontrol
             }
             split 0.379641 V R {
                 split 0.464821 V R {
                     split 0.5 V L {
                         tabs 0 1 {
-                            pane panetab15 -a 0 -l 10 -H /obj/pyrojetexhaust1/jet_emitter/ -T SOP -m iprviewer
+                            pane panetab15 -a 0 -l 10 -H /obj/shopnet1/vopmaterial1/ -T VOP -m iprviewer
                         }
                         tabs 0 1 {
-                            pane panetab2 -a 0 -l 10 -H /obj/pyrojetexhaust1/jet_emitter/ -T SOP -m sceneview
-                            pane panetab4 -a 0 -l 10 -H /obj/pyrojetexhaust1/jet_emitter/ -T SOP -m iprviewer
-                            pane panetab3 -a 0 -l 10 -H /obj/pyrojetexhaust1/jet_emitter/ -T SOP -m chaneditor
+                            pane panetab2 -a 0 -l 10 -H /obj/ -T OBJ -m sceneview
+                            pane panetab4 -a 0 -l 10 -H /obj/shopnet1/vopmaterial1/ -T VOP -m iprviewer
+                            pane panetab3 -a 0 -l 10 -H /obj/shopnet1/vopmaterial1/ -T VOP -m chaneditor
                             pane panetab5 -a 0 -l 10 -H /img/ -T IMG -m imageview
                             pane panetab14 -a 0 -l 10 -H /ch/ -T CHOPNET -m channelview
                         }
                     }
                     tabs 0 1 {
-                        pane panetab6 -a 0 -l 10 -H /obj/pyrojetexhaust1/jet_emitter/ -T SOP -m details
+                        pane panetab6 -a 0 -l 10 -H /obj/shopnet1/vopmaterial1/ -T VOP -m details
                         pane panetab17 -a 0 -l 0 -H /obj/ -T OBJ -m perfmon
                         pane panetab18 -a 0 -l 0 -H /obj/ -T OBJ -m bundlelist
                         pane panetab22 -a 0 -l 0 -H /obj/ -T OBJ -m datatree
                     }
                 }
                 tabs 0 1 {
-                    pane panetab7 -a 0 -l 10 -H /obj/pyrojetexhaust1/jet_emitter/ -T SOP -m python
+                    pane panetab7 -a 0 -l 10 -H /obj/shopnet1/vopmaterial1/ -T VOP -m python
                     pane panetab13 -a 0 -l 0 -H /obj/ -T OBJ -m textport
                     pane panetab19 -a 0 -l 10 -H /out/ -T ROP -m renderview
                 }
@@ -41,18 +41,18 @@ root {
         split 0.528875 V R {
             split 0.564179 H R {
                 tabs 0 1 {
-                    pane panetab11 -a 0 -l 0 -H /obj/pyrojetexhaust1/jet_emitter/ -T SOP -m neteditor
+                    pane panetab11 -a 0 -l 0 -H /obj/shopnet1/vopmaterial1/ -T VOP -m neteditor
                     pane panetab25 -a 0 -l 0 -H /shop/ -T SHOP -m neteditor
                     pane panetab12 -a 0 -l 0 -H /obj/ -T OBJ -m materialpalette
                     pane panetab20 -a 0 -l 0 -H /obj/ -T OBJ -m assetbrowser
                 }
                 tabs 1 1 {
-                    pane panetab23 -a 0 -l 10 -H /obj/pyrojetexhaust1/jet_emitter/ -T SOP -m parmeditor
+                    pane panetab23 -a 0 -l 10 -H /obj/shopnet1/vopmaterial1/ -T VOP -m parmeditor
                     pane panetab24 -a 0 -l 0 -H /obj/ -T OBJ -m helpbrowser
                 }
             }
             tabs 0 1 {
-                pane panetab8 -a 0 -l 10 -H /obj/pyrojetexhaust1/jet_emitter/ -T SOP -m parmeditor
+                pane panetab8 -a 0 -l 10 -H /obj/shopnet1/vopmaterial1/ -T VOP -m parmeditor
                 pane panetab9 -a 0 -l 0 -H /obj/ -T OBJ -m takelist
                 pane panetab10 -a 0 -l 0 -H /obj/ -T OBJ -m parmsheet
             }

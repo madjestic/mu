@@ -1,595 +1,906 @@
-cd ReactiveBanana/
+s
+cd ..
 ls
-emacs counter2.hs &
-emacs counter2.hs &
-emacs counter2.hs &
-emacs counter2.hs &
-ls
-rm ActuatePause
-ls
-emacs ActuatePause.hi &
-rm ActuatePause.hi
-ls
-rm ActuatePause.o
-ls
-ghc ActuatePause.hs
-ls
-./ActuatePause 
-ls
-rm ActuatePause
-ghc ActuatePause.hs
-./ActuatePause 
-rm ActuatePause
-ghc ActuatePause.hs
-./ActuatePause 
-rm ActuatePause && ghc ActuatePause.hs
-./ActuatePause 
-rm ActuatePause && ghc ActuatePause.hs
-./ActuatePause 
-ls
-ghc counter2.hs
-./counter2 
-ls
-./counter2 
-rm counter2
-ls
-emacs counter2.hs.bak &
-ghc counter3.hs &
-ghc counter3.hs &
-ls
-rm counter3
-ghc counter3.hs &
-./counter3 
-ls
-git clone https://github.com/madjestic/reactive-banana
-ls
-cd reactive-banana/
-ls
-cd reactive-banana
-ls
-cd doc/examples/
-ls
-ls
-git add Counter.hs
-git status
-git commit -am "adding a counter example"
-ls
-git push
-ls
-cat Counter.hs
-git add Counter.hs
-git status
-git commit -am "changing the header"
-git push
-eix -I glu
+./WL2 --help
 cd ~
+optirun bash
+su
+su
+optirun bash
+/etc/init.d/xdm stop
+su /etc/init.d/xdm stop
+su $ /etc/init.d/xdm stop
+let foo=/etc/init.d/xdm stop
+let foo=/etc/init.d/xdm\ stop
+let foo="/etc/init.d/xdm stop"
+su
+su
+su
+su
+cd Downloads/
 ls
+cd ..
+ls
+cd Screenshots/
+ls
+git init
+git add README.md
+touch README.md
+git add README.md
+git add SSAO_WL2.png 
+git add settings_WL2.png 
+git commit -am "first commit"
+git remote add origin https://github.com/madjestic/Screenshots.git
+git push -u origin master
+eix -I nvidia
+uname -u
+uname -a
+cd /etc/portage/
+ls
+emacs package.mask
+su emacs package.mask
+sudo emacs package.mask
+eix skype
+su
+eix viber
+eix vyber
+eix-sync 
+su
+su
+ls
+cd Screenshots/
+ls
+git add settings2_WL2.png 
+git add SSAO2_WL2.png 
+git commit -am "moar screenshots"
+git push
+git push
+eix-sync 
+su
+ls -lah
+cd ~
+ls -lah
+mv .xinitrc .xinitrc
+emacs .xinitrc &
+emacs .Xauthority 
+/etc/init.d/xdm stop
+cd ~
+linux_logo
+eix gtk
+eix gnome
+eix gnome-light
+eix gtk
+eix gtk+
+eix gtk2
+rc-status 
+eix xmonad
+eix feh
+ls -lah
+which xdm
+emacs /etc/init.d/xdm &
+emacs /etc/conf.d/xdm 
+eix consolekit
+eix -lah
+ls -lah
+emacs .Xauthority 
+eix xrdb
+emerge -av feh
+eix xcomp
+emerge -avp x11-misc/xcompmgr
+eix xsetroot
+su
+glxgears 
+history | grep -i PS1
+history | grep -i PS1
+export PS1="(optirun) $PS1"
+lspci
+optirun bash
+WHERAMI
+asd
+.,m,m
+glxgears 
+rc-status 
+glxgears 
+rc-status 
+glxgears 
+rc-status 
+glxgears 
+glxgears 
+rc-status 
+optirun bash
+glxgears 
+steam 
+optirun bash
+optirun bash
+optirun bash
+optirun bash
+optirun bash
+exit
+su
+glxgears 
+optirun bash
+su
+optirun bash
+lsmod
+ps -a
+optirun bash
+optirun bash
+optirun bash
+optirun bash
+su
+glxgears 
+optirun bash
+su
+su
+su
+glxgears 
+steam 
+ps -a
 ps -aux
-ps -aux | grep -i ngl
-cd ~/Projects/Haskell/
+ps -au
+steam 
+optirun bash
+su
+optirun bash
+glxgears 
+glxinfo 
+steam
+find .local/ | grep -i WL2
+cd .local/share/Steam/SteamApps/common/Wasteland\ 2/
 ls
-cd Haskell-OpenGL-Tutorial/
+cd Linux/
 ls
-cd tutorial02
+./WL2
+optirun WL2
+optirun ./WL2
+top
+steam
+./WL2
+top
+eix pygtk
+eix emacs
+pygtk
+eix quickly
+eix glade
+su
+su
+ghci
+su
+equery -d krita
+equery g krita
+eix krita
+su
+eix virtualenv
+emerge -av dev-python/virtualenv
+su
+eix pycharm
+cd /etc/portage/
+grep -ir "python" .
+eix pyudev
+su
+eselect python list
+eselect python
+eselect python show
+python-exec
+eix python-exec
+python-exec
+eselect python list
+eselect python set 1
+python-exec
+python-exec2
+python-exec-c 
+python-exec
 ls
-emacs LoadShaders.hs &
+cd ~/Projects/Python/Junk/
 ls
-emacs Main.hs &
+python-exec-c hello_world.py
+python-exec hello_world.py
+python hello_world.py
+python-exec
+python-exec-c 
+python-exec
+which python-exec
+cd /usr/bin/
+eix python-exec
+emerge -av dev-python/python-exec
+su
+which python-exec
+cd /usr/bin/
+ls -lah | grep -i python
+ls -lah | grep -i python-exec
+su
+su
+python-exec
+su
+python-exec
+su
+/usr/bin/python
+/usr/bin/python-exec
+ls -lah | grep -i /usr/bin/python-exec
+ls -lah | grep -i python
+ls -lah | grep -i python
+cd /usr/bin/
+ls -lah | grep -i python
+python-exec2
+equery 
+python-exec2
+ls -lah | grep -i python
+cd ../lib/python-exec/python
+cd ../lib/python-exec/
+ls
+ls -lah
+./python-exec2
+ls -lah
+cd python2.7/
+ls
 cd ..
 ls
-cd tutorial03
+eix ipython
+python-exec
+eix python-exec
+eselect news read all
+eselect news read new
+eselect news read recent
+eselect news read all | less
+su
+eix ipython
+su
+python
+eix ssr
+overlay -L
+layman -l
+layman -L
+layman -L | grep media
+eix simple
+eix recorder
+cd .emacs.d/
 ls
-emacs Main.hs &
+mkdir plugins
+cd plugins/
+git clone https://github.com/capitaomorte/yasnippet.git
+ls
+emacs ~/.emacs.el
+ls
+cd ..
+rm -rf plugins
+cd snippets/
 ls
 cd ..
 ls
-cd tutorial04
+mkdir tmp
 ls
-emacs Main.hs &
+cd tmp/
+ls
+crontab 
+eix cron
+cd Documents/MST124/TMA03/
+ls
+cd Publish/PNG/
+ls
+convert *.png mst123_tma03.pdf
+ls
+convert TMA_03_p1.png TMA_03_p2.png mst123_tma03.pdf
+convert TMA_03_p1.png TMA_03_p2.png TMA_03_p3.png TMA_03_p4.png TMA_03_p5.png TMA_03_p6.png TMA_03_p7.png TMA_03_p8.png TMA_03_p9.png TMA_03_p10.png mst123_tma03.pdf 
+ls
+rm mst123_tma03.pdf 
+convert TMA_03_p1.png TMA_03_p2.png TMA_03_p3.png TMA_03_p4.png TMA_03_p5.png TMA_03_p6.png TMA_03_p7.png TMA_03_p8.png TMA_03_p9.png TMA_03_p10.png mst123_tma03.pdf 
+convert TMA_03_p1.png TMA_03_p2.png TMA_03_p3.png TMA_03_p4.png TMA_03_p5.png TMA_03_p6.png TMA_03_p7.png TMA_03_p8.png TMA_03_p9.png TMA_03_p10.png TMA_03_p11.png mst123_tma03.pdf 
+convert TMA_03_p1.png TMA_03_p2.png TMA_03_p3.png TMA_03_p4.png TMA_03_p5.png TMA_03_p6.png TMA_03_p7.png TMA_03_p8.png TMA_03_p9.png TMA_03_p10.png TMA_03_p11.png TMA_03_p12.png mst123_tma03.pdf 
+convert TMA_03_p1.png TMA_03_p2.png TMA_03_p3.png TMA_03_p4.png TMA_03_p5.png TMA_03_p6.png TMA_03_p7.png TMA_03_p8.png TMA_03_p9.png TMA_03_p10.png TMA_03_p11.png TMA_03_p12.png mst123_tma03.pdf 
 cd ..
 ls
-cd tutorial05
-emacs Main.hs &
+cd PNG2/
+ls
+rm mst123_tma03*
+ls
+ls -lah
+convert *.png --resize 75% *.png
+ls
+ls -lah
+cd ..
+ls
+rm -rf PNG2
+cp PNG ./PNG2
+cp -R ./PNG ./PNG2
+ls
+cd PNG2/
+ls
+rm mst123_tma03*
+convert *.png -resize 75% *.png
+ls -lah
+cd ..
+ls
+rm -rf ./PNG2
+cp -R ./PNG ./PNG2
+ls
+cd PNG2/
+ls
+rm mst123_tma03*
+ls
+rm -rf ./*.png~
+ls
+ls -lah
+convert TMA_03_p1.png -resize 75% TMA_03_p1_.png 
+ls -lah
+convert TMA_03_p1.png -resize 80% TMA_03_p1_.png 
+ls -lah
+convert TMA_03_p1.png -resize 100% TMA_03_p1_.png 
+ls -lah
+convert *.png -resize 100% *_.png 
+ls
+ls -lah
+cd ..
+ls
+rm -rf ./PNG2/
+cp -R ./PNG/*.png ./PNG2
+mkdir PNG2
+cp -R ./PNG/*.png ./PNG2
+ls
+cd PNG2/
+ls
+ls -lah
+convert TMA_03_p1.png -resize 100% cTMA_03_p1.png 
+ls
+ls -lah
+convert TMA_03_p2.png -resize 100% cTMA_03_p2.png 
+convert TMA_03_p3.png -resize 100% cTMA_03_p3.png 
+convert TMA_03_p4.png -resize 100% cTMA_03_p4.png 
+convert TMA_03_p5.png -resize 100% cTMA_03_p5.png 
+ls -lah
+convert TMA_03_p6.png -resize 100% cTMA_03_p6.png 
+ls -lah
+convert TMA_03_p6.png -resize 90% cTMA_03_p6.png 
+ls -lah
+ls -lah
+convert TMA_03_p6.png -resize 100% cTMA_03_p6.png 
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+convert TMA_03_p6.png -resize 50% cTMA_03_p6.png 
+ls -lah
+ls -lah
+convert TMA_03_p7.png -resize 100% cTMA_03_p7.png 
+ls -lah
+convert TMA_03_p7.png -resize 90% cTMA_03_p7.png 
+ls -lah
+convert TMA_03_p8.png -resize 90% cTMA_03_p8.png 
+convert TMA_03_p9.png -resize 90% cTMA_03_p9.png 
+convert TMA_03_p10.png -resize 90% cTMA_03_p9.png 
+convert TMA_03_p10.png -resize 90% cTMA_03_p10.png 
+convert TMA_03_p9.png -resize 90% cTMA_03_p9.png 
+convert TMA_03_p11.png -resize 90% cTMA_03_p11.png 
+ls -lah
+convert TMA_03_p11.png -resize 50% cTMA_03_p11.png 
+ls -lah
+convert TMA_03_p12.png -resize 50% cTMA_03_p12.png 
+ls -lah
+mkdir compress
+ls
+cp c* ./compress/
+cp c* ./compress
+cp c* ./compress/*
+ls
+rm -rf ./compress/
+ls
+mkdir compress
+cp ./c*.png ./compress/
+ls
+cd compress/
+ls
+ls -lah
+history 
+history | grep -i pdf
+ls
+convert cTMA_03_p1.png cTMA_03_p2.png cTMA_03_p3.png cTMA_03_p4.png cTMA_03_p5.png cTMA_03_p6.png cTMA_03_p7.png cTMA_03_p8.png cTMA_03_p9.png cTMA_03_p10.png cTMA_03_p11.png cTMA_03_p12.png mst123_tma03.pdf
+ls -lah
+eix krita
+eix calligra
 ls
 cd ..
 ls
-cd tutorial06
+cd snippets/
 ls
-emacs Main.hs &
-krusader 
+cd ..
+cd tmp/
+git clone https://github.com/capitaomorte/yasnippet.git
+ls
+cd yasnippet/
+ls
+cd ..
+cd ..
+mkdir plugins
+cd plugins/
+cp -R ../tmp/yasnippet ./
+ls
+ls -lah
+ls -lah | grep -i conky
+cp /etc/conky/conky.conf ~/.conkyrc
+emacs .conkyrc 
+emacs .conkyrc 
+conky 
+conky 
+cd Projects/Python/Junk/
+emacs hello_world.py &
+emacs hello_world.py &
+emacs hello_world.py &
+emacs hello_world.py &
+eix java
+eix -I java
+su
+which equery
+eix equery
+su
+conky 
+conky 
+conky 
+conky &
+conky &
+ls
+cd ./.emacs.d/plugins/
+ls
+cd yasnippet/
+ls
+cd ~
+emacs .emacs.el
+cp .emacs.el .emacs.el.bak 
+emacs .emacs.el
+emacs .emacs.el
+emacs --debug-init .emacs.el
+emacs --debug-init
+emacs .emacs.el
+emacs .emacs.el
+cd .emacs.d
+cd plugins/
+ls
+cd yasnippet/
+ls
+cd snippets/
+ls
+ls
+cd ..
+ls
+ls
+cd snippets/
+ls
+git clone https://github.com/AndreaCrotti/yasnippet-snippets
+ls
+rm -rf ./yasnippet-snippets/
+cd ..
+cd ..
+cd ..
+cd tmp/
+git clone https://github.com/AndreaCrotti/yasnippet-snippets
+cd ..
+ls
+cd plugins/yasnippet/
+cd snippets/
+ls
+cp ../../../tmp/yasnippet-snippets/* ./*
+cp -R ../../../tmp/yasnippet-snippets/* ./
+ls
+su
+su
+ls
+cd .kde4/Autostart/
+ls
+ls -lah
+touch startconky.sh
+emacs startconky.sh &
 cd ~
 emacs org/index.org &
-cd Documents/
+conky 
+conky &
+exec sudo -u root -s -H -p Password:
+exec su - root
+exec su - root
+conky &
+rc-status 
+conky &
+emacs .conkyrc &
+conky &
+conky &
+ps -aux | grep -i conky
+kill 2319
+kill 2320
+kill 2534
+kill 2552
+kill 2560
+kill 2574
+kill 2598
+ps -aux | grep -i conky
+emacs .conkyrc &
+conky &
+ps -aux | grep -i conky
+kill 2639
+conky --help
+conky -dX
+conky -d -X
+conky -d
+ps -aux | grep -i conky
+kill 2654
+conky -do
+ps -aux | grep -i conky
+kill 3452
+kill 2665
+conky --help
+conky &
+ps -aux | grep -i conky
+su
+emacs /etc/crontab &
+cd /etc/cron.daily/
+su
+cd bin/
 ls
-ls | grep -i org
-emacs ou.org &
-rm ou.org
+rm openxcom 
 ls
-ls
-ln -s ./M140/M140_Computer_Book.pdf M140_Computer_Book.pdf
-ls
-cd ../Projects/Haskell/FRP/
-ls
-cd ReactiveBanana/
-ls
-emacs counter3.hs &
+emacs update.sh &
 cd ~
-eix opengl
-eix opengl | grep haskell
-eix opengl
+update
 su
-cd Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial06/
-ls
-ls
-emacs Main.hs &
-su
-ls
-cd ..
-cp tutorial06 tutorial07
-cp -R ./tutorial06 ./tutorial07
-ls
-cd tutorial06
-ls
-rm Main.hs 
-mv RiemmanSpiral.hs 
-mv RiemmanSpiral.hs UlamSpiral.hs
-ls
-mv UlamSpiral.hs Main.hs
-ls
-emacs README.md &
-optirun bash
-su
-su
-optirun bash
-ls -lah
-cd ../../NGL/
-ls
-ls -lah
-git -rm LoadShaders.hs 
-git --help
-ls
-touch ./*
-ls
-git status
-cd ~
-ls
-emacs .bashrc &
-echo PATH
-echo $PATH
-env-update
-source /etc/profile
-echo $PATH
-source .bashrc
-source .bashrc
-echo $PATH
-set PATH="/usr/local/bin:/usr/bin:/bin:/opt/bin:/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3:/home/madjestic/bin"
-echo $PATH
-ls
-ls
-cd ../Haskell-OpenGL-Tutorial/q
-cd ../Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial06/
-ls
-git status
-git push
-ls
-ls -lah
-ls -lah
-git add -u
-ls -lah
-git status
-optirun bash
-su
-optirun bash
-sudo optirun bash
-su
-krusader 
-tree 
-cd ..
-tree
-ls
-ls -llah
-ls -la
+emacs bin/update.sh &
+eix python-exec
+eselect python list
+eix sys-devel/gcc
+eix virtual/rubygems
+eselect ruby
+eselect ruby list
+emacs &
 cd Projects/Haskell/
-tree
-ls -la
-cd Haskell-OpenGL-Tutorial/
 ls
-cd tutorial06
+cd structured-haskell-mode/
 ls
-ls -la
-ls ~/bin/
-echo $PATH
-ls
-source ~/.bashrc
-mvlink --help
-emacs ~/bin/mvlink
-ln -s ../tutorial05/NGL NGL
-ls
-ls -lah
-rm NGL
-ls -lah
-ln -s ../tutorial05/NGL NGL
-ls
-ls -lah
-ls
-cd NGL/
-ls
-ls
-cd ..
-ls
-rm NGL
-s
-ls
-ls
-cd NGL/
-ls
-ls
-emacs Rendering.hs
-emacs Rendering.hs
-ls ../../tutorial07/
-ls
-emacs ../../tutorial07/Main.hs 
-emacs ../../tutorial07/RiemmanSpiral.hs 
-emacs Rendering.hs &
-cd ../..
-ls
-cd ..
-ls
-cd NGL
-ls
-ls -lah
-rm NGL
-ls
-ls -lah
-ls -lah
-rm Linear.hs 
-ls
-ls -lah
-rm Linear.hs 
-ls
-cp ../Haskell-OpenGL-Tutorial/tutorial06/NGL/Linear.hs ./
-ls
-ls -lah
-rm Linear.hs 
-ls
-ls -lah
-cp ../Haskell-OpenGL-Tutorial/tutorial06/NGL/Linear.hs ./
-ls -lah
-cat Linear.hs 
-s
-ls
-cat LoadShaders.hs 
-ls
-krusader 
-ls
-ls
-ls
-git add -u
+git fetch
 git status
-git add Shaders
-git status
-git commit -an "updating NGL, minor redactoring - put vert/frag shaders into a subdirectory of NGL"
-git commit -am "updating NGL, minor redactoring - put vert/frag shaders into a subdirectory of NGL"
-git push
-cd ~
-su
-irssi 
-cd ../Projects/Haskell/Haskell-OpenGL-Tutorial/
-ls
-cd tutorial07
-ls
-rm RiemmanSpiral.hs 
-ls
-ls -lah
-rm Riemans_spiral.png 
-emacs README.md &
-ls
-cd ..
-cd tutorial07
-ls
-rm README.md~
-ls
-cd ..
-git add tutorial07
-git status
-git commit -am "adding a tutorial07 mockup"
-git push
-git status
-git push
-git commit -am "adding a tutorial07 mockup"
-su
-git commit -am "adding a tutorial07 mockup"
-git push
-ls
-cp -R ./tutorial06 ./tutorial08
-ls
-cd tutorial08
+git pull
 ls
 emacs README.md 
 emacs README.md &
+cabal install
+cabal
+cabal
+eix -I cabal
+cabal
+eix haskell-platform
+cabal install
+cd elisp/
 ls
-git add soon.svg 
-git add README.md
-git status
-git commit -am "updating README, added image"
-git push
+make
+su
+eix nvidia
+su
+history 
+emacs org/index.org
+cd Downloads/
 ls
-git add soon.png
-git add -u
-git status
-git commit -am "changed svg to png"
-git push
+ls -lah
+ls -lahd
+ls -1lah
+ls --help
+ls -laht
+ls
+cd houdini-13.0.447-linux_x86_64_gcc4.6
+ls
+su
 cd ~
-cd Projects/blogs/
-ls
-git clone https://github.com/madjestic/madjestic.github.io
-ls
-cd madjestic.github.io/
-ls
-cd ..
-ls
-cd turtlesturtlesturtles/
-ls
-cd  _site/
-ls
-cd ..
-krusader &
-ls
-cd ..
-ls
-cd madjestic.github.io/
-ls
-git add -u
-git status
-git commit -am "updating blog files"
-git push
-cd ~
-ls
 cd bin/
 ls
 emacs houdini.sh &
-ls /opt/
-ls
-su
-su
-eselect 
-eselect news
-eselect news read unread
-eselect news read
-eselect news unread
-eselect news
-emerge -pav chromium USE="-fortran"
-emerge -pav chromium USE="-java"
-emerge -pav chromium USE="-gtk"
-USE="-java" emerge -pav chromium
-USE="-gnome" emerge -pav chromium
-glxgears 
-eix gconftool
-glxgears 
-ls -lah
-cd ../../NGL/
-ls
-ls -lah
-su
-ls
-which optirun
-ls -lah /usr/bin/optirun
-su
-optirun bash
-cd ..
-git init
-git remote add origin https://github.com/madjestic/mu.git
-ls
-git add bin
-git add .bash*
-git status
-touch .gitignore
-emacs .gitignore &
-git --help
-git rm --cached ~/bin/*~
-git status
-git rm --cached ~/*~
-git status
-ls
-ls -lah
-ls -la
-ls -lh
-git add houdini
-git add .emacs.el
-git add .emacs.d/haskell.el
-ls
-ls -lh
-mkdir System
-ls
-rm System
-rm -R System
-ls
-mkdir sys
-ls
-ls -lh
-cd sys/
-ln /etc/portage/make.conf make.conf
-ls
-emacs make.conf &
-ln /etc/portage/package.use package.use
-ln /etc/portage/package.accept_keywords package.accept_keywords
-ls
-ls -lh
-ls /usr/src/linux/.config .config
-ln /usr/src/linux/.config .config
-ls
-ls -lh
-ls -lah
-ls -lh /boot/
-cd ~/sys/
-ls
-ln /boot/grub grub
-cp /boot/grub grub
-ls
-ln /boot/grub/grub.cfg grub.cfg
-cp /boot/grub/grub.cfg grub.cfg
-sudo cp /boot/grub/grub.cfg grub.cfg
-ls
-ls -lah
-ln /etc/fstab fstab
-ln /etc/X11/xorg.conf xorg.conf
-ls
-ls -lah
-cd ..
-ls
-ls -lah
-ls -lh
-git add sys/*
-git add sys
-cd sys
-ls
-ls -lh
-sudo chown madjestic -R .
-ls -lh
-cd ..
-git add ./sys
-git status
-git push
-git commit -am "first commit"
-git push
-git status
-touch README.md
-git add README.md 
-git status
-git commit -am "adding README"
-git push
-git push master
-git push master origin
-git push master
-history | grep -ir push
-history | grep -ir "git push"
-git push -u origin master
-ls
-rm README.md 
-ls
 cd ~
-cd /bin/
-ls
-ls -lh
-cd ~/bin/
-ls
-./houdini.sh &
-irssi 
-cd ~/Projects/
 ls -lah
-cd ~
-ls
-emacs .bashrc &
-source .bashrc
-echo $PATH
-emacs .bashrc &
-export 
-export HOUDINI_NODE_WIDTH=2
+ls /bin/
+ls ~/bin/
+mvlink houdini /opt/hfs13.0.447
+mvlink /opt/hfs13.0.447 houdini
+ls -lah
 cd bin/
-./houdini.sh
-./houdini.sh &
-cd /boot/grub/
-ls
-cd /etc/
-ls
-cd X11
-ls
+emacs mvlink &
 ls -lah
-su
-cd ~/bin/
-./houdini.sh &
-irssi 
-which optirun
-ls -lh /usr/bin/optirun
-ls
-./houdini.sh &
-glxgears 
-emacs houdini.sh &
-optirun bash
-glxgears 
-echo $PATH
-source ~/.bashrc
-echo $HOUDINI_NODE_WIDTH 
-echo $PATH
-cp houdini.sh houdini.sh.bak
-mv houdini.sh.bak .houdini.sh.bak 
-emacs houdini.sh &
-glxgears 
-export PS1="(optirun) $PS1"
-cd bi
-ls
-emacs optirun.sh &
-emacs ./houdini.sh &
-cd ~/bin/
-emacs ./houdini.sh &
-optirun bash
-cd bin/
-ls
-./houdini.sh
-emacs optirun.sh 
-export PS1="(optirun) $PS1"
-emacs .optirun
-ls -lah
-emacs houdini.sh &
-cd ..
-git add -u
-git status
-git commit -am "updating some crap"
-git push
-cd ~/Projects/Houdini/
-ls
-cd Mantra/
-ls
-mv -R ./test_01 ./tests
-ls
-mv ./test_01 ./tests
-ls
 cd /opt/
 ls
-cd hfs13.0.343/
-ls
-cd ..
-sudo rm -rf hfs13.0.343
-cd ~/Downloads/
-ls
-rm -rf houdini-13.0.343-linux_x86_64_gcc4.6
-tar xvfz houdini-13.0.376-linux_x86_64_gcc4.6.tar.gz 
-ls
-cd houdini-13.0.376-linux_x86_64_gcc4.6
 ls
 su
+ls -lah
+cd /
+ls -lah
 cd ~
+ls -lah
+em -rf 3D-CoatV4-1
+rm -rf 3D-CoatV4-1
+su
+./3d-CoatV4-1 
 ls
-rm houdini
-ln /opt/hfs13.0.376 houdini
-ln =s /opt/hfs13.0.376 houdini
-ln -s /opt/hfs13.0.376 houdini
-ls
-ls
+ls -lah
 cd bin/
-emacs houdini.sh
+ls
+ln -s /opt/3D-CoatV4-1/3d-coat-64-CUDA 3d-CoatV4-1
+ls -lah
+optirun bash
+glxgears 
+ls
+./3d-coat-64-CUDA 
+./3d-coat-64
+cd ~
+ls -lah
+cd bin/
+ls
+ls -lah
+mvlink 3d-CoatV4-1 /opt/3D-CoatV4-1/3d-coat-64
+emacs mvlink &
+ls /opt/3D-CoatV4-1/
+cp ~/Downloads/3D-CoatV4-1/3d-coat-64 /opt/3D-CoatV4-1/
+mvlink 3d-CoatV4-1 /opt/3D-CoatV4-1/3d-coat-64
+ls -lah
+glxgears 
+cd /opt/3D-CoatV4-1/
+ls
+glxgears 
+optirun bash
 ./houdini.sh
-emacs houdini.sh
+cd /opt/hfs13.0.447/
 ls
-emacs houdini.sh
-cd ~/Downloads/
+cd ..
 ls
-cd ~
-ln -s /opt/hfs13.0.376/bin/mplay mplay
-./mplay 
-/opt/hfs13.0.376/bin/mplay
-ls -lh
-./mplay 
-rm mplay 
+su
+ls -lah
 cd bin/
-cp houdini.sh mplay.sh
-emacs mplay.sh &
-gcc -V
-gcc --version
+ls
+optirun bash
+ls
+cd Downloads/
+ls -lah
+cd houdini-13.0.447-linux_x86_64_gcc4.6
+ls
+su
+./houdini.sh
+ls
+cd Downloads/
+ls
+tar -xvf houdini-13.0.447-linux_x86_64_gcc4.6.tar.gz 
+cd houdini-13.0.447-linux_x86_64_gcc4.6
+ls
+su
+ls
 cd ~
-git add houdini13.0/desktop/Technical2.desk 
-git commit -am "adding houdini technical desktop"
-git push
+ls
+cd bin/
+optirun bash
+emacs ls
+ls -lah
+ls -lah | grep -i conky
+emacs .conkyrc &
+cp .conkyrc .conkyrc.bak
+ps -aux
+ps -aux | grep -i conky
+kill 19663
+conky --he;[
+conky --help
+ps -aux | grep -i conky
+kill 2676
+ps -aux | grep -i conky
+conky &
+ps -aux | grep -i conky
+ps -aux | grep -i conky
+kill 19758
+conky &
+kill conky
+ps -aux | grep -i conky
+kill 19814
+conky -b
+conky --help
+conky -o
+conky &
+conky -o
+conky &
+conky -ob
+conky -ow
+conky 
+optirun bash
+su
+conky 
+conky &
+emacs .conkyrc
+sed
+man sed
+cd Documents/MST124/TMA03/Publish/
+ls
+cp -R PNG ./PNG3
+ls
+cd PNG3/
+ls
+rm -rf ./*.*~
+ls
+rm mst123_tma03*
+ls
+ls -lah
+convert 
+ls
+convert TMA_03_p11.png -compress png cTMA_03_p11.png 
+ls -lah
+convert --help
+ls
+convert TMA_03_p11.png -compress cTMA_03_p11.png 
+convert TMA_03_p11.png -compress zip cTMA_03_p11.png 
+ls -lah
+convert TMA_03_p11.png -compress png cTMA_03_p11.png 
+convert TMA_03_p11.png -compress jpg cTMA_03_p11.png 
+convert TMA_03_p11.png -compress jpeg cTMA_03_p11.png 
+ls -lah
+rm cTMA_03_p11.png 
+convert TMA_03_p11.png -compress jpeg cTMA_03_p11.png 
+convert --help
+convert --help | grep -i size
+history | grep -i convert
+convert --help | grep -i size
+convert --help
+man convert
+man convert >> emacs
+emacs
+equery g udev
+eix udev
+equery g sys-fs/udev
+eix -I udev
+equery g =sys-fs/udev-208-r2
+equery g =sys-fs/udev-212-r1
+equery g =sys-fs/udev-212-r1 | grep -i system
+cd bin/
+su
+eix wacom
+su
 alsamixer 
-alsamixer 
-alsamixer 
+ghci
+ghc -V
+ghc -V
+eix ghc
+cd ~
+cp .emacs.el .emacs.el.bak 
+cd Projects/Haskell/structured-haskell-mode/
+ls
+git fetch
+git status
+git pull
+cabal install
+cabal update
+su
+cabal install cabal-install
+cabal install cabal-install
+cabal install
+cd lisp
+cd elisp/
+make
+ls
+rm -rf ./*.elc
+ls
+make
+which chromium
+cd /usr/bin/
+ls -lah | grep -i chromium
+ls -lah | grep -i chromium
+cd ~
+emacs .emacs.el
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial09/
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+mkdir irc
+cd Projects/Haskell/FFI/
+mkdir RealHaskellFFI_01
+cd RealHaskellFFI_01/
+cd Projects/Haskell/FFI/
+ls
+cd RealHaskellFFI_01/
+ls
+rm ./*.hsc
+ls
+rm ./*.hsc~
+ls
+cd Projects/Haskell/FFI/RealHaskellFFI_01/
+ls
+hsc2hs Regex.hsc
+ls
+ls -lah
+hsc2hs Regex.hsc
+ls
+su
+cd Projects/Haskell/
+ls
+cd FFI/RealHaskellFFI_01/
+ls
+hsc2hs Regex.hsc
+hsc2hs
+eix clock
+eix clock | grep -i haskell
+eix dev-haskell/clock
+su
+eix reactive-banana
+cd Projects/Haskell/reactive-banana-glfw/
+ls
+git fetch
+git status
+git pull
+git
+git pull
+git status
+mv reactive-banana-glfw.cabal reactive-banana-glfw.cabal.bak
+git pull
+ls
+emacs reactive-banana-glfw.cabal &
+cabal install --help
+cabal install --dry-run
+eix reactive-banana
+cabal --help
+cabal list reactive-banana
+eix reactive-banana
+cabal install --dry-run
+emacs reactive-banana-glfw.cabal
+cabal install
+ls
+cd bin/
+ls
+emacs optirun.sh 
+emacs optirun.sh 
+optirun bash
+cd Projects/Haskell/
+ln -s --help
+ln -s reactive-banana-examples ./reactive-banana/reactive-banana/doc/examples/
+ls -lah
+ls -lah
+cd reactive-banana/reactive-banana/doc/examples/
+ls
+ls -lah
+ln -s reactive-banana-examples ./reactive-banana/reactive-banana/doc/examples/
+ln --help
+ls
+rm ./reactive-banana-examples 
+ls
+cd ../..
+ls -lah
+ls -lah
+cd Projects/Haskell/
+ls
+ls -lah
+ls -lah
+ln -s reactive-banana-examples ./reactive-banana/reactive-banana/doc/examples/
+ls -lah
+ls
+find ./ | grep -i reactive-banana-examples
+ln -s ./reactive-banana/reactive-banana/doc/examples/ ./reactive-banana-examples
+ls -lah
+cd Projects/Haskell/Junk/
+ls
+mkdir clock_in_a_thread
+ls
+cd ..
+ls
+mv ./Junk ./Gems
+ls
+cd Gems/
+ls
+cd clock_in_a_thread/
+cd Projects/Haskell/Concurrent/Test_01/
+ls
+ls -lah
+ls
+emacs xyzzy 
+ls
+rm xyzzy 
+rm xyzzy 
+ls
+rm xyzzy 
+rm xyzzy 
+rm xyzzy 
+rm xyzzy 
+rm xyzzy 
+rm xyzzy 
+rm xyzzy 
+rm xyzzy 
+rm xyzzy 
+ghci
+ls
+rm xyzzy 
+cd Projects/Haskell/Concurrent/Test_01/
+ghci

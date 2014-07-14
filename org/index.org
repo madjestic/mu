@@ -1,4 +1,101 @@
+
 #+TAGS: { @OFFICE(o) @HOME(h) } COMPUTER(c) PHONE(p) READING(r)
+
+* Kappa Quick Notes
+	Quick notes:
+
+** ### VIM TIPS           ###
+
+1) <Ctrl>+l to switch off highlights in vim
+2) ds" - to remove "" around a word
+3) \\cc   - comment out
+3.5) \\cu - uncomment
+4) cs]} - surround with {}
+5) :%s/foo/bar/g - exchange all instances of foo with bar
+6) ctrl+R - redo
+
+2) Start ghci with gloss, so that it does not hang:
+ghci -fno-ghci-sandbox 
+
+** ### SYSTEM MAINTENANCE ###
+
+3) UPDATE PORTAGE:
+Emerge --sync
+emerge --update --deep --with-bdeps=y --newuse world
+emerge --update --deep --newuse world
+# delete unused dependencies:
+emerge --depclean 
+# rebuild missing dependencies
+# revdep-rebuild
+revdep-rebuild -ip
+
+** ### Kernel Upgrade     ###
+# copy old config
+make oldconfig
+make && make modules_install
+cp ./arch/x86/boot/bzImage /boot/kernel-3.10.7-gentoo
+# edit /boot/grub/grub.conf
+# eselect:
+eselect kernel list
+eselect kernel set 1
+
+** ### EMACS TIPS         ###
+# turn off line-wrapping:
+M-x toggle-truncate-lines
+
+** ### MISC               ###
+4) Find out your own IP:
+wget -q -O - checkip.dyndns.org|sed -e 's/.*Current IP Address: //' -e 's/<.*$//'
+5)check running services:
+rc-status
+6)make ghc keep intermediary files: it will create (won't delete technically) /tmp/ghc${pid} with intermediate files
+ghc -keep-tmp-files foo.hs
+
+** ### PYTHON             ###
+python -m cProfile foo.py
+
+** ### iptables           ###
+/etc/init.d/iptables 
+/etc/conf.d/iptables
+
+** ### GIT                ###
+http://git-scm.com/book/en/Git-on-the-Server-Hosted-Git
+
+# add all files in 
+git add ./Projects
+# commit added files
+git commit -a
+# write the changes
+git push
+
+** ### XMONAD             ###
+# application fast start
+# WINDOWS button is the one with the MSWindows logo on it
+WINDOWS-p
+
+** ### EMACS              ###
+*** ## CPP
+		# Enable semantic auto-complete (?)
+		semantic-complete-self-insert
+		# Browses the local document with your browser. On a module import line, the document of the module is browsed. On a function or type, its document is browsed.
+		M-C-d 
+		# Envoke help on a topic:
+		C-h f iedit-mode <RET>
+		# Assigning keys
+		(global-set-key (kbd "C-c a") 'doodlebug)
+		# not sure what it is but may be useful:
+		(lookup-key (current-global-map) (kbd "C-c a"))
+		# Turn on/off line breaks:
+		(toggle-truncate-lines)
+
+		# A Backup Script with rsnapshot
+		#!/bin/sh
+		#
+		#echo "### RSNAPSHOT DAILY ###"
+		#mount /mnt/backup && rsnapshot -c /etc/rsnapshot.d/daily.conf daily || echo "Backup failure"
+		#umount /mnt/backup
+		#echo
+		qmake -o Makefile triangle.pro
 
 * How to use Journal?
 
@@ -38,8 +135,9 @@ C-c . to insert timestamp
 
 * Emacs tips
 	‘M-x toggle-truncate-lines’ - turn on long lines warp
+	'<C-S-left>' - swap buffers
 * Haskell tips
-	Commenting code:
+** Commenting code:
   {-| @Event t a@ represents a stream of events as they occur in time.
 Semantically, you can think of @Event t a@ as an infinite list of values
 that are tagged with their corresponding time of occurence,
@@ -48,6 +146,18 @@ that are tagged with their corresponding time of occurence,
 -}
 
 this code should be shown in haddock
+
+** Tags:
+	 to generate tags use:
+	 ~/bin/tags
+*** hothasktags
+find . | egrep '\.hs$' | xargs hothasktags > tags
+
+** Executable size
+[[http://stackoverflow.com/questions/6115459/small-haskell-program-compiled-with-ghc-into-huge-binary][Don Stuart on stack exchange]]
+
+** a working GLFW/reactive-banana example?
+stack overflow question
 * Life Hacks
 ** Tax-return related papers:
 	  Annual Mortgage Statement 
@@ -154,11 +264,26 @@ Too tired now.
 > Fixed.
 
 **** TODO : Animation Support...
-time to take a look into FRP and animation :)
+***** DONE : time to take a look into FRP and animation :)
 [[file:~/Projects/Haskell/reactive-banana/reactive-banana][reactive-banana source and examples]]
 See the project homepage <http://haskell.org/haskellwiki/Reactive-banana>
 
 Thu Apr 24 17:56:30 CEST 2014 [[https://github.com/madjestic/reactive-banana/blob/master/reactive-banana/doc/examples/Counter.hs][Added a Counter example]]
+***** IN-PROGRESS : I am in the middle of hooking up FRP to GL calls
+			[[https://github.com/cdxr/reactive-banana-glfw][reactive-banana-glfw]] serves as a glue,
+			but I yet to figure out how to combine GL calls 
+			with the reactive banana event loops
+			[[file:~/Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial08/Main.hs::--%20|%20I%20probably%20need%20to%20make%20a%20GL%20call%20from%20a%20reactimate%20function%20call.%20Sersious%20refactoring%20pending][Fri May 30 00:32:51 CEST 2014]]
+
+			[[http://hackage.haskell.org/package/reactive-banana-0.8.0.2/docs/Control-Event-Handler.html#t:AddHandler][Read on AddHandlers]]
+			[[http://en.wikibooks.org/wiki/Haskell/Concurrency][Read on Concurrency]]
+			[[file:~/Projects/Haskell/Junk/GameLoop.hs][GameLoop example]] - maybe some clues from here
+
+			It looks like I will need to call an update event from
+			a separate sleeper thread.  It should be connected to 
+			reactive-banana event system via addHandlers interface
+			Sat Jun  7 18:20:36 CEST 2014
+
 ** FRP
 *** Reactive Banana
 [[*:%20Animation%20Support...][Reactive Banana Animation Support...]]
@@ -185,11 +310,24 @@ Thu Apr 24 17:56:30 CEST 2014 [[https://github.com/madjestic/reactive-banana/blo
 **** DONE Update the content, according to the latest state of NGL tutorial
 **** DONE : Write a prime number calculator.
 *** PuurBliss.NL
-**** TODO : fix glyphicons:
+**** DONE : fix glyphicons:
 		 It turns out that the < > glyphs are not being displayed correctly.
 ** Reading
 *** Prime Obsession
 p.55
+** Houdini
+*** DONE : Hook up a PS3 controller to mu
+		It's working.
+		Event stream can be read from [[file:/dev/input/js0]]
+		Fri May 30 00:31:18 CEST 2014
+*** TODO : Figure out how to read input:
+		http://scaryreasoner.wordpress.com/2008/02/22/programming-joysticks-with-linux/
+		https://www.kernel.org/doc/Documentation/input/joystick-api.txt
+		http://stackoverflow.com/questions/16032982/getting-live-info-from-dev-input
+
+** General
+*** TODO : Read on setting up cron Jobs [[http://stackoverflow.com/questions/1603109/how-to-make-a-python-script-run-like-a-service-or-daemon-in-linux][{Stack Overflow}]]
+*** TODO : Set up a TODO directory with all active TODO's
 * Bookmarks:
 ** Programming
 *** Haskell
@@ -201,17 +339,36 @@ p.55
 **** Links
 [[http://orgmode.org/manual/Handling-links.html][Handling Links]]
 * M140: Introducing Statistics
-** TMA02:
-*** IN-PROGRESS 26 April 2014
+** DONE : TMA02:
+*** DONE 26 April 2014
 **** DONE : TMA02: Q1: 
 Computer Book 1: pp.35-48
 surgeons.mtw (box-plotting in Minitab)
-**** IN-PROGRESS : TMA02: Q2
+**** DONE : TMA02: Q2
 ***** DONE : Book2 pp.39-47 (on different sampling types)
 finished at p.44.
 done
 Sat Apr 26 16:03:45 CEST 2014
 
 
+**** DONE : TMA02: Q3
+** DONE : TMA03
+** TODO : [[file:~/Documents/M140/TMA04/m140_tma04.pdf][TMA04]]
+** TODO : [[https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt%3D963365][ICMA43]]
 
-**** TODO : TMA02: Q3
+** IN-PROGRESS : Learn Basic R
+* M124: Essential Mathematics
+** DONE :	[[file:~/Documents/MST124/TMA02/mst124_unit4.pdf][Unit 4]] (textbook)
+** DONE :	[[file:~/Documents/MST124/TMA02/TMA_02.pdf][TMA 02]]
+** DONE : TMA_03
+** TODO : [[https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt%3D965296&page%3D1&scrollpos%3D0#q3][Unit 9 Practice Quiz]]
+** TODO : [[https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt%3D965295&page%3D1&scrollpos%3D0#q5][ICMA44]]
+** TODO : [[file:~/Documents/MST124/TMA04/mst124_14b_tma04.pdf][TMA_04]]
+* Mathematics
+	The Zakon Series on Mathematical Analysis
+	[[~/Documents/Mathematics/zakon-basic-a4-one.pdf][Basic Concepts of Mathematics]]
+
+
+* Active Links:
+	[[https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt%3D935459&page%3D1][https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt=935459&page=1]]
+	[[https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt%3D913986&page%3D13][https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt=913986&page=13]]

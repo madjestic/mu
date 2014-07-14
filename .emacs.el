@@ -14,7 +14,7 @@
  '(ac-expand-on-auto-complete t)
  '(ac-quick-help-prefer-pos-tip t)
  '(ac-show-menu-immediately-on-auto-complete t)
- '(browse-url-generic-program "chromium-browser" t)
+ '(browse-url-generic-program "chromium-browser")
  '(browse-url-text-browser "chromium")
  '(cua-enable-cua-keys nil)
  '(cua-mode t nil (cua-base))
@@ -24,18 +24,12 @@
  '(ecb-layout-name "left2")
  '(ecb-layout-window-sizes (quote (("leftSpeedbarHistory02" (ecb-speedbar-buffer-name 0.16 . 0.6071428571428571) (ecb-history-buffer-name 0.16 . 0.32142857142857145)))))
  '(ecb-options-version "2.40")
-;; '(face-font-family-alternatives (quote (("Monospace" "dejavu" "courier" "fixed") ("courier" "CMU Typewriter Text" "fixed") ("Sans Serif" "helv" "helvetica" "arial" "fixed") ("helv" "helvetica" "arial" "fixed"))))
+ '(erc-modules (quote (completion fill log match track ercn netsplit fill button match track readonly networks ring autojoin noncommands irccontrols move-to-prompt stamp menu list)))
+ '(erc-nick "madjestic")
  '(font-use-system-font 1)
  '(fringe-mode nil nil (fringe))
  '(global-auto-complete-mode t)
  '(global-hl-line-mode t)
-;; '(haskell-indent-offset 4)
-;; '(haskell-indentation-ifte-offset 4)
-;; '(haskell-indentation-layout-offset 4)
-;; '(haskell-indentation-left-offset 4)
-;; '(haskell-indentation-where-post-offset 4)
-;; '(haskell-indentation-where-pre-offset 4)
-;; '(haskell-mode-hook (quote ((lambda nil (ghc-init)) (lambda nil (set-input-method "haskell-unicode")) turn-on-haskell-indent turn-on-haskell-doc-mode)) t)
  '(haskell-stylish-on-save t)
  '(haskell-tags-on-save t)
  '(inhibit-startup-screen t)
@@ -48,8 +42,10 @@
  '(powerline-default-separator (quote arrow))
  '(powerline-height nil)
  '(powerline-text-scale-factor nil)
+ '(rcirc-authinfo (quote (("freenode" nickserv "madjestic" "asdfg"))))
  '(scalable-fonts-allowed t)
  '(scroll-bar-mode nil)
+ '(server-mode t)
  '(smooth-scroll-mode t)
  '(speedbar-after-create-hook (quote (speedbar-frame-reposition-smartly)))
  '(speedbar-before-popup-hook nil)
@@ -65,11 +61,7 @@
  '(tabbar-mwheel-mode t nil (tabbar))
  '(tabbar-use-images nil)
  '(tool-bar-mode nil)
- '(tooltip-frame-parameters (quote ((name . "tooltip") (internal-border-width . 2) (border-width . 1))))
- '(yas-global-mode t nil (yasnippet))
- '(yas-snippet-dirs (quote ("~/.emacs.d/snippets")) nil (yasnippet))
- '(yas-use-menu (quote real-modes))
- '(yas-visit-from-menu nil))
+ '(tooltip-frame-parameters (quote ((name . "tooltip") (internal-border-width . 2) (border-width . 1)))))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -80,6 +72,8 @@
  '(border ((t nil)))
  '(cursor ((t (:background "#707080"))))
  '(ecb-default-general-face ((t (:height 0.9))))
+ '(erc-input-face ((t (:foreground "orange red"))))
+ '(erc-nick-default-face ((t (:foreground "dark gray" :weight bold))))
  '(fringe ((t (:background "#1d2733"))))
  '(highlight ((t (:background "chocolate"))))
  '(hl-line ((t (:inherit highlight :background "#454857"))))
@@ -129,6 +123,8 @@
 (add-to-list 'load-path "~/Projects/Haskell/structured-haskell-mode/elisp")
 (require 'shm)
 (add-hook 'haskell-mode-hook 'structured-haskell-mode)
+(add-hook 'haskell-mode-hook 'turn-on-haskell-doc-mode)
+(add-hook 'haskell-mode-hook 'interactive-haskell-mode)
 
 (add-hook 'html-mode-hook
           (lambda()
@@ -255,5 +251,14 @@
       browse-url-generic-program "chromium-browser")
 (setq browse-url-default-browser "chromium")
 
-;;(require 'semantic)
-;;(require 'ecb)
+;;;;;;;;;;;;;;;
+;; YASnippet ;;
+;;;;;;;;;;;;;;;
+
+(add-to-list 'load-path
+              "~/.emacs.d/plugins/yasnippet")
+(require 'yasnippet)
+(setq yas-snippet-dirs
+      '("~/.emacs.d/plugins/yasnippet/snippets"))
+(yas-global-mode 1)
+

@@ -1,8 +1,3 @@
-# required by virtual/fortran-0
-# required by dev-lang/R-3.0.1
-# required by sci-mathematics/rstudio-0.98.490
-# required by sci-mathematics/rstudio (argument)
->=sys-devel/gcc-4.7.3-r1:4.7 fortran
 # required by kde-misc/synaptiks-0.8.1-r2
 # required by kde-misc/synaptiks (argument)
 =dev-python/pyudev-0.16.1 pyqt4
@@ -12,3 +7,14 @@ app-editors/emacs xft
 # required by media-gfx/inkscape-0.48.4-r1
 # required by media-gfx/inkscape (argument)
 =media-libs/lcms-1.19 python
+media-gfx/blender -python_single_target_python3_3
+# required by media-gfx/mypaint-1.0.0-r1
+# required by media-gfx/mypaint (argument)
+>=dev-libs/protobuf-2.5.0 python
+dev-haskell/reactive-banana doc
+>=dev-haskell/opengl-2.9.1.0
+>=dev-haskell/openglraw-1.4.0.0
+>=media-libs/lcms-1.19-r1:0 python
+>=app-misc/strigi-0.7.8 clucene
+=dev-lang/python-2.7.6 sqlite
+=dev-lang/python-3.3.3 sqlite
