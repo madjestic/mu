@@ -31,13 +31,14 @@ revdep-rebuild -ip
 
 ** ### Kernel Upgrade     ###
 # copy old config
-make oldconfig
-make && make modules_install
-cp ./arch/x86/boot/bzImage /boot/kernel-3.10.7-gentoo
-# edit /boot/grub/grub.conf
-# eselect:
-eselect kernel list
-eselect kernel set 1
+
+	 make oldconfig
+	 make modules_prepare
+	 make && make modules_install
+	 cp ./arch/x86/boot/bzImage /boot/kernel-3.10.7-gentoo
+	 eselect kernel list
+	 eselect kernel set 1
+	 grub2-mkconfig -o /boot/grub/grub.cfg
 
 ** ### EMACS TIPS         ###
 # turn off line-wrapping:
@@ -327,7 +328,9 @@ p.55
 
 ** General
 *** TODO : Read on setting up cron Jobs [[http://stackoverflow.com/questions/1603109/how-to-make-a-python-script-run-like-a-service-or-daemon-in-linux][{Stack Overflow}]]
-*** TODO : Set up a TODO directory with all active TODO's
+*** DONE : Set up a TODO directory with all active TODO's
+		[[*:%20foo][: click me]]
+
 * Bookmarks:
 ** Programming
 *** Haskell
@@ -367,8 +370,11 @@ Sat Apr 26 16:03:45 CEST 2014
 * Mathematics
 	The Zakon Series on Mathematical Analysis
 	[[~/Documents/Mathematics/zakon-basic-a4-one.pdf][Basic Concepts of Mathematics]]
-
+	[[file:~/Documents/Mathematics/multivariable.pdf][Multivariable Calculus by David Guichard]]
 
 * Active Links:
 	[[https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt%3D935459&page%3D1][https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt=935459&page=1]]
 	[[https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt%3D913986&page%3D13][https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt=913986&page=13]]
+* Active TODOs
+** DONE : foo
+	 link to TODO foo

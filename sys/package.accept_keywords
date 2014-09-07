@@ -2,6 +2,7 @@
 =sys-firmware/iwl2030-ucode-18.168.6.1 ~amd64
 # required by =sci-mathematics/maxima-5.32.1-r1 (argument)
 =sci-mathematics/maxima-5.32.1-r1 ~amd64
+=sci-mathematics/maxima-5.34.0 ~amd64
 # required by =dev-lisp/sbcl-1.1.16 (argument)
 =dev-lisp/sbcl-1.1.16 ~amd64
 # required by dev-lisp/asdf-3.0.3
@@ -28,17 +29,62 @@
 # required by games-util/steam-meta-0-r20131107::steam-overlay
 # required by games-util/steam-meta (argument)
 =games-util/steam-games-meta-0-r20140325 ~amd64
-# required by net-im/skype (argument)
-=net-im/skype-4.2.0.13 ~amd64
+
+=www-client/firefox-32.0 ~amd64
 
 # required by haskell-platform (argument)
-=dev-haskell/haskell-platform-2013.2.0.0-r1 ~amd64
+=dev-haskell/haskell-platform-2013.2.0.0-r2 ~amd64
 =dev-haskell/cabal-install-1.18.0.3 ~amd64
 
-=dev-haskell/gluraw-1.4.0.0 ~amd64
-=dev-haskell/glut-2.5.1.0 ~amd64
+# required by Haskell Opengl Tutorial
+=dev-haskell/gluraw-1.4.0.1 ~amd64
+=dev-haskell/glut-2.5.1.1 ~amd64
 =dev-haskell/opengl-2.9.1.0 ~amd64
 =dev-haskell/openglraw-1.4.0.0 ~amd64
-
-# required by Haskell Opengl Tutorial
 =dev-haskell/clock-0.4.0.1 ~amd64
+
+# glfw-b
+=dev-haskell/bindings-glfw-3.0.3.2 ~amd64
+=dev-haskell/bindings-dsl-1.0.21 ~amd64
+=dev-haskell/glfw-b-1.4.6 ~amd64
+
+# structured-haskell-mode
+=app-emacs/structured-haskell-mode-9999 ~amd64
+=dev-haskell/haskell-src-exts-1.15.0.1 ~amd64
+
+# reactive-banana-glfw
+=dev-haskell/pqueue-1.2.1 ~amd64
+
+# wxhaskell
+=dev-haskell/wxhaskell-0.90.1.0 ~amd64
+=dev-haskell/wxcore-0.90.1.1 ~amd64
+=x11-libs/wxGTK-2.9.4.1-r1 ~amd64
+=dev-haskell/wxdirect-0.90.1.1 ~amd64
+=dev-haskell/wxc-0.90.1.1 ~amd64
+
+# gtk-haskell
+=dev-haskell/pango-0.12.5.3 ~amd64
+=dev-haskell/cairo-0.12.5.3 ~amd64
+=dev-haskell/gio-0.12.5.3 ~amd64
+=dev-haskell/glib-0.12.5.4 ~amd64
+=dev-haskell/gtk-0.12.5.6.3 ~amd64
+
+# required by media-video/pitivi (argument)
+=media-video/pitivi-0.93 ~amd64
+# required by media-video/pitivi-0.93
+# required by media-video/pitivi (argument)
+=media-libs/gstreamer-editing-services-1.2.1 ~amd64
+# required by media-libs/gstreamer-editing-services-1.2.1
+# required by media-video/pitivi-0.93
+# required by media-video/pitivi (argument)
+=media-libs/gnonlin-1.2.1 ~amd64
+
+# required by media-libs/clutter-1.18.2
+# required by media-video/cheese-3.12.2-r1
+# required by @selected
+# required by @world (argument)
+=x11-libs/libdrm-2.4.54 ~amd64
+# required by www-client/firefox-32.0
+# required by @selected
+# required by @world (argument)
+=media-libs/mesa-10.2.6 ~amd64
