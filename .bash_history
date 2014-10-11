@@ -2593,3 +2593,808 @@ ghci
 cd houdini
 ls
 optirun bash
+cd Natron/
+find ./ | grep -i icon
+ls
+cd ..
+ls
+ls -lah
+ls
+git status
+git add bin
+git status
+cd bin/
+ls
+cd ..
+emacs .gitignore &
+git status
+
+git status
+git status
+git -pv add bin
+git --bare add bin
+ls
+git status
+git add bin/update.sh 
+git status
+git commit -am "updating system files"
+git status
+git push
+ls
+cd ..
+ls
+cd Downloads/
+ls -lah
+grep -i "*.svg"
+grep -i "*.svg" .
+grep -ir "*.svg" .
+find ./ | grep -i "pdf"
+find ./ | grep -i pdf
+find ./ | grep -i svg
+cd bin/
+su
+eix mypaint
+cd Downloads/
+cp sidefx_logo.svgz ~/Documents/images/icons/
+cd ~
+locate vector
+ls Documents/Mathematics/
+locate vector | grep -i wxm
+source houdini_setup
+houdini
+houdini
+cd houdini
+optirun bash
+conky &
+uname -a
+eix -I kde
+eix --help
+eix -I kde
+eix -I kde
+emacs .kde4/share/config/plasma-desktop-appletsrc &
+chmod .kde4/share/config/plasma-desktop-appletsrc &
+ls -lah .kde4/share/config/plasma-desktop-appletsrc &
+sudo chown root .kde4/share/config/plasma-desktop-appletsrc
+su
+su
+ls -lah .kde4/share/config/plasma-desktop-appletsrc 
+su
+su
+logout 
+exit
+ps -aux | grep -i conky
+kill 3716
+ps -aux | grep -i conky
+reboot
+sudo reboot
+history 
+sudo chown madjestic .kde4/share/config/plasma-desktop-appletsrc
+ls -lah .kde4/share/config/plasma-desktop-appletsrc
+emacs .kde4/share/config/plasma-desktop-appletsrc &
+su
+eix -I gcc
+su
+su
+su
+eix gcc
+eix -I gcc
+su
+eix chromium
+ls
+glxgears 
+./demo
+emacs demo.hs &
+conky &
+cd org/
+emacs index.org &
+cd ~/Projects/Haskell/
+ls
+cd free-game/
+ls
+git status
+git fetch
+ls
+git statu
+git status
+cabal update
+eix free-game
+cabal install
+ls
+cd examples/
+ls
+optirun bash
+optirun bash
+steam 
+eix nvidia
+su
+glxgears 
+optirun bash
+glxgears 
+./Tropico5
+cd game/
+ls
+cd ..
+ls
+./libsteam_api.so 
+./Tropico5
+locate tropico
+find // | grep -i tropico
+find ~/ | grep -i tropico
+cd .local/share/Steam/SteamApps/common/Tropico\ 5/
+ls
+ls -lah
+optirun bash
+eix wine
+conky &
+conky &
+cd examples/
+cp demo.hs demo.hs.bak
+conky &
+history | grep -i dd
+ls
+ls
+su
+cd ~/Downloads/
+ls | grep stage
+man tar
+ls | grep -i stage
+cd stage3-i686/
+ls
+rm -rf ./dev
+rm -rf ./lib
+rm -rf ./*
+ls
+cd ..
+ls | grep stage
+tar xvf stage3-i686-uclibc-vanilla-20140905.tar.bz2 ./stage3-i686/
+man tar
+tar xvf stage3-i686-uclibc-vanilla-20140905.tar.bz2 
+ls
+ls
+cd ..
+rm -rf ./lib ./mnt ./proc/ ./run/ ./usr/ ./var/ ./sys/ ./sbin/ ./root/ ./opt/ ./media/ ./home/
+cd /home/
+ks
+ls
+cd gst-qa/
+ls
+cd cerbero/
+ls
+cd dist/
+ls
+cd linux_x86_64/
+ls
+cd var/
+ls
+cd cache/
+ls
+cd fontconfig/
+ls
+cd ~
+ls
+cd /home/
+ks
+ls
+ls -lah
+mv -R gst-qa .gst-qa
+mv -rf gst-qa .gst-qa.bak
+mv gst-qa .gst-qa.bak
+ls
+cd madjestic/
+cd stage3-i686
+ls
+ls
+ls
+cd ..
+cp stage3-i686-uclibc-vanilla-20140905.tar.bz2 ./stage3-i686
+rm stage3-i686-uclibc-vanilla-20140905.tar.bz2 
+rm -rf ./dev
+cd stage3-i686/
+tar xvf stage3-i686-uclibc-vanilla-20140905.tar.bz2 
+ls
+tar xvf stage3-i686-uclibc-vanilla-20140905.tar.bz2 
+cd ..
+rm -rf stage3-i686
+man tar
+cd stage3-i686
+ls
+ls
+ls
+ls
+ls
+ls
+cd ..
+ls
+ls | grep stage
+tar -xvfj --overwrite stage3-i686-uclibc-vanilla-20140905.tar.bz2 
+tar -xvfz --overwrite stage3-i686-uclibc-vanilla-20140905.tar.bz2 
+tar -xvf --overwrite stage3-i686-uclibc-vanilla-20140905.tar.bz2 
+tar xvfj --overwrite stage3-i686-uclibc-vanilla-20140905.tar.bz2 
+tar --ovewrite xvfj stage3-i686-uclibc-vanilla-20140905.tar.bz2 
+tar xvfj stage3-i686-uclibc-vanilla-20140905.tar.bz2 
+ls
+tar xvfj stage3-i686-uclibc-vanilla-20140905.tar.bz2 ./stage-i686
+ls
+mkdir stage3-i686
+mv stage3-i686-uclibc-vanilla-20140905.tar.bz2 ./stage3-i686
+cd stage3-i686/
+ls
+tar xvfj stage3-i686-uclibc-vanilla-20140905.tar.bz2 
+ls
+su
+cd ~
+cd bin/
+su
+cd Projects/Haskell/free-game/
+git fetch
+git pull
+git status
+git checkout examples/demo.hs
+git pull
+cd examples/
+ghc demo.hs -o demo
+cd ..
+cabal install
+conky &
+chromium
+rm -rf .config/chromium/SingletonLock 
+chromium
+rm -rf .config/chromium
+chromium
+man mount
+glxgears 
+eix nvidia
+/etc/init.d/xdm stop
+su
+optirun bash
+su
+glxgears 
+optirun bash
+eix gcc
+gcc -V
+gcc --version
+glxinfo 
+glxinfo | less
+cd ~
+optirun bash
+emacs bugreport
+steam 
+steam 
+steam 
+steam 
+gcc -v
+eix gcc
+optirun bash
+nvidia-settings 
+nvidia-settings 
+uname -a
+gcc -v
+lspci
+lspci
+su
+eix -I nvidia
+nvidia-settings 
+optirun bash
+su
+optirun bash
+su
+env x='() { :;}; echo vulnerable' bash -c "echo this is a test"
+eix bash
+eix -I bash
+. /etc/profile
+eselect news new
+eselect news read new
+env x='() { :;}; echo vulnerable' bash -c "echo this is a test"
+eix app-emulation/emul-linux-x86
+cd .config/Wasteland2/
+ls
+cd ..
+ls
+mv Wasteland2 Wasteland2.bak
+locate wasteland2
+eix wastland2
+eix wasteland2
+emerge -av games-rpg/wasteland2
+cd ..
+su
+glxinfo | grep version
+ghci
+conky &
+eselect news
+eselect news read unread all
+eselect news unread all
+sudo eselect news unread all
+sudo eselect news unread all
+su
+eix dev-haskell/gtk
+eix dev-haskell/gtk\\\\\
+eix dev-haskell/gtk
+emerge -av dev-haskell/gtk
+su
+eix dev-haskell/vector
+glxinfo | grep version
+optirun bash
+cd bin/
+su
+eix opengl
+eix glut
+eix vector
+eix dev-haskell/haskell-src
+eix dev-haskell/haddock
+eix dev-haskell/haddock
+eix dev-haskell/http
+eix dev-haskell/http-4000
+eix dev-haskell/http-4000
+eix http-4000
+eix =dev-haskell/http-4000
+eix dev-haskell/http
+eix dev-haskell/async
+eix dev-haskell/happy
+eix structured-haskell
+eix dev-haskell/haskell-src-exts
+eix freegame
+eix free-game
+eix haskell-platform
+cd ..
+cd Projects/Haskell/free-game/
+git fetch
+git status
+git pull
+cabal --help
+man cabal
+cabal
+eix -I cabal
+su
+locate cabal
+su
+eix dev-haskell/glut
+eix glfw-b
+eix bindings-dsl
+eix dev-haskell/http
+./demo
+ls
+optirun glxinfo
+optirun glxinfo | grep version
+which optirun.sh
+cat ~/bin/optirun.sh 
+optirun.sh 
+cd ~/bin/
+./optirun.sh 
+source optirun.sh 
+cd ~/Projects/Haskell/free-game/examples/
+ls
+emacs helloworld.hs &
+emacs helloworld.hs &
+git status
+git checkout helloworld.hs 
+cd Projects/Haskell/free-game/
+cabal --help
+cabal install --dry-run
+cabal update
+cabal install --dry-run
+cabal install --dry-run
+cabal install --dry-run
+cabal install --dry-run
+cabal list semigroups
+cabal install semigroups --dry-run
+cabal install semigroups -v --dry-run
+cabal install semigroups
+eix contrvariant
+cabal list contravariant
+cabal install contravariant
+cabal install --dry-run
+cabal install semigroupoids
+cabal install --dry-run
+cabal list profunctors
+cabal install profunctors
+cabal install --dry-run
+cabal install
+ls
+cd examples/
+ls
+emacs demo.hs &
+ls
+rm demo
+rm demo.hi
+ls
+rm demo.o
+ls
+ghc demo.hs -o demo
+optirun bash
+optirun bash
+eix primus
+su
+primusrun glxgears
+primusrun glxgears
+eselect opengl
+eselect opengl list
+eselect opengl set 1
+su
+primusrun glxgears
+primusrun glxgears
+primusrun steam
+cd ~/Downloads/
+ls -lah | grep coat
+su
+./3d-coat-64-CUDA 
+./3d-coat-64
+./3d-coat-64
+cd ../hfs14.0.111/
+ls
+cd ..
+rm -rf ./hfs14.0.111
+su
+cd 3D-CoatV4-1/
+ls
+optirun bash
+cd ~
+spacenavd 
+spacenavd --help
+dmesg 
+ps -aux | grep space
+spacenavd stop
+ps -aux
+ps -aux | grep -i space
+kill 23701
+ps -aux | grep -i space
+eix 3dconnex
+eix 3d-connex
+eix space
+eix spacena
+su
+cd ~
+/etc/3DxWare/daemon/3dxsrv -d
+/etc/3DxWare/daemon/3dxsrv 
+/etc/3DxWare/daemon/3dxsrv --help
+/etc/3DxWare/daemon/3dxsrv -d
+locate libXm
+locate libXm.so
+eix libXm
+equery libXm
+equery b libXm
+cd /usr/lib64/
+eix libXm
+eix libmotif
+eix motif
+su
+cd ~/bin/
+su
+./3d-coat-64
+./3d-coat-64
+cd ..
+cd 3D-CoatV
+cd 3D-CoatV4/
+ls
+cd ..
+cd ~
+ln -s 3d-coat /opt/3D-CoatV4-1/
+ls -lah
+ln --help
+ln -s /opt/3D-CoatV4-1/ 3d-coat
+cd 3d-coat/
+ls
+ls -lah
+rm 3d-coat
+ls -lah
+optirun bash
+cd ~/bin/
+ln -s ./3d-pilot 3d-connexxion
+/etc/3DxWare/daemon/3dxsrv -d
+/etc/3DxWare/daemon/3dxsrv -h
+/etc/3DxWare/daemon/3dxsrv -d usb
+/etc/3DxWare/daemon/3dxsrv -d usb &
+./3d-coat-64
+echo "/etc/3DxWare/daemon/3dxsrv -d usb" >> ~/bin/3d-pilot
+cd ~/bin/
+ls
+./3d-coat-64
+cd ~
+cd 3d-coat/
+optirun bash
+source houdini_setup
+houdini
+eix openmotif
+eix motif
+su
+ls -lah | grep -i houdini
+cd houdini
+ls
+source houdini_setup
+houdini
+houdini
+optirun bash
+cd Downloads/
+ls
+tar xvf 3dxware-linux-v1-8-0.x86_64.tar.gz 
+cd 3dxware-linux-v1-8-0.x86_64.tar.gz 
+tar xvfz 3dxware-linux-v1-8-0.x86_64.tar.gz 
+tar xvf 3dxware-linux-v1-8-0.x86_64.tar.gz ./3dxware
+mkdir 3dxware
+
+tar xvf 3dxware-linux-v1-8-0.x86_64.tar.gz -C ./3dxware
+cd 3dxware
+ls
+./install-3dxunix.sh 
+su
+cd /usr/lib64/
+ls
+ls -lah | grep -i libX
+ls -lah | grep -i libXm.
+ls -lah | grep -i libXm.s
+ln -s ./libXm.so libXm.so.3
+sudo ln -s ./libXm.so libXm.so.3
+ls -lah | grep -i libXm.s
+./3d-coat-64 &
+./3d-coat-64 &
+cd ~/3d-coat/
+ls
+optirun bash
+/etc/3DxWare/daemon/3dxsrv -h
+cd /etc/3DxWare/daemon/
+ls
+cd ..
+ls
+cd resource/
+ls
+cd ..
+ls
+cd ..
+ls
+cd 3DxWare/
+;s
+;s
+ls
+emacs default.scg &
+source houdini_setup
+./houdini
+ls
+houdini
+cd ~
+cd houdini
+optirun bash
+source houdini_setup
+houdini &
+cd houdini
+optirun bash
+cd ~/bin/
+su
+source houdini_setup
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+eix KWordQuiz
+eix KWordQuiz
+kwordquiz 
+cd houdini
+optirun bash
+cd ~/bin/
+su
+cd ~
+cd houdini
+cd ~/Projects/Haskell/Junk/
+mkdir MonadTransformers
+cd MonadTransformers/
+mkdir part_00
+cd part_00/
+touch Main.hs
+emacs Main.hs &
+source houdini_setup
+houdini &
+houdini &
+houdini
+cd houdini
+optirun bash
+source houdini_setup
+houdini
+cd bin/
+su
+source houdini
+source houdini_setup
+houdini
+hconfig -a
+cd ~
+cd houdini
+optirun bash
+emacs houdini_setup &
+cd ..
+cd ..
+cd ~
+emacs .bashrc &
+source .bashrc
+echo $HOUDINI_OTL_PATH 
+cd houdini
+source houdini_setup
+houdini
+emacs .bashrc &
+cd bin/
+cat houdini.sh
+cd ..
+source .bashrc
+cd houdini
+source houdini_setup
+houdini
+hcustom -a
+hconfig -a
+hconfig
+export $HOUDINI_MMB_PAN=0
+export ${HOUDINI_MMB_PAN=0}
+export HOUDINI_MMB_PAN:=0
+export HOUDINI_MMB_PAN=0
+ export HOUDINI_MMB_PAN=0
+houdini
+export HOUDINI_MMB_PAN=1
+houdini
+export HOUDINI_MMB_PAN=0
+houdini
+easy -help
+./3d-coat-64
+./3d-coat-64
+cd ~
+cd 3d-coat/
+ls
+optirun bash
+./3d-coat-64
+./3d-coat-64
+./3d-coat-64
+./3d-coat-64-CUDA 
+./3d-coat-64
+source houdini_setup
+./houdini
+ls
+houdini
+cd houdini
+optirun bash
+conky &
+source houdini_setup
+houdini
+houdini
+emacs .bashrc
+source .bashrc
+cd houdini
+optirun bash
+source houdini_setup
+cd ~
+cd Projects/
+owd
+pwd
+cd houdini
+source houdini_setup
+houdini
+cd ..
+source houdini_setup
+houdini
+cd ~/Downloads/
+cd houdini-13.0.558-linux_x86_64_gcc4.6
+ls
+cd houdini-13.0.558-linux_x86_64_gcc4.6/
+ls
+su
+cd ~
+ls -lah
+rm houdini
+ln -s /opt/hfs13.0.558/ houdini
+cd houdini
+optirun bash
+source houdini_setup
+houdini
+houdini
+cd ~
+cd houdini
+optirun bash
+cd ~
+emacs .bashrc
+source .bashrc
+cd houdini
+source houdini_setup
+houdini
+cd ~
+cd houdini
+source houdini_setup
+houdini
+source houdini_setup
+houdini &
+cd ~
+source .bashrc
+cd ~
+emacs .bashrc &
+source .bashrc
+cd houdini
+optirun bash
+source houdini_setup
+houdini
+cd ~/Projects/Houdini/OTL/
+ls
+mv bsdf-v1.1.1.otl bsdf-v1.1.1.otl.bak
+ls
+cd ~/houdini
+cd ~
+export HOUDINI_OTL_PATH=~/Projects/Houdini/OTL
+echo $HOUDINI_OTL_PATH 
+houdini
+houdini
+cd ~
+cd houdini
+optirun bash
+cd Projects/Houdini/OTL/
+ls
+mv bsdf-v1.2.otl bsdf-v1.2.otl.bak
+mv bsdf-v1.1.1.otl.bak bsdf-v1.1.1.otl
+ls
+mv bsdf-v1.1.1.otl bsdf-v1.1.1.otl.bak
+cd ~/Projects/Houdini/OTL/
+ls
+mkdir disney
+ls
+mv bsdf-v1.1.1.otl.bak ./disney/bsdf-v1.1.1.otl
+mv bsdf-v1.2.otl ./disney/bsdf-v1.2.otl
+mv bsdf-v1.2.otl.bak ./disney/bsdf-v1.2.otl
+cd bin/
+su
+cd ~
+cd houdini
+optirun bash
+source houdini_setup
+houdini
+houdini
+houdini
+houdini
+houdini
+optirun bash
+source houdini_setup
+houdini
+houdini
+cd ~
+emacs .bashrc
+cd ~/bin/
+su
+cd ~
+emacs .bashrc &
+source houdini_setup
+houdini
+houdini
+houdini
+houdini
+houdini
+cd houdini
+optirun bash
+cd ~
+angband 
+source houdini_setup
+houdini
+houdini
+cd ~
+emacs .bashrc &
+history 
+cd houdini
+export HOUDINI_MMB_PAN=0
+houdini
+houdini
+houdini
+
+houdini
+mplay
+houdini
+mplay
+houdini
+houdini
+houdini &
+houdini &
+houdini &
+houdini
+cd ~
+cd org/
+emacs travels.org &
+cd houdini
+optirun bash
+cd ..
+ls
+conky &
+cd bin/
+su

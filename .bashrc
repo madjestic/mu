@@ -20,6 +20,9 @@ fi
 export PATH=$PATH:~/.cabal/bin:~/bin
 export GIT_EDITOR=emacs
 export HOUDINI_NODE_WIDTH=2
+#export HOUDINI_OTL_PATH=~/Projects/Houdini/OTL
+export PROJECTS=~/Projects/Houdini
+export HOUDINI_MMB_PAN=0
 alias ec=emacsclient\ -c
 HISTSIZE=9999
 alias ec="emacsclient -c"

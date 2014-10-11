@@ -31,6 +31,7 @@
 =games-util/steam-games-meta-0-r20140325 ~amd64
 
 =www-client/firefox-32.0 ~amd64
+=www-client/chromium-38.0.2125.44 ~amd64
 
 # required by haskell-platform (argument)
 =dev-haskell/haskell-platform-2013.2.0.0-r2 ~amd64
@@ -39,8 +40,8 @@
 # required by Haskell Opengl Tutorial
 =dev-haskell/gluraw-1.4.0.1 ~amd64
 =dev-haskell/glut-2.5.1.1 ~amd64
-=dev-haskell/opengl-2.9.1.0 ~amd64
-=dev-haskell/openglraw-1.4.0.0 ~amd64
+=dev-haskell/opengl-2.9.2.0 ~amd64
+=dev-haskell/openglraw-1.5.0.0 ~amd64
 =dev-haskell/clock-0.4.0.1 ~amd64
 
 # glfw-b
@@ -88,3 +89,41 @@
 # required by @selected
 # required by @world (argument)
 =media-libs/mesa-10.2.6 ~amd64
+=kde-misc/semantik-0.9.1 ~amd64
+=x11-drivers/nvidia-drivers-343.22-r2 ~amd64
+
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=dev-haskell/bindings-glfw-3.0.3.3 ~amd64
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=dev-haskell/gtk-0.12.5.7.3 ~amd64
+# required by =dev-lang/ghc-7.8.3 (argument)
+=dev-lang/ghc-7.8.3 ~amd64
+
+=dev-haskell/vector-0.10.11.0 ~amd64
+=dev-haskell/monads-tf-0.1.0.2 ~amd64
+=dev-haskell/monadcatchio-transformers-0.3.1.2 ~amd64
+=dev-haskell/monadcatchio-mtl-0.3.1.0-r1 ~amd64
+=dev-haskell/cgi-3001.1.8.5 ~amd64
+=app-admin/haskell-updater-1.2.3 ~amd64
+=dev-haskell/haskell-src-1.0.1.6 ~amd64
+=dev-haskell/parallel-3.2.0.4 ~amd64
+=dev-haskell/haddock-2.14.3.0.7.8.3 ~amd64
+=dev-haskell/http-4000.2.17 ~amd64
+=dev-haskell/async-2.0.1.5 ~amd64
+=dev-haskell/happy-1.19.4 ~amd64
+=dev-haskell/cabal-1.20.0.2 ~amd64
+=dev-haskell/cabal-install-1.20.0.3 ~amd64
+=dev-haskell/nats-0.2 ~amd64
+=dev-haskell/prelude-extras-0.4 ~amd64
+=dev-haskell/reflection-1.5.1 ~amd64
+=dev-haskell/tagged-0.7.2 ~amd64
+=dev-haskell/semigroups-0.15.2 ~amd64
+=dev-haskell/transformers-0.4.1.0 ~amd64
+=dev-haskell/mtl-2.2.1 ~amd64
+=dev-haskell/exceptions-0.6.1 ~amd64
+=dev-haskell/transformers-compat-0.3.3.4 ~amd64
+=dev-haskell/distributive-0.4.4 ~amd64
+=dev-haskell/comonad-4.2.2 ~amd64
+=dev-haskell/profunctors-4.2.0.1 ~amd64
+
+=x11-misc/primus-9999 **

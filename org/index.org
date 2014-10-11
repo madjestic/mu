@@ -1,4 +1,3 @@
-
 #+TAGS: { @OFFICE(o) @HOME(h) } COMPUTER(c) PHONE(p) READING(r)
 
 * Kappa Quick Notes
@@ -137,6 +136,9 @@ C-c . to insert timestamp
 * Emacs tips
 	‘M-x toggle-truncate-lines’ - turn on long lines warp
 	'<C-S-left>' - swap buffers
+
+	'C-x n n' - narrow region
+	'C-z n w' - widen reion
 * Haskell tips
 ** Commenting code:
   {-| @Event t a@ represents a stream of events as they occur in time.
@@ -173,7 +175,6 @@ stack overflow question
 
 [[http://wordpress.org/themes/][Cool_Ideas]]
 * Projects
-
 ** HNGL
 
 *** on HNGL
