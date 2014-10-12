@@ -127,3 +127,5 @@
 =dev-haskell/profunctors-4.2.0.1 ~amd64
 
 =x11-misc/primus-9999 **
+
+=dev-haskell/ihaskell-0.4.0.0 ~amd64

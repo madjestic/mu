@@ -3398,3 +3398,51 @@ ls
 conky &
 cd bin/
 su
+cd 3d-coat/
+ls
+./3d-coat-64
+./3d-coat-64
+cd ~/Projects/blogs/turtlesturtlesturtles/
+ls
+cd images/
+ls
+cp ~/Projects/Houdini/lego/RENDER/lego_02.png ./
+ls
+git add lego_02.png 
+git commit -am "lego test render"
+git status
+cd ..
+git push
+ls
+cd images/
+ls
+cd ..
+ls
+cd ..
+ls
+cd madjestic.github.io/
+ls
+cd images/
+ls
+cp ~/Projects/Houdini/lego/RENDER/lego_02.png ./
+ls
+git add lego_02.png 
+git commit -am "adding lego image"
+git push
+ls
+eix gtk2hs
+eix himerge
+cabal list himerge
+cd /boot/
+ls
+cd /usr/src/linux
+cat .config | grep -i initramfs
+cat .config | grep -i init
+cat .config | grep -i ramfs
+cat .config | grep -i ram
+eix busybox
+eix ihaskell
+emerge -av dev-haskell/ihaskell
+su
+eix zeromq
+eix ipython
