@@ -1,38 +1,41 @@
 fullscreen   -1
-playbarshown 0
+playbarshown 1
 playbar      -1
 shelf        -1
 menubar      -1
 statusbar    -1
 root {
-    split 0.31375 H {
+    split 0.325625 H {
         split 0.187742 H L {
             tabs 0 1 {
-                pane panetab1 -a 0 -l 10 -H /obj/ -T OBJ -m treecontrol
+                pane panetab1 -a 0 -l 10 -H /shop/ -T SHOP -m treecontrol
             }
             split 0.379641 V R {
-                split 0.464821 V R {
-                    split 0.450771 V {
+                split 0.29239 V {
+                    split 0.356147 V L {
                         tabs 0 1 {
-                            pane panetab15 -a 0 -l 10 -H /obj/ -T OBJ -m iprviewer
+                            pane panetab15 -a 0 -l 10 -H /shop/ -T SHOP -m iprviewer
                         }
                         tabs 0 1 {
                             pane panetab2 -a 0 -l 10 -H /obj/ -T OBJ -m sceneview
-                            pane panetab4 -a 0 -l 10 -H /obj/ -T OBJ -m iprviewer
-                            pane panetab3 -a 0 -l 10 -H /obj/ -T OBJ -m chaneditor
+                            pane panetab4 -a 0 -l 10 -H /shop/ -T SHOP -m iprviewer
+                            pane panetab3 -a 0 -l 10 -H /shop/ -T SHOP -m chaneditor
                             pane panetab5 -a 0 -l 10 -H /img/ -T IMG -m imageview
                             pane panetab14 -a 0 -l 10 -H /ch/ -T CHOPNET -m channelview
+                            pane panetab29 -a 0 -l 10 -H /shop/ -T SHOP -m details
                         }
                     }
-                    tabs 0 1 {
-                        pane panetab6 -a 0 -l 10 -H /obj/ -T OBJ -m details
-                        pane panetab17 -a 0 -l 0 -H /obj/ -T OBJ -m perfmon
+                    tabs 5 1 {
+                        pane panetab6 -a 0 -l 10 -H /shop/ -T SHOP -m details
+                        pane panetab17 -a 0 -l 0 -H /shop/ -T SHOP -m perfmon
                         pane panetab18 -a 0 -l 0 -H /obj/ -T OBJ -m bundlelist
-                        pane panetab22 -a 0 -l 0 -H /obj/ -T OBJ -m datatree
+                        pane panetab22 -a 0 -l 0 -H /img/ -T IMG -m datatree
+                        pane panetab27 -a 0 -l 0 -H /obj/ -T OBJ -m python
+                        pane panetab30 -a 0 -l 0 -H /obj/ -T OBJ -m textport
                     }
                 }
                 tabs 0 1 {
-                    pane panetab7 -a 0 -l 10 -H /obj/ -T OBJ -m python
+                    pane panetab7 -a 0 -l 10 -H /shop/ -T SHOP -m python
                     pane panetab13 -a 0 -l 0 -H /obj/ -T OBJ -m textport
                     pane panetab19 -a 0 -l 10 -H /out/ -T ROP -m renderview
                 }
@@ -40,33 +43,34 @@ root {
         }
         split 0.410317 V R {
             split 0.56447 H {
-                split 0.519745 V {
+                split 0.43012 V {
                     tabs 0 1 {
-                        pane panetab11 -a 0 -l 0 -H /shop/ -T SHOP -m neteditor
+                        pane panetab11 -a 0 -l 0 -H /obj/ -T OBJ -m neteditor
                         pane panetab25 -a 0 -l 0 -H /shop/ -T SHOP -m neteditor
+                        pane panetab28 -a 0 -l 0 -H /out/ -T ROP -m neteditor
                         pane panetab12 -a 0 -l 0 -H /obj/ -T OBJ -m materialpalette
                         pane panetab20 -a 0 -l 0 -H /obj/ -T OBJ -m assetbrowser
                     }
                     tabs 0 1 {
-                        pane panetab26 -a 0 -l 0 -H /obj/ -T OBJ -m neteditor
+                        pane panetab26 -a 0 -l 0 -H /shop/ -T SHOP -m neteditor
                     }
                 }
                 tabs 0 1 {
-                    pane panetab23 -a 0 -l 10 -H /obj/ -T OBJ -m parmeditor
+                    pane panetab23 -a 0 -l 10 -H /shop/ -T SHOP -m parmeditor
                     pane panetab24 -a 0 -l 0 -H /obj/ -T OBJ -m helpbrowser
                 }
             }
             tabs 0 1 {
-                pane panetab8 -a 0 -l 10 -H /obj/ -T OBJ -m parmeditor
+                pane panetab8 -a 0 -l 10 -H /shop/ -T SHOP -m parmeditor
                 pane panetab9 -a 0 -l 0 -H /obj/ -T OBJ -m takelist
                 pane panetab10 -a 0 -l 0 -H /obj/ -T OBJ -m parmsheet
             }
         }
     }
 }
-shelfdock -o 0 -l icon_and_text -G "0.48 0.50" add shelf_set_td shelf_set_2
+shelfdock -o 1 -l icon_and_text -G "0.48 0.50" add shelf_set_td shelf_set_2
 treecontrol -a 0 -i 1 -f 0 -O 0 -S 0 -D 0 -P 0 -H 0 -V 0 -C 0 -I 0 -R 0 panetab1
-iprview -t 0.1 -l 0 -e 0  panetab15
+iprview -t 0.1 -l 0 -e 1  panetab15
 viewerstow -x open -b stow -l open -m hide -c hide -d open Technical2.panetab2.world
 vieweroption -a 0 Technical2.panetab2.world
 viewlayout -s 2 Technical2.panetab2.world
@@ -114,11 +118,23 @@ netcolumns -c delscript,comment -n VOPNET panetab25
 netcolumns -c delscript,comment -n DOP panetab25
 netcolumns -c delscript,comment -n MGR panetab25
 netcolumns -c delscript,comment -n DIR panetab25
-parmeditor -T 0.25 -w 0 panetab23
-helpbrowser panetab24
-parmeditor -T 0.25 -w 0 panetab8
-takelist -w 1 -G 0.5 panetab9
-parmsheet -w 1 -T 0.33 -P 1 -F 1 -C 0 -n 1 -e 0 panetab10
+neteditor -G 0.75 -T 0.375 -K 0.3 -p 0 -c 0 -o 0 -n 1 -s 3 -x 0 -w 0 -k 0 -I 0 -B 1 -D 1 -L 1 -P 1 -S user -t comments subnet none -g 1 -a 0 -y 0.5 -m e -r 1 0.75 -N 1 -H 0.22 -V 0.22 panetab28
+netviewdep -l 0 -c 0 -C 0 -e 0 -E 0 -b 0 -S 0 -s 3 -t 0 panetab28
+netcolumns -c display,xray,select,origin,capture,bone -n OBJ panetab28
+netcolumns -c display,render,template,selectabletemplate,highlight,unload,bypass,lock -n SOP panetab28
+netcolumns -c delscript,comment -n PART panetab28
+netcolumns -c display,render,template,bypass -n POP panetab28
+netcolumns -c delscript,comment -n CHOPNET panetab28
+netcolumns -c display,export,audio,bypass,lock -n CHOP panetab28
+netcolumns -c startrender,bypass,lock -n ROP panetab28
+netcolumns -c delscript,comment -n SHOP panetab28
+netcolumns -c display,render,template,bypass -n COP2 panetab28
+netcolumns -c delscript,comment -n IMG panetab28
+netcolumns -c delscript,comment,input -n VOP panetab28
+netcolumns -c delscript,comment -n VOPNET panetab28
+netcolumns -c delscript,comment -n DOP panetab28
+netcolumns -c delscript,comment -n MGR panetab28
+netcolumns -c delscript,comment -n DIR panetab28
 neteditor -G 0.75 -T 0.375 -K 0.3 -p 0 -c 0 -o 0 -n 1 -s 3 -x 0 -w 0 -k 0 -I 0 -B 1 -D 1 -L 1 -P 1 -S user -t comments subnet none -g 1 -a 1 -y 0.5 -m e -r 1 0.75 -N 1 -H 0.22 -V 0.22 panetab26
 netviewdep -l 0 -c 0 -C 0 -e 0 -E 0 -b 0 -S 0 -s 3 -t 0 panetab26
 netcolumns -c display,xray,select,origin,capture,bone -n OBJ panetab26
@@ -136,3 +152,8 @@ netcolumns -c delscript,comment -n VOPNET panetab26
 netcolumns -c delscript,comment -n DOP panetab26
 netcolumns -c delscript,comment -n MGR panetab26
 netcolumns -c delscript,comment -n DIR panetab26
+parmeditor -T 0.25 -w 0 panetab23
+helpbrowser panetab24
+parmeditor -T 0.25 -w 0 panetab8
+takelist -w 1 -G 0.5 panetab9
+parmsheet -w 1 -T 0.33 -P 1 -F 1 -C 0 -n 1 -e 0 panetab10

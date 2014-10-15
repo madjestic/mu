@@ -138,7 +138,7 @@ C-c . to insert timestamp
 	'<C-S-left>' - swap buffers
 
 	'C-x n n' - narrow region
-	'C-z n w' - widen reion
+	'C-x n w' - widen reion
 * Haskell tips
 ** Commenting code:
   {-| @Event t a@ represents a stream of events as they occur in time.
@@ -379,3 +379,5 @@ Sat Apr 26 16:03:45 CEST 2014
 * Active TODOs
 ** DONE : foo
 	 link to TODO foo
+* History
+	[[/home/madjestic/houdini/houdini/python2.7libs/dopparticlefluidtoolutils.py]]

@@ -161,6 +161,11 @@
   (interactive)
   (load-user-file "haskell.el"))
 
+(defun load-python ()
+  "load python config files"
+  (interactive)
+  (load-user-file "python-ide.el"))
+
 (defun load-shm ()
   "load haskell config files"
   (interactive)
@@ -266,3 +271,4 @@
       '("~/.emacs.d/plugins/yasnippet/snippets"))
 (yas-global-mode 1)
 
+(put 'narrow-to-region 'disabled nil)
