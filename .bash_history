@@ -571,3 +571,68 @@ ls
 cd Internal/
 ls
 emacs GLFW.hs &
+cd bin/
+su
+cd ~
+git add .emacs.el
+git add .emacs.d/python.el
+cd .emacs.d
+ls
+cd ..
+cd .emacs.d
+emacs python.el~ 
+mv python.el~ python.el.bak
+cd ..
+git add .emacs.d/python-ide.el
+git commit -am "updating emacs python configs"
+git push
+cd org/
+cd ..
+git add org/index.org
+git commit -am "updating org file"
+git status
+git push
+cd irc
+ls
+ls -lah
+rm .directory 
+rm .emacs.desktop*
+ls
+ls -lah
+cd ..
+emacs -mm
+emacs -mm
+emacs .kde4/share/config/khotkeysrc 
+sudo cp xemacs.desktop xemacs.desktop.bak
+ls -lah
+cd /usr/portage/app-editors/xemacs/
+ls
+ls -lah
+cd files/
+ls
+ls -lah
+su
+eix haddock
+cd bin/
+su
+cd ~/Projects/Python/
+ls
+cd Tree
+ls
+emacs Main.py &
+emacs Main.py &
+emacs Main.py &
+emacs Main.py &
+cd ..
+cd ..
+cd Haskell/
+ls
+mkdir Tree
+cd Tree/
+touch Main.hs
+emacs Main.hs &
+cd ~
+dd --help
+cd bin/
+ls
+su

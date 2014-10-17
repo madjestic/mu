@@ -1,7 +1,7 @@
 #!/bin/sh
 
 eix-sync
-emerge -av --update --deep --with-bdeps=y --newuse world
+emerge -av --update --deep --with-bdeps=y world
 read -p "press Enter to continue with depclean..."
 emerge -av --depclean
 read -p "press Enter to continue with revdep-rebuild..."

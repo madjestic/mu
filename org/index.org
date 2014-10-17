@@ -265,7 +265,7 @@ Too tired now.
 
 > Fixed.
 
-**** TODO : Animation Support...
+**** TODO : Animation Support
 ***** DONE : time to take a look into FRP and animation :)
 [[file:~/Projects/Haskell/reactive-banana/reactive-banana][reactive-banana source and examples]]
 See the project homepage <http://haskell.org/haskellwiki/Reactive-banana>
@@ -284,7 +284,22 @@ Thu Apr 24 17:56:30 CEST 2014 [[https://github.com/madjestic/reactive-banana/blo
 			It looks like I will need to call an update event from
 			a separate sleeper thread.  It should be connected to 
 			reactive-banana event system via addHandlers interface
-			Sat Jun  7 18:20:36 CEST 2014
+			Sat Jun  7 18:20:36 CEST 
+
+			The above sounds very similar to:
+			[[https://github.com/fumieval/free-game/issues/30]]
+			Sat Oct 18 00:26:23 CEST 2014
+
+			
+
+
+**** TODO : Texture Support
+		 [[http://stackoverflow.com/questions/23540558/haskell-opengl-texture-glfw]]
+		 [[http://stackoverflow.com/questions/24114767/haskell-opengl-texture-only-average-colour]]
+		 [[http://stackoverflow.com/questions/10468845/juicypixels-texture-loading-in-haskell-opengl]]
+		 [[https://github.com/fiendfan1/Haskell-OpenGL]]
+		 http://eax.me/haskell-opengl-textures/
+		 Sat Oct 18 00:26:32 CEST 2014
 
 ** FRP
 *** Reactive Banana
@@ -377,7 +392,7 @@ Sat Apr 26 16:03:45 CEST 2014
 	[[https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt%3D935459&page%3D1][https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt=935459&page=1]]
 	[[https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt%3D913986&page%3D13][https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt=913986&page=13]]
 * Active TODOs
-** DONE : foo
-	 link to TODO foo
 * History
 	[[/home/madjestic/houdini/houdini/python2.7libs/dopparticlefluidtoolutils.py]]
+	[[file:~/Projects/Python/Tree/Main.py][/Projects/Python/Tree/Main.py]] Fri Oct 17 23:47:43 CEST 2014
+
