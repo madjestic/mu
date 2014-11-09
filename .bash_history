@@ -2044,3 +2044,47 @@ ls
 ./pitivi-0.94-x86_64 
 ls
 ls
+source optirun.sh
+pitivi 
+ls
+cd pitivi/
+ls
+ls -lah
+./pitivi-0.94-x86_64 
+./pitivi-0.94-x86_64 
+./pitivi-0.94-x86_64 
+cd bin/
+su
+cd ~
+pitivi 
+eix pycanberra
+optirun bash
+su
+history | grep -i gnome
+su
+pitivi
+cd Documents
+ls
+rm -rf pitivi-0.93-beta-x86_64/
+ls
+ln -s ./Pictures/ pics
+ln -s ./Pictures/ pic
+cd pic
+ls
+ls -lah
+git add pitivi_GUI_problem.png 
+git add pitivi_GUI_ok.png 
+cd ~
+git commit -am "various stuff added"
+git push
+git push
+locate pitivi
+cd /usr/portage/media-video/pitivi/
+ls
+emacs pitivi-0.93.ebuild 
+eix -i pitivi
+eix pitivi
+cd ~
+su
+locate adwaita
+su

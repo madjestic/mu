@@ -416,7 +416,11 @@ Sat Apr 26 16:03:45 CEST 2014
 	 Tree -> Tree of id's -> flatten -> point string attr
 * Pitivi Missing Dependencies
 	emerge -av gnome-icon-theme
-
+	
+	asked a question, related to gnome GUI issues on #pitivi
+	>> guys said gentoo is still 0.93. Should try later.
+	[2014-11-10 Mon]
+	
 * History
 	[[/home/madjestic/houdini/houdini/python2.7libs/dopparticlefluidtoolutils.py]]
 	[[file:~/Projects/Python/Tree/Main.py][/Projects/Python/Tree/Main.py]] Fri Oct 17 23:47:43 CEST 2014
