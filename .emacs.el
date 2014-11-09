@@ -3,6 +3,7 @@
 (add-to-list 'load-path "~/.emacs.d")
 
 (menu-bar-mode -1)
+(font-lock-mode -1)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -21,7 +22,7 @@
  '(cua-mode t nil (cua-base))
  '(desktop-after-read-hook (quote (list-buffers)))
  '(desktop-path (quote ("~/.emacs.d/")))
- '(desktop-save-mode t)
+ '(desktop-save-mode f)
  '(dired-dwim-target t)
  '(dired-use-ls-dired t)
  '(doc-view-resolution 1000)
@@ -30,6 +31,7 @@
  '(ecb-options-version "2.40")
  '(erc-modules (quote (completion fill log match track ercn netsplit fill button match track readonly networks ring autojoin noncommands irccontrols move-to-prompt stamp menu list)))
  '(erc-nick "madjestic")
+ '(fancy-splash-image nil)
  '(font-use-system-font 1)
  '(fringe-mode nil nil (fringe))
  '(global-auto-complete-mode t)
@@ -37,9 +39,11 @@
  '(haskell-stylish-on-save t)
  '(haskell-tags-on-save t)
  '(inhibit-startup-screen t)
+ '(initial-scratch-message nil)
  '(minimap-dedicated-window t)
  '(minimap-width-fraction 0.1)
  '(minimap-window-location (quote right))
+ '(mouse-wheel-scroll-amount (quote (1 ((shift) . 1) ((control)))))
  '(org-agenda-files (quote ("~/journal.org")))
  '(org-file-apps (quote ((auto-mode . emacs) ("\\.mm\\'" . default) ("\\.x?html?\\'" . default) ("\\.pdf\\'" . "/usr/bin/okular"))))
  '(package-archives (quote (("marmalade" . "http://marmalade-repo.org/packages/") ("gnu" . "http://elpa.gnu.org/packages/") ("melpa" . "http://melpa.milkbox.net/packages/") ("org" . "http://orgmode.org/elpa/"))))
@@ -99,10 +103,11 @@
  '(speedbar-separator-face ((t (:background "blue" :foreground "white" :overline "gray" :height 0.8))))
  '(speedbar-tag-face ((t (:foreground "yellow" :height 0.8))))
  '(tabbar-button ((t (:inherit tabbar-default))))
- '(tabbar-button-highlight ((t (:inherit tabbar-default))))
+ '(tabbar-button-highlight ((t (:inherit tabbar-default :foreground "black"))))
  '(tabbar-default ((t (:inherit variable-pitch :background "gray50" :foreground "grey75"))))
- '(tabbar-highlight ((t (:inherit nil :background "#2d3743"))))
- '(tabbar-selected ((t (:inherit tabbar-default :underline t :weight bold))))
+ '(tabbar-highlight ((t (:background "#2d3743" :foreground "grey75"))))
+ '(tabbar-modified ((t (:inherit tabbar-default :foreground "#662244" :box (:line-width 1 :color "white" :style released-button)))))
+ '(tabbar-selected ((t (:inherit tabbar-default :foreground "#222244" :weight bold))))
  '(tabbar-unselected ((t (:inherit tabbar-default))))
  '(tooltip ((t (:inherit variable-pitch :background "#797985" :foreground "black" :height 0.8))))
  '(vertical-border ((t nil)))
@@ -241,6 +246,13 @@
 (show-paren-mode t)
 (set-default 'truncate-lines t)
 (powerline-default-theme)
+
+(defun kill-other-buffers ()
+    "Kill all other buffers."
+    (interactive)
+    (mapc 'kill-buffer 
+          (delq (current-buffer) 
+                (remove-if-not 'buffer-file-name (buffer-list)))))
 
 ;;;;;;;;;;;;;;
 ;; Org-mode ;;

@@ -1,5 +1,5 @@
 fullscreen   -1
-playbarshown 1
+playbarshown 0
 playbar      -1
 shelf        -1
 menubar      -1
@@ -8,62 +8,63 @@ root {
     split 0.325625 H {
         split 0.187742 H L {
             tabs 0 1 {
-                pane panetab1 -a 0 -l 10 -H /shop/ -T SHOP -m treecontrol
+                pane panetab1 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m treecontrol
             }
             split 0.379641 V R {
                 split 0.29239 V {
                     split 0.356147 V L {
                         tabs 0 1 {
-                            pane panetab15 -a 0 -l 10 -H /shop/ -T SHOP -m iprviewer
+                            pane panetab15 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m iprviewer
                         }
                         tabs 0 1 {
-                            pane panetab2 -a 0 -l 10 -H /obj/ -T OBJ -m sceneview
-                            pane panetab4 -a 0 -l 10 -H /shop/ -T SHOP -m iprviewer
-                            pane panetab3 -a 0 -l 10 -H /shop/ -T SHOP -m chaneditor
+                            pane panetab2 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m sceneview
+                            pane panetab4 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m iprviewer
+                            pane panetab3 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m chaneditor
                             pane panetab5 -a 0 -l 10 -H /img/ -T IMG -m imageview
                             pane panetab14 -a 0 -l 10 -H /ch/ -T CHOPNET -m channelview
-                            pane panetab29 -a 0 -l 10 -H /shop/ -T SHOP -m details
+                            pane panetab29 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m details
                         }
                     }
-                    tabs 5 1 {
-                        pane panetab6 -a 0 -l 10 -H /shop/ -T SHOP -m details
+                    tabs 0 1 {
+                        pane panetab6 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m details
                         pane panetab17 -a 0 -l 0 -H /shop/ -T SHOP -m perfmon
                         pane panetab18 -a 0 -l 0 -H /obj/ -T OBJ -m bundlelist
                         pane panetab22 -a 0 -l 0 -H /img/ -T IMG -m datatree
-                        pane panetab27 -a 0 -l 0 -H /obj/ -T OBJ -m python
-                        pane panetab30 -a 0 -l 0 -H /obj/ -T OBJ -m textport
+                        pane panetab27 -a 0 -l 0 -H /obj/gg_speedtreefbx1/core/ -T SOP -m python
+                        pane panetab30 -a 0 -l 0 -H /obj/gg_speedtreefbx1/core/ -T SOP -m textport
                     }
                 }
                 tabs 0 1 {
-                    pane panetab7 -a 0 -l 10 -H /shop/ -T SHOP -m python
+                    pane panetab7 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m python
                     pane panetab13 -a 0 -l 0 -H /obj/ -T OBJ -m textport
                     pane panetab19 -a 0 -l 10 -H /out/ -T ROP -m renderview
                 }
             }
         }
-        split 0.410317 V R {
+        split 0.410317 V {
             split 0.56447 H {
                 split 0.43012 V {
                     tabs 0 1 {
-                        pane panetab11 -a 0 -l 0 -H /obj/ -T OBJ -m neteditor
+                        pane panetab11 -a 0 -l 0 -H /obj/gg_speedtreefbx1/core/ -T SOP -m neteditor
                         pane panetab25 -a 0 -l 0 -H /shop/ -T SHOP -m neteditor
-                        pane panetab28 -a 0 -l 0 -H /out/ -T ROP -m neteditor
+                        pane panetab28 -a 0 -l 0 -H /img/ -T IMG -m neteditor
                         pane panetab12 -a 0 -l 0 -H /obj/ -T OBJ -m materialpalette
-                        pane panetab20 -a 0 -l 0 -H /obj/ -T OBJ -m assetbrowser
+                        pane panetab20 -a 0 -l 0 -H /obj/gg_speedtreefbx1/core/ -T SOP -m assetbrowser
                     }
                     tabs 0 1 {
-                        pane panetab26 -a 0 -l 0 -H /shop/ -T SHOP -m neteditor
+                        pane panetab26 -a 0 -l 0 -H /obj/EngelmannSpruce_b001_c002_fbx/ -T OBJ -m neteditor
                     }
                 }
                 tabs 0 1 {
-                    pane panetab23 -a 0 -l 10 -H /shop/ -T SHOP -m parmeditor
+                    pane panetab23 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m parmeditor
                     pane panetab24 -a 0 -l 0 -H /obj/ -T OBJ -m helpbrowser
                 }
             }
-            tabs 0 1 {
-                pane panetab8 -a 0 -l 10 -H /shop/ -T SHOP -m parmeditor
-                pane panetab9 -a 0 -l 0 -H /obj/ -T OBJ -m takelist
-                pane panetab10 -a 0 -l 0 -H /obj/ -T OBJ -m parmsheet
+            tabs 3 1 {
+                pane panetab8 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m parmeditor
+                pane panetab9 -a 0 -l 0 -H /obj/gg_speedtreefbx1/core/ -T SOP -m takelist
+                pane panetab10 -a 0 -l 0 -H /obj/gg_speedtreefbx1/core/ -T SOP -m parmsheet
+                pane panetab31 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m details
             }
         }
     }
