@@ -2088,3 +2088,12 @@ cd ~
 su
 locate adwaita
 su
+cd Documents/pic
+ls
+git rm pitivi_GUI_ok.png 
+git rm pitivi_GUI_problem.png 
+ls
+rm pitivi_GUI_problem 
+ls
+git commit -am "removing redundant files"
+git push
