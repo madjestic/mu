@@ -2097,3 +2097,41 @@ rm pitivi_GUI_problem
 ls
 git commit -am "removing redundant files"
 git push
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial10/
+ls
+ghc junk2.hs -o junk
+./junk 
+ghc junk2.hs -o junk2
+ls
+rm junk
+rm junk.o
+ghc junk.hs -o junk
+ghc junk.hs -o junk
+./junk
+ghc junk.hs -o junk
+ghc junk.hs -o junk
+./junk
+cd ~/Projects/Haskell/
+ls
+cd Junk/
+ls
+mkdir heterogenous_lists
+ls
+cd heterogenous_lists/
+ls
+toucn README.md
+touch README.md
+emacs README.md 
+ls
+ls
+git add Main.hs README.md tutorial.hs
+git commit -am "playing with eexistential types"
+git push
+git push
+eix gtk
+eix gtk3
+eix gtk-en
+eix gtk-engine
+eix gtk-engine | grep -i adwa
+eix pitivi
+locate lorenz

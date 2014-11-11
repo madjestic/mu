@@ -365,6 +365,12 @@ p.55
 * Bookmarks:
 ** Programming
 *** Haskell
+		[[https://github.com/madjestic/mu/tree/master/Projects/Haskell/Junk/heterogenous_lists][finished a small heterogenous collections example.]]
+		[2014-11-10 Mon]
+		
+		[[*edX:%20FP101x][edX]] A course I intend to finish
+		Mon Nov 10 22:40:49 CET 2014
+
 **** FFI
 [[http://www.haskell.org/haskellwiki/FFI_cook_book][FFI Cook Book]]
 [[http://book.realworldhaskell.org/read/interfacing-with-c-the-ffi.html][RealWorldHaskell FFI]]
@@ -398,6 +404,10 @@ Sat Apr 26 16:03:45 CEST 2014
 ** TODO : [[https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt%3D965296&page%3D1&scrollpos%3D0#q3][Unit 9 Practice Quiz]]
 ** TODO : [[https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt%3D965295&page%3D1&scrollpos%3D0#q5][ICMA44]]
 ** TODO : [[file:~/Documents/MST124/TMA04/mst124_14b_tma04.pdf][TMA_04]]
+* edX: FP101x
+	[[https://courses.edx.org/courses/DelftX/FP101x/3T2014/courseware/7c7ec15948b84b1a9c14673bddbcf8aa/9441ebb13fad49dca4dee53107b3ce5a/][Continue with HW]]
+	Mon Nov 10 22:38:53 CET 2014
+
 * Mathematics
 	The Zakon Series on Mathematical Analysis
 	[[~/Documents/Mathematics/zakon-basic-a4-one.pdf][Basic Concepts of Mathematics]]
