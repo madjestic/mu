@@ -413,6 +413,8 @@ Sat Apr 26 16:03:45 CEST 2014
 	[[~/Documents/Mathematics/zakon-basic-a4-one.pdf][Basic Concepts of Mathematics]]
 	[[file:~/Documents/Mathematics/multivariable.pdf][Multivariable Calculus by David Guichard]]
 
+** Guerrilla Math Study Group (GMSG)
+	 [[https://sites.google.com/site/guerrillamathstudygroup/][google sites link]]
 * Active Links:
 	[[https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt%3D935459&page%3D1][https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt=935459&page=1]]
 	[[https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt%3D913986&page%3D13][https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt=913986&page=13]]

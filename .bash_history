@@ -2135,3 +2135,31 @@ eix gtk-engine
 eix gtk-engine | grep -i adwa
 eix pitivi
 locate lorenz
+cd Projects/Houdini/Lorenz/
+ls
+tar --help
+cp lorenz_vex.hipnc lorenz_vex.hipnc.bak
+tar cvzf lorenz_vex.hipnc
+tar cvzf lorenz_vex.hipnc lorenz
+tar cvzf lorenz_vex.hipnc lorenz/
+mkdir lorenz
+tar cvzf lorenz_vex.hipnc lorenz/
+ls
+cd lorenz
+ls
+cd ..
+ls
+rm lorenz
+rm -rf lorenz
+ls
+tar cvjf lorenz_hipnc.tar.bz2 ./lorenz_vex.hipnc
+ls
+cp lorenz_vex.hipnc.bak lorenz_vex.hipnc
+ls
+git add lorenz_vex.hipnc
+got commit -am "adding lorenz hip file"
+git commit -am "adding lorenz hip file"
+git push
+ls
+cp lorenz_vex.hipnc lorenz_vex.hipnc.png
+cp lorenz_vex.hipnc lorenz_vex.hipnc.txt
