@@ -2203,3 +2203,56 @@ ghci
 eix alarm
 eix alarm
 su
+akonadiserver 
+akonadiserver start
+akonadictl start
+cd Projects/
+ls
+cd C
+ls
+cd Make_Files/
+ls
+car README.md
+cat README.md
+ls
+git status
+ls
+git add README.md
+cd make_samples/
+ls
+cd sample
+cd sample1
+ls
+cd ..
+ls
+ls ./sample5
+cd sample1
+ls
+git add ./*
+cd ../sample2
+ls
+git add ./*
+cd ../sample3
+ls
+cd bin/
+ls
+cd ..
+ls
+ls ./include/
+ls ./obj/
+ls
+git add ./*
+cd ../sample5
+cd ../sample4
+ls
+git add ./*
+cd ../sample5
+ls
+ls ./application/
+ls
+ls ./tstlib/
+ls
+git add ./application makefile ./tstlib/
+git commit -am "addint make_file tutorial files"
+git push
+git push

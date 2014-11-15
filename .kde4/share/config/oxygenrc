@@ -1,0 +1,21 @@
+[$Version]
+update_info=oxygen.upd:1
+
+[ActiveShadow]
+Enabled=false
+
+[InactiveShadow]
+Enabled=false
+
+[Style]
+CheckBoxStyle=CS_X
+
+[Windeco]
+AnimationsEnabled=false
+FrameBorder=BorderNone
+
+[Windeco Exception 0]
+ExceptionPattern=.*
+FrameBorder=BorderNone
+HideTitleBar=true
+Mask=16
