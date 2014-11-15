@@ -2163,3 +2163,43 @@ git push
 ls
 cp lorenz_vex.hipnc lorenz_vex.hipnc.png
 cp lorenz_vex.hipnc lorenz_vex.hipnc.txt
+ls
+cd /opt/hfs13.0.558/
+ls
+find ./ | grep -i null
+find ./ | grep -i null | grep -i vex
+cd houdini/vex/Sop/
+ls
+pwd
+sudo chown -R madjestic /opt/hfs13.0.558/
+cd Projects/Houdini/Lorenz/
+ls
+git add lorenz_vex_2.hipnc
+git commit -am "updating lorenz"
+git push
+cd Projects/Haskell/edX/
+ls
+cd Defining_Functions/
+ls
+emacs Main.hs &
+ls
+rm \#Main.hs# 
+ls
+ls -lah
+ls
+ls -lah
+rm .#Main.hs 
+ls
+ls -lah
+emacs Main.hs &
+ghci
+cd Projects/Haskell/edX
+mkdir Defining_Functions
+cd Defining_Functions/
+ls
+cd bin/
+su
+ghci
+eix alarm
+eix alarm
+su

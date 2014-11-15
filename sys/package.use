@@ -8,6 +8,8 @@ dev-lang/python sqlite
 dev-lang/python sqlite
 
 >=x11-libs/wxGTK-2.9.4.1-r1:2.9 gstreamer
+>=sys-devel/gcc-4.8.3:4.8 fortran
+>=app-office/akonadi-server-1.13.0 soprano
 
 sci-mathematics/rstudio doc
 
@@ -22,4 +24,4 @@ dev-haskell/reactive-banana doc
 dev-haskell/* doc
 dev-haskell/language* -doc
 dev-haskell/xhtml* -doc
->=sys-devel/gcc-4.8.3:4.8 fortran
+
