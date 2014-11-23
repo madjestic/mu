@@ -2256,3 +2256,149 @@ git add ./application makefile ./tstlib/
 git commit -am "addint make_file tutorial files"
 git push
 git push
+history | grep -i kde
+cd .kde4/share/config/
+ls
+cat oxygenrc
+ls -lah
+emacs plasma-desktop-appletsrc &
+ls
+git add plasma-desktop-appletsrc
+git add oxygenrc
+git commit -am "adding kde config files"
+git push
+su
+eix make-progress
+eix plasmapkg
+eix plasma
+eix kalarm
+kalarm
+ps aux | grep -i akonadi
+ps aux | grep -i akonadi
+kalarm
+kalarm
+akonadi
+akonadiserver 
+eix akonadi
+su
+cd houdini
+ls
+cd dsolib/
+ls
+cd ..
+ls
+ls
+cd ..
+ls
+cd /opt/hfs13.0.558/
+ls
+cd ~
+cd houdini
+ls
+cd toolkit/
+ls
+cd samples/
+ls
+cd SOP
+ls
+emacs hdk_star.txt &
+ls
+ls
+cd ../..
+cd ..
+ls
+cd /opt/hfs13.0.558/
+source .setup
+cd ~
+cd Projects/Houdini/
+ls
+mkdir HDK
+cd ~/houdini
+ls
+ln -s ~/Projects/Houdini/HDK/ HDK
+ls
+source houdini_setup
+cd HDK/
+ls
+cp $HFS/toolkit/samples/standalone/geoisosurface.C .
+ls
+hcustom -s geoisosurface.C 
+eix csh
+hcustom -s geoisosurface.C 
+ls
+ls
+hcustom -s geoisosurface.C 
+ls
+ls -lah
+ls
+./geoisosurface 
+ls
+gplay sphere.bgeo &
+ls
+emacs geoisosurface.C &
+eix emacs
+eix -I emacs
+ghci
+ghci
+cd bin/
+su
+cd Projects/Haskell/
+cd edX/
+ls
+cd Defining_Functions/
+ls
+cat Main.hs
+cp Main.hs Main.hs.bak
+cd bin/
+su
+ghci
+source optirun.sh
+source houdini_setup
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+ls
+houdini
+cd bin/
+su
+steam
+eix nvidia
+cd bin/
+ls
+cd ~
+history | grep -i s3tc
+echo $force_s3tc_enable 
+ps -aux | grep -i steam
+kill -KILL 24857
+kill -KILL 24857
+ps -aux | grep -i steam
+ps -aux | grep -i steam
+kill -KILL steam
+steam 
+steam export force_s3tc_enable=true
+steam export force_s3tc_enable=false
+optirun bash
+steam
+ls
+./Leadwerks
+./Leadwerks.sh 
+steam
+locate leadwerks
+locate lead
+locate leadw
+cd .local/share/Steam/SteamApps/
+ls
+cd common/
+ls
+cd Leadwerks/
+ls
+optirun bash
+ls
+./Leadwerks.sh 
+./Leadwerks.sh 
