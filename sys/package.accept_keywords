@@ -42,6 +42,8 @@
 =x11-drivers/nvidia-drivers-343.22-r2 ~amd64
 =www-plugins/chrome-binary-plugins-39.0.2171.19_beta1 ~amd64
 
+
+# Haskell Stuff
 =dev-haskell/haddock-2.14.3.0.7.8.3 ~amd64
 =dev-haskell/fgl-5.5.0.1 ~amd64
 =dev-haskell/hscolour-1.20.3-r1 ~amd64
@@ -92,5 +94,13 @@
 =dev-haskell/semigroups-0.15.4 ~amd64
 =dev-haskell/distributive-0.4.4 ~amd64
 =dev-haskell/tagged-0.7.2 ~amd64
-
 =dev-lang/ghc-7.8.3 ~amd64
+
+
+# Ogre Stuff
+=dev-games/ogre-1.9.0-r1 ~amd64
+
+# Blender Stuff
+=sci-libs/suitesparseconfig-4.2.1 ~amd64
+=media-gfx/blender-2.72b ~amd64
+=sci-libs/ldl-2.1.0 ~amd64

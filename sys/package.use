@@ -1,11 +1,11 @@
 >=dev-python/pyudev-0.16.1-r1 pyqt4
 app-editors/emacs xft
 =media-libs/lcms-1.19 python
-media-gfx/blender -python_single_target_python3_3
 >=media-libs/lcms-1.19-r1:0 python
 >=app-misc/strigi-0.7.8 clucene
 dev-lang/python sqlite
 dev-lang/python sqlite
+
 
 >=x11-libs/wxGTK-2.9.4.1-r1:2.9 gstreamer
 >=sys-devel/gcc-4.8.3:4.8 fortran
@@ -23,3 +23,11 @@ dev-haskell/* doc
 dev-haskell/language* -doc
 dev-haskell/xhtml* -doc
 
+# Blender Stuff:
+=dev-python/numpy-1.8.0-r1 python_targets_python3_4
+=dev-python/requests-2.3.0 python_targets_python3_4
+=dev-python/setuptools-2.2 python_targets_python3_4
+>=dev-python/chardet-2.2.1 python_targets_python3_4
+>=dev-cpp/glog-0.3.3-r1 gflags
+media-gfx/blender python_targets_python3_4
+>=dev-python/dbus-python-1.2.0-r1 python_targets_python3_3

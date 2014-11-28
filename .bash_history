@@ -2402,3 +2402,150 @@ optirun bash
 ls
 ./Leadwerks.sh 
 ./Leadwerks.sh 
+cd Documents/bugs/
+ls
+git add steam_leadwerks1.png 
+git commit -am "adding LWE report image"
+git push
+steam
+cd ~/.local/share/Steam/SteamApps/common/Leadwerk
+cd ~/.local/share/Steam/SteamApps/common
+ls
+cd Leadwerks/
+ls
+./Leadwerks.sh 
+ls
+cd Tools/
+ks
+ls
+cd ..
+ls
+ls
+glxinfo 
+su
+uname -a
+eix info
+eix -h info
+history | grep -i eix
+eix -I info
+eix --help
+cd ./irclogs/
+ls
+cd freenode/
+ks
+ls
+ls -lah
+emacs \#gentoo
+emacs \#gentoo.log 
+ls
+cd ..
+cd ..
+ls
+ls
+ls
+cd log/
+ls
+ls
+emacs
+emerge --info
+emerge --info
+optirun bash
+eix ogre
+su
+eix openal
+su
+steam
+\
+steam
+steam
+blender
+eix ogre
+eix -I ogre
+ogre
+su
+eix pitivi
+optirun bash
+ps -aux | grep -i comky
+kill 17803
+ps -aux | grep -i comky
+kill -KILL 17805
+conky &
+cd bin/
+ls
+emacs startup.sh &
+su
+eix leadwerks
+conky 
+conky --help
+conky 
+optirun conky
+conky 
+conky 
+conky &
+conky &
+conky 
+conky 
+conky &
+primusrun steam
+primusrun glxspheres
+primusrun glxgears
+optirun glxgears
+optirun steam
+optirun steam
+optirun steam
+optirun steam
+optirun glxgears
+optirun steam
+emacs /etc/bumblebee/bumblebee.conf &
+su
+emacs /etc/X11/xorg.conf &
+steam
+ps -aux | grep -i steam
+ls
+kill -KILL 2550 2559 2342
+ls
+./Leadwerks
+emacs readme.txt 
+equery belongs libopenal.so.1
+locate leadwerks
+cd .local/share/Steam/SteamApps/common/Leadwerks/
+ls
+optirun bash
+cd Projects/
+ls
+git clone https://github.com/EpicGames/UnrealEngine -b 4.5
+source optirun.sh
+source houdini_setup
+houdini &
+ls /opt/hfs13.0.
+cd houdini
+optirun bash
+cd /opt/
+ls
+ls
+source houdini_setup
+houdini
+houdini
+locate icons | grep -i houdini
+cd Downloads/
+ls
+tar xvfz houdini-13.0.582-linux_x86_64_gcc4.6.tar.gz 
+cd houdini-13.0.582-linux_x86_64_gcc4.6
+ls
+su
+cd ~
+ls
+ls ./bin/
+mvlink houdini /opt/hfs13.0.582/
+cd houdini
+pwd
+ls
+cd ..
+ls -lah
+ls -lah | grep -i houdini
+cd houdini
+optirun bash
+su
+eix wesnoth
+su
+ghci
