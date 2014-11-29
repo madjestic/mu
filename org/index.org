@@ -135,8 +135,8 @@ C-u M-! date   | to insert date |
 	‘M-x toggle-truncate-lines’ - turn on long lines warp
 	'<C-S-left>' - swap buffers
 
-	'C-x n n' - narrow region
-	'C-x n w' - widen reion
+	'C-x n n' - narrow region/scope
+	'C-x n w' - widen region/scope
 
 	(paredit mode)
 	selection + ( -> (selection)

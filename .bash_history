@@ -2549,3 +2549,76 @@ su
 eix wesnoth
 su
 ghci
+vcc -X cvex | grep -i addattrib
+cd Projects/Houdini/Lorenz/
+ls
+rm lorenz_hipnc.tar.bz2 
+ls
+git add lorenz_vex_3.hipnc 
+ls -lah
+git commit -am "ultimate lorenz"
+git push
+source houdini_setup
+source optirun.sh
+houdini &
+houdini
+houdini
+houdini
+houdini
+vcc -X cvex | grep -i addattrib
+vcc -X cvex | grep -i add
+cd houdini
+optirun bash
+cd Projects/Houdini/
+mkdir VEX
+ln -s ./VEX vex
+cd vex/
+ls
+git add .emacs.el
+git status
+cd /tmp/
+emacs hfs24202-315.tmp.vfl 
+emacs hfs24202-315.tmp.vfl 
+emacs hfs24202-315.tmp.vfl 
+emacs test.vfl 
+emacs ~/Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial10/Main.hs
+emacs test.vfl 
+emacs test.vfl 
+emacs test.vfl 
+emacs test.vfl 
+emacs test.vfl 
+emacs test.vfl 
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial10/
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+sourcs optirun.sh
+source optirun.sh
+source houdini_setup
+houdini
+houdini
+\
+\\\
+\\\
+\\
+\\\
+cd houdini
+optirun bash
+optirun bash

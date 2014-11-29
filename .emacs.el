@@ -130,10 +130,21 @@
       "http://melpa.milkbox.net/packages/") t)
 
 (add-to-list 'load-path "~/Projects/Haskell/structured-haskell-mode/elisp")
-(require 'shm)
-(add-hook 'haskell-mode-hook 'structured-haskell-mode)
-(add-hook 'haskell-mode-hook 'turn-on-haskell-doc-mode)
-(add-hook 'haskell-mode-hook 'interactive-haskell-mode)
+(add-to-list 'auto-mode-alist
+             '("\\.hs$'" . haskell-mode))
+
+(add-to-list 'auto-mode-alist           
+						 '("\\.vfl\\'" . (lambda ()
+															 (iedit-mode)
+															 (c-mode) 
+															 (linum-mode))))
+
+(add-hook 'haskell-mode-hook
+          (lambda()
+						(require 'shm)
+						(load-haskell)))
+
+
 
 (add-hook 'html-mode-hook
           (lambda()
