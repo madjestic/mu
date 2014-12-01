@@ -2622,3 +2622,244 @@ houdini
 cd houdini
 optirun bash
 optirun bash
+cd Projects/Houdini/
+cd Heresy/
+ls
+cd Map/
+ls
+git add map.hipnc 
+ls -lah
+history | grep -i tar
+tar cvjf pathwalker.tar.bz2 ./map.hipnc
+git --cache -rm map.hip
+git -rm --cache map.hip
+ls
+git
+git rm --cache map.hip
+git rm --cache ./map.hip
+ls
+git status
+git rm --cached ./map.hip
+git rm --cached ./map.hipnc
+git add ./pathwalker.tar.bz2 
+ls -lah
+git commit -am "adding pathwalker"
+git push
+source optirun.sh
+source houdini_setup
+houdini
+cd houdini
+optirun bash
+cd houdini
+source houdini_setup
+houdini
+cd /home/madjestic/Downloads/nxt-python-2.2.2/
+ls
+emacs README &
+eix pyusb
+python -V
+cd bin/
+su
+google-chrome-stable &
+equery pdflatex
+equery -d pdflatex
+equery d pdflatex
+equery g pdflatex
+equery b pdflatex
+eix smeantik
+eix semantik
+equery b pdflatex
+cd Projects/
+mkdir emacs
+cd emacs/
+mkdir LaTeX
+ln -s ./LaTeX latex
+cd latex/
+ls
+emacs test.tex
+
+eix pdf | grep -i latex
+eix {pdf,latex}
+eix {pdf|latex}
+eix "pdf,latex"
+eix "pdf|latex"
+eix pdftex
+eix pdflatex
+eix auctex
+emerge -av app-emacs/auctex
+ls
+emacs test.tex &
+eix pdflatex
+eix pdf
+eix pdflate
+eix latex
+eix latex-base
+su
+cd Projects/emacs/latex/
+ls
+emacs test.tex &
+pdflatex test.tex
+ls
+ls
+cd ../..
+ls
+cd ~/Documents/
+mkdir GMSG
+ln -s ./GMSG/ gmsg
+cd GMSG/
+cd ~/Projects/
+ln -s ~/Documents/gmsg/ gmsg
+ln -s ~/Documents/gmsg/ GMSG
+cd GMSG/
+ls
+mkdir
+mkdir BASIC_DEs
+cd BASIC_DEs/
+ls
+ls
+okular basic.pdf &
+emacs .conkyrc &
+conky --help
+ps -aux | grep -i conky
+kill 1275
+conky &
+kill 1275
+ps -aux | grep -i conky
+kill 23058
+conky --display=0
+conky --display=1
+conky --help
+conky -X
+conky --help
+conky -v
+conky -X
+conky --display=0
+conky --display=DISPLAY
+emacs .conkyrc &
+9
+history 
+google-chrome-stable &
+cd bin/
+su
+conky 
+emacs .conkyrc &
+conky 
+conky 
+conky 
+conky 
+conky 
+conky &
+ps -aux | grep -i conky
+kill 31788
+emacs .conkyrc &
+conky
+conky &
+git add .conkyrc
+cd bin/
+su
+cd Projects/
+ln -s ~/Documents/GMSG GMSG
+ln -s ~/Documents/GMSG gmsg
+cd gmsg/
+ls
+ls -lah
+pwd
+cd GMSG/
+ls
+cd ~/Documents/GMSG/
+ls
+ls -lah
+rm GMSG
+ls -lah
+okular 
+eix kpdf
+eix acroread
+su
+eix xpdf
+eix ghost
+eix pdf
+cd Projects/GMSG/
+ls
+cd BASIC_DEs/
+ls
+pdfopen basic.pdf 
+eix acroread
+eselect 
+su
+pdfopen --help
+pdfopen -V
+pdfopen -v
+man pdfopen
+eix xpdf
+which pdfopen
+pdfopen basic.pdf 
+emacs
+emacs &
+cd .emacs.d/
+ls
+rm .emacs.el
+cp .emacs.el.bak .emacs.el
+emacs .emacs.el
+cp .emacs.el.bak .emacs.el
+emacs .emacs.el
+cp .emacs.el.bak .emacs.el
+emacs .emacs.el
+emacs .emacs.el
+cp .emacs.el.bak .emacs.el
+emacs .emacs.el
+su
+cd Projects/GMSG/BASIC_DEs/
+ls
+emacs
+cd Projects/GMSG/
+ls
+ln -s ./BASIC_DEs/ basic_des
+ls
+cd basic_des/
+ls
+emacs &
+cd ~
+ls
+mv .emacs.el .emacs.el.bak
+emacs
+emacs
+cp .emacs.el.bak .emacs.el
+ln -s ./Documents/gmsg/BASIC_DEs/basic.pdf test.pdf
+emacs test.pdf 
+rm emacs.el
+rm .emacs.el
+emacs test.pdf 
+emacs
+emacs
+ls -lah
+emacs
+cp .emacs.el.bak .emacs.el
+emacs
+cd Downloads/
+emacs book.pdf 
+emacs book.pdf 
+emacs book.pdf 
+emacs book.pdf 
+emacs book.pdf 
+emacs book.pdf 
+emacs book.pdf 
+emacs book.pdf 
+emacs book.pdf 
+emacs .emacs.el
+ec
+cd Projects/GMSG/basic_des/
+ls
+emacs basic.tex &
+emacs basic.pdf 
+okular basic.pdf 
+emacs basic.tex
+emacs basic.tex &
+ls
+cat basic.pdf
+emacs basic.pdf 
+emacs basic.pdf 
+emacs basic.pdf 
+emacs basic.pdf 
+ls
+emacs basic.tex &
+clear 

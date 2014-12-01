@@ -130,6 +130,7 @@ C-u M-! date   | to insert date |
    [[http://orgmode.org/manual/Handling-links.html][on_Links]]
    [[http://orgmode.org/manual/External-links.html][gentoo]]
    [[docview:~/Downloads/Abbelian_Categories.pdf::100][PDF]]
+	 [[docview:~/Projects/gmsg/basic_des/basic.pdf::1][open_pdf with docview]]
 
 * Emacs tips
 	‘M-x toggle-truncate-lines’ - turn on long lines warp
@@ -330,7 +331,7 @@ Thu Apr 24 17:56:30 CEST 2014 [[https://github.com/madjestic/reactive-banana/blo
 
 *** DONE Lear to use Org-mode
 
-*** TODO Lear how to open pdfs at a given page with Okulus
+*** TODO Lear how to open pdfs at a given page with Okular
 [[http://stackoverflow.com/questions/20792659/how-do-i-make-org-mode-open-pdf-files-in-okulus-at-page-nnn][stackoverflow_topi]]c
 <2013-12-27 Fri>
 
@@ -433,6 +434,12 @@ Sat Apr 26 16:03:45 CEST 2014
 	>> guys said gentoo is still 0.93. Should try later.
 	[2014-11-10 Mon]
 	
+* LaTeX
+** Google Sites Template
+<img src="http://www.google.com/chart?cht=tx&chf=bg,s,FFFFFF00&chco=000000&chl=
+\sqrt(x^2+y^2)=\exp^x+\sum_{i=1}^nx^i
+" />
+
 * History
 	[[/home/madjestic/houdini/houdini/python2.7libs/dopparticlefluidtoolutils.py]]
 	[[file:~/Projects/Python/Tree/Main.py][/Projects/Python/Tree/Main.py]] Fri Oct 17 23:47:43 CEST 2014

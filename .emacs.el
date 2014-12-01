@@ -4,20 +4,21 @@
 
 (menu-bar-mode -1)
 (font-lock-mode -1)
+(global-auto-revert-mode 1)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(ac-dictionary-directories (quote ("~/.emacs.d/ac-dict" "/home/madjestic/.emacs.d/elpa/auto-complete-1.4/dict")))
+;; '(ac-dictionary-directories (quote ("~/.emacs.d/ac-dict")))
  '(ac-dwim t)
  '(ac-expand-on-auto-complete t)
  '(ac-quick-help-prefer-pos-tip t)
  '(ac-show-menu-immediately-on-auto-complete t)
  '(browse-url-browser-function (quote browse-url-generic))
  '(browse-url-generic-program "chromium-browser" t)
- '(browse-url-text-browser "firefox")
+;; '(browse-url-text-browser "firefox")
  '(cua-enable-cua-keys nil)
  '(cua-mode t nil (cua-base))
  '(desktop-after-read-hook (quote (list-buffers)))
@@ -25,7 +26,7 @@
  '(desktop-save-mode f)
  '(dired-dwim-target t)
  '(dired-use-ls-dired t)
- '(doc-view-resolution 1000)
+;; '(doc-view-resolution 200)
  '(ecb-layout-name "left2")
  '(ecb-layout-window-sizes (quote (("leftSpeedbarHistory02" (ecb-speedbar-buffer-name 0.16 . 0.6071428571428571) (ecb-history-buffer-name 0.16 . 0.32142857142857145)))))
  '(ecb-options-version "2.40")

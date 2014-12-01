@@ -1,0 +1,51 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\title{"Basic DE's: Separation of Variables"}
+\date{}
+\begin{document}
+  \maketitle 
+  % This is a comment; it is not shown in the final output.
+  % The following shows a little of the typesetting power of LaTeX
+  \begin{align}
+    dy/dx &= 2y + 1 \\
+    \frac{dy}{2y+1} &= dx \\
+    \int_a^b \frac{1}{2y+1}dy &= \int_a^b dx \\
+  \end{align} 
+    $u := 2y+1, f(u) := \frac{1}{2y+1}$
+  \begin{align}
+    \therefore \frac{dy}{du} \int_a^b \frac{1}{u} \frac{du}{dy} dy = \int \frac{1}{u} \frac{du}{dy} \frac{dy}{du}dy = \int \frac{1}{u}dy = \int_a^b \frac{1}{2y+1}dy &= \int_a^b dx \\
+    \frac{dy}{du} \int_a^b \frac{1}{u} \frac{du}{dy} dy &= \int_a^b dx \\
+  \end{align} 
+$\because \int (f \circ g)g' = \int f$ \\
+$\therefore \int f(g(y))g'(y)dy = \int f(u)u'dy = \int f(u) \frac{du}{dy}dy = \int f(u)du$ \\
+  \begin{align} 
+    \frac{dy}{du} \int_a^b \frac{1}{u} \frac{du}{dy} dy
+                      &= \frac{dy}{du} \int_a^b f(u) du \\
+                      &= \frac{dy}{du} \int_a^b \frac{1}{u} du \\
+  \end{align}
+%  
+  \begin{align}
+    \therefore \frac{dy}{du} \int_a^b \frac{1}{u} \frac{du}{dy} dy = \frac{dy}{du} \int_a^b \frac{1}{u} du &= \int_a^b dx \\
+    \frac{dy}{du} \int_a^b \frac{1}{u} du &= \int_a^b dx
+  \end{align}
+$\because u = 2y+1 \therefore \frac{du}{dy} = 2$ \\
+$\because \frac{dy}{du} = (\frac{du}{dy})^{-1} = 2^{-1} = \frac{1}{2}$ \\
+  \begin{align}
+    \frac{1}{2} \int_a^b \frac{1}{u} du = \frac{dy}{du} \int_a^b \frac{1}{u} du &= \int_a^b dx \\
+    \frac{1}{2} \int_a^b \frac{1}{u} du &= \int_a^b dx \\
+    \frac{1}{2} \ln|u| + c_1 &= x + c_2 \\
+    \frac{1}{2} \ln|u| &= x + c_2 - c_1 \\
+    \ln|u| &= 2 x + 2 (c_2 - c_1) \\
+    \ln|u| &= 2 x + c_3 \\
+    \ln|2y+1| &= 2 x + c_3 \because u = 2y+1 \\
+    \because e^{\ln|2y+1|} &= e^{2 x + c_3} \\
+    \therefore 2y+1 &= e^{2x}e^{c_3} \\
+    2y &= e^{2x}e^{c_3} - 1 \\
+    2y &= e^{2x}e^{c_3} - 1 \\
+    2y &= C e^{2x} - 1 \\
+    y  &= \frac{C e^{2x} - 1}{2} \ \ \ \blacksquare
+  \end{align}
+\end{document}

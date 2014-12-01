@@ -104,3 +104,4 @@
 =sci-libs/suitesparseconfig-4.2.1 ~amd64
 =media-gfx/blender-2.72b ~amd64
 =sci-libs/ldl-2.1.0 ~amd64
+>=www-client/google-chrome-39.0.2171.71_p1 ~amd64
