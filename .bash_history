@@ -2863,3 +2863,929 @@ emacs basic.pdf
 ls
 emacs basic.tex &
 clear 
+cd Projects/gmsg/basic_des/
+ls
+cp basic.tex basic.tex.bak
+git add basic.tex
+ls -lah
+git add basic.pdf
+git commit -am "gmsg files"
+git push
+history 
+history | grep -i emerge
+source houdini_setup
+source optirun.sh
+houdini &
+cd houdini
+optirun bash
+source optirun.sh
+source houdini_setup
+houdini
+cd houdini
+optirun bash
+steam
+cd /etc/portage/
+grep -ir "xemacs" .
+eix nvidia
+eix -I intell
+eix -I intel
+eix xemax
+xemacs
+eix -I xemacs
+su
+su
+google-chrome-stable &
+source optirun.sh
+source houdini_setup
+houdini
+houdini &
+houdini
+houdini
+houdini
+houdini
+cd houdini
+optirun bash
+source optirun.sh
+source houdini_setup
+houdini
+cd Projects/Houdini/VEX/
+ls
+emacs pathwalker.vfl 
+cd ~
+ls
+cd houdini
+optirun bash
+cd Projects/Haskell/edX/
+ls
+cd Defining_Functions/
+ls
+cd OR
+ls
+cd ..
+mkdir And
+mv ./OR/And.hs* ./And/
+cd OR
+ls
+cd ..
+cd And/
+ls
+steam
+optirun bash
+source optirun.sh
+source houdini_setup
+houdini
+cd houdini
+optirun bash
+su
+su
+su
+ps -aux | grep -i steam
+kill -KILL 2154
+kill -KILL 2163
+ps -aux | grep -i steam
+kill -KILL 2246
+cd bin/
+su
+eix natron
+eix natron
+su
+eix pitivi
+./3DE4PLE 
+ls
+./warp4 
+ls
+eselect python list
+source optirun.sh
+glxgears 
+eselect python set 1
+eselect python list
+sudo eselect python set 1
+eselect python list
+ls
+./3DE4PLE 
+source /etc/environment 
+./3DE4PLE 
+ls
+eselect python list
+sudo eselect python set 2
+eselect python list
+ls
+cd ..
+ls
+cd Downloads/3DE4PLE_linux64_r4b
+n
+cd Downloads/3DE4PLE_linux64_r4b/
+cd ./Downloads/3DE4PLE_linux64_r4b/
+cd Downloads/
+ls
+cd 3DE4PLE_linux64_r4b4/
+ls
+cd bin/
+ls
+optirun bash
+eix darktables
+eix dark
+su
+darktable
+eix nvidia
+cd /usr/src/
+ls
+ls -lah
+cd ~
+su
+su
+su
+sudo /etc/init.d/xdm stop
+su
+locate wpa_suppplicant.conf
+locate wpa_suppplicant
+su
+eix nvidia
+glxgears 
+glxgears 
+optirun bash
+steam &
+eix nvidia
+optirun bash
+steam 
+steam &
+locate libGL.so
+optirun bash
+eix prime
+eix prime | grep -i nvidia
+eix primus
+eix prim
+source houdini_setup
+source optirun.sh
+houdini
+emacs .emacs.el
+emacs .emacs.el
+emacs .emacs.el
+emacs .emacs.el
+cd houdini
+optirun bash
+source optirun.sh
+cd Projects/Haskell/
+ls
+cd edX/
+ls
+mdir List_Comprehensions
+mkdir List_Comprehensions
+ls
+cd List_Comprehensions/
+ls
+ls
+touch Main.hs
+ls
+emacs Main.hs &
+emacs Main.hs &
+emacs Main.hs &
+emacs --debug-init
+emacs --debug-init
+emacs Main.hs &
+emacs Main.hs &
+emacs Main.hs &
+ls
+emacs Main.hs &
+emacs Main.hs &
+emacs Main.hs &
+ghci
+optirun bash
+emacs .emacs.el &
+emacs .emacs.el &
+cd org/
+emacs index.org
+emacs index.org
+emacs index.org
+emacs .emacs.el
+emacs .bashrc
+ls
+cd Projects/Haskell/edX/
+ls
+cd List_Comprehensions/
+ls
+emacs Main.hs &
+emacs Main.hs &
+emacs Main.hs &
+emacs Main.hs &
+emacs Main.hs &
+emacs Main.hs &
+source .bashrc
+echo $SDL_AUDIODRIVER 
+steam 
+su
+glxgears 
+./aces
+cd ..
+ls
+source optirun.sh
+ls
+cd Wasteland/ 2
+ls
+./wasteland 
+cd ..
+ls
+cd Wasteland 2/
+ls
+whereis 
+pwd
+cd ..
+ls
+cd "Wasteland 2"
+ls
+cd Linux/
+ls
+./WL2
+./WL2
+ls
+cd WL2
+cd WL2_Data/
+ls
+cd ..
+cd ..
+ls
+cd ..
+ls
+cd the\ witcher\ 2/
+ls
+./witcher2
+./launcher 
+ldd witcher2
+ls
+cd ..
+ls
+cd Tropico\ 5/
+ls
+./Tropico5
+ls
+cd ..
+ls
+cd Metro\ 2033\ Redux/
+ls
+./metro 
+cd ..
+ls
+cd Crusader\ Kings\ II/
+ls
+./ck2 
+./witcher2
+steam 
+ls
+locate Steam
+locate Crusader
+cd .paradoxinteractive/
+ls
+cd Crusader\ Kings\ II/
+ls
+emacs settings.txt &
+cp settings.txt settings.txt.bak
+emacs settings.txt &
+cd ..
+cd ..
+cd .local/share/Steam/
+ls
+cd bin
+ls
+cd ..
+cd ..
+locate War
+locate War .
+find . | grep -i War
+cd Steam/SteamApps/
+ls
+cd common/
+ls
+cd War\ Thunder/
+ls
+./aces
+optirun bash
+ls
+cd ..
+ls
+cd Crusader\ Kings\ II/
+ls
+optirun ck2 
+optirun ./ck2 
+ls
+cd ..
+ls
+cd the\ witcher\ 2/
+ls
+optirun bash
+./witcher2
+cd .local/share/Steam/SteamApps/common/
+ls
+cd the\ witcher\ 2/
+optirun bash
+eix SDL
+su
+cd Projects/
+ls
+cd GMSG/
+ls
+cd BASIC_DEs/
+ls
+emacs basic.tex &
+cp helloworld.tex helloworld.tex.bak
+ls
+cd Projects/
+cd agda/
+ls
+mkdir study
+ls
+cd study/
+ls
+lyaa.tex
+touch lyaa.tex
+eix agda-mode
+cd Projects/
+mkdir agda
+cd agda/
+git clone https://github.com/liamoc/learn-you-an-agda
+eix agda
+su
+cabal install agda --dry-run
+ghc-pkg list agda
+cabal update
+cabal install cabal-install
+ghc-pkg list agda
+cabal install agda
+eix cpphs
+su
+emacs
+cd Projects/gmsg/
+ls
+emacs helloworld.
+emacs helloworld.tex
+cd Projects/Haskell/
+cd edX/
+ls
+cd Projects/agda/
+ls
+cd study/
+ls
+touch hello.agda
+emacs hello.agda &
+cd ~
+cd bin/
+su
+cd Projects/agda/
+ls
+cd study/
+ls
+emacs hello.agda &
+cd Projects/gmsg/
+ls
+cd ..
+ls
+mkdir LaTeX
+ls
+ln -s ./LaTeX/ latex
+ls
+cd latex/
+ls
+cp ../gmsg/helloworld.tex ./
+ls
+emacs helloworld.tex &
+cd Projects/Haskell/
+ls
+emacs junk.hs &
+ghci
+su
+eselect kernel list
+su
+optirun glxgears
+su
+./Leadwerks.sh 
+./Leadwerks
+cat Leadwerks.sh
+echo $LD_LIBRARY_PATH 
+cd ..
+ls
+cd Crusader\ Kings\ II/
+ls
+rm steam_appid.txt 
+cd .local/share/Steam/SteamApps/common/
+ls
+cd Crusader\ Kings\ II/
+ls
+./ck2 
+optirun ./ck2 
+ls
+cd ..
+ls
+cd Leadwerks/
+ls
+optirun bash
+glxgears 
+cd .local/share/Steam/SteamApps/
+ls
+cd common/
+ls
+cd Crusader\ Kings\ II/
+glxgears 
+ls
+source optirun.sh
+ls
+./ck2 
+./ck2 
+ls
+echo "210890" >> steam_appid.txt
+./ck2 
+./ck2 
+./ck2 
+./ck2 
+./ck2 
+./ck2 
+./ck2 
+cd ..
+ls
+cd Europa\ Universalis\ IV/
+ls
+./eu4
+echo "203770" >> ./steam_appid.txt
+rm ./steam_appid.txt 
+echo "236850" >> ./steam_appid.txt
+./eu4
+locate libsteam.so
+cd .local/share/Steam/
+ls
+cd linux32/
+ls
+ln -s ../ubuntu12_32/libsteam.so ./libsteam.so
+ls -lah
+ls
+ls ../ubuntu12_32/
+ls
+rm ./libsteam.so 
+cd ..
+ls
+mv linux32 ./linux32.bak
+ln -s ./ubuntu12_32 linux32
+ls -lah
+locate libtier0_s.so
+ls
+rm -rf ./linux32
+cp ubuntu12_32 ./linux32
+cp -R ubuntu12_32 ./linux32
+rm -rf ./linux32
+cp ubuntu12_32/ linux32
+ls
+ln -s ./ubuntu12_32 linux32
+cd ubuntu12_32/
+ls -lah
+ls
+cd ..
+ls
+rm linux32
+mv linux32.bak linux32
+ls
+cp ./ubuntu12_32/libsteam.so ./linux32/
+source optirun.sh
+ls
+./aces
+./aces
+./aces
+./aces
+./aces
+./aces
+optirun bash
+ls
+cd .local/share/Steam/SteamApps/common/Europa\ Universalis\ IV/
+ls
+optirun ./eu4
+optirun ./eu4
+cd ..
+ls
+cd Crusader\ Kings\ II/
+ls
+ls
+ls -lah
+optirun ./ck2 
+echo "203770" >> steam_appid.txt
+optirun ./ck2 
+optirun glxgears
+ls
+ls -lah
+optirun ./ck2 
+steam &
+cd ..
+ls
+cd War\ Thunder/
+ls
+optirun bash
+cd ~
+ls /opt/hfs13.0.
+gcc -V
+gcc -v
+cd Downloads/
+ls
+eix libass
+su
+cd /opt/
+ls 
+rm -rf hfs13.0.5*
+cd ..
+ls -lah
+su
+ls
+cd opt/
+ls
+rm -rf hfs13.0.5*
+su
+rm -rf hfs13.0.5*
+ls -lah
+su
+rm -rf hfs13.0.5*
+ls -lah
+rm -rf hfs13.0.447
+ls -lah
+eix ssa
+eix libass
+cd Downloads/
+ls -lah
+ls -lah | grep -i mkv
+vlc The\ Disappearence\ of\ Suzumiya\ Haruhi.mkv
+ls
+ls -lah | grep -i houdini
+ls -lah | grep -i houdini
+tar xvfz houdini-13.0.621-linux_x86_64_gcc4.6.tar.gz
+cd houdini-13.0.621-linux_x86_64_gcc4.6
+ls
+su
+cd Downloads/
+ls -lah
+ls
+ls
+ls -lah
+rm -rf ./*
+ls -lah
+sudo rm -rf ./*
+ls -lah
+cd bin/
+ls -lah
+su
+eix natron
+eix pitivi
+eix kindle
+eix kindle
+eix calibre
+su
+cd bin/
+su
+cd ./bin/
+ls
+su
+history | grep -i dd
+su
+eix block
+eix blockdev
+eix block
+source optirun.sh
+./aces
+ls
+cd ..
+ls
+cd Wasteland\ 2/
+ls
+cd Linux/
+ls
+./WL2
+./WL2
+./WL2
+ls
+cd ..
+ls
+cd  Linux/
+ls
+cd WL2_Data/
+ls
+cat resources.assets 
+ls
+cd Resources/
+ls
+cd ..
+ls
+lah
+ls
+cd ..
+ls
+cd /opt/
+ls
+cd hfs13.0.621/
+ls
+source houdini_setup
+houdini
+ls
+pwd
+houdini
+houdini
+houdini
+houdini
+houdini
+cd .local/share/Steam/SteamApps/common/War\ Thunder/
+optirun bash
+ping -c3 www.gentoo.org
+find ~/ |grep -i mp3
+eix clock
+eix clock | grep -i haskell
+eix dev-haskell/clock
+su
+cd bin/
+su
+source optirun.sh
+ls
+cd tutorial09/
+ls
+emacs Main.hs &
+ghci
+:m System.Clock
+:m+ System.Clock
+m+ System.Clock
+ghci
+cd Projects/Haskell/
+ls
+cd Haskell-OpenGL-Tutorial/
+ls
+optirun bash
+eix cups
+eix -I cups
+cd bin/
+su
+ping -c3 www.google.com
+ping -c3 www.google.com
+ping -c3 www.netflix.com
+ping -c3 www.netflix.com
+ping -c3 www.google.com
+ping -c3 www.netflix.com
+eix audacity
+su
+ghci
+ping -c3 www.google.fi
+ping -c3 www.google.fi
+ping -c3 www.google.fi
+history | grep -i make
+su
+source optirun.sh
+emacs Main.hs
+emacs Main.hs &
+ls
+cd ..
+ls
+cp -R tutorial10 ./tutorial11
+cd tutorial11/
+ls
+emacs README.md &
+ls
+cd ..
+ls
+cd tutorial11/
+ls
+emacs Main.hs &
+emacs Main.hs &
+cd Projects/Haskell/
+ls
+cd Haskell-OpenGL-Tutorial/tutorial10/
+ls
+emacs Main.hs &
+emacs Main.hs &
+optirun bash
+cd Projects/Haskell/
+ls
+cd Junk/
+ls
+mkdir Timer
+ls
+cd Timer/
+ls
+touch Main.hs
+ls
+emacs Main.hs &
+emacs Main.hs &
+cd bin/
+ls
+su
+ls -lah
+eix haskell-platform
+cd /etc/portage/
+grep -i "semi" .
+grep -ir "semi" .
+eix haskell-platform
+eix gluraw
+ls
+./dota_linux 
+./dota
+./dota.sh 
+steam 
+eix -I haskell
+eix haskell-platform
+su
+ghci
+source optirun.sh
+ls
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+eix hashable
+eix cabal
+eix cabal
+eix -I cabal
+ls
+ls
+pwd
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+rm -rf .ghc
+rm -rf .cabal
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial10
+ls
+optirun bash
+su
+steam 
+steam 
+cd bin/
+su
+source optirun.sh
+source houdini_setup
+houdini
+houdini
+houdini
+houdini
+houdini
+cd houdini
+optirun bash
+steam 
+steam &
+source optirun.sh
+ls
+emacs Main.hs &
+eix banana
+ghc-pkg list banana
+cabal 
+cabal --help
+cabal list banana
+cabal update
+cabal list banana
+eix banana
+emerge -av dev-haskell/reactive-banana-glfw
+emacs /etc/portage/package.accept_keywords &
+emerge -av dev-haskell/reactive-banana-glfw
+su
+ls
+emacs Main.hs &
+emacs Main.hs &
+eix clock
+eix clock | grep -i haskell
+eix dev-haskell/clock
+emerge -av dev-haskell/clock
+su
+emacs Main.hs &
+cd ..
+ls
+cd tutorial09
+ls
+emacs Main.hs &
+pwd
+cd ..
+cd tutorial10/
+emacs Main.hs &
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/
+ls
+rm -rf tutorial11/
+ls
+emacs tutorial09/README.md &
+cd tutorial09/
+ls
+emacs README.md
+emacs Main.hs &
+ls
+optirun bash
+steam 
+eix xamarin
+eix xamar
+eix xam
+eix mono
+eix mono
+steam 
+steam 
+cd bin/
+su
+eix ssa
+eix -I ssa
+eix libass
+eix -I nvidia
+cd houdini
+find -ir ./ | grep 456.py
+find -R ./ | grep 456.py
+find ./ | grep 456.py
+find --help
+find ./
+find ./ | grep -i py
+find ./ | grep -i .py
+find ./ | grep -i 123.py
+find ./ | grep -i 456.py
+source houdini_setup
+source optirun.sh
+houdini
+houdini
+houdini
+cd houdini
+optirun bash
+source optirun.sh
+source houdini_setup
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+cd Downloads/
+ls
+cd houdini-14.0.201.13-linux_x86_64_gcc4.8
+ls
+su
+cd /opt/
+ls
+su
+cd ~
+ls
+ls -lah
+ls -lah | grep -i houdini
+rm .houdini
+rm ./houdini
+ln -s /opt/hfs14.0.201.13 houdini
+ls -lah
+cd houdini
+ls
+optirun bash
+su
+eix -I nvidia
+emerge -av x11-drivers/nvidia-drivers
+emerge -av =x11-drivers/nvidia-drivers-346.35
+su
+glxgears 
+cd houdini
+optirun bash
+cd houdini
+cd /usr/src/linux
+emacs .config
+source optirun.sh
+source houdini_setup
+houdini
+dmesg 
+eix wacom
+dmesg 
+dmesg 
+su
+cd houdini
+optirun bash
+su
+cd /etc/portage/
+cd /usr/src/
+cd linux
+emacs .config
+dmesg 
+dmesg | grep -i wacom
+eix -I wacom
+su
+cd /opt/smfp-common/printer/bin/
+ls
+ls -lah
+su
+chmod --help
+ls
+ls -lah
+su
+locate cups
+find // | grep -i lib/cups
+sudo find // | grep -i lib/cups
+su
+ls
+eix -I nvidia
+cd bin/
+su
+su
+eix networkmanager
+eix -I networkmanager
+equery --help
+equery g net-misc/networkmanager
+eix -I systemd
+eix -I systemd
+equery g net-misc/networkmanager
+equery --help
+equery d net-misc/networkmanager
+equery g networkmanager
+eix -I networkmanager
+equery g depth=0 networkmanager
+equery g --depth=0 networkmanager
+equery g --depth=0 networkmanager
+equery g -I networkmanager
+equery g networkmanager
+equery g emacs

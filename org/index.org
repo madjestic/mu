@@ -97,6 +97,9 @@ WINDOWS-p
 		#echo
 		qmake -o Makefile triangle.pro
 
+		# Backup using dd's
+		dd if=/dev/sda of=/dev/sdb bs=4096 conv=noerror,sync
+
 * How to use Journal?
 
 ** Basics
@@ -144,6 +147,10 @@ C-u M-! date   | to insert date |
 	... same with [, {
 
 	(selection)	<M-s> -> selection
+
+	(paren-mode)
+	<M-S> ( : foo -> (foo)
+	M-up    : (foo) -> foo
 * Haskell tips
 ** Commenting code:
   {-| @Event t a@ represents a stream of events as they occur in time.
@@ -355,14 +362,23 @@ p.55
 		https://www.kernel.org/doc/Documentation/input/joystick-api.txt
 		http://stackoverflow.com/questions/16032982/getting-live-info-from-dev-input
 
-*** TODO : Waves tutorial sidefx
-*** TODO : Waves tutorial cmivfx 1
-*** TODO : Waves tutorial cmivfx 2
+*** DONE : Waves tutorial sidefx
+*** DONE : Waves tutorial cmivfx 1
+*** DONE : Waves tutorial cmivfx 2
+*** DONE : Investigate how to render ocean nicely
+		[2015-01-12 Mon]
+*** TODO : 
 ** General
 *** TODO : Read on setting up cron Jobs [[http://stackoverflow.com/questions/1603109/how-to-make-a-python-script-run-like-a-service-or-daemon-in-linux][{Stack Overflow}]]
 *** DONE : Set up a TODO directory with all active TODO's
 		[[*:%20foo][: click me]]
 
+** Genome
+	 [[http://en.wikipedia.org/wiki/Human_Genome_Project][Human Genome Project]] on wiki
+	 [[http://en.wikipedia.org/wiki/Ploidy#Haploid_and_monoploid][Ploidy]] on wiki
+	 [[http://en.wikipedia.org/wiki/Cytokinesis][Cytokinesis]] on wiki
+	 [[http://en.wikipedia.org/wiki/Fission_(biology)][Binary Fission]] on wiki
+	 
 * Bookmarks:
 ** Programming
 *** Haskell
@@ -449,3 +465,7 @@ Sat Apr 26 16:03:45 CEST 2014
 
 	
 
+	nmcli device wifi connect Lambda password *********
+	[2015-01-12 Mon]
+	Biology (Micosis)
+	[[*:%20Investigate%20how%20to%20render%20ocean%20nicely][Ocean Shader (displacement issues)]]

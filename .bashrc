@@ -27,5 +27,6 @@ export EDITOR=/usr/bin/emacs
 export VISUAL=/usr/bin/emacs
 export force_s3tc_enable=true
 alias ec=emacsclient\ -c
+export SDL_AUDIODRIVER=alsa
 HISTSIZE=9999
 alias ec="emacsclient -c"

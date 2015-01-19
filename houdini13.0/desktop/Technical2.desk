@@ -1,75 +1,81 @@
 fullscreen   -1
-playbarshown 0
+playbarshown 1
 playbar      -1
 shelf        -1
 menubar      -1
 statusbar    -1
 root {
-    split 0.325625 H {
+    split 0.35125 H {
         split 0.187742 H L {
             tabs 0 1 {
-                pane panetab1 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m treecontrol
+                pane panetab1 -a 0 -l 10 -H /shop/ -T SHOP -m treecontrol
             }
-            split 0.379641 V R {
-                split 0.29239 V {
+            split 0.0401506 V R {
+                split 0.477556 V R {
                     split 0.356147 V L {
                         tabs 0 1 {
-                            pane panetab15 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m iprviewer
+                            pane panetab15 -a 0 -l 10 -H /shop/ -T SHOP -m iprviewer
                         }
                         tabs 0 1 {
-                            pane panetab2 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m sceneview
-                            pane panetab4 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m iprviewer
-                            pane panetab3 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m chaneditor
+                            pane panetab2 -a 0 -l 10 -H /obj/ocean_surface/ -T SOP -m sceneview
+                            pane panetab4 -a 0 -l 10 -H /shop/ -T SHOP -m iprviewer
+                            pane panetab3 -a 0 -l 10 -H /shop/ -T SHOP -m chaneditor
                             pane panetab5 -a 0 -l 10 -H /img/ -T IMG -m imageview
                             pane panetab14 -a 0 -l 10 -H /ch/ -T CHOPNET -m channelview
-                            pane panetab29 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m details
+                            pane panetab29 -a 0 -l 10 -H /shop/ -T SHOP -m details
                         }
                     }
-                    tabs 0 1 {
-                        pane panetab6 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m details
+                    tabs 6 1 {
+                        pane panetab6 -a 0 -l 10 -H /shop/ -T SHOP -m details
                         pane panetab17 -a 0 -l 0 -H /shop/ -T SHOP -m perfmon
                         pane panetab18 -a 0 -l 0 -H /obj/ -T OBJ -m bundlelist
                         pane panetab22 -a 0 -l 0 -H /img/ -T IMG -m datatree
-                        pane panetab27 -a 0 -l 0 -H /obj/gg_speedtreefbx1/core/ -T SOP -m python
-                        pane panetab30 -a 0 -l 0 -H /obj/gg_speedtreefbx1/core/ -T SOP -m textport
+                        pane panetab27 -a 0 -l 0 -H /obj/ -T OBJ -m python
+                        pane panetab30 -a 0 -l 0 -H /obj/ -T OBJ -m textport
+                        pane panetab33 -a 0 -l 10 -H /obj/ocean_surface/ -T SOP -m sceneview
                     }
                 }
                 tabs 0 1 {
-                    pane panetab7 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m python
+                    pane panetab7 -a 0 -l 10 -H /shop/ -T SHOP -m python
                     pane panetab13 -a 0 -l 0 -H /obj/ -T OBJ -m textport
                     pane panetab19 -a 0 -l 10 -H /out/ -T ROP -m renderview
                 }
             }
         }
-        split 0.410317 V {
+        split 0.410317 V R {
             split 0.56447 H {
-                split 0.43012 V {
+                split 0.498753 V {
                     tabs 0 1 {
-                        pane panetab11 -a 0 -l 0 -H /obj/gg_speedtreefbx1/core/ -T SOP -m neteditor
-                        pane panetab25 -a 0 -l 0 -H /shop/ -T SHOP -m neteditor
-                        pane panetab28 -a 0 -l 0 -H /img/ -T IMG -m neteditor
+                        pane panetab11 -a 0 -l 0 -H /obj/ocean_surface/ -T SOP -m neteditor
+                        pane panetab25 -a 0 -l 0 -H /out/ -T ROP -m neteditor
+                        pane panetab28 -a 0 -l 0 -H /shop/oceansurface/ -T VOP -m neteditor
                         pane panetab12 -a 0 -l 0 -H /obj/ -T OBJ -m materialpalette
-                        pane panetab20 -a 0 -l 0 -H /obj/gg_speedtreefbx1/core/ -T SOP -m assetbrowser
+                        pane panetab20 -a 0 -l 0 -H /obj/ -T OBJ -m assetbrowser
                     }
                     tabs 0 1 {
-                        pane panetab26 -a 0 -l 0 -H /obj/EngelmannSpruce_b001_c002_fbx/ -T OBJ -m neteditor
+                        pane panetab26 -a 0 -l 0 -H /shop/ -T SHOP -m neteditor
+                        pane panetab32 -a 0 -l 0 -H /out/ -T ROP -m neteditor
                     }
                 }
                 tabs 0 1 {
-                    pane panetab23 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m parmeditor
+                    pane panetab23 -a 0 -l 10 -H /shop/ -T SHOP -m parmeditor
                     pane panetab24 -a 0 -l 0 -H /obj/ -T OBJ -m helpbrowser
                 }
             }
             tabs 3 1 {
-                pane panetab8 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m parmeditor
-                pane panetab9 -a 0 -l 0 -H /obj/gg_speedtreefbx1/core/ -T SOP -m takelist
-                pane panetab10 -a 0 -l 0 -H /obj/gg_speedtreefbx1/core/ -T SOP -m parmsheet
-                pane panetab31 -a 0 -l 10 -H /obj/gg_speedtreefbx1/core/ -T SOP -m details
+                pane panetab8 -a 0 -l 10 -H /shop/ -T SHOP -m parmeditor
+                pane panetab9 -a 0 -l 0 -H /obj/ -T OBJ -m takelist
+                pane panetab10 -a 0 -l 0 -H /obj/ -T OBJ -m parmsheet
+                pane panetab31 -a 0 -l 10 -H /shop/ -T SHOP -m details
             }
         }
     }
+
+    panel materialpalette -w 359 119 578 616 {
+        pane materialpalette -a 0 -l 0 -H /obj/ -T OBJ -m materialpalette
+    }
 }
-shelfdock -o 1 -l icon_and_text -G "0.48 0.50" add shelf_set_td shelf_set_2
+shelfdock -o 0 -l icon_and_text -G "0.48 0.50" add shelf_set_td shelf_set_2
 treecontrol -a 0 -i 1 -f 0 -O 0 -S 0 -D 0 -P 0 -H 0 -V 0 -C 0 -I 0 -R 0 panetab1
 iprview -t 0.1 -l 0 -e 1  panetab15
 viewerstow -x open -b stow -l open -m hide -c hide -d open Technical2.panetab2.world
@@ -84,6 +90,13 @@ chopview -a 0 -c "" -k 0 -m 1 -b 1 -e 1 -f 0 -g 0 -H 1 -i 0 -j 1 -l 0 -n 1 -V 0 
 performance -c on -d on -f on -g off -k on -m off -n on -o on -t off -v on -y on -u on -e off -r absolute -w tree panetab17
 bundlelist -G 0.5 -g 0 -p 0 panetab18
 datatree -p "Object Appearance" panetab22
+viewerstow -x open -b stow -l stow -m hide -c hide -d open Technical2.panetab33.world
+vieweroption -a 2 Technical2.panetab33.world
+viewlayout -s 2 Technical2.panetab33.world
+viewtype -t ortho_right Technical2.panetab33.world.`vpname("Technical2.panetab33.world",4)`
+viewtype -t ortho_front Technical2.panetab33.world.`vpname("Technical2.panetab33.world",3)`
+viewtype -t ortho_top Technical2.panetab33.world.`vpname("Technical2.panetab33.world",1)`
+viewtype -t ortho_right Technical2.panetab33.world.`vpname("Technical2.panetab33.world",2)`
 ropview -c 1 panetab19
 neteditor -G 0.75 -T 0.375 -K 0.3 -p 0 -c 1 -o 0 -n 1 -s 2 -x 0 -w 0 -k 0 -I 0 -B 1 -D 1 -L 1 -P 1 -S user -t comments subnet none -g 1 -a 1 -y 0.5 -m e -r 1 0.75 -N 1 -H 0.22 -V 0.22 panetab11
 netviewdep -l 0 -c 0 -C 0 -e 0 -E 0 -b 0 -S 0 -s 3 -t 0 panetab11
@@ -153,6 +166,23 @@ netcolumns -c delscript,comment -n VOPNET panetab26
 netcolumns -c delscript,comment -n DOP panetab26
 netcolumns -c delscript,comment -n MGR panetab26
 netcolumns -c delscript,comment -n DIR panetab26
+neteditor -G 0.75 -T 0.375 -K 0.3 -p 0 -c 0 -o 0 -n 1 -s 3 -x 0 -w 0 -k 0 -I 0 -B 1 -D 1 -L 1 -P 1 -S user -t comments subnet none -g 1 -a 1 -y 0.5 -m e -r 1 0.75 -N 1 -H 0.22 -V 0.22 panetab32
+netviewdep -l 0 -c 0 -C 0 -e 0 -E 0 -b 0 -S 0 -s 3 -t 0 panetab32
+netcolumns -c display,xray,select,origin,capture,bone -n OBJ panetab32
+netcolumns -c display,render,template,selectabletemplate,highlight,unload,bypass,lock -n SOP panetab32
+netcolumns -c delscript,comment -n PART panetab32
+netcolumns -c display,render,template,bypass -n POP panetab32
+netcolumns -c delscript,comment -n CHOPNET panetab32
+netcolumns -c display,export,audio,bypass,lock -n CHOP panetab32
+netcolumns -c startrender,bypass,lock -n ROP panetab32
+netcolumns -c delscript,comment -n SHOP panetab32
+netcolumns -c display,render,template,bypass -n COP2 panetab32
+netcolumns -c delscript,comment -n IMG panetab32
+netcolumns -c delscript,comment,input -n VOP panetab32
+netcolumns -c delscript,comment -n VOPNET panetab32
+netcolumns -c delscript,comment -n DOP panetab32
+netcolumns -c delscript,comment -n MGR panetab32
+netcolumns -c delscript,comment -n DIR panetab32
 parmeditor -T 0.25 -w 0 panetab23
 helpbrowser panetab24
 parmeditor -T 0.25 -w 0 panetab8

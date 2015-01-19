@@ -15,19 +15,23 @@ sci-mathematics/rstudio doc
 sci-mathematics/maxima tk
 sci-mathematics/wxmaxima tk
 
-dev-haskell/reactive-banana doc
->=dev-haskell/opengl-2.9.1.0 doc
->=dev-haskell/openglraw-1.4.0.0 doc
+# dev-haskell/reactive-banana doc
+# >=dev-haskell/opengl-2.9.1.0 doc
+# >=dev-haskell/openglraw-1.4.0.0 doc
 
-dev-haskell/* doc
-dev-haskell/language* -doc
-dev-haskell/xhtml* -doc
+# dev-haskell/* doc
+# dev-haskell/language* -doc
+# dev-haskell/xhtml* -doc
 
 # Blender Stuff:
 =dev-python/numpy-1.8.0-r1 python_targets_python3_4
+=dev-python/numpy-1.9.0-r1 python_targets_python3_4
 =dev-python/requests-2.3.0 python_targets_python3_4
 =dev-python/setuptools-2.2 python_targets_python3_4
+=dev-python/setuptools-7.0 python_targets_python3_4
 >=dev-python/chardet-2.2.1 python_targets_python3_4
 >=dev-cpp/glog-0.3.3-r1 gflags
 media-gfx/blender python_targets_python3_4
 >=dev-python/dbus-python-1.2.0-r1 python_targets_python3_3
+=x11-drivers/nvidia-drivers-346.22 gtk2
+=x11-drivers/nvidia-drivers-346.35 gtk2
