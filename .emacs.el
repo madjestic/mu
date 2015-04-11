@@ -1,6 +1,5 @@
 (package-initialize)
 (add-to-list 'exec-path "~/.cabal/bin")
-;; (add-to-list 'load-path "~/.emacs.d")
 
 (menu-bar-mode -1)
 (font-lock-mode -1)
@@ -166,7 +165,6 @@
 
 (add-to-list 'auto-mode-alist           
 						 '("\\.vfl\\'" . (lambda ()
-															 (iedit-mode)
 															 (c-mode) 
 															 (linum-mode))))
 
@@ -207,6 +205,12 @@
   "load haskell config files"
   (interactive)
   (load-user-file "haskell.el"))
+
+(defun load-lisp ()
+  "load lisp config files"
+  (interactive)
+  (load-user-file "lisp.el"))
+
 
 (defun load-python ()
   "load python config files"
@@ -268,6 +272,7 @@
 
 (global-set-key (kbd "C-x C-k") 'kill-all-dired-buffers)
 (global-set-key (kbd "C-c L") 'linum-mode)
+(global-set-key (kbd "C-;") 'iedit-mode)
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "M-+") 'text-scale-increase)
 (global-set-key (kbd "M-_") 'text-scale-decrease)
@@ -295,6 +300,9 @@
     (mapc 'kill-buffer 
           (delq (current-buffer) 
                 (remove-if-not 'buffer-file-name (buffer-list)))))
+
+(global-set-key (kbd "M-<up>") 'move-text-up)
+(global-set-key (kbd "M-<down>") 'move-text-down) 
 
 ;;;;;;;;;;;;;;
 ;; Org-mode ;;
@@ -326,3 +334,9 @@
 (yas-global-mode 1)
 
 (put 'narrow-to-region 'disabled nil)
+
+;;;;;;;;;;;;;;;
+;;    ERC    ;;
+;;;;;;;;;;;;;;;
+(setq erc-save-buffer-on-part t)
+(setq erc-hide-timestamps t)

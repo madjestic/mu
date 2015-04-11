@@ -3789,3 +3789,2749 @@ equery g --depth=0 networkmanager
 equery g -I networkmanager
 equery g networkmanager
 equery g emacs
+cd Projects/Houdini/WaterMill/RnD/Flow_Speed/
+ls
+emacs README.txt
+git add README.txt 
+ls -lah
+cp model.hipnc model.hipnc.bak
+tar cvf model.tar model.hipnc
+ls
+ls -lah
+tar cvzf model.tar.gz model.hipnc
+ls -lah
+git add model.tar.gz 
+git commit -am "adding fluid sim RnD files, on Flow speed control"
+git push
+eix glut
+cd bin/
+su
+eix fuego
+history | grep -i lib
+history | grep -i lib | grep -i emerge
+su
+ghci
+eix protobuf
+cd bin/
+ls -lah
+su
+source optirun.sh
+ls
+./3d-coat-64-CUDA
+./3d-coat-64
+ls
+cd ~
+ls
+cd Downloads/
+ls
+cd 3D-CoatV4-1
+ls
+xs ..
+cd ..
+ls
+ls -lah
+cp -R 3D-CoatV4-1 ~/3D-CoatV4-17D
+ls
+cd ..
+ls
+rm 3d-coat
+ln --help
+ln -s ./3D-CoatV4-17D/ 3d-coat
+cd 3d-coat/
+ls
+cat License.txt 
+./3d-coat-64 
+./3d-coat-64 
+./3d-coat-64 
+./3d-coat-64 
+./3d-coat-64 
+ls -lah
+cd 3d-coat/
+ls -lah
+pwd
+cd ..
+ls -lah
+cd 3d-coat/
+optirun bash
+eix kde
+eix -I kde
+eix -I plasma
+emerge -Is ssa
+emerge -s ssa
+eix libass
+eix vlc
+su
+source optirun.sh
+source houdini_setup
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+cd ~/Projects/Houdini/Fluids/cmivfx_tutorial/
+ls -lah
+ls --help
+ls --help | grep -i date
+ls -laht
+houdini tutorial_01.hipnc 
+houdini tutorial_01.hipnc 
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+cd ~/Projects/Houdini/WaterMill/RnD/
+cd Flow_Speed/
+houdini model.hipnc 
+houdini model.hipnc 
+houdini model.hipnc 
+houdini model.hipnc 
+houdini model.hipnc 
+houdini model.hipnc 
+houdini model.hipnc 
+houdini model.hipnc 
+houdini model.hipnc 
+ls
+emacs README.txt
+emacs README.txt
+emacs
+ls
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+clear
+[6~
+clear
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+\\
+\\
+houdini
+houdini
+cd houdini
+optirun bash
+eix glutil
+source optirun.sh
+emacs Main.hs
+emacs Main.hs &
+cd ~
+cd houdini
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial10/
+ls
+optirun bash
+cd Projects/Houdini/Water
+cd Projects/Houdini/WaterMill/
+ls
+ls -lah
+cd 3DCoat/
+ls
+cd ..
+ls
+cd desk/
+ls
+cd ..
+rm -rf desk
+history | grep -i MMB
+source optirun.sh
+source houdini_setup
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+hcommand -a
+hcommand
+hcommand
+hscript
+hconfig
+hconfig -a
+hconfig -a | grep =i OTL
+hconfig -a | grep -i OTL
+cd houdini
+optirun bash
+cd houdini
+optirun bash
+cd houdini
+optirun bash
+cd houdini
+source houdini_setup
+source optirun.sh
+houdini
+houdini
+optirun bash
+cd houdini
+source houdini_setup
+houdini
+emacs .bashrc &
+cd houdini
+source houdini_setup
+houdini
+cd houdini
+source houdini_setup
+houdini
+cd houdini
+source houdini_setup
+houdini
+hconfig -a | grep -i OTL
+cd houdini
+source houdini_setup
+houdini
+source optirun.sh
+source houdini_setup
+houdini
+houdini ~/Desktop/noise_curve.hipnc 
+houdini ~/Desktop/noise_curve.hipnc 
+houdini
+cd houdini
+optirun bash
+cd houdini
+source houdini_setup
+houdini
+cd houdini
+source houdini_setup
+export HOUDINI_OTLSCAN_PATH=~/Projects/Houdini/OTL
+houdini
+cd houdini
+source houdini_setup
+houdini
+emacs houdini_setup
+emacs houdini_setup &
+cd houdini
+source houdini_setup
+export HOUDINI_OTLSCAN_PATH=$HDSO:~/Projects/Houdini/OTL
+houdini
+cd houdini
+csh
+ls
+ls -lah
+sudo emacs houdini_setup_bash 
+sudo emacs houdini_setup_bash &
+cd houdini
+source houdini_setup
+houdini
+cd houdini
+source houdini_setup
+houdini
+cd houdini
+source houdini_setup
+houdini
+ls
+cd houdini
+ls
+cd otls/
+ls
+houdini
+cd houdini
+source houdini_setup
+houdini
+cd houdini
+source houdini_setup
+houdini
+cd houdini
+sudo emacs houdini_setup_bash &
+sudo emacs houdini_setup_bash
+su
+eix spotify
+su
+cd /etc/
+ls -lah
+ls -lah
+ls -lah | grep -i _cfg
+emacs ._cfg0000_locale.gen 
+emacs ._cfg0000_sudoers 
+emacs ._cfg0000_sudoers 
+rm -rf ._cfg0000_*
+sudo rm -rf ._cfg0000_*
+ls -lah | grep -i _cfg
+cd portage/
+ls -lah | grep -i _cfg
+sudo rm -rf ._cfg*
+ls -lah | grep -i _cfg
+su
+cd /etc/portage/
+su
+eix gnugo
+su
+eix -I gnugo
+gnugo
+su
+gnugo
+cd Projects/Houdini/
+ls -lah
+ln -s ./Heresy/PathWalker Pathwalker
+ls -lah
+cd Projects/Houdini/
+ls
+ln --help
+ln -s ./OTL ./otls
+ls -lah
+eix ajhc
+cabal list ajhc
+cabal update
+cabal list ajhc
+su
+su
+ghci
+su
+ghci
+ghci
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial10/NGL/
+ls
+cd NGL/
+ls
+cd ..
+ls
+cd /run/media/madjestic/KINGSTON/lambda/madjestic/Downloads/
+ls
+rm -rf ./Utopia
+ls -lah
+ls -lah
+ls -lah
+rm -rf ./Utopia/
+cp -R ~/Downloads/Utopia ./
+ls
+ls -lah
+du
+du -h
+cd Utopia/
+ls
+ls -lah
+vlc ./Utopia.1x01.HDTV.x264-FoV.mp4 
+ghci
+ghci
+su
+cd /run/media/madjestic/KINGSTON/lambda/madjestic/Downloads/
+ls
+rm -rf ./*
+ls
+ls
+glxinfo 
+glxinfo | grep -i opengl
+optirun bash
+emacs .leadwerks/Leadwerks.log 
+source optirun.sh
+emacs Main.hs &
+ls
+git add -am
+git add Main.hs
+git add NGL/Rendering.hs NGL/Shape.hs
+git status
+git commit -am "it's alive! (stuff gets rendered, though uv is wrong)"
+git push
+emacs Main.hs &
+emacs Main.hs &
+emacs Main.hs &
+emacs Main.hs &
+emacs Main.hs &
+emacs Main.hs &
+emacs Main.hs &
+emacs Main.hs &
+emacs Main.hs &
+emacs Main.hs &
+emacs Main.hs &
+emacs NGL/Rendering.hs &
+emacs NGL/Rendering.hs &
+emacs Main.hs &
+emacs TinyMath/TinyMath.hs
+emacs Main.hs &
+emacs NGL/Shape.hs &
+emacs Main.hs
+emacs NGL/Shape.hs &
+emacs Main.hs &
+emacs Main.hs &
+git add Main.hs NGL/Rendering.hs NGL/Shape.hs TinyMath/TinyMath.hs
+cd ../../TinyMath/
+ls
+git add TinyMath.hs
+git commit -am "some work in relation to tutorial11"
+cd ../Haskell-OpenGL-Tutorial/tutorial11
+git add NGL/Rendering.hs NGL/Shape.hs
+git commit -am "wip"
+git status
+git push
+cd ../../TinyMath/
+git push
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial11/
+optirun bash
+su
+steam 
+su
+su
+cd /usr/src/
+ls
+ls -lah
+su
+optirun bash
+eix bumblebee
+su
+emacs ./bin/startup.sh &
+optirun bash
+su
+optirun bash
+su
+su
+glxgears 
+source optirun.sh
+source houdini_setup
+houdini
+houdini
+
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+ln -s ~/Projects/Houdini/Pathwalker/ ./last
+ls
+cd last/
+ls
+houdini model.hip &
+houdini model.hip &
+houdini model.hipnc &
+emacs
+cd ~/Projects/Houdini/Rock_Shader/
+houdini noise_terrain.hip
+houdini noise_terrain.hipnc &
+cd houdini
+optirun bash
+cd houdini
+source houdini_setup
+cd last/
+houdini model.hipnc &
+houdini model.hipnc &
+houdini model.hipnc &
+houdini model.hipnc &
+cd ..
+ls
+cd ~/Projects/Houdini/Rock_Shader/
+ls
+houdini noise_terrain.hip 
+source optirun.sh
+source houdini_setup
+houdini
+rm ./last/
+rm ./last
+ln -s ~/Projects/Houdini/Rock_Shader ./rock_shader
+ln -s ~/Projects/Houdini/HoudiniProjects/small_waterfall ./waterfall
+ln -s ./rock_shader last
+houdini last/noise_terrain.hipnc &
+houdini last/noise_terrain.hipnc &
+houdini last/noise_terrain.hipnc &
+houdini last/noise_terrain.hipnc &
+houdini last/noise_terrain.hipnc &
+houdini last/noise_terrain.hipnc &
+houdini last/noise_terrain.hipnc &
+houdini last/noise_terrain.hipnc &
+houdini last/noise_terrain.hipnc &
+houdini last/noise_terrain.hipnc &
+houdini last/noise_terrain.hipnc &
+houdini last/noise_terrain.hipnc &
+cd houdini
+optirun bash
+steam &
+steam &
+\
+\
+source optirun.sh
+houdini.sh 
+source houdini_setup
+houdini.sh 
+houdini
+cd houdini
+optirun bash
+uname -a
+cd /usr/src/
+ls -lah
+cd bin/
+SU
+su
+su
+ghci
+ghci
+cd houdini14.0/toolbar/
+ls -lah
+emacs default.shelf 
+cd ~/houdini
+source houdini_setup
+houdini &
+cd houdini14.0/
+ls
+ln -s ~/Projects/Houdini/otls/ ./otls/
+ln -s ~/Projects/Houdini/otls/ otls
+ls
+cd otls/
+ls
+cd ~/
+cd bin/
+cd ..
+eix blender
+cd bin/
+ls
+su
+cd /etc/
+ls -lah
+cd portage/
+ls
+ls -lah
+rm -rf ./._cfg000*
+sudorm -rf ./._cfg000*
+sudo rm -rf ./._cfg000*
+steam &
+ps -aux | grep -i metro
+kill -KILL 2484
+ps -aux | grep -i metro
+kill -KILL 2485
+cd Projects/LaTeX/
+ls
+emacs helloworld.tex &
+cd Projects/Mathematics/
+ls
+cd ..
+ls
+cd Mathematics/
+mkdir MST125
+ls
+cd MST125
+ls
+mkdir TMA01
+cd TMA01/
+ls
+ls -lah
+emacs draft.tex &
+eix rstudio
+eix pyusb
+su
+cd Projects/LEGONXT/
+ls
+cd nxt-python-2.2.2/
+ls
+cd nxt-python-2.2.2/
+ls
+ls
+python setup.py install
+su
+source optirun.sh
+ls -lah
+source houdini_setup
+houdini last/noise_terrain.hipnc &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+ln -s ~/Projects/Houdini/Rock_Shader/
+ls
+ls -lah
+houdini rock_shader/noise_terrain.hip &
+houdini rock_shader/noise_terrain.hipnc &
+cd houdini
+optirun bash
+cd houdini
+source optirun.sh
+source houdini_setup
+houdini
+houdini
+ps -aux
+ps -aux | grep -i houdini
+kill -KILL 18843
+houdini
+houdini
+dmesg | tail
+dmesg | tail
+dmesg | tail
+su
+dmesg | tail
+dmesg | tail
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial11/
+ls
+ls -lah
+ls -lah ../tutorial10/
+optirun bash
+cd houdini
+optirun bash
+dmesg | tail
+cd Projects/
+cd LEGONXT/
+ls
+cd nxt-python-2.2.2/
+ls
+cd nxt-python-2.2.2/
+eselect python list
+ls
+cd examples/
+ls
+python message_test.py 
+su
+cd ..
+ls
+python setup.py install
+su
+cd /etc/udev/
+ls
+cd rules.d/
+ls
+dmesg | tail
+dmesg 
+ls
+source optirun.sh
+emacs Main.hs &
+source optirun.sh
+source houdini_setup
+houdini &
+dmesg | tail
+dmesg | tail
+dmesg | tail
+emacs 70-lego.rules &
+dmesg 
+lsusb 
+eix lego
+su
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial10/
+ls -lah
+cd NGL/
+ls -lah
+cdN
+cd NGL
+ls -lah
+cd ..
+cd ..
+ls -lah
+rm \#Main.hs# 
+cd NGL/
+ls
+rm Rendering.o Rendering.hi
+ls
+rm Rendering.hs~
+touch clean
+emacs clean &
+chmod clean madjestic+x
+chmod madjestic+x ./clean
+chmod u+x ./clean
+ls -lah
+./clean 
+ls
+cd ..
+ls
+emacs Main.hs
+emacs Main.hs &
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial10/
+ls
+cat optirun.sh
+source optirun.sh
+cat optirun.sh
+cd log/
+ls
+grep -ir "type" . | grep -ir "signature"
+grep -ir "type" . 
+grep -ir "type" . | grep -ir "signature"
+grep -ir "type" . | grep -ir insert
+rm -rf ./*
+ls
+cd ..
+ls
+cd log/
+ls
+ls
+ls
+ls
+ls
+emacs \#odforce\!madjestic\@irc.freenode.net\:6667.txt 
+ls
+source optirun.sh
+ks
+ls
+ls
+emacs Main.hs &
+emacs Main.hs &
+ls
+ls -lah
+cd NGL/
+ls
+ls -lah
+ls
+cd ..
+ls
+ls
+grep -ir "Tiny" .
+grep -ir "Tiny" .
+clear 
+clear 
+grep -ir "Tiny" .
+grep -ir "Tiny" .
+ls -lah
+git add Main.hs NGL/Rendering.hs NGL/Shape.hs TinyMath/TinyMath.hs
+ls -lah
+ls -lah
+ln /home/madjestic/Projects/Haskell/TinyMath TinyMath
+git add Main.hs NGL/Rendering.hs NGL/Shape.hs TinyMath/TinyMath.hs
+emacs README.md &
+ls
+whereis 
+pwd
+git add main.png 
+git commit -am "updating tutorial11"
+git push
+git push
+git add README.md
+git commit -am "adding README"
+git push
+git push
+git commit -am "updating README"
+git push
+git push
+git commit -am "updating README"
+git push
+ls
+git add TinyMath/README.md TinyMath/TinyMath.hs TinyMath/drawing.svg 
+git commit -am "adding TinyMath module"
+git push
+cd ../tutorial10
+ls
+pwd
+clear
+pwd
+emacs Main.hs &
+pwd
+git --help
+ls -lah
+ls
+pwd
+emacs Main.hs &
+git add NGL/Rendering.hs NGL/Shape.hs Main.hs README.md
+git commit -am "updating tutorial10"
+git push
+git push
+cd NGL/
+ls
+ls -lah
+rm ./NGL
+ls
+git rm ./NGL
+git commit -am "cleanup"
+git push
+ls
+emacs Main.hs &
+ls
+cd ..
+emacs Main.hs &
+cd NGL/
+ls -lah
+ln -s ../NGL/ ./NGL
+ls -lah
+cd NGL/
+ls
+cd ..
+cd ..
+ls
+emacs Main.hs
+git add ./NGL
+git commit -am "I guess, we need that symbolic link"
+git push
+ls
+ls -lah
+cd NGL/
+ls
+git status
+clear
+git status
+git add ./NGL
+git status
+git push
+git commit -am "burp"
+git push
+git rm --cached LoadShaders.hi
+git rm --cached LoadShaders.hs
+git rm --cached LoadShaders.o
+git rm --cached Notes.org~ Rendering.hi Rendering.hs~ Rendering.o
+ls -lah
+rm Notes.org~
+ls -lah
+git rm --cached Notes.org~
+git add LoadShaders.hs
+git rm --cached Test.hs~
+git rm --cached Utils.hi Utils.o
+git status
+git commit -am "cleanup"
+git push
+ls
+git rm --cached Rendering.hi
+git rm --cached Rendering.o
+git rm --cached Shape.hi Shape.o
+git rm --cached Test.hs
+git commit -am "cleanup"
+git push
+git push
+ls
+cd ..
+ls
+emacs Main.hs &
+emacs Main.hs
+emacs Main.hs &
+ls
+cp NGL/clean ./
+ls
+ls -lah
+./clean 
+ls
+git add Main.hs
+ls
+git add Main.hs NGL/Rendering.hs NGL/Shape.hs 
+emacs README.md &
+git commit -am "cleaning/refactoring"
+git push
+ls
+cd ..
+ls
+ls
+cp -R ./tutorial10 ./tutorial12
+cd tutorial12
+ls
+git add Main.hs opengl.png README.md Shaders/triangles.frac Shaders/triangles.vert NGL/Rendering.hs NGL/Shape.hs TinyMath/TinyMath.hs NGL/NGL NGL/TinyMath
+ls -lah
+emacs README.md &
+git status
+git add Main.hs opengl.png README.md Shaders/triangles.frac Shaders/triangles.vert NGL/Rendering.hs NGL/Shape.hs NGL/NGL NGL/TinyMath
+git status
+git commit -am "forking tutorial10, there's some decent stuff there after a clean-up"
+git push
+optirun bash
+cd examples/
+ls
+python message_test.py &
+ls
+python mary.py 
+python spin.py 
+python spin.py 
+python spin.py 
+python spin.py 
+python spin.py 
+su
+ls
+ls
+python spin.py 
+emacs spin.py &
+python spin.py 
+python spin.py 
+python spin.py 
+python spin.py 
+ls
+python alpharex.py 
+ls
+python latency.py 
+ls
+python message_test.py 
+ls
+python test_sensors.py 
+python spin.py
+steam 
+source optirun.sh
+cd ..
+cd tutorial10
+ls
+emacs Main.hs &
+emacs Main.hs &
+emacs Main.hs &
+emacs Main.hs &
+emacs Main.hs &
+optirun bash
+cd ~
+emacs Main.hs
+cp .emacs.el.current .emacs.el
+cd ~
+emacs .emacs.d/haskell.el &
+eix chrome
+emerge -av www-client/google-chrome
+su
+su
+su
+eix jail
+source optirun.sh
+source houdini_setup
+houdini &
+houdini &
+houdini &
+cd houdini
+optirun bash
+eix hakyll
+cabal list hakyll
+emerge -av hakyll
+eix hakyll
+su
+ls
+cabal update
+cabal list hakyll
+cabal --version
+su
+cabal install cabal-install
+su
+cabal install --dry-run hakyll
+cabal install --dry-run hakyll
+cabal install --dry-run hakyll
+cabal install --dry-run hakyll
+cabal install --dry-run hakyll
+cd /etc/portage/
+su
+su
+eix base64-bytestring
+su
+rm -rf .ghc
+rm -rf .cabal
+su
+cd Projects/blogs/madjestic.github.io/
+ls
+cd ../turtlesturtlesturtles/
+ls
+./build.sh 
+source optirun.sh
+emacs Main.hs &
+git rm Shaders/triangles.vert
+
+git rm Shaders/triangles.vert
+ls
+cd Shaders/
+ls
+cd ..
+git rm Shaders/triangles.frac
+git rm Shaders/triangles.vert
+rm Shaders/triangles.vert 
+git add Shaders/shader.*
+git add Main.hs NGL/Rendering.hs NGL/Shape.hs 
+emacs README.md &
+git add README.md
+git commit -am "clean-up, removed most unrelated to texture drawing crap, renamed shader files"
+git push
+git rm opengl.png 
+git add README.md output.png 
+git commit -am "updating the picture and README link"
+git push 
+ls
+ls
+cd ..
+ls
+git add googleee85cdaff76e9cb2.html 
+git commit -am "adding google crawler stuff"
+git push
+ls
+cd tutorial08/
+ls
+./Main.hs
+emacs Main.hs
+cd ..
+cd tutorial10/
+emacs Main.hs
+pwf
+pwd
+ls
+ls
+cp .emacs.el .emacs.el.current
+cp .emacs.d .emacs.d.current
+cp -R .emacs.d .emacs.d.current
+emacs emacs.el
+emacs .emacs.el
+emacs .emacs.el
+emacs .emacs.el
+ls -lah
+emacs .nvidia-settings-rc 
+emacs .nvidia-settings-rc &
+emacs
+emacs .emacs.el.current 
+emacs .emacs.el.current &
+emacs .emacs.el
+emacs .emacs.el
+emacs .emacs.el
+emacs .emacs.el
+emacs .emacs.el
+emacs .emacs.el
+emacs .emacs.el
+emacs .emacs.el
+emacs .emacs.el &
+emacs .emacs.el &
+emacs .emacs.el &
+emacs .emacs.el &
+emacs .emacs.el &
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial10/
+emacs Main.hs &
+emacs Main.hs &
+emacs Main.hs &
+emacs Main.hs &
+optirun bash
+eix ghx
+eix ghc
+su
+su
+source optirun.sh
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+cd ../tutorial08/
+ls
+emacs Main.hs &
+emacs Main.hs &
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial10/
+optirun bash
+source optirun.sh
+source houdini_setup
+houdini &
+cd houdini
+optirun bash
+su
+cd /home/madjestic/Projects/blogs/turtlesturtlesturtles/images/
+cp turtles_sponge_header.jpg turtles_sponge_header.jpg.orig
+ls -lah
+ls -lah
+cd ..
+ls
+cd ..
+ls
+cd madjestic.github.io/
+ls
+cd ..
+ls
+cd madjestic.github.io/
+ls
+cd posts/
+ls
+cd ..
+git add posts/
+git add index.html 
+ls
+cd images/
+ls
+rm turtles_sponge_header.jpg.orig 
+ls
+cd icons/
+ls
+cd ../..
+ls
+ls
+git commit -am "updating blog"
+git push
+git push
+ls
+git add ./images/
+git status
+ls
+git add ./index.html ./atom.xml ./posts/
+git status
+git commit -am "adding missing files"
+git push
+git push
+cd Projects/blogs/turtlesturtlesturtles/
+ls
+./build.sh 
+ls
+emacs ./build.sh &
+ls
+rm ./site
+ls
+rm ./site.o ./site.hi
+ls
+ghc site.hs 
+ls -lah
+./build.sh 
+ls
+chromium ./index.html &
+./build.sh 
+./build.sh &
+ls
+cd _site/
+ls
+cd ..
+ls
+cd site
+cd templates/
+ls
+cd ..
+ls
+cd posts/
+ls
+cd ..
+ls
+emacs index.md
+dolphin &
+source optirun.sh
+emacs Main.hs &
+clear 
+pwd
+glxgears 
+eix -I nvidia
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial04
+ls
+optirun bash
+optirun bash
+cd ../../
+cd madjestic.github.io/
+ls
+git add posts/ index.html ./files/
+git status
+git commit -am "2+2=4"
+git push
+cd Projects/blogs/turtlesturtlesturtles/
+ls
+cd posts/
+ls
+touch 2015-02-22-2-plus-2-equals-4.md
+emacs 2015-02-22-2-plus-2-equals-4.md &
+cd ..
+ls
+cd ..
+ls
+cd turtlesturtlesturtles/
+ls
+cd dist/
+ls
+cd ..
+ls
+mkdir files
+cd files/
+ls
+cp ~/Documents/Mathematics/Frege\,\ Gottlob\ -\ The\ Foundations\ of\ Arithmetic\ \(1953\)\ 2Ed_\ 7.0-2.5\ LotB.pdf frege_FOA.pdf
+ls
+cd ..
+ls
+./build.sh &
+ls
+cd _site/
+ls
+cp -R ../files/ ./files/
+ls
+cd files/
+ls
+cd ..
+cd Projects/blogs/turtlesturtlesturtles/
+emacs posts/2015-02-22-2-plus-2-equals-4.md &
+ls
+./build.sh &
+./build.sh
+./build.sh
+emacs
+source houdini_setup
+emacs
+emacs
+emacs
+glxgears &
+source optirun.bash
+source optirun.sh
+source houdini_setup
+emacs &
+source houdini_setup
+emacs &
+cd houdini
+optirun bash
+optirun bash
+optirun bash
+source optirun.sh
+ls -lah
+source houdini_setup
+houdini &
+houdini &
+glxgears &
+eselect python list
+eselect python set 1
+sudo eselect python set 1
+eselect python list
+houdini &
+ls
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hipnc &
+locate libjpeg
+emacs
+ls
+cd houdini
+optirun bash
+cd houdini
+ls
+source houdini_setup
+source houdini_setup
+emacs
+source houdini_setup
+emacs
+cd houdini
+optirun bash
+optirun bash
+source optirun.sh
+ls
+emacs Main.hs &
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial12/
+optirun bash
+source optirun.sh
+ls
+emacs Main.hs &
+ls
+pwd
+cd Shapes/
+ls
+pwd
+ls
+ln -s ../Shapes ./Shapes
+optirun bash
+source optirun.sh
+ls
+cp -R ./NGL/ Shapes
+ls
+cp -R ./NGL/ Draw
+ls
+rm -rf Draw
+ls
+emacs Main.hs &
+ls
+cd Shapes/
+ls
+emacs Main.hs &
+ls
+cd ..
+ls
+emacs Main.hs &
+ls
+cd ..
+ls
+cd NGL/
+ls
+ls -lah
+ls
+pwd
+rm Rendering_.hs 
+ls
+rm Rendering.hs.bak 
+ls
+cp ~/.gitignore ./
+ls -lah
+emacs README.md &
+ls
+git add .
+git commit -am  "updating NGL"
+git push
+git push
+emacs README.md &
+cd ..
+ls
+cd Shapes/
+ls
+emacs Main.hs &
+cd ..
+ls
+cd Haskell-OpenGL-Tutorial/
+pwd
+ls
+cd Projects/Haskell/
+ls
+mkdir Shapes
+ls
+cd Shapes/
+emacs README.md
+emacs README.md &
+git init
+ls
+cp ~/.gitignore ./
+ls -lah
+git commit -am "first commit"
+git add README.md 
+git commit -am "first commit"
+git push
+cd ..
+rm -rf ./Shapes/
+git clone https://github.com/madjestic/Shapes
+ls
+cd Shapes/
+ls
+emacs README.md &
+emacs README.md &
+git add README.md &
+git commit -am "first commit"
+git
+git push
+cp ~/.gitignore ./
+ls
+ls -lah
+optirun bash
+su
+source houdini_setup &
+emacs
+glxgears &
+source optirun.sh
+houdini.sh &
+houdini
+source houdini_setup
+houdini
+emacs
+locate yes
+cd /usr/bin/yes
+find // | grep -i yes
+cd tmp/
+ls
+ls
+ls
+ls -lah
+ls
+ls -lah
+eix postify
+eix spotify
+steam 
+ps -aux | grep metro
+ps -aux | grep metro
+kill -KILL 911
+ps -aux | grep metro
+kill -KILL 912
+ls
+source optirun.sh
+ls
+./Leadwerks
+steam 
+steam 
+steam &
+locate leadwerks
+xs .local/share/Steam/SteamApps/common/Leadwerks/
+ls
+cd .local/share/Steam/SteamApps/common/Leadwerks/
+ls
+optirun bash
+ls
+cd posts/
+ls
+emacs 2015-03-01-vex-better-practices.md &
+emacs 2015-03-01-vex-better-practices.md &
+krusader 
+krusader &
+emacs 2015-03-01-vex-better-practices.md &
+cd ..
+ls
+./build.sh 
+ls
+git add posts
+git status
+ls
+git add ~/.gitignore
+krusader 
+ls
+emacs ./posts/2015-03-01-vex-better-practices.md &
+./build.sh 
+emacs ./posts/2015-03-01-vex-better-practices.md &
+./build.sh 
+cd Projects/blogs/turtlesturtlesturtles/
+./build.sh 
+
+./build.sh 
+cd ../madjestic.github.io/
+git add ./posts/
+git add index.html 
+ls
+git add atom.xml archive.html 
+git commit -am "adding some quotes from Fregge"
+git push
+ls
+cd ..
+cd turtlesturtlesturtles/
+ls
+cd posts/
+ls
+touch 2015-03-01-vex-better-practices.md
+emacs 2015-03-01-vex-better-practices.md &
+cd ..
+./build.sh 
+ls
+ls
+cd ..
+ls
+cd madjestic.github.io/
+ls
+git add .
+git status
+cp ~/.gitignore ./
+emacs .gitignore &
+git -rm ./images/turtles_sponge_header.jpg.orig 
+git -rm --cached ./images/turtles_sponge_header.jpg.orig 
+git rm ./images/turtles_sponge_header.jpg.orig 
+git rm --cached ./images/turtles_sponge_header.jpg.orig 
+git commit -am "a little VEX post"
+git push
+git add .
+git status
+git commit -am "pop()"
+git push
+krusader 
+ls
+git add ./posts/
+git commit -am "fixing syntax"
+git push
+source optirun.sh
+source houdini_setup
+emacs
+houdini &
+pwd
+glxgears 
+glxgears 
+houdini
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+cd houdini
+optirun bash
+cd ~/Downloads/
+ls
+tar xvfz houdini-14.0.257-linux_x86_64_gcc4.8.tar.gz 
+cd houdini-14.0.257-linux_x86_64_gcc4.8
+ls
+su
+cd ~
+ls
+ls -lah
+rm houdini
+ln -s /opt/hfs14.0.257/ houdini
+ls -lah
+cp ./.* ./tmp/
+cp -R ./.* ./tmp/
+cd temp/
+ls
+rm -rf .
+rm -rf ./
+ls
+rm -rf ./*
+ls
+cd ..
+ls
+ls -lah
+cp ./* ./temp/
+cd ..
+ls
+cd ~
+ls
+ls -lah
+rm -rf .vipmstats .w3m .warThunderProps.eblk .wasteland .xinitrc~ untitled1.picnc .traktor .towns test.pdf .running_with_rifles .renpy .PyCharm30 PyCharm .pki out.ogv
+ls -lah
+rm -rf .nepomuk_backup .mypaint .mozilla \#*
+ls -lah
+rm -rf .irssi houdini13.0*
+ls -lah
+rm 1-21 
+cd houdini
+ls
+optirun bash
+grep "power" .
+grep -ir "power" .
+grep -ir "powerline" .
+cd irc
+ls
+ls -lah
+rm .emacs.desktop*
+ls
+ls -lah
+emacs &
+ps -aux
+ps -aux | grep -i 6071
+ps -a
+mv .emacs.el .emacs.el.bak
+emacs
+emacs &
+emacs &
+mv .emacs.el.bak .emacs.el
+emacs
+emacs &
+mv .emacs.el .emacs.el.bak
+emacs &
+emacs &
+mv .emacs.el.bak .emacs.el
+cd /irc
+cd ./irc
+ls
+ls -lah
+rm .emacs.desktop*
+ls
+ls -lah
+ls usb
+lsusb 
+lspci
+cd Desktop/
+emacs temp.vfl
+eix unreal
+source optirun.sh
+source houdini_setup
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+vcc -X | grep group
+vcc -X
+vcc -X | grep -ir group
+vcc - X cvex | grep group
+vcc - X cvex | grep group
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+cd houdini
+optirun bash
+cd Projects/blogs/turtlesturtlesturtles/
+ls
+cd posts/
+touch 2015-03-05-f-m-a-e-m-c-squared.md &
+emacs 2015-03-05-f-m-a-e-m-c-squared.md &
+source optirun.sh
+./UE4Editor &
+ls
+ls
+ls | grep D*
+krusader 
+ls
+cd Projects/
+ls
+cd ~
+ls
+cd Projects/
+cd ./"Unreal Projects"/
+ls
+cd ..
+cd ~/"Unreal Projects"/
+ls
+cd ..
+ls
+cd Projects/
+git clone https://github.com/3dluvr/UnrealEngine.git
+git clone https://github.com/EpicGames/UnrealEngine
+git clone https://github.com/EpicGames/UnrealEngine
+ls
+cd UnrealEngine/
+ls
+./Setup.sh 
+./Setup.sh 
+ls
+cd Engine/
+ls
+cd ..
+ls
+ls
+cd Engine/
+ls
+cd Binaries/
+ls
+cd Linux/
+ls
+cd ../..
+ls
+cd ..
+ls
+emacs README.md 
+ls
+cd Engine/
+ls
+cd Build/
+ls
+cd ..
+ls
+cd Programs/
+ls
+cd UnrealFrontend/
+ls
+cd Config/
+ls
+cd ..
+cd ..
+ls
+cd ..
+ls
+cd Binaries/
+ls
+cd Linux/
+ls
+cd ../..
+ls
+cd Programs/
+ls
+cd ..
+ls
+cd ..
+ls
+./GenerateProjectFiles.
+./GenerateProjectFiles.sh
+ls
+./GenerateProjectFiles.sh
+ls
+make ShaderCompileWorker UnrealLightmass UnrealPak UE4Editor
+make ShaderCompileWorker UnrealLightmass UnrealPak UE4Editor
+ls
+cd Engine/Binaries/Linux/
+ls
+optirun bash
+./UE4Editor 
+./UE4Editor 
+glxgears 
+LD_LIBRARY_PATH=. ./UE4Editor
+LD_LIBRARY_PATH=. ./UE4Editor
+LD_LIBRARY_PATH=. ./UE4Editor -opengl4
+eix bbswitch
+cd Projects/
+cd UnrealEngine/
+ls
+cd Engine/
+cd Content/
+cd Editor
+cd Slate/
+cd Fonts/
+ls
+cd ..
+ls
+cd GameProjectDialog/
+ls
+ln -s tab_background.png Tab_Background.png 
+ls -lah
+cd ../../..
+cd ..
+cd Binaries/
+cd Linux/
+ls
+./UE4Editor UnrealTournament/UnrealTournament.uproject
+LD_LIBRARY_PATH=. ./UE4Editor
+optirun bash && LD_LIBRARY_PATH=. ./UE4Editor
+optirun LD_LIBRARY_PATH=. ./UE4Editor
+optirun ./UE4Editor
+LD_LIBRARY_PATH=. ./UE4Editor
+optirun bash
+LD_LIBRARY_PATH=. ./UE4Editor -opengl4
+glxinfo 
+LD_LIBRARY_PATH=. ./UE4Editor
+primusrun LD_LIBRARY_PATH=. ./UE4Editor
+LD_LIBRARY_PATH=. ./UE4Editor -opengl4
+LD_LIBRARY_PATH=. ./UE4Editor
+cd Projects/UnrealEngine/Engine/Binaries/Linux/
+ls
+optirun bash
+export LD_LIBRARY_PATH=.
+optirun ./UE4Editor 
+primusrun ./UE4Editor 
+primusrun ./UE4Editor -opengl4
+primusrun ./UE4Editor -opengl4
+primusrun bash
+primusrun ./UE4Editor -opengl4
+primusrun "LD_LIBRARY_PATH=. ./UE4Editor -opengl4"
+primusrun LD_LIBRARY_PATH=. ./UE4Editor -opengl4
+primusrun LD_LIBRARY_PATH=.&& ./UE4Editor -opengl4
+echo LD_LIBRARY
+echo LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=.
+LD_LIBRARY_PATH
+echo LD_LIBRARY_PATH
+echo $LD_LIBRARY_PATH
+primusrun ./UE4Editor -opengl4
+primusrun ./UE4Editor -opengl4
+primusrun ./UE4Editor -opengl4
+echo $LD_LIBRARY_PATH
+primusrun ./UE4Editor -opengl4
+echo $LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=.
+echo $LD_LIBRARY_PATH
+primusrun ./UE4Editor -opengl4
+./UE4Editor -opengl4
+primusrun ./UE4Editor -opengl4 ~/Projects/Unreal_Projects/MyProject/MyProject.uproject 
+cd Projects/UnrealEngine/Engine/Binaries/Linux/
+ls
+echo $LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=.
+primusrun ./UE4Editor -opengl4
+optirun ./UE4Editor -opengl4
+primusrun bash
+primusrun ./UE4Editor -opengl4
+primusrun ./UE4Editor -opengl4
+primusrun ./UE4Editor -opengl4 ~/Projects/Unreal_Projects/MyProject/MyProject.uproject 
+primusrun bash
+primusrun ./UE4Editor -opengl4 ~/Projects/Unreal_Projects/MyProject/MyProject.uproject 
+primusrun ./UE4Editor -opengl4
+echo $LD_LIBRARY_PATH
+primusrun ./UE4Editor -opengl4
+primusrun ./UE4Editor -opengl4
+primusrun ./UE4Editor -opengl4
+primusrun ./UE4Editor -opengl4
+primusrun ./UE4Editor -opengl4
+primusrun ./UE4Editor -opengl4
+cd Projects/UnrealEngine/Engine/Binaries/Linux/
+ls
+echo $LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=.
+primusrun ./UE4Editor -opengl4
+optirun bash
+primusrun bash
+export LD_LIBRARY_PATH=.
+primusrun ./UE4Editor -opengl4 ~/Projects/Unreal_Projects/MyProject/MyProject.uproject 
+primusrun ./UE4Editor -opengl4
+cd Projects/UnrealEngine/Engine/Binaries/Linux/
+primusrun bash
+export LD_LIBRARY_PATH=.
+primusrun ./UE4Editor -opengl4
+cd Projects/UnrealEngine/Engine/Binaries/Linux/
+ls
+primusrun bash
+export LD_LIBRARY_PATH=.
+primusrun ./UE4Editor -opengl4
+./UE4Editor -opengl4
+optirun ./UE4Editor -opengl4
+primusrun ./UE4Editor -opengl4
+                                                                                                                                                                     export LD_LIBRARY_PATH=.
+primusrun ./UE4Editor -opengl4 ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+./UE4Editor -opengl4 ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+export LD_LIBRARY_PATH=.
+primusrun ./UE4Editor -opengl4 ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+primusrun ./UE4Editor -opengl4
+cd Projects/UnrealEngine/Engine/Binaries/Linux/
+ls
+export LD_LIBRARY_PATH=.
+primusrun ./UE4Editor -opengl4
+primusrun ./UE4Editor -opengl4 ~/Projects/Unreal_Projects/MyProject/MyProject.uproject 
+optirun bash
+primusrun bash
+primusrun ./UE4Editor -opengl4 ~/Projects/Unreal_Projects/MyProject/MyProject.uproject 
+export LD_LIBRARY_PATH=.
+primusrun ./UE4Editor -opengl4 ~/Projects/Unreal_Projects/MyProject/MyProject.uproject 
+cd Projects/UnrealEngine/Engine/Binaries/Linux/
+primusrun bash
+./UE4Editor -opengl4 ~/Projects/Unreal_Projects/MyProject/MyProject.uproject 
+./UE4Editor -opengl4
+./UE4Editor -opengl4
+cd Projects/UnrealEngine/Engine/Binaries/Linux/
+primusrun ./UE4Editor -opengl4 ~/Projects/Unreal_Projects/MyProject/MyProject.uproject 
+export LD_LIBRARY_PATH=.
+primusrun ./UE4Editor -opengl4 ~/Projects/Unreal_Projects/MyProject/MyProject.uproject 
+primusrun bash
+primusrun ./UE4Editor -opengl4
+primusrun bash
+primusrun ./UE4Editor -opengl4
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject 
+primusrun ./UE4Editor 
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject 
+cd Projects/UnrealEngine/
+ls
+cd Engine/Binaries/Linux/
+l
+ls
+cd Linux/
+ls
+cd ..
+ls
+export LD_LIBRARY_PATH=.
+primusrun bash
+primusrun ./UE4Editor
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject 
+primusrun bash
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject 
+cd Projects/UnrealEngine/Engine/Binaries/Linux/
+export LD_LIBRARY_PATH=.
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject 
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject 
+primusrun ./UE4Editor -opengl4 ~/Projects/Unreal_Projects/MyProject/MyProject.uproject 
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
+cd Projects/UnrealEngine/Engine/Binaries/Linux/
+export LD_LIBRARY_PATH=.
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
+n
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
+cd Projects/UnrealEngine/Engine/Binaries/Linux/
+ls
+export LD_LIBRARY_PATH=.
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
+export LD_LIBRARY_PATH=.
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
+cd Projects/UnrealEngine/Engine/Binaries/Linux/
+export LD_LIBRARY_PATH=.
+echo "export LD_LIBRARY_PATH=." >> README
+echo "primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4" >> README 
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+spotify &
+export LD_LIBRARY_PATH=.
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+primusrun bash
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
+eix kdevelop
+eix sdl
+eix -I sdl
+xboxdrv --detach-kernel-driver --led 2
+xboxdrv --detach-kernel-driver --led 1
+xboxdrv --detach-kernel-driver --led 2
+xboxdrv --detach-kernel-driver --led 3
+xboxdrv --detach-kernel-driver --led 2
+sudo xboxdrv --detach-kernel-driver --led 2
+xboxdrv -L
+xboxdrv
+xboxdrv -L
+xboxdrv -L
+xboxdrv
+xboxdrv --detach-kernel-driver --led 2
+cd /run/media/madjestic/KINGSTON/lambda/madjestic/Downloads/
+cp ~/Downloads/"The Theory of Everything (2014)"/ ./
+cp ~/Downloads/"The Theory of Everything (2014)" ./
+cp -R ~/Downloads/"The Theory of Everything (2014)"/ ./
+eix ps3
+eix xbox
+su
+su
+dmesg 
+dmesg 
+steam 
+clang -v
+emacs /etc/portage/package.use &
+emerge --info
+locate circle
+locate circle | grep -i houdini
+locate circle | grep -i pack
+locate circle | grep -i pack | grep -i houdini
+cd Projects/Houdini/
+ls -lah
+cd Circle_Packing/
+ls
+eix ihaskell
+cd ..
+cd ..
+ls
+cd Shaders/
+ls
+emacs BasePassVertexShader.usf &
+kdevelop! -s "{8a9cd93b-7341-4e9a-bf7b-8bb70ed93281}"
+conky &
+cd Projects/Haskell/
+ls
+cd TinyMath/
+ls
+ghci TinyMath.hs
+source optirun.sh
+source houdini_setup
+houdini &
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hip &
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hip &
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hip &
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hip &
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hip &
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hip &
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hipnc &
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hipnc &
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hipnc &
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hipnc &
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hipnc &
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hipnc &
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hipnc &
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hipnc &
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hipnc &
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hipnc &
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hipnc &
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hipnc &
+houdini ~/Projects/Houdini/Circle_Packing/test_02.hipnc &
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hipnc &
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hipnc &
+houdini ~/Projects/Houdini/Pathwalker/path_walker_demo.hipnc &
+]
+houdini ~/Projects/Houdini/Circle_Packing/test_03.hipnc 
+houdini ~/Projects/Houdini/Circle_Packing/test_03.hipnc 
+houdini ~/Projects/Houdini/Circle_Packing/test_03.hipnc 
+houdini ~/Projects/Houdini/Circle_Packing/test_03.hipnc 
+houdini ~/Projects/Houdini/Circle_Packing/test_03.hipnc 
+houdini ~/Projects/Houdini/Circle_Packing/test_03.hipnc 
+houdini &
+houdini ~/Desktop/FEM_rubber.hipnc &
+houdini ~/Desktop/FEM_rubber.hipnc &
+houdini ~/Desktop/FEM_rubber.hipnc &
+houdini ~/Desktop/FEM_rubber.hipnc &
+houdini ~/Desktop/FEM_rubber.hipnc &
+houdini ~/Desktop/FEM_rubber.hipnc &
+houdini ~/Desktop/FEM_rubber.hipnc &
+houdini ~/Desktop/FEM_rubber.hipnc &
+houdini ~/Desktop/FEM_rubber.hipnc &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+cd houdini
+ls
+optirun bash
+cd ~
+export LD_LIBRARY_PATH=.
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
+./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
+./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
+./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
+./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
+./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+./UE4Editor
+./UE4Editor -game
+./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -game
+./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -game -opengl4
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -game -opengl4
+./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -game
+./UE4Editor
+./UE4Editor ~/Projects/Unreal_Projects/MyProject4/MyProject4.uproject 
+./UE4Editor ~/Projects/Unreal_Projects/MyProject4/MyProject4.uproject 
+./UE4Editor ~/Projects/Unreal_Projects/MyProject4/MyProject4.uproject 
+'
+
+
+
+./UE4Editor ~/Projects/Unreal_Projects/MyProject4/MyProject4.uproject 
+./UE4Editor ~/Projects/Unreal_Projects/MyProject4/MyProject4.uproject 
+lspci
+su
+eix kdevelop
+emerge -av dev-util/kdevelop-4.7.1
+emerge -av =dev-util/kdevelop-4.7.1
+su
+rm -rf .ghc
+ls
+ls -lah
+cd bin/
+su
+su
+su
+glxgears 
+optirun bash
+cd /etc/portage/
+grep -i "gobject" .
+grep -ir "gobject" .
+equery 
+equery d gobject
+su
+su
+eselect python list
+eix -I xemacs
+su
+emacs Main.hs &
+emacs Main.hs &
+eix glfw-b
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/
+ls -laht
+cd tutorial10/
+ls
+optirun bash
+source houdini_setup
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+houdini &
+cd houdini
+optirun bash
+source houdini_setup
+houdini &
+houdini &
+source houdini_setup
+houdini &
+eselect python list
+eselect python set 1
+sudo eselect python set 1
+eselect python list
+houdini &
+cd houdini
+optirun bash
+source houdini_setup
+houdini &
+houdini &
+optirun bash
+source houdini_setup
+houdini
+sudo eselect python set 3
+eselect python list
+cd houdini
+optirun bash
+yes
+yes --help
+yes foo
+conky
+su
+cd houdini
+optirun bash
+source houdini_setup
+houdini
+houdini
+houdini
+houdini ~/Desktop/L_systems_test_01
+houdini ~/Desktop/L_systems_test_01
+houdini ~/Desktop/L_systems_test_01.hipnc 
+houdini ~/Projects/Houdini/Rock_Shader/model.hip
+houdini ~/Desktop/L_systems_test_01.hipnc 
+houdini ~/Desktop/L_systems_test_01.hipnc 
+houdini ~/Desktop/L_systems_test_01.hipnc 
+houdini ~/Desktop/L_systems_test_01.hipnc 
+houdini
+houdini
+houdini
+eix primus
+su
+./pitivi-0.94-x86_64 
+cd houdini
+optirun bash
+cd pitivi/
+ls
+optirun bash
+./pitivi-0.94-x86_64 
+su
+optirun bash
+dmesg 
+su
+./pitivi-0.94-x86_64 
+cd ..
+eix simplescreenrecorder
+source houdini
+source houdini_setup
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+eix natron
+dmesg 
+dmesg 
+ls
+mkdir mount
+cd mount/
+mkdir usb
+mount /dev/sdb1 ~/mount/usb/
+sudo mount /dev/sdb1 ~/mount/usb/
+su
+source houdini_setup
+houdini
+houdini
+houdini
+cd houdini
+optirun bash
+eselect profile show
+./pitivi-0.94-x86_64 
+sudo modprobe fuse
+./pitivi-0.94-x86_64 
+su
+cd pitivi/
+optirun bash
+ls
+./pitivi-0.94-x86_64 
+source houdini_setup
+houdini
+cd houdini
+optirun bash
+emacs org/index.org &
+cd Projects/Houdini/Rock_Shader/render/
+ls
+cd png/
+ls
+convert -quality 100 *.png output.mpeg
+convert --help
+convert *.png output.mpeg
+convert *.png output.avi
+man ffmpeg 
+ls
+ffmpeg -r model.rop_comp1.%04d.png out.mpeg
+ffmpeg -r model.rop_comp1.%04d.png -c:v libx264 -r 30 out.mpeg
+ls
+ffmpeg -r model.rop_comp1.%04.png -c:v libx264 -r 30 out.mpeg
+ffmpeg -r model.rop_comp1.*.png -c:v libx264 -r 30 out.mpeg
+ffmpeg -r model.rop_comp1.%04.png -c:v libx264 -r 30 out.mpeg
+ffmpeg -r *.png -c:v libx264 -r 30 out.mpeg
+ffmpeg -i model.rop_comp1.%04.png -c:v libx264 -r 30 out.mpeg
+ffmpeg -i model.rop_comp1.%04d.png -c:v libx264 -r 30 out.mpeg
+ls
+ffmpeg -i model.rop_comp1.%04d.png out.avi
+man ffmpeg 
+ffmpeg -i model.rop_comp1.%04d.png -c:v huffyuv out.avi
+echo "ffmpeg -i model.rop_comp1.%04d.png -c:v huffyuv out.avi" >> ~/org/index.org
+cd ~/houdini
+ls
+layman --help
+cd Projects/Haskell/TinyMath/
+ls
+ghci TinyMath.hs 
+ghci
+eix sbcl
+sbcl 
+su
+su
+mv .emacs.el .emacs.el.bak
+emacs
+mv .emacs.el.bak .emacs.el
+su
+emacs
+cd .emacs.d
+ls
+touch lisp.el
+emacs lisp.el &
+cd ..
+emacs .emacs.el &
+eix quicklisp
+eix haskell-platform
+eix haskell | grep -i list
+eix haskell
+eix list
+eix list | grep haskell
+cd Projects/lisp/
+ls
+emacs test.lisp
+emacs test.lisp
+emacs test.lisp
+emacs test.lisp
+cd .cabal/
+ls
+cd packages/
+ls
+cd hackage.haskell.org/
+ls
+cd GLFW/
+ls
+cd ..
+ls
+mv GLFW GLFW.bak
+ls
+mv GLFW.bak GLFW
+ls
+ghc-pkg list
+ghc-pkg
+ghc-pkg --help
+ghc-pkg --help
+ghc-pkg 
+ghc-pkg hide GLFW
+cd Euterpea/
+ls
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/
+ls -laht
+cd tutorial10/
+ls
+optirun bash
+eix Euterpea
+eix Euterpea
+cd Projects/Haskell/
+git clone https://github.com/Euterpea/Euterpea
+cd Euterpea/
+cabal install
+su
+ls
+cabal install
+cabal update
+cabal install
+ghci
+ls
+cd Tests/
+ls
+emacs AllTests.hs 
+ls
+emacs EuterpeaTests.hs 
+cd ..
+ls
+cd Playground/
+ls
+cd ..
+ls
+cd Tests/
+ls
+ghc AllTests.hs 
+ghc EuterpeaTests.hs 
+eix system | grep console
+eix system | grep -i console
+eix ansi-terminal
+su
+ghc EuterpeaTests.hs 
+ls
+ghc RunAllTests.hs 
+ls
+python testAll.py 
+ghc AllTests.hs 
+ls
+cd ..
+ls
+emacs ReadMe.txt 
+ls
+cd Euterpea
+ls
+cd Examples/
+ls
+ghc Additive.hs 
+ls
+ghc RandomMusic.hs 
+ls
+cd ..
+ls
+ghc Experimental.lhs 
+ls
+cd Music/
+ls
+cd Signal/
+ls
+cd .. 
+ls
+cd ..
+ls
+cd Examples/
+ls
+ghc MUI.hs 
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ghci
+ghci
+ls
+ghci
+cd Euterpea/Euterpea/Examples/
+ls
+ghci EuterpeaExamples.lhs 
+ghci EuterpeaExamples.lhs 
+eix TiMidity
+eix Freepats
+eix PersonalCopy
+timidity -iA -Os &
+ghci EuterpeaExamples.lhs 
+su
+ls
+ls
+ls -lah
+ghci EuterpeaExamples.lhs 
+cd Projects/Haskell/Euterpea/Euterpea/Examples/
+ls
+emacs Interlude.hs &
+su
+ghci EuterpeaExamples.lhs 
+ghci EuterpeaExamples.lhs 
+ls
+ghci RandomMusic.hs 
+ghci EuterpeaExamples.lhs 
+cd Projects/Haskell/Euterpea/Euterpea/Examples/
+ls
+timidity -iA -Os &
+timidity -iA -Os
+aplaymidi -l
+aconnect -o
+aconnect 14:0 128:0
+ghci EuterpeaExamples.lhs 
+ghci EuterpeaExamples.lhs 
+cd Projects/Haskell/Euterpea/Euterpea/Examples
+ps -aux | grep -i timidity
+timidity 
+timidity --help
+ps -aux | grep -i timidity
+kill 16402
+ps -aux | grep -i timidity
+kill 16456
+ps -aux | grep -i timidity
+ls
+timidity -iA -Os
+ghci
+python
+ghci EuterpeaExamples.lhs 
+aconnect 14:0 128:0
+ghci EuterpeaExamples.lhs 
+cd Projects/lisp/
+ls
+cd local_project/
+ls
+emacs &
+cd ..
+ls
+emacs idyom.lisp 
+emacs test.lisp
+emacs test.lisp
+sbcl 
+cd Projects/Haskell/Euterpea/Euterpea/Examples/
+ls
+~/bin/init_midi.sh 
+~/bin/init_midi.sh 
+aconnect -o
+aconnect -l
+aconnect -a
+aconnect --help
+aconnect -l
+aconnect -l
+aconnect -a
+aconnect -l
+touch .sbclrc
+emacs .sbclrc &
+emacs
+emacs .sbclrc
+mv .sbclrc .sbclrc.bak
+cd Projects/lisp/
+ls
+mkdir idyom
+cd idyom
+pwd
+ls
+cd ..
+ls
+emacs test.lisp
+emacs test.lisp
+emacs
+locate lisp
+sbcl 
+eix slime
+su
+cd Projects/lisp/
+ls
+touch idyom.lisp
+emacs idyom.lisp &
+cd bin/
+ls
+chmod +rwx init_midi.sh 
+ls
+emacs init_midi.sh &
+locate lisp
+eix sbcl
+su
+ls
+ls -lah
+emacs .sbclrc~
+rm .sbclrc*
+emacs
+mv .emacs.el .emacs.el.bak
+emacs
+mv .emacs.el.bak .emacs.el
+eix sqlite
+eix -I sqlite
+emacs .sbclrc
+eix clsql
+su
+su
+cd Projects/lisp/idyom
+ls
+ls
+eix guile
+eix guile | grep -i wisp
+guile -L . --language=wisp
+eix wisp
+steam 
+cd Projects/Haskell/
+mkdir Optional_Params
+ls
+cd Optional_Params/
+touch test_01.hs
+emacs test_01.hs &
+cd Projects/Haskell/Euterpea/
+ls
+cd HSoM/
+ls
+emacs Music.lhs 
+emacs Music.lhs 
+git add Music.lhs 
+cd ../../Music/
+emacs test_01.hs
+cd Projects/Haskell/Euterpea/
+ls
+cd ..
+aconnect -a
+aconnect -l
+aconnect -o
+aconnect -i
+aconnect -o
+aconnect --help
+aconnect 14:0 128:0
+ghci
+ghci
+aconnect -i
+aconnect -l
+ghci
+timidity -iA -Os
+su
+cd /etc/portage/
+grep -ir "emul-linux" .
+rm -rf ./._cfg000*
+sudo rm -rf ./._cfg000*
+ls -lah | grep -i cfg
+ls Downloads/
+cd ../Music/
+emacs test_01.hs
+cd Projects/Haskell/Euterpea/Euterpea
+ls
+cd Examples/
+ls
+emacs EuterpeaExamples.lhs 
+ls
+ghc EuterpeaExamples.lhs 
+ghc-pkg list
+ghc-pkg
+ghc-pkg -help
+ghc-pkg --help
+ghc-pkg --help
+ghc-pkg expose GLFW
+ghc-pkg list
+ls
+ghc EuterpeaExamples.lhs 
+ghc Interlude.hs 
+ls
+emacs EuterpeaExamples.lhs 
+ls
+cd ../..
+ls
+cd ..
+ls
+rm -rf ./Euterpea
+git clone https://github.com/Euterpea/Euterpea
+cd Euterpea/
+ls
+cd Euterpea/Examples/
+ls
+ghci EuterpeaExamples.lhs 
+emacs EuterpeaExamples.lhs 
+ls
+cd ..
+ls
+cd ..
+ls
+cd ,,
+cd ../Music/
+ls
+emacs test_01.hs &
+cd ..
+ls
+rm -rf ./Euterpea/
+git clone https://github.com/madjestic/Euterpea
+ls
+cd Euterpea/
+ls
+cd Euterpea/
+cd ../HSoM/
+ls
+emacs Music.lhs 
+emacs Music.lhs &
+ls
+git add Music.lhs 
+git commit -am "type Pitch should be Music Pitch"
+git push
+ls
+cd ..
+ls
+emacs ReadMe.txt 
+ls
+git add ReadMe.txt 
+git commit -am "adding gentoo instructions"
+git push
+emacs ReadMe.txt 
+git commit -am "fixing a typo"
+git status
+git add ReadMe.txt 
+git commit -am "fixing a typo"
+git push
+ghci
+cd bin/
+su
+steam 
+ln --help
+cd bin/
+su
+source optirun.sh
+source houdini_setup
+houdini
+houdini
+cd houdini
+optirun bash
+source houdini_setup
+source optirun.sj
+source optirun.sh
+source houdini_setup
+houdini &
+houdini &
+houdini &
+steam 
+cd houdini
+optirun bash
+ps -aux
+ps -aux | grep -i steam
+kill -KILL 14507
+ps -aux | grep -i steam
+kill -KILL 14516
+ps -aux | grep -i steam
+source optirun.sh
+source houdini_setup
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+ls
+cd Desktop/
+ls
+rm -rf ./backup/
+cd ..
+cd Documents/pics
+ls
+cd ..
+ls -lah
+cd Nepomuk/
+ls
+cd ..
+ls
+rm -rf ./Nepomuk
+ls
+cd Pictures/
+ls
+cd ..
+ls
+cd ..
+ls -lah
+steam 
+cd houdini
+optirun bash
+source optirun.sh
+source houdini_setup
+houdini
+houdini
+houdini
+houdini
+cd houdini
+optirun bash
+source houdini_setup
+houdini
+cd houdini
+optirun bash
+cd houdini
+source houdini_setup
+houdini
+source houdini_setup
+houdini
+cd houdini
+optirun bash
+source optirun.sh
+source houdini_setup
+houdini
+houdini
+houdini
+houdini
+\\\; 
+\\\; 
+houdini
+cd houdini
+optirun bash
+cd Downloads/houdini-14.0.292-linux_x86_64_gcc4.8
+ls
+su
+cd ~/bin/
+ls -lah
+cd Popcorn-Time 
+./Popcorn-Time 
+cd /home/madjestic/Projects/UnrealEngine/Engine/Plugins/Developer/SubversionSourceControl/Binaries/Linux/
+ls
+cd houdini
+ls
+cd houdini
+ls
+cd ~/Downloads/houdini-14.0.292-linux_x86_64_gcc4.8
+ls
+su
+cd ~
+ls
+mv ./houdini
+rm ./houdini
+ln -s //opt/hfs14.0.292/ houdini
+ls
+cd houdini
+ls
+cd //opt/hfs14.0.292/
+ls
+locate "engine" .
+locate "engine" ./
+ls -R ./
+ls -R ./ | grep -i "engine"
+ls -R ./ | grep -i "unreal"
+cd Projects/Houdini/Mantra/
+ln -s ../Lighting/ .
+ls
+cd ../Lighting/
+ln -s ../Mantra/
+uname -a
+uname -a
+cd Projects/Houdini/Lighting/Experiment_with_glass/Export/
+ls
+ls
+convert -delay 120 -loop - *.png animated.gif
+ls
+dolphin 
+convert -delay 120 -loop - *.png animated.gif
+okular animated.gif 
+gwenview animated.gif 
+gwenview test.0011.png 
+gwenview test.0011.png 
+gwenview test.0011.tga 
+gwenview test.0011.jpg 
+convert -delay 120 -loop - *.jpg animated.gif
+gwenview animated.gif 
+convert -delay 120 -loop - *.jpg animated.gif
+ls
+ls
+convert -delay 120 -loop - *.jpg animated.gif
+gwenview animated.gif 
+cd Projects/
+ls
+ls -lah
+ln --help
+ln -s UnrealEngine/Engine/Binaries/Linux UE4Linux
+ls -lah
+cd UE4Linux/
+ls
+history | grep -i "Unreal"
+./UE4Editor ~/Projects/Unreal_Projects/MyProject4/MyProject4.uproject 
+./UE4Editor ~/Projects/Unreal_Projects/MyProject4/MyProject4.uproject 
+LD_LIBRARY_PATH=.
+./UE4Editor ~/Projects/Unreal_Projects/MyProject4/MyProject4.uproject 
+export LD_LIBRARY_PATH=.
+./UE4Editor ~/Projects/Unreal_Projects/MyProject4/MyProject4.uproject 
+steam 
+steam 
+cd Projects/
+ls
+cd LaTeX/
+ls
+ls -lah
+ls -lah
+cd /home/madjestic/Projects/Mathematics/MST125/TMA01/
+ls
+emacs draft.tex &
+emacs draft.tex &
+cd Projects/LaTeX/
+ls
+emacs 101.tex
+emacs draft.tex 
+cd ..
+cd GMSG/
+ls
+cd BASIC_DEs/
+ls
+emacs basic.tex
+emacs .bashrc
+source houdini_setup
+houdini
+su
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+s
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+cd Projects/UnrealEngine/
+ls
+git fetch
+ls
+ls -lah
+./Setup.sh 
+ls
+cd Engine/
+ls
+cd Binaries/
+ls
+cd Linux/
+ls
+./UE4Editor ~/Projects/Unreal_Projects/MyProject4/MyProject4.uproject
+./UE4Editor 
+cd ~
+cd houdini
+optirun bash
+steam 
+steam 
+steam 

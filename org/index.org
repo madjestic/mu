@@ -135,6 +135,10 @@ C-u M-! date   | to insert date |
    [[docview:~/Downloads/Abbelian_Categories.pdf::100][PDF]]
 	 [[docview:~/Projects/gmsg/basic_des/basic.pdf::1][open_pdf with docview]]
 
+* Editin a movie:
+	(lossless codec)
+	ffmpeg -i model.rop_comp1.%04d.png -c:v huffyuv out.avi
+	then import and re-export through pitivi
 * Emacs tips
 	‘M-x toggle-truncate-lines’ - turn on long lines warp
 	'<C-S-left>' - swap buffers
@@ -222,8 +226,11 @@ data Freq = Float
 
 animate :: Animatable -> IO ()
 *** HNGL progress
-**** Sun Dec 22 20:31:19 CET 2013
-***** on HNGL:
+* TODO : simplify tutorial10 to only do what it's supposed to do:
+	it's supposed to draw a textured square in the simplest way possible.
+	
+[Sun Dec 22 20:31:19 CET 2013]
+>> on HNGL:
 
 managed to do inital HNGL commit with basic modules functioning OK
 next thing to do is introducing support for basic shapes instances draw, e.g.:
@@ -235,11 +242,12 @@ draw Square pos side
 <2013-12-27 Fri>
 
 
-**** Thu Jan 16 21:42:27 CET 2014
-***** On FFI
+
+[Thu Jan 16 21:42:27 CET 2014]
+>> On FFI
 Looking into FFI.  Created Bookmarks on [[*FFI][FFI/Haskell]]
 
-**** Wed Jan 22 18:45:13 CET 2014
+[Wed Jan 22 18:45:13 CET 2014]
 Uploaded the preview version of tutorial03 to GitHub
 Noticed 2 stars - it looks like someone found code useful
 
@@ -253,8 +261,8 @@ Noticed 2 stars - it looks like someone found code useful
 **** DONE : introduce support for vertex colors
 [[https://github.com/madjestic/Haskell-OpenGL-Tutorial/issues/3][link to the issue]]
 
-[[http://www.opengl-tutorial.org/beginners-tutorials/tutorial-1-opening-a-window/][Modern OpenGL tutorial C++/Qt
-]]
+http://www.opengl-tutorial.org/beginners-tutorials/tutorial-1-opening-a-window/][Modern OpenGL tutorial C++/Qt
+
 [[http://nopper.tv/norbert/opengl.html][OpenGL 3 and OpenGL 4 with GLSL]]
 [[https://github.com/McNopper/OpenGL]]
 
@@ -317,10 +325,25 @@ Thu Apr 24 17:56:30 CEST 2014 [[https://github.com/madjestic/reactive-banana/blo
 
 		 accomplished in tutorial10 thanks to tips from haskell@cafe mail-list
 
-**** TODO : Make Elegant, Clean-up
+**** IN-PROGRESS : Make Elegant, Clean-up
 		 Sun Oct 26 00:14:41 CEST 2014
 		 refactoring Rendering.hs, Shape.hs
 
+		 [2015-02-16 Mon]
+		 Made some progress with refactoring stuff:  
+		 added a Primitive type-class in Shape module:
+		         toDrawable :: Color -> a -> Drawable
+						 toPoints   :: a -> Points
+
+						 Color should probably be a Property instead
+						 e.g.:
+						 Property = Color | Some other property
+						 however at the moment it has no value and I don't know better.
+***** WAITING : create a UV-projection:
+			toUV :: Projection -> UV in module Shape.hs
+
+		  The foundation is there, I decided to postpone concrete implementation
+			till the need arrives.
 ** FRP
 *** Reactive Banana
 [[*:%20Animation%20Support...][Reactive Banana Animation Support...]]
@@ -338,7 +361,7 @@ Thu Apr 24 17:56:30 CEST 2014 [[https://github.com/madjestic/reactive-banana/blo
 
 *** DONE Lear to use Org-mode
 
-*** TODO Lear how to open pdfs at a given page with Okular
+*** DONE Lear how to open pdfs at a given page with Okular
 [[http://stackoverflow.com/questions/20792659/how-do-i-make-org-mode-open-pdf-files-in-okulus-at-page-nnn][stackoverflow_topi]]c
 <2013-12-27 Fri>
 
@@ -350,8 +373,7 @@ Thu Apr 24 17:56:30 CEST 2014 [[https://github.com/madjestic/reactive-banana/blo
 **** DONE : fix glyphicons:
 		 It turns out that the < > glyphs are not being displayed correctly.
 ** Reading
-*** Prime Obsession
-p.55
+*** DONE Prime Obsession
 ** Houdini
 *** DONE : Hook up a PS3 controller to mu
 		It's working.
@@ -367,36 +389,21 @@ p.55
 *** DONE : Waves tutorial cmivfx 2
 *** DONE : Investigate how to render ocean nicely
 		[2015-01-12 Mon]
-*** TODO : 
 ** General
 *** TODO : Read on setting up cron Jobs [[http://stackoverflow.com/questions/1603109/how-to-make-a-python-script-run-like-a-service-or-daemon-in-linux][{Stack Overflow}]]
 *** DONE : Set up a TODO directory with all active TODO's
-		[[*:%20foo][: click me]]
+		[[*TODO:][here]]
 
 ** Genome
 	 [[http://en.wikipedia.org/wiki/Human_Genome_Project][Human Genome Project]] on wiki
 	 [[http://en.wikipedia.org/wiki/Ploidy#Haploid_and_monoploid][Ploidy]] on wiki
 	 [[http://en.wikipedia.org/wiki/Cytokinesis][Cytokinesis]] on wiki
 	 [[http://en.wikipedia.org/wiki/Fission_(biology)][Binary Fission]] on wiki
-	 
-* Bookmarks:
-** Programming
-*** Haskell
-		[[https://github.com/madjestic/mu/tree/master/Projects/Haskell/Junk/heterogenous_lists][finished a small heterogenous collections example.]]
-		[2014-11-10 Mon]
-		
-		[[*edX:%20FP101x][edX]] A course I intend to finish
-		Mon Nov 10 22:40:49 CET 2014
-
-**** FFI
-[[http://www.haskell.org/haskellwiki/FFI_cook_book][FFI Cook Book]]
-[[http://book.realworldhaskell.org/read/interfacing-with-c-the-ffi.html][RealWorldHaskell FFI]]
-** Emacs
-*** Org Mode
-**** Links
-[[http://orgmode.org/manual/Handling-links.html][Handling Links]]
-* M140: Introducing Statistics
-** DONE : TMA02:
+** GTK+
+	 [[http://www.micahcarrick.com/gtk-glade-tutorial-part-1.html]]
+* Study
+** M140: Introducing Statistics
+*** DONE : TMA02:
 *** DONE 26 April 2014
 **** DONE : TMA02: Q1: 
 Computer Book 1: pp.35-48
@@ -409,11 +416,31 @@ Sat Apr 26 16:03:45 CEST 2014
 
 
 **** DONE : TMA02: Q3
-** DONE : TMA03
-** TODO : [[file:~/Documents/M140/TMA04/m140_tma04.pdf][TMA04]]
-** TODO : [[https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt%3D963365][ICMA43]]
+*** DONE : TMA03
+*** TODO : [[file:~/Documents/M140/TMA04/m140_tma04.pdf][TMA04]]
+*** TODO : [[https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt%3D963365][ICMA43]]
 
-** IN-PROGRESS : Learn Basic R
+*** IN-PROGRESS : Learn Basic R
+* Unreal Engine
+	- contacted popcornfx:
+		The Linux build is not here for now, but should not be a problem, once we get the plugin stabilized on Win64, we will begin to build for other platform.
+	  The PopcornFX Editor is currently only compatible with Windows, but stay in touch...
+
+	urls:
+	https://docs.unrealengine.com/latest/INT/GettingStarted/FromUnity/index.html
+	https://docs.unrealengine.com/latest/INT/Gameplay/ClassCreation/index.html
+	https://docs.unrealengine.com/latest/INT/Programming/UnrealArchitecture/index.html
+	https://docs.unrealengine.com/latest/INT/Programming/UnrealArchitecture/Reference/Classes/index.html
+	https://docs.unrealengine.com/latest/INT/Programming/UnrealArchitecture/Reference/Functions/index.html
+	https://docs.unrealengine.com/latest/INT/Programming/UnrealArchitecture/Reference/Properties/index.html
+	https://docs.unrealengine.com/latest/INT/Programming/UnrealArchitecture/Reference/Structs/index.html
+	https://docs.unrealengine.com/latest/INT/Programming/UnrealArchitecture/Reference/Interfaces/index.html
+
+** 101
+	 export LD_LIBRARY_PATH=.
+	 ./UE4Editor ~/Projects/Unreal_Projects/MyProject4/MyProject4.uproject
+	 primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
+
 * M124: Essential Mathematics
 ** DONE :	[[file:~/Documents/MST124/TMA02/mst124_unit4.pdf][Unit 4]] (textbook)
 ** DONE :	[[file:~/Documents/MST124/TMA02/TMA_02.pdf][TMA 02]]
@@ -421,6 +448,10 @@ Sat Apr 26 16:03:45 CEST 2014
 ** TODO : [[https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt%3D965296&page%3D1&scrollpos%3D0#q3][Unit 9 Practice Quiz]]
 ** TODO : [[https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt%3D965295&page%3D1&scrollpos%3D0#q5][ICMA44]]
 ** TODO : [[file:~/Documents/MST124/TMA04/mst124_14b_tma04.pdf][TMA_04]]
+* SIGGRAPH 2015
+** Paper ideas
+*** Feature-preserving curve resampling
+*** Lindenmayer: Procedurally-assisted LOD generation.
 * edX: FP101x
 	[[https://courses.edx.org/courses/DelftX/FP101x/3T2014/courseware/7c7ec15948b84b1a9c14673bddbcf8aa/9441ebb13fad49dca4dee53107b3ce5a/][Continue with HW]]
 	Mon Nov 10 22:38:53 CET 2014
@@ -430,12 +461,16 @@ Sat Apr 26 16:03:45 CEST 2014
 	[[~/Documents/Mathematics/zakon-basic-a4-one.pdf][Basic Concepts of Mathematics]]
 	[[file:~/Documents/Mathematics/multivariable.pdf][Multivariable Calculus by David Guichard]]
 
+* Principia Mathemtica
+	Analysis and Geometry, Theory of agregates (Cantor)
+	Symbolic Logic (Peano)
+	
+
 ** Guerrilla Math Study Group (GMSG)
 	 [[https://sites.google.com/site/guerrillamathstudygroup/][google sites link]]
 * Active Links:
 	[[https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt%3D935459&page%3D1][https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt=935459&page=1]]
 	[[https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt%3D913986&page%3D13][https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt=913986&page=13]]
-* Active TODOs
 * Tree Parser
 ** DONE : for a cluster of connected points it id attr, 
 	 pick the point with the lowest id
@@ -455,6 +490,39 @@ Sat Apr 26 16:03:45 CEST 2014
 <img src="http://www.google.com/chart?cht=tx&chf=bg,s,FFFFFF00&chco=000000&chl=
 \sqrt(x^2+y^2)=\exp^x+\sum_{i=1}^nx^i
 " />
+	 
+* Stylistic Analysis, Bias filtering, etc
+	 http://en.wikipedia.org/wiki/Natural_language_processing
+	 http://en.wikipedia.org/wiki/Sentiment_analysis
+	 http://www.kaspik.com/ (web sentiment analysis)
+
+	 N.Chomsky: "Three models for the description of language"
+	 http://chomsky.info/articles/195609--.pdf
+
+	 http://www.its.caltech.edu/~matilde/GraphGrammarsLing.pdf
+*** Related Read:
+		http://en.wikipedia.org/wiki/Framework_Programmes_for_Research_and_Technological_Development
+		http://en.wikipedia.org/wiki/European_Atomic_Energy_Community
+
+
+* Markov Chains...
+	http://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/Chapter11.pdf
+* Bookmarks:
+** Programming
+*** Haskell
+		[[https://github.com/madjestic/mu/tree/master/Projects/Haskell/Junk/heterogenous_lists][finished a small heterogenous collections example.]]
+		[2014-11-10 Mon]
+		
+		[[*edX:%20FP101x][edX]] A course I intend to finish
+		Mon Nov 10 22:40:49 CET 2014
+
+**** FFI
+[[http://www.haskell.org/haskellwiki/FFI_cook_book][FFI Cook Book]]
+[[http://book.realworldhaskell.org/read/interfacing-with-c-the-ffi.html][RealWorldHaskell FFI]]
+** Emacs
+*** Org Mode
+**** Links
+		 [[http://orgmode.org/manual/Handling-links.html][Handling Links]]
 
 * History
 	[[/home/madjestic/houdini/houdini/python2.7libs/dopparticlefluidtoolutils.py]]
@@ -469,3 +537,88 @@ Sat Apr 26 16:03:45 CEST 2014
 	[2015-01-12 Mon]
 	Biology (Micosis)
 	[[*:%20Investigate%20how%20to%20render%20ocean%20nicely][Ocean Shader (displacement issues)]]
+	
+
+
+	[2015-02-01 Sun]
+	Found a nice article on GTK+, continue reading later.
+* Cognitive science
+	P != NP
+	http://en.wikipedia.org/wiki/P_versus_NP_problem
+
+	Vertex Cover problem:
+	http://en.wikipedia.org/wiki/Vertex_cover
+
+	Multivariad Revolving algorythmic complexity (book)
+
+	http://fpt.wikidot.com/
+
+	https://www.mturk.com/mturk/welcome
+
+	http://en.wikipedia.org/wiki/Computers_and_Intractability (book on algorithms)
+
+	http://www.amazon.com/Computers-Intractability-NP-Completeness-Mathematical-Sciences/dp/0716710455
+
+	Theory of the mind:
+	- How do agents know what other agents know?
+	- How do you simulate orders of the mind?
+
+	Prediction building part of the brain is not a result of processing by
+	Sensor-Motoric part of the brain.
+
+	Satisfaction of search problem.
+
+	http://www.rageproject.eu/
+
+	Higher-order theory of mind in Tacit Communication Game
+	http://www.harmendeweerd.nl/papers/20140908_Tacit_Communication_Game.pdf
+
+** Music and congnition II
+	 
+	~4% of the population share amusia
+
+	Scale, Contour, interval, Rhythm, Meter (Memory)
+	Pitch test
+
+	Dysmusia vs. Dysmelodia
+
+	Information content of a note
+
+	florence foster jenkins (amusic opera singer)
+
+	Bayesuan generative models
+
+	posterior       = likelihood, priority
+	                  P(cause|signal)*P(cause)/P(signal)
+	P(cause|signal)
+	...
+
+	P(M): the likelhood  of individual metres (estimated from a corpus of data)
+
+	
+
+	Melody segmentation:
+	
+	Unexpected note - high information content, low probability
+
+	On Entropy in Music:
+	http://ir.uiowa.edu/cgi/viewcontent.cgi?article=1844&context=etd (p.7)
+
+	https://mitpress.mit.edu/books/platos-camera
+
+	Steven Pinker
+	http://www.newrepublic.com/
+
+* TODO:
+** IN-PROGRESS [[*:%20Make%20Elegant,%20Clean-up][Make Elegant, Clean-up]]
+** IN-PROGRESS : Write a make file that can be run like this:
+	 make clean
+	   - and it will choose from a number of options
+		 [2015-02-17 Tue]
+		 - made a clean.sh file that cleans up stuff [[file:~/Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial10/clean][here]]
+
+** March 30, 2015
+*** TODO : Finish ICMA 41 questions
+*** TODO : Experiment with caustics (an example from Houdini Help)
+
+MESA_GL_VERSION_OVERRIDE=4.0 MESA_GLSL_VERSION_OVERRIDE=400 %command%

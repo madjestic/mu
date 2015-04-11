@@ -19,10 +19,8 @@ fi
 
 export PATH=$PATH:~/.cabal/bin:~/bin
 export GIT_EDITOR=emacs
-export HOUDINI_NODE_WIDTH=2
-#export HOUDINI_OTL_PATH=~/Projects/Houdini/OTL
+
 export PROJECTS=~/Projects/Houdini
-export HOUDINI_MMB_PAN=0
 export EDITOR=/usr/bin/emacs
 export VISUAL=/usr/bin/emacs
 export force_s3tc_enable=true
@@ -30,3 +28,10 @@ alias ec=emacsclient\ -c
 export SDL_AUDIODRIVER=alsa
 HISTSIZE=9999
 alias ec="emacsclient -c"
+
+# Houdini Stuff
+export HOUDINI_MMB_PAN=0
+export HOUDINI_NODE_WIDTH=2
+export HOUDINI=~/houdini
+# export HOUDINI_OTL_PATH=~/Projects/Houdini/OTL
+export HOUDINI_OTLSCAN_PATH=$HOUDINI/houdini/otls:~/Projects/Houdini/otls

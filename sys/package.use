@@ -5,6 +5,7 @@ app-editors/emacs xft
 >=app-misc/strigi-0.7.8 clucene
 dev-lang/python sqlite
 dev-lang/python sqlite
+=dev-python/setuptools-12.0.1 python_targets_python3_4
 
 
 >=x11-libs/wxGTK-2.9.4.1-r1:2.9 gstreamer
@@ -15,23 +16,11 @@ sci-mathematics/rstudio doc
 sci-mathematics/maxima tk
 sci-mathematics/wxmaxima tk
 
-# dev-haskell/reactive-banana doc
-# >=dev-haskell/opengl-2.9.1.0 doc
-# >=dev-haskell/openglraw-1.4.0.0 doc
+net-print/cups ppds
+net-fs/samba readline cups pam
 
-# dev-haskell/* doc
-# dev-haskell/language* -doc
-# dev-haskell/xhtml* -doc
+=sys-devel/llvm-3.5.0 clang
 
-# Blender Stuff:
-=dev-python/numpy-1.8.0-r1 python_targets_python3_4
-=dev-python/numpy-1.9.0-r1 python_targets_python3_4
-=dev-python/requests-2.3.0 python_targets_python3_4
-=dev-python/setuptools-2.2 python_targets_python3_4
-=dev-python/setuptools-7.0 python_targets_python3_4
->=dev-python/chardet-2.2.1 python_targets_python3_4
->=dev-cpp/glog-0.3.3-r1 gflags
-media-gfx/blender python_targets_python3_4
->=dev-python/dbus-python-1.2.0-r1 python_targets_python3_3
-=x11-drivers/nvidia-drivers-346.22 gtk2
-=x11-drivers/nvidia-drivers-346.35 gtk2
+=dev-qt/qtdeclarative-4.8.5 webkit
+
+media-video/ffmpeg -cpu_flags_x86_sse -cpu_flags_x86_sse2
