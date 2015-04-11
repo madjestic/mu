@@ -1,1 +1,3 @@
-SUKA!
+An example of complex multiplication in VEX (Houdini)
+
+![](https://raw.github.com/madjestic/master/Projects/Houdini/Mandelbrot/mandelbrot.png)
