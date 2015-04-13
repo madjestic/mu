@@ -6535,3 +6535,68 @@ optirun bash
 steam 
 steam 
 steam 
+cd Projects/Houdini/VEX/
+ls
+emacs snippets.vfl 
+cd ..
+ls
+cd Mandelbrot/
+ls
+ls
+git add mandelbrot.png 
+git add mandelbrot_set.hipnc 
+ls =lah
+ls -lah
+git commit -am "adding Mandelbrot set vex example"
+git status
+git status
+git status
+git push
+touch README.md
+emacs README.md 
+git add README.md
+git commit -am "adding README"
+git push
+emacs ~/Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial10/README.md &
+emacs README.md 
+git add README.md
+git commit -am "pic"
+git push
+emacs README.md 
+git add README.md
+git commit -am "pic"
+git push
+source optirun.sh
+source houdini_setup
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+cd houdini
+optirun bash
+ghci
+cd Projects/Mathematics/
+ls
+cd MST125/
+ls
+cd TMA01/
+ls
+emacs tma01.tex &
+emacs tma01.tex &
+emacs tma01.tex &
+emacs tma01.tex &
+ls
+emacs draft.tex
+eix kde applications
+eix kde | grep -i applications
+eix kde | grep -ir applications
+eix kde | grep -ir applications
+eix kde | grep -i applications
+layman -L | grep kde
+emacs &
+emacs
+su
+glxgears 
+optirun bash

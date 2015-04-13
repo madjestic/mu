@@ -40,6 +40,7 @@
 # Nvidia
 =x11-drivers/nvidia-drivers-346.22 ~amd64
 =x11-drivers/nvidia-drivers-346.35 ~amd64
+=x11-drivers/nvidia-drivers-349.12 ~amd64
 
 # Haskell
 # =dev-haskell/th-orphans-0.8.2 ~amd64
@@ -66,6 +67,8 @@
 =dev-lisp/sbcl-1.2.9 ~amd64
 =dev-lisp/uiop-3.1.4 ~amd64
 =dev-lisp/asdf-3.1.4 ~amd64
+
+=app-editors/emacs-24.5 ~amd64
 
 
 # Euterpea
