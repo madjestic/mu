@@ -6600,3 +6600,133 @@ emacs
 su
 glxgears 
 optirun bash
+git add .emacs.el
+git add .emacs.d/haskell.el
+git add .emacs.d/lisp.el
+git add .emacs.d/blog.el .emacs.d/buffer-mode.el
+cd .emacs.d
+ls
+ls | grep -i .el
+ls | grep -i *.el
+ls *.el
+git add clang.el 
+git add clang.el cpp.el cpp-ide.el ede ede-projects.el haskell haskell-ide.el lisp.el move-text.el python-ide.el web-mode.el
+git add clang.el cpp.el cpp-ide.el ede.el ede-projects.el haskell.el haskell-ide.el lisp.el move-text.el python-ide.el web-mode.el
+git commit -am "saving configs before breaking emacs"
+git push
+git push
+eix emacs
+eix -I emacs
+su
+emacs &
+mv .emacs.el .emacs.el.bak
+emacs
+cp .emacs.el.bak .emacs.el
+cd houdini
+su
+su
+cd irclogs/
+ls
+cd freenode/
+ls
+cd irclogs/
+ls
+ln -s ~/Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial10 last_haskell
+ls -lah
+cd last_haskell/
+ls
+cd Desktop/
+ls
+rm L_systems_test_0*
+ls
+cd ~/Projects/
+ls
+cd Houdini/
+cd vex/
+ls
+cd ..
+cd VEX/
+ls
+eix haskell-mode
+su
+su
+eix -I cabal
+history | grep -i cabal
+cd /etc/portage/
+su
+cd Projects/Haskell/Haskell-OpenGL-Tutorial
+ls -laht
+cd tutorial10
+ls
+source optirun.sh
+ls
+ls
+emacs Main.hs
+emacs Main.hs
+ghc-pkg list | grep glfw
+emacs Main.hs
+emacs Main.hs
+emacs Main.hs
+glxgears 
+eix -I glfw
+ghc-pkg list
+ghc-pkg list | grep -i glfw
+ghc-pkg
+ghc-pkg --help
+ghc-pkg --help
+ghc-pkg list | grep -i glfw
+ghc-pkg hide GLFW-0.5.2.2
+ghc-pkg list | grep -i glfw
+eix glfw
+eix -I glfw
+su
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial10/
+ls
+cd NGL/
+ls
+git add Rendering.hs 
+git status
+git commit -am "uvs -> uv"
+git push
+source optirun.sh
+emacs Main.hs &
+cd ../tutorial11
+ls
+emacs Main.hs
+Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial12/
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial12/
+ls
+emacs Main.hs 
+optirun bash
+source optirun.sh
+emacs Main.hs
+emacs Main.hs &
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial12
+source optirun.sh
+optirun bash
+source optirun.sh
+emacs Main.hs
+emacs Main.hs
+ls
+emacs Main.hs
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/tutorial10/
+source optirun.sh
+optirun bash
+ghci
+steam 
+steam 
+cd Projects/Houdini/HDK/
+ls
+eix cedet
+su
+cd Projects/C
+ls
+cd Make_Files/
+ls
+cat README.md
+ls
+cd make_samples/
+ls
+cd sample5/
+ls
+emacs makefile &

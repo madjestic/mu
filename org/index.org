@@ -226,7 +226,7 @@ data Freq = Float
 
 animate :: Animatable -> IO ()
 *** HNGL progress
-* TODO : simplify tutorial10 to only do what it's supposed to do:
+***** TODO : simplify tutorial10 to only do what it's supposed to do:
 	it's supposed to draw a textured square in the simplest way possible.
 	
 [Sun Dec 22 20:31:19 CET 2013]
@@ -339,6 +339,12 @@ Thu Apr 24 17:56:30 CEST 2014 [[https://github.com/madjestic/reactive-banana/blo
 						 e.g.:
 						 Property = Color | Some other property
 						 however at the moment it has no value and I don't know better.
+
+		[2015-04-17 Fri]
+		tutorial10 - more concise version of tutorial11
+		tutorial11 - Typeclasses in NGL.Rendering with some commented 
+		             redundant code, that could still be useful
+		tutorial12 - has bits and pieces of tutorial 11
 ***** WAITING : create a UV-projection:
 			toUV :: Projection -> UV in module Shape.hs
 
@@ -441,13 +447,16 @@ Sat Apr 26 16:03:45 CEST 2014
 	 ./UE4Editor ~/Projects/Unreal_Projects/MyProject4/MyProject4.uproject
 	 primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -opengl4
 
-* M124: Essential Mathematics
+* MST124: Essential Mathematics 1
 ** DONE :	[[file:~/Documents/MST124/TMA02/mst124_unit4.pdf][Unit 4]] (textbook)
 ** DONE :	[[file:~/Documents/MST124/TMA02/TMA_02.pdf][TMA 02]]
 ** DONE : TMA_03
 ** TODO : [[https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt%3D965296&page%3D1&scrollpos%3D0#q3][Unit 9 Practice Quiz]]
 ** TODO : [[https://learn2.open.ac.uk/mod/quiz/attempt.php?attempt%3D965295&page%3D1&scrollpos%3D0#q5][ICMA44]]
 ** TODO : [[file:~/Documents/MST124/TMA04/mst124_14b_tma04.pdf][TMA_04]]
+* MST125: Essential Mathematics 2
+	One characteristic of a reflection that distinguishes it from a rotation or a
+	translation is that it reverses vertex order.
 * SIGGRAPH 2015
 ** Paper ideas
 *** Feature-preserving curve resampling
@@ -622,3 +631,5 @@ Sat Apr 26 16:03:45 CEST 2014
 *** TODO : Experiment with caustics (an example from Houdini Help)
 
 MESA_GL_VERSION_OVERRIDE=4.0 MESA_GLSL_VERSION_OVERRIDE=400 %command%
+* IRC
+	IRCnet Server : open.ircnet.net

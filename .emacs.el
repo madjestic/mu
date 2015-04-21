@@ -211,7 +211,6 @@
   (interactive)
   (load-user-file "lisp.el"))
 
-
 (defun load-python ()
   "load python config files"
   (interactive)
@@ -221,7 +220,6 @@
   "load haskell config files"
   (interactive)
   (load-user-file "shm.el"))
-
 
 (defun load-cpp ()
   "load cpp config files"
@@ -257,6 +255,11 @@
   "load blog-mode config files"
   (interactive)
   (load-user-file "blog.el"))
+
+(defun load-erc ()
+  "load erc config files"
+  (interactive)
+  (load-user-file "erc.el"))
 
 (defun kill-all-dired-buffers ()
       "Kill all dired buffers."
