@@ -34,4 +34,5 @@ export HOUDINI_MMB_PAN=0
 export HOUDINI_NODE_WIDTH=2
 export HOUDINI=~/houdini
 # export HOUDINI_OTL_PATH=~/Projects/Houdini/OTL
+# export HOUDINI_DSO_PATH=~/Projects/Houdini/DSO
 export HOUDINI_OTLSCAN_PATH=$HOUDINI/houdini/otls:~/Projects/Houdini/otls

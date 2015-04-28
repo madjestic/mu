@@ -350,6 +350,8 @@ Thu Apr 24 17:56:30 CEST 2014 [[https://github.com/madjestic/reactive-banana/blo
 
 		  The foundation is there, I decided to postpone concrete implementation
 			till the need arrives.
+***** TODO : Create a boilerplate:
+****** TODO : All code on one page:  draw a textured sqaure.
 ** FRP
 *** Reactive Banana
 [[*:%20Animation%20Support...][Reactive Banana Animation Support...]]
@@ -457,6 +459,11 @@ Sat Apr 26 16:03:45 CEST 2014
 * MST125: Essential Mathematics 2
 	One characteristic of a reflection that distinguishes it from a rotation or a
 	translation is that it reverses vertex order.
+
+	An isometry maps any polygon to a polygon of the same size and
+	shape. In particular, the vertices of the polygon are mapped to the
+	vertices of the image polygon.
+
 * SIGGRAPH 2015
 ** Paper ideas
 *** Feature-preserving curve resampling

@@ -6730,3 +6730,180 @@ ls
 cd sample5/
 ls
 emacs makefile &
+su
+source optirun.sh
+source houdini_setup
+houdini
+houdini
+houdini
+houdini
+houdini
+cd ~/Projects/Houdini/HDK/
+ls
+hcustom geoisosurface.C
+ls
+rm geoisosurface geoisosurface.o
+ls
+
+ls
+rm geoisosurface geoisosurface.o
+ls
+hcustom -s geoisosurface.C
+ls
+ls
+pwd
+ls
+python
+ls
+gplay sphere.bgeo 
+python
+eselect python list
+eselect python set 1
+sudo eselect python set 1
+eselect python list
+python
+sudo eselect python set 3
+eselect python list
+houdini &
+ls
+hython $HH/public/hgeo/hgeo.py $HH/geo/defgeo.bgeo 
+ls
+echo $HH
+ls
+hython $HH/public/hgeo/hgeo.py test.bgeo 
+houdini
+pwd
+ls
+ls
+python
+hython
+python
+cd houdini
+optirun bash
+cd houdini
+ls
+cd dsolib/
+ls
+cd ..
+ls
+cd /opt/hfs14.0.292/
+ls
+cd dsolib/
+ls
+locate SOP_Star.so
+cd ~
+locate SOP_Star.so
+locate tutorial
+locate --help
+cd Projects
+mkdir CPP
+ls
+cd CPP/
+ls
+mkdir Junk
+ls
+cd Junk/
+ls
+mkdir 00
+ls
+cd 00/
+ls
+touch main.cpp
+ls
+emacs main.cpp &
+eix cedet
+emacs main.cpp &
+emacs main.cpp &
+ls
+touch makefile
+emacs makefile &
+ls
+ls
+rm main
+ls
+make
+ls
+rm main
+ls
+./main 
+./main 
+./main 
+./main 
+make && ./main
+make && ./main
+make && ./main
+ls
+ls
+git add main.cpp makefile
+git commit -am "playing with pointers"
+git push
+ls
+cp makefile ~/Projects/Houdini/HDK/SOP/SOP_Star/
+source houdini_setup
+cd ~/Projects/Houdini/HDK/SOP/
+ls
+mkdir SOP_Star
+ls
+mv SOP_Star.* ./SOP_Star/
+ls
+cd SOP_Star/
+ls
+emacs SOP_Star.C &
+ls
+ls
+ls
+emacs makefile &
+hcustom SOP_Star.C
+ls
+hcustom SOP_Star.C
+ls
+cd /home/madjestic/houdini/toolkit/samples/SOP
+ls
+hcustom SOP_Star.C
+cd ~/Projects/Houdini/HDK/SOP/SOP_Star/
+ls
+echo $HOUDINI_DSO_PATH
+cd houdini
+ks
+ls
+optirun bash
+emacs .bashrc &
+cd Projects/Houdini/
+ls
+mkdir DSO
+ln -s ./DSO/ ./dso
+ls -lah
+cd DSO/
+ls
+ls -lah
+echo $HOUDINI_DSO_PATH 
+emacs .bashrc
+emacs .bashrc
+cd houdini
+source houdini_setup
+cd ~/Projects/Houdini/HDK/SOP/SOP_Star/
+ls
+hcustom SOP_Star.C 
+echo $HOUDINI_DSO_PATH 
+source optirun.sh
+houdini
+houdini
+cd houdini14.0/dso/
+ls
+cd ~/Projects/Houdini/OTL/
+ls
+-lah
+ls -lah
+ls -lah ~/houdini14.0/dso/
+ls -lah ~/houdini14.0/otls/
+ls -lah
+cd houdini
+source houdini_setup
+houdini
+glxgears 
+ls
+cp plasma-desktop-appletsrc plasma-desktop-appletsrc.bak 
+sudo chmod a+rw plasma-desktop-appletsrc
+ls -lah | grep plasma-desktop-appletsrc
+ls -lah
+history 
