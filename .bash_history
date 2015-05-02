@@ -6907,3 +6907,55 @@ sudo chmod a+rw plasma-desktop-appletsrc
 ls -lah | grep plasma-desktop-appletsrc
 ls -lah
 history 
+cd .kde4/share/config/
+history 
+ls -lah | grep plasma-desktop-appletsrc
+emacs plasma-desktop-appletsrc
+emacs plasma-desktop-appletsrc &
+emacs plasma-desktop-appletsrc.bak &
+sudo chmod a+rw plasma-desktop-appletsrc
+rm plasma-desktop-appletsrc
+ls -lah | grep plasma-desktop-appletsrc
+emacs plasma-desktop-appletsrc
+rm plasma-desktop-appletsrc
+rm plasma-desktop-appletsrc~
+ls
+ls -lah | grep plasma-desktop-appletsrc
+ls -lah | grep plasma-desktop-appletsrc
+ls -lah | grep plasma-desktop-appletsrc
+emacs plasma-desktop-appletsrc
+emacs plasma-desktop-appletsrc &
+emacs plasma-desktop-appletsrc.bak &
+cd bin/
+ls
+emacs startup.sh &
+conky &
+conky 
+emacs .conkyrc
+emacs .conkyrc &
+emacs .conkyrc &
+conky 
+eix conky
+ls -lah | grep -i conky
+cp ./.conkyrc .conkyrc.bak
+rm .conkyrc
+conky 
+emacs .conkyrc &
+conky 
+emacs .conkyrc &
+conky 
+conky 
+conky 
+conky 
+conky 
+conky 
+conky 
+conky 
+conky 
+conky 
+conky 
+conky 
+conky 
+conky &
+ls
+uname -a

@@ -464,6 +464,13 @@ Sat Apr 26 16:03:45 CEST 2014
 	shape. In particular, the vertices of the polygon are mapped to the
 	vertices of the image polygon.
 
+	A linear transformation leaves the origin fixed.
+
+	One-to-one linear transformations preserve linearity
+	One-to-one linear transformations map lines to lines
+
+** TODO : p 48
+
 * SIGGRAPH 2015
 ** Paper ideas
 *** Feature-preserving curve resampling

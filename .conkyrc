@@ -23,7 +23,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-alignment tr
+alignment top_right
 background no
 border_width 1
 cpu_avg_samples 2
@@ -44,7 +44,7 @@ no_buffers yes
 out_to_console no
 out_to_stderr no
 extra_newline no
-own_window no
+own_window yes
 own_window_class Conky
 own_window_type desktop
 own_window_transparent yes
@@ -93,3 +93,4 @@ DLS:${downspeed wlp4s0} kb/s $alignr total: ${totaldown wlp4s0}
 ${upspeedgraph wlp4s0}
 ULS:${upspeed wlp4s0} kb/s $alignr total: ${totalup wlp4s0}
 ${voffset 200} 
+

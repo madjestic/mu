@@ -1,7 +1,3 @@
-MidButton;NoModifier=paste
-RightButton;NoModifier=contextmenu
-wheel:Vertical;NoModifier=switchdesktop
-
 [ActionPlugins]
 MidButton;NoModifier=paste
 RightButton;NoModifier=contextmenu
@@ -11,48 +7,38 @@ wheel:Vertical;NoModifier=switchdesktop
 7zFM-p7zip=
 7zG-p7zip=
 CMake=
-Don't Starve=
-FEZ=
 Gentoo-system-config-printer=
-Guns of Icarus Online=
 Knock-knock=
 Natron-0.9.6=
 Natron-MaintenanceTool=
 Nuke8.0v4=
 NukeX8.0v4=
-PyAlaMode=
-PyCrust=
-PyShell=
-XRCed=
-angband_-msdl-angband=
-angband_-mx11-angband=
-cheese=
+audacity=
+ca.desrt.dconf-editor=
+calibre-ebook-edit=
+calibre-ebook-viewer=
+calibre-gui=
+calibre-lrfviewer=
 chromium-browser-chromium=
 cups=
+darktable=
 designer-designer-4=
-docky=2014-08-31
-doxywizard-doxygen=
 emacs=
 emacs-2=
 feh=
-firefox=
 firefox-2=
 glade=
+google-chrome=
 inkscape=
 kde4-Help=
 kde4-KCharSelect=
 kde4-ark=
-kde4-author=
 kde4-bluedevil-monolithic=
-kde4-braindump=
 kde4-dolphin=
 kde4-filelight=
-kde4-flow=
 kde4-gwenview=
-kde4-karbon=
 kde4-kcalc=
 kde4-kdf=
-kde4-kexi=
 kde4-kfind=
 kde4-kget=
 kde4-kgpg=
@@ -64,10 +50,11 @@ kde4-kompare=
 kde4-konqbrowser=
 kde4-konsole=
 kde4-kopete=
-kde4-krandrtray=
 kde4-krdc=
 kde4-krfb=
 kde4-krita=
+kde4-kritagemini=
+kde4-kritasketch=
 kde4-krusader=
 kde4-krusader_root-mode=
 kde4-ksnapshot=
@@ -77,15 +64,10 @@ kde4-kwalletmanager=
 kde4-kwikdisk=
 kde4-kwordquiz=
 kde4-kwrite=
-kde4-nepomukbackup=
-kde4-nepomukcleaner=
 kde4-okular=
-kde4-plan=
-kde4-planwork=
 kde4-semantik=
 kde4-semantik-d=
 kde4-sheets=
-kde4-stage=
 kde4-superkaramba=
 kde4-sweeper=
 kde4-synaptiks=
@@ -97,12 +79,10 @@ krita=
 krusader=
 ksysguard=
 links_-g_%u-links-2=
-mypaint=
 nvidia-drivers-settings=
 nvidia-settings-nvidia-settings=
 okular=
-openxcom=2014-06-15
-pitivi=
+org.gnome.Cheese=
 qtconfig-qtgui-4=
 rawtherapee=
 rstudio=
@@ -111,10 +91,30 @@ sesi_gplay13.0.343=
 sesi_gplay13.0.376=
 sesi_gplay13.0.401=
 sesi_gplay13.0.447=
+sesi_gplay13.0.582=
+sesi_gplay14.0.201.13=
+sesi_gplay14.0.257=
+sesi_gplay14.0.292=
+sesi_happrentice13.0.582=
+sesi_happrentice14.0.201.13=
+sesi_happrentice14.0.257=
+sesi_happrentice14.0.292=
+sesi_hescape13.0.582=
+sesi_hescape14.0.201.13=
+sesi_hescape14.0.257=
+sesi_hescape14.0.292=
+sesi_hindie13.0.582=
+sesi_hindie14.0.201.13=
+sesi_hindie14.0.257=
+sesi_hindie14.0.292=
 sesi_hkey13.0.343=
 sesi_hkey13.0.376=
 sesi_hkey13.0.401=
 sesi_hkey13.0.447=
+sesi_hkey13.0.582=
+sesi_hkey14.0.201.13=
+sesi_hkey14.0.257=
+sesi_hkey14.0.292=
 sesi_houdini13.0.343=
 sesi_houdini13.0.376=
 sesi_houdini13.0.401=
@@ -123,18 +123,31 @@ sesi_houdinifx13.0.343=
 sesi_houdinifx13.0.376=
 sesi_houdinifx13.0.401=
 sesi_houdinifx13.0.447=
+sesi_houdinifx13.0.582=
+sesi_houdinifx14.0.201.13=
+sesi_houdinifx14.0.257=
+sesi_houdinifx14.0.292=
 sesi_mplay13.0.343=
 sesi_mplay13.0.376=
 sesi_mplay13.0.401=
 sesi_mplay13.0.447=
+sesi_mplay13.0.582=
+sesi_mplay14.0.201.13=
+sesi_mplay14.0.257=
+sesi_mplay14.0.292=
 sesi_uninstall13.0.343=
 sesi_uninstall13.0.376=
 sesi_uninstall13.0.401=
 sesi_uninstall13.0.447=
-skype=
+sesi_uninstall13.0.582=
+sesi_uninstall14.0.201.13=
+sesi_uninstall14.0.257=
+sesi_uninstall14.0.292=
+spotify=
 steam=
 steam-2=
 systemsettings=
+timidity=
 transmission-gtk=
 transmission-qt=
 unetbootin=
@@ -146,18 +159,17 @@ wxmaxima-wxmaxima-2=
 xemacs=
 xmaxima-maxima=
 xterm=
-zzz-gimp=2014-06-15
 
 [Containments][1]
 activity=
 activityId=
 desktop=-1
-formfactor=2
-geometry=0,-35,1600,29
+formfactor=3
+geometry=10060,-906,54,900
 immutability=1
 lastDesktop=-1
 lastScreen=0
-location=3
+location=5
 plugin=panel
 screen=0
 zvalue=0
@@ -166,98 +178,73 @@ zvalue=0
 RightButton;NoModifier=contextmenu
 
 [Containments][1][Applets][10]
-geometry=0,868,50,32
-immutability=2
+geometry=0,828,48,48
+immutability=1
 plugin=launcher
-zvalue=231
+zvalue=241
 
 [Containments][1][Applets][10][LayoutInformation]
-Order=0
+Order=12
 
 [Containments][1][Applets][11]
-geometry=1448,0,27,27
+geometry=0,480,48,48
 immutability=2
 plugin=notifier
 zvalue=7
 
 [Containments][1][Applets][11][LayoutInformation]
-Order=9
-
-[Containments][1][Applets][11][PopupApplet]
-DialogHeight=351
-DialogWidth=312
-
-[Containments][1][Applets][12]
-geometry=1479,0,27,27
-immutability=2
-plugin=org.kde.networkmanagement
-zvalue=6
-
-[Containments][1][Applets][12][LayoutInformation]
 Order=10
 
+[Containments][1][Applets][12]
+geometry=0,64,48,48
+immutability=2
+plugin=org.kde.networkmanagement
+zvalue=247
+
+[Containments][1][Applets][12][LayoutInformation]
+Order=2
+
 [Containments][1][Applets][12][PopupApplet]
-DialogHeight=328
-DialogWidth=720
+DialogHeight=339
+DialogWidth=709
 
 [Containments][1][Applets][13]
-geometry=1510,0,32,27
+geometry=0,28,48,32
 immutability=2
 plugin=battery
-zvalue=5
+zvalue=250
 
 [Containments][1][Applets][13][LayoutInformation]
-Order=11
+Order=1
 
 [Containments][1][Applets][13][PopupApplet]
-DialogHeight=135
-DialogWidth=310
+DialogHeight=146
+DialogWidth=299
 
 [Containments][1][Applets][14]
-geometry=1546,0,54,27
+geometry=0,0,48,24
 immutability=2
 plugin=digital-clock
-zvalue=4
-
-[Containments][1][Applets][14][Configuration]
-announceInterval=0
-calendarType=-1
-dateStyle=0
-defaultTimezone=Local
-displayEvents=true
-displayHolidays=true
-holidaysRegions=us_en-us
-holidaysRegionsDaysOff=us_en-us
-plainClockDrawShadow=true
-plainClockFont=Sans Serif,27,-1,0,50,0,0,0,0,0
-showSeconds=false
-showTimezone=false
-timeZones=UTC
-useCustomColor=false
-useCustomShadowColor=false
+zvalue=244
 
 [Containments][1][Applets][14][LayoutInformation]
-Order=12
-
-[Containments][1][Applets][14][PopupApplet]
-DialogHeight=228
-DialogWidth=424
+Order=0
 
 [Containments][1][Applets][15]
-geometry=0,407,50,457
-immutability=2
+geometry=0,532,48,292
+immutability=1
 plugin=panelspacer_internal
-zvalue=232
+zvalue=239
 
 [Containments][1][Applets][15][Configuration]
 FixedSize=false
 
 [Containments][1][Applets][15][LayoutInformation]
-Order=1
+Order=11
 
 [Containments][1][Applets][19]
-geometry=0,299,50,32
-immutability=1
+geometry=0,428,48,48
+immutability=2
 plugin=icon
 zvalue=238
 
@@ -265,11 +252,11 @@ zvalue=238
 Url=file:///usr/share/applications/kde4/konsole.desktop
 
 [Containments][1][Applets][19][LayoutInformation]
-Order=8
+Order=9
 
 [Containments][1][Applets][21]
-geometry=0,371,50,32
-immutability=1
+geometry=0,376,48,48
+immutability=2
 plugin=icon
 zvalue=0
 
@@ -277,11 +264,11 @@ zvalue=0
 Url=file:///usr/share/applications/emacs.desktop
 
 [Containments][1][Applets][21][LayoutInformation]
-Order=7
+Order=8
 
 [Containments][1][Applets][22]
-geometry=0,335,50,32
-immutability=1
+geometry=0,324,48,48
+immutability=2
 plugin=icon
 zvalue=239
 
@@ -289,10 +276,10 @@ zvalue=239
 Url=file:///usr/share/applications/kde4/ksysguard.desktop
 
 [Containments][1][Applets][22][LayoutInformation]
-Order=6
+Order=7
 
 [Containments][1][Applets][23]
-geometry=1324,0,27,27
+geometry=0,272,48,48
 immutability=2
 plugin=icon
 zvalue=0
@@ -301,10 +288,10 @@ zvalue=0
 Url=file:///usr/share/applications/kde4/systemsettings.desktop
 
 [Containments][1][Applets][23][LayoutInformation]
-Order=5
+Order=6
 
 [Containments][1][Applets][24]
-geometry=1293,0,27,27
+geometry=0,220,48,48
 immutability=2
 plugin=icon
 zvalue=0
@@ -313,10 +300,10 @@ zvalue=0
 Url=file:///usr/share/applications/kde4/dolphin.desktop
 
 [Containments][1][Applets][24][LayoutInformation]
-Order=4
+Order=5
 
 [Containments][1][Applets][25]
-geometry=1262,0,27,27
+geometry=0,168,48,48
 immutability=2
 plugin=icon
 zvalue=0
@@ -325,10 +312,10 @@ zvalue=0
 Url=file:///usr/share/applications/steam.desktop
 
 [Containments][1][Applets][25][LayoutInformation]
-Order=3
+Order=4
 
 [Containments][1][Applets][26]
-geometry=1231,0,27,27
+geometry=0,116,48,48
 immutability=2
 plugin=icon
 zvalue=0
@@ -337,21 +324,11 @@ zvalue=0
 Url=file:///usr/share/applications/kde4/kopete.desktop
 
 [Containments][1][Applets][26][LayoutInformation]
-Order=2
-
-[Containments][1][Applets][4][Configuration]
-hideWhenSingleDesktop=true
-
-[Containments][1][Applets][5][Configuration][Launchers]
-browser=preferred://browser, , ,\s
-filemanager=preferred://filemanager, , ,\s
-
-[Containments][1][Applets][6][Configuration][Applets][8]
-plugin=notifications
+Order=3
 
 [Containments][1][Configuration]
-maximumSize=1600,29
-minimumSize=1600,29
+maximumSize=54,900
+minimumSize=54,900
 
 [Containments][8]
 ActionPluginsSource=Global
@@ -371,18 +348,14 @@ wallpaperpluginmode=SingleImage
 zvalue=0
 
 [Containments][8][Applets][38]
-geometry=375,770,820,10
+geometry=375,770,820,103
 immutability=2
 plugin=quicklaunch
 zvalue=231
 
 [Containments][8][Applets][38][Configuration]
-launchers=file:///usr/share/applications/chromium-browser-chromium.desktop,file:///usr/share/applications/kde4/krita.desktop,file:///usr/share/applications/kde4/okular.desktop,file:///home/madjestic/.local/share/applications/emacs.desktop,file:///usr/share/applications/wxmaxima-wxmaxima.desktop,file:///home/madjestic/.kde4/share/apps/plasma-desktop/quicklaunch/launcher-q.desktop,file:///home/madjestic/.kde4/share/apps/plasma-desktop/quicklaunch/launcher-2.desktop,file:///home/madjestic/.kde4/share/apps/plasma-desktop/quicklaunch/launcher-y.desktop,file:///home/madjestic/.kde4/share/apps/plasma-desktop/quicklaunch/launcher-u.desktop,file:///usr/share/applications/kde4/kopete.desktop,file:///usr/share/applications/kde4/dolphin.desktop,file:///usr/share/applications/kde4/krusader.desktop,file:///usr/share/applications/kde4/konsole.desktop,file:///usr/share/applications/kde4/systemsettings.desktop,file:///usr/share/applications/steam.desktop
+launchers=file:///usr/share/applications/kde4/krita.desktop,file:///usr/share/applications/spotify.desktop,file:///usr/share/applications/chromium-browser-chromium.desktop,file:///usr/share/applications/kde4/dolphin.desktop
 launchersOnPopup=
-
-[Containments][8][ToolBox]
-corner=1
-offset=0
 
 [Containments][8][Wallpaper][image]
 slideTimer=10
@@ -393,4 +366,4 @@ wallpapercolor=0,0,0
 wallpaperposition=2
 
 [General]
-immutability=2
+immutability=1
