@@ -7071,3 +7071,14 @@ cd Documents/
 ls -lah
 ln -s ./Algorithmic_beauty_of_plants.pdf ./algorithmic_beauty_of_plants.pdf 
 ln -s ./Algorithmic_beauty_of_plants.pdf ./abop.pdf
+cd Projects/Houdini/Fractals/
+ls
+git add model.hipnc 
+git commit -am "updating fracals file"
+git push
+ls
+crome
+chrome
+eix chrome
+su
+google-chrome-stable 
