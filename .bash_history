@@ -6959,3 +6959,115 @@ conky
 conky &
 ls
 uname -a
+cd ./mount/
+ls
+cd bin/
+su
+source optirun.sh
+source houdini_setup
+houdini
+houdini
+cd ~/Desktop/
+ls
+git add n_body_fail.hipnc 
+git commit -am "n_body_fail.hipnc"
+git push
+git push
+git status
+git push
+ls
+pwd
+cd ..
+git add ./Desktop/n_body_fail.hipnc 
+git commit -am "bla"
+git push
+git config --global push.default matching
+git push
+sudo git push
+
+ls
+cd Desktop/
+ls
+cd /home/madjestic/Projects/Houdini/POPs/
+ls
+git add n_body.hipnc 
+git commit -am "n_body.hipnc"
+git push
+sudo git push
+cd houdini
+optirun bash
+uname -a
+ghc -V
+eix ghc
+man pf
+man ls
+eix pf
+eix -I pf
+eix -I pf | grep pf
+glxgears 
+optirun bash
+eix kde
+eix plasma
+eselect kde list
+steam 
+ste
+steam 
+cabal --help
+cabal list prime
+eix primes
+emerge -av dev-haskell/primes
+su
+su
+ghci
+steam 
+cd bin/
+ls -lah
+./Popcorn-Time 
+cd ~/Downloads/
+./Popcorn-Time 
+cd ~/Popcorn-Time/
+ls
+cd ~/bin/
+ln --help
+ln -s ~/Popcorn-Time/Popcorn-Time ./Popcorn-Time
+ls
+rm ./Popcorn-Time 
+ln -s ~/Popcorn-Time/Popcorn-Time ./Popcorn-Time
+ls -lah
+ln -s ./optirun.sh ./optirun_hud
+cd ~
+who optimizegraphics 
+optimizegraphics --help
+optimizegraphics
+locate optimizegraphics
+cd /usr/bin/
+ls
+ls -lah ./optimizegraphics 
+emacs optimizegraphics 
+emacs optimizegraphics 
+emacs optimizegraphics &
+./optimizegraphics 
+eixpngout
+eix pngout
+eix optimize
+emacs optimizegraphics &
+./Popcorn-Time
+Popcorn-Time
+steam 
+okular 
+locate algorithmic | grep pdf
+grep -ir "algori" | grep pdf
+locate Algorithmic* | grep pdf
+cd Documents/
+ls
+locate Algorithmic
+cd ~
+locate Algorithmic
+locate --help
+locate algorithmic
+locate [A,a]lgorithmic
+locate *lgorithmic
+cd Documents/
+ls -lah
+ln -s ./Algorithmic_beauty_of_plants.pdf ./algorithmic_beauty_of_plants.pdf 
+ln -s ./Algorithmic_beauty_of_plants.pdf ./abop.pdf

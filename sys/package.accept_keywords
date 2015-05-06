@@ -1,5 +1,7 @@
 =x11-misc/primus-9999 **
 
+=www-client/google-chrome-42.0.2311.135_p1 ~amd64
+
 =sys-firmware/iwl2030-ucode-18.168.6.1 ~amd64
 =sci-mathematics/maxima-5.32.1-r1 ~amd64
 =sci-mathematics/maxima-5.34.0 ~amd64

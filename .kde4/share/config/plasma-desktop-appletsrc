@@ -178,8 +178,8 @@ zvalue=0
 RightButton;NoModifier=contextmenu
 
 [Containments][1][Applets][10]
-geometry=0,828,48,48
-immutability=1
+geometry=0,852,48,48
+immutability=2
 plugin=launcher
 zvalue=241
 
@@ -218,7 +218,7 @@ zvalue=250
 Order=1
 
 [Containments][1][Applets][13][PopupApplet]
-DialogHeight=146
+DialogHeight=135
 DialogWidth=299
 
 [Containments][1][Applets][14]
@@ -231,8 +231,8 @@ zvalue=244
 Order=0
 
 [Containments][1][Applets][15]
-geometry=0,532,48,292
-immutability=1
+geometry=0,532,48,316
+immutability=2
 plugin=panelspacer_internal
 zvalue=239
 
@@ -366,4 +366,4 @@ wallpapercolor=0,0,0
 wallpaperposition=2
 
 [General]
-immutability=1
+immutability=2
