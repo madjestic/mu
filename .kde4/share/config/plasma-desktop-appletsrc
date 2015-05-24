@@ -13,6 +13,10 @@ Natron-0.9.6=
 Natron-MaintenanceTool=
 Nuke8.0v4=
 NukeX8.0v4=
+PyAlaMode=2015-05-22
+PyCrust=2015-05-22
+PyShell=2015-05-22
+XRCed=2015-05-22
 audacity=
 ca.desrt.dconf-editor=
 calibre-ebook-edit=
@@ -30,6 +34,7 @@ firefox-2=
 glade=
 google-chrome=
 inkscape=
+julia=
 kde4-Help=
 kde4-KCharSelect=
 kde4-ark=
@@ -152,6 +157,7 @@ transmission-gtk=
 transmission-qt=
 unetbootin=
 uxterm=
+vivaldi-preview=
 vlc=
 wpa_gui-wpa_supplicant=
 wxmaxima-wxmaxima=
@@ -169,7 +175,7 @@ geometry=10060,-906,54,900
 immutability=1
 lastDesktop=-1
 lastScreen=0
-location=5
+location=6
 plugin=panel
 screen=0
 zvalue=0
@@ -178,7 +184,7 @@ zvalue=0
 RightButton;NoModifier=contextmenu
 
 [Containments][1][Applets][10]
-geometry=0,852,48,48
+geometry=6,852,48,48
 immutability=2
 plugin=launcher
 zvalue=241
@@ -187,7 +193,7 @@ zvalue=241
 Order=12
 
 [Containments][1][Applets][11]
-geometry=0,480,48,48
+geometry=6,480,48,48
 immutability=2
 plugin=notifier
 zvalue=7
@@ -196,7 +202,7 @@ zvalue=7
 Order=10
 
 [Containments][1][Applets][12]
-geometry=0,64,48,48
+geometry=6,64,48,48
 immutability=2
 plugin=org.kde.networkmanagement
 zvalue=247
@@ -205,11 +211,11 @@ zvalue=247
 Order=2
 
 [Containments][1][Applets][12][PopupApplet]
-DialogHeight=339
-DialogWidth=709
+DialogHeight=378
+DialogWidth=720
 
 [Containments][1][Applets][13]
-geometry=0,28,48,32
+geometry=6,28,48,32
 immutability=2
 plugin=battery
 zvalue=250
@@ -219,10 +225,10 @@ Order=1
 
 [Containments][1][Applets][13][PopupApplet]
 DialogHeight=135
-DialogWidth=299
+DialogWidth=310
 
 [Containments][1][Applets][14]
-geometry=0,0,48,24
+geometry=6,0,48,24
 immutability=2
 plugin=digital-clock
 zvalue=244
@@ -231,7 +237,7 @@ zvalue=244
 Order=0
 
 [Containments][1][Applets][15]
-geometry=0,532,48,316
+geometry=6,532,48,316
 immutability=2
 plugin=panelspacer_internal
 zvalue=239
@@ -243,7 +249,7 @@ FixedSize=false
 Order=11
 
 [Containments][1][Applets][19]
-geometry=0,428,48,48
+geometry=6,428,48,48
 immutability=2
 plugin=icon
 zvalue=238
@@ -255,7 +261,7 @@ Url=file:///usr/share/applications/kde4/konsole.desktop
 Order=9
 
 [Containments][1][Applets][21]
-geometry=0,376,48,48
+geometry=6,376,48,48
 immutability=2
 plugin=icon
 zvalue=0
@@ -267,7 +273,7 @@ Url=file:///usr/share/applications/emacs.desktop
 Order=8
 
 [Containments][1][Applets][22]
-geometry=0,324,48,48
+geometry=6,324,48,48
 immutability=2
 plugin=icon
 zvalue=239
@@ -279,7 +285,7 @@ Url=file:///usr/share/applications/kde4/ksysguard.desktop
 Order=7
 
 [Containments][1][Applets][23]
-geometry=0,272,48,48
+geometry=6,272,48,48
 immutability=2
 plugin=icon
 zvalue=0
@@ -291,7 +297,7 @@ Url=file:///usr/share/applications/kde4/systemsettings.desktop
 Order=6
 
 [Containments][1][Applets][24]
-geometry=0,220,48,48
+geometry=6,220,48,48
 immutability=2
 plugin=icon
 zvalue=0
@@ -303,7 +309,7 @@ Url=file:///usr/share/applications/kde4/dolphin.desktop
 Order=5
 
 [Containments][1][Applets][25]
-geometry=0,168,48,48
+geometry=6,168,48,48
 immutability=2
 plugin=icon
 zvalue=0
@@ -315,7 +321,7 @@ Url=file:///usr/share/applications/steam.desktop
 Order=4
 
 [Containments][1][Applets][26]
-geometry=0,116,48,48
+geometry=6,116,48,48
 immutability=2
 plugin=icon
 zvalue=0
@@ -329,6 +335,10 @@ Order=3
 [Containments][1][Configuration]
 maximumSize=54,900
 minimumSize=54,900
+
+[Containments][1][ToolBox]
+corner=5
+offset=5
 
 [Containments][8]
 ActionPluginsSource=Global
@@ -348,13 +358,13 @@ wallpaperpluginmode=SingleImage
 zvalue=0
 
 [Containments][8][Applets][38]
-geometry=375,770,820,103
+geometry=392,697,820,203
 immutability=2
 plugin=quicklaunch
-zvalue=231
+zvalue=254
 
 [Containments][8][Applets][38][Configuration]
-launchers=file:///usr/share/applications/kde4/krita.desktop,file:///usr/share/applications/spotify.desktop,file:///usr/share/applications/chromium-browser-chromium.desktop,file:///usr/share/applications/kde4/dolphin.desktop
+launchers=file:///usr/share/applications/kde4/krita.desktop,file:///usr/share/applications/spotify.desktop,file:///usr/share/applications/chromium-browser-chromium.desktop,file:///usr/share/applications/vivaldi-preview.desktop,file:///usr/share/applications/kde4/dolphin.desktop,file:///usr/share/applications/kde4/krusader.desktop,file:///home/madjestic/.local/share/applications/wxmaxima-wxmaxima-2.desktop,file:///home/madjestic/.local/share/applications/emacs.desktop,file:///home/madjestic/.kde4/share/apps/plasma-desktop/quicklaunch/Juno.desktop,file:///home/madjestic/.kde4/share/apps/plasma-desktop/quicklaunch/LT.desktop,file:///home/madjestic/.local/share/applications/steam-2.desktop,file:///usr/bin/conky
 launchersOnPopup=
 
 [Containments][8][Wallpaper][image]

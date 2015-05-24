@@ -18,6 +18,7 @@ fi
 # Put your fun stuff here.
 
 export PATH=$PATH:~/.cabal/bin:~/bin
+export PATH=$PATH:~/Projects/Julia/julia/
 export GIT_EDITOR=emacs
 
 export PROJECTS=~/Projects/Houdini
@@ -36,3 +37,5 @@ export HOUDINI=~/houdini
 # export HOUDINI_OTL_PATH=~/Projects/Houdini/OTL
 # export HOUDINI_DSO_PATH=~/Projects/Houdini/DSO
 export HOUDINI_OTLSCAN_PATH=$HOUDINI/houdini/otls:~/Projects/Houdini/otls
+
+

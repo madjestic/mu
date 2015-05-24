@@ -1,14 +1,5 @@
->=dev-python/pyudev-0.16.1-r1 pyqt4
 app-editors/emacs xft
-=media-libs/lcms-1.19 python
->=media-libs/lcms-1.19-r1:0 python
->=app-misc/strigi-0.7.8 clucene
-dev-lang/python sqlite
-dev-lang/python sqlite
-=dev-python/setuptools-12.0.1 python_targets_python3_4
 
-
->=x11-libs/wxGTK-2.9.4.1-r1:2.9 gstreamer
 >=sys-devel/gcc-4.8.3:4.8 fortran
 
 sci-mathematics/rstudio doc
@@ -19,8 +10,8 @@ sci-mathematics/wxmaxima tk
 net-print/cups ppds
 net-fs/samba readline cups pam
 
-=sys-devel/llvm-3.5.0 clang
-
-=dev-qt/qtdeclarative-4.8.5 webkit
-
 media-video/ffmpeg -cpu_flags_x86_sse -cpu_flags_x86_sse2
+
+>=sci-libs/fftw-3.3.4 threads
+
+>=sys-devel/llvm-3.5.0 clang

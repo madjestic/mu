@@ -27,3 +27,7 @@
 
 ;;(paredit-mode)
 (global-set-key (kbd "M-s") 'paredit-splice-sexp)
+
+(add-to-list 'yas/root-directory "~/.emacs.d/snippets/haskell-mode")
+(yas/initialize)
+

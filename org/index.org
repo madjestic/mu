@@ -466,8 +466,10 @@ Sat Apr 26 16:03:45 CEST 2014
 
 	A linear transformation leaves the origin fixed.
 
-	One-to-one linear transformations preserve linearity
-	One-to-one linear transformations map lines to lines
+** One-to-one linear transformations
+	 Determinant of One-to-one linear transformations does not equal 0.
+	 One-to-one linear transformations preserve linearity
+	 One-to-one linear transformations map lines to lines
 
 ** TODO : p 48
 

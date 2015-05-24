@@ -3,7 +3,9 @@
 
 (menu-bar-mode -1)
 (font-lock-mode -1)
-(global-auto-revert-mode 1)
+;;(global-auto-revert-mode 1)
+(server-force-delete)
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -19,7 +21,7 @@
  '(cua-enable-cua-keys nil)
  '(cua-mode t nil (cua-base))
  '(desktop-after-read-hook (quote (list-buffers)))
- '(desktop-path (quote ("~/.emacs.d/")))
+ '(desktop-path '("~/"))
  '(desktop-save-mode f)
  '(dired-dwim-target t)
  '(dired-use-ls-dired t)
@@ -60,9 +62,6 @@
 		 ("gnu" . "http://elpa.gnu.org/packages/")
 		 ("melpa" . "http://melpa.milkbox.net/packages/")
 		 ("org" . "http://orgmode.org/elpa/"))))
- '(powerline-default-separator (quote arrow))
- '(powerline-height nil)
- '(powerline-text-scale-factor nil)
  '(rcirc-authinfo (quote (("freenode" nickserv "madjestic" "asdfg"))))
  '(scalable-fonts-allowed t)
  '(scroll-bar-mode nil)
@@ -84,6 +83,7 @@
  '(speedbar-hide-button-brackets-flag t)
  '(speedbar-show-unknown-files t)
  '(speedbar-use-images nil)
+ '(sr-speedbar-right-side nil)
  '(tab-stop-list
 	 (quote
 		(2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 36 38 40 44 48 52 56 64 72 80 88 96 104 112 120)))
@@ -121,10 +121,6 @@
  '(minimap-active-region-background ((t (:background "#454857"))))
  '(minimap-font-face ((t (:height 0.1))))
  '(popup-tip-face ((t (:background "#797985" :foreground "black" :height 0.8))))
- '(powerline-active1 ((t (:inherit mode-line :background "grey22"))))
- '(powerline-active2 ((t (:inherit mode-line :background "grey40"))))
- '(powerline-inactive1 ((t (:inherit mode-line-inactive :background "grey11"))))
- '(powerline-inactive2 ((t (:inherit mode-line-inactive :background "grey20"))))
  '(speedbar-button-face ((t (:foreground "green3" :height 0.8))))
  '(speedbar-directory-face ((t (:foreground "steel blue" :height 0.8))))
  '(speedbar-file-face ((t (:foreground "light blue" :height 0.8))))
@@ -144,7 +140,8 @@
  '(vhdl-speedbar-architecture-face ((t (:foreground "LightSkyBlue" :height 0.8))))
  '(vhdl-speedbar-architecture-selected-face ((t (:foreground "LightSkyBlue" :underline t :height 0.8))))
  '(vhdl-speedbar-package-face ((t (:foreground "Grey80" :height 0.8))))
- '(vhdl-speedbar-package-selected-face ((t (:foreground "Grey80" :underline t :height 0.8)))))
+ '(vhdl-speedbar-package-selected-face ((t (:foreground "Grey80" :underline t :height 0.8))))
+ '(vline ((t (:background "#454857")))))
 
 ;; Use DejaVu Sans Mono as a fallback in fontset-startup
 ;; before resorting to fontset-default.
@@ -168,124 +165,15 @@
 															 (c-mode) 
 															 (linum-mode))))
 
-(add-hook 'haskell-mode-hook
-          (lambda()
-						(require 'shm)
-						(load-haskell)))
+(load "~/.emacs.d/hooks.el")
+(load "~/.emacs.d/misc.el" )
+(load "~/.emacs.d/workgroups.el" )
 
-
-
-(add-hook 'html-mode-hook
-          (lambda()
-            (setq sgml-basic-offset 4)
-            (setq indent-tabs-mode t)))
-
-(add-hook 'web-mode-hook
-          (lambda()
-	    (linum-mode)
-	    (iedit-mode)
-	    (setq web-mode-markup-indent-offset 4)
-	    (setq web-mode-css-indent-offset 4)
-	    (setq web-mode-code-indent-offset 4)
-	    (setq web-mode-indent-style 4)))
-
-(defconst user-init-dir
-  (cond ((boundp 'user-emacs-directory)
-         user-emacs-directory)
-        ((boundp 'user-init-directory)
-         user-init-directory)
-        (t "~/.emacs.d/")))
-
-(defun load-user-file (file)
-  (interactive "f")
-  "Load a file in current user's configuration directory"
-  (load-file (expand-file-name file user-init-dir)))
-
-(defun load-haskell ()
-  "load haskell config files"
-  (interactive)
-  (load-user-file "haskell.el"))
-
-(defun load-lisp ()
-  "load lisp config files"
-  (interactive)
-  (load-user-file "lisp.el"))
-
-(defun load-python ()
-  "load python config files"
-  (interactive)
-  (load-user-file "python-ide.el"))
-
-(defun load-shm ()
-  "load haskell config files"
-  (interactive)
-  (load-user-file "shm.el"))
-
-(defun load-cpp ()
-  "load cpp config files"
-  (interactive)
-  (load-user-file "cpp.el"))
-
-(defun load-ecb ()
-  "load ecb config files"
-  (interactive)
-  (load-user-file "ecb.el"))
-
-(defun load-haskell-ide ()
-  "load haskell-ide config files"
-  (interactive)
-  (load-user-file "haskell-ide.el"))
-
-(defun load-cpp-ide ()
-  "load cpp-ide config files"
-  (interactive)
-  (load-user-file "cpp-ide.el"))
-
-(defun swap-buffer-mode ()
-  "load swap-buffer-mode config files"
-  (interactive)
-  (load-user-file "buffer-mode.el"))
-
-(defun web-mode ()
-  "load web-mode config files"
-  (interactive)
-  (load-user-file "web-mode.el"))
-
-(defun blog-mode ()
-  "load blog-mode config files"
-  (interactive)
-  (load-user-file "blog.el"))
-
-(defun load-erc ()
-  "load erc config files"
-  (interactive)
-  (load-user-file "erc.el"))
-
-(defun kill-all-dired-buffers ()
-      "Kill all dired buffers."
-      (interactive)
-      (save-excursion
-        (let ((count 0))
-          (dolist (buffer (buffer-list))
-            (set-buffer buffer)
-            (when (equal major-mode 'dired-mode)
-              (setq count (1+ count))
-              (kill-buffer buffer)))
-          (message "Killed %i dired buffer(s)." count))))
-
-(global-set-key (kbd "C-x C-k") 'kill-all-dired-buffers)
-(global-set-key (kbd "C-c L") 'linum-mode)
-(global-set-key (kbd "C-;") 'iedit-mode)
-(global-set-key (kbd "C-c l") 'org-store-link)
-(global-set-key (kbd "M-+") 'text-scale-increase)
-(global-set-key (kbd "M-_") 'text-scale-decrease)
 
 (require 'smooth-scroll)
 (smooth-scroll-mode t)
 
 (require 'dired-sort-menu)
-;;(require 'move-text)
-;; (move-text-default-bindings)
 
 (require 'auto-complete)
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
@@ -295,17 +183,10 @@
 (swap-buffer-mode)
 (show-paren-mode t)
 (set-default 'truncate-lines t)
-(powerline-default-theme)
+;;(powerline-default-theme)
 
-(defun kill-other-buffers ()
-    "Kill all other buffers."
-    (interactive)
-    (mapc 'kill-buffer 
-          (delq (current-buffer) 
-                (remove-if-not 'buffer-file-name (buffer-list)))))
 
-(global-set-key (kbd "M-<up>") 'move-text-up)
-(global-set-key (kbd "M-<down>") 'move-text-down) 
+
 
 ;;;;;;;;;;;;;;
 ;; Org-mode ;;
@@ -337,9 +218,3 @@
 (yas-global-mode 1)
 
 (put 'narrow-to-region 'disabled nil)
-
-;;;;;;;;;;;;;;;
-;;    ERC    ;;
-;;;;;;;;;;;;;;;
-(setq erc-save-buffer-on-part t)
-(setq erc-hide-timestamps t)

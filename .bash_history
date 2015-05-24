@@ -7082,3 +7082,920 @@ chrome
 eix chrome
 su
 google-chrome-stable 
+steam 
+python
+steam 
+steam 
+eix -I nvidia
+eix -I bumblebee
+locate xorg.conf
+emacs /etc/X11/xorg.conf
+emacs /etc/X11/xorg.conf
+steam 
+''
+steam 
+source houdini_setup
+source optirun.sh
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+ls
+cd ~/Projects/Houdini/Fractals/
+ls
+houdini model.hipnc &
+houdini model.hipnc &
+houdini &
+ls
+pwd
+houdini model.hipnc &
+houdini model.hipnc &
+ls
+git aadd model.hipnc 
+git add model.hipnc 
+git commit -am "line intersection"
+git push
+git push
+sudo git push
+sudo git push
+houdini model.hipnc &
+houdini model.hipnc &
+houdini model.hipnc &
+houdini model.hipnc &
+houdini model.hipnc &
+houdini model.hipnc &
+houdini model.hipnc &
+houdini model.hipnc &
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+cd houdini
+optirun bash
+source optirun.sh
+emacs Main.hs &
+cd Projects/Haskell/Haskell-OpenGL-Tutorial/
+ls
+cd tutorial08/
+ls
+cat README.md
+cat ../tutorial09/
+cat ../tutorial09/README.md
+
+cat ../tutorial07/README.md
+cat ../tutorial06/README.md
+cd ../tutorial06
+ls
+optirun bash
+eix vivaldi
+su
+vivaldi &
+./UE4Editor 
+sbcl 
+cd Projects/UnrealEngine/
+ls
+git fetch
+ls
+emacs README.md 
+./Setup.sh 
+./GenerateProjectFiles.sh 
+git pull
+./Setup.sh 
+./GenerateProjectFiles.sh 
+make ShaderCompileWorker UnrealLightmass UnrealPak UE4Editor
+make UE4Editor
+make ShaderCompileWorker UnrealLightmass UnrealPak UE4Editor
+make UE4Editor ARGS="-clean" && make UE4Editor
+make ShaderCompileWorker UnrealLightmass UnrealPak UE4Editor
+make ShaderCompileWorker UnrealLightmass UnrealPak UE4Editor
+cd Engine/Binaries/Linux/
+ls
+./UE4Editor 
+./UE4Editor 
+optirun bash
+optirun ./UE4Editor 
+primusrun ./UE4Editor 
+history | grep -i unreal
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject -game -opengl4
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+optirun glxgears
+optirun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+optirun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+cd ..
+cd ..
+cd ..
+ls
+rm -rf ./Engine/
+git fetch
+git pull
+./Setup.sh 
+ls
+./Setup.sh 
+cd ..
+ls
+cd UnrealEngine/
+ls
+rm -rf ./*
+ls
+n
+git clone https://github.com/EpicGames/UnrealEngine
+ls
+cd ..
+ls
+mv ./UnrealEngine ./UnrealEngine_bak
+ls
+mv ./UnrealEngine_bak/UnrealEngine ./
+ls
+rm ./UnrealEngine_bak
+rm -rf ./UnrealEngine_bak
+cd UnrealEngine/
+ls
+./Setup.sh 
+./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+cd Engine/Binaries/Linux/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+make ShaderCompileWorker UnrealLightmass UnrealPak UE4Editor
+ls
+./GenerateProjectFiles.sh 
+make ShaderCompileWorker UnrealLightmass UnrealPak UE4Editor
+cd ..
+ls
+ls -lah
+cd UE4Linux/
+ls
+./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+optirun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+eix unreal
+cd ..
+ls
+rm -rf ./UnrealEngine/
+git clone https://github.com/madjestic/UnrealEngine
+ls
+cd UnrealEngine/
+ls
+./Setup.sh 
+clang -V
+clang -v
+conky
+conky &
+ghci
+ghci
+ghci
+cd Projects/Haskell/Junk/
+ls
+mkdir Num_to_String
+cd Num_to_String/
+ls
+touch Main.hs
+emacs Main.hs 
+eix listlike
+su
+ghci
+ghci
+./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+ls
+cd ..
+git clone https://github.com/madjestic/UnrealEngine
+cd UnrealEngine/
+git fetch
+git pull
+cd ..
+rm -rf ./UnrealEngine/
+git clone https://github.com/madjestic/UnrealEngine
+cd UnrealEngine/
+./Setup.sh 
+./GenerateProjectFiles.sh 
+cd ..
+ls -lah
+cd UE4Linux/
+ls
+cd ..
+cd UnrealEngine/
+make ShaderCompileWorker UnrealLightmass UnrealPak UE4Editor
+cd ..
+ls
+cd UE4Linux/
+primusrun ./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+./UE4Editor ~/Projects/Unreal_Projects/MyProject/MyProject.uproject
+optirun bash
+optirun bash
+optirun bash
+conky &
+cd Projects/Haskell/Junk/
+ls
+cd foo/
+ls
+cat Main.hs
+cd ..
+ls
+cd typeclasses/
+ls
+eix -I media-video/vlc
+eix -I media-video/ffmpeg
+eix -I media-libs/libpostproc
+eix -I media-video/libav
+glxgears 
+optirun bash
+ps -aux | grep conky
+kill 1833
+ps -aux | grep conky
+kill 1834
+ps -aux | grep conky
+glxgears 
+optirun bash
+eix juno
+eix julia
+su
+layman -L | grep -i zuganija
+layman -L | grep -i zugania
+layman -L | grep -i zugaina
+glxgears 
+Projects/Mathematics/MST125/
+cd Projects/Mathematics/MST125/
+ls
+cd TMA02/
+ls
+emacs draft.tex &
+optirun bash
+cd Projects/Julia/
+ls
+cd Juno/
+ls
+cd linux64/
+ls
+./Juno &
+julia
+eix lighttable
+eix julia
+locate julia
+locate gadfly
+find // | grep -ir gadfly 
+su
+cd Projects/Julia/Juno/linux64/
+ls
+./Juno 
+cd ..
+ls
+rm -rf ./linux64/
+git clone https://github.com/one-more-minute/Juno-LT
+ls
+cd Juno-LT/
+ls
+make
+eix julia
+cd /home/madjestic/Projects/LightTable/LightTable/plugins/node
+ls
+./node 
+eix julia
+su
+cd Projects/Julia/Juno/
+ls
+cd linux64/
+ls
+./Juno 
+cd ..
+ls
+cd linux32/
+./Juno 
+cd ..
+cd linux64/
+ls
+./Juno 
+./Juno &
+cd 
+ls
+cd Projects/Julia/
+ls
+mkdir Junk
+cd Junk/
+touch tmp.jl
+emacs tmp.jl 
+cd ..
+krusader 
+krusader &
+cd Juno/linux64/resources/app/plugins/node/
+ls
+ls -lah
+./node
+julia
+julia
+su
+su
+cd Projects/
+cd ~
+cd Downloads/
+git fetch https://github.com/nschloe/lapack.git/
+eix laplack
+eix LAPACK
+eix OpenBLAS
+eix BLAS
+eselect lapack
+eselect lapack list
+su
+su
+cd irc
+ls
+ls
+cd ..
+cd irclogs/
+ls
+cd freenode/
+ls
+cd ..
+ls
+cd ..
+ls
+rm --help
+rm ./--help
+rm -rf ./--help
+sudo rm -rf ./--help
+ls
+ls -lah
+cd houdini
+source houdini_setup
+houdini
+ghci
+ps -aux | grep -i conky
+kill 1332
+emacs .bashrc
+grep -ir "conky" .
+su
+cd Projects/Julia/
+ls
+git clone https://github.com/JuliaLang/julia
+ls
+cd julia/
+ls
+make
+ls
+cd /usr/local/bin/
+ls
+ls
+cd ~/bin/
+ls
+which locate 
+cd /usr/bin/
+ls
+cd ..
+cd local/bin/
+ls -lah
+cd ..
+ls
+cd bin/
+ln -s /home/madjestic/Projects/Julia/julia/julia ./julia
+sudo ln -s /home/madjestic/Projects/Julia/julia/julia ./julia
+ls -lah
+ls -lah
+cd ~
+julia 
+emacs .bash_profile &
+cd ~/Projects/Julia/julia
+julia 
+su
+eix julia
+emerge -av dev-lang/julia
+su
+cd /usr/bin/
+ls -lah | grep -i julia
+which julia 
+cd /usr/local/bin/
+ls
+ls -lah
+sudo rm ./julia 
+julia
+su
+su
+locate loading.jl
+emacs /home/madjestic/Projects/Julia/Juno/linux64/resources/app/plugins/Julia-LT/jl/init.jl
+locate loading.jl
+emacs /home/madjestic/Projects/Julia/julia/base/loading.jl
+julia
+emacs /home/madjestic/Projects/Julia/Juno/linux64/resources/app/plugins/Julia-LT/jl/init.jl
+cd
+cd Projects/Julia/
+ls
+julia
+cd Projects/Julia/
+ls
+rm -rf ./Juno
+eix -I utf8proc
+cd Projects/LightTable/
+ls
+cd LightTable/
+ls
+ls -lah
+./LightTable &
+cd ../../Julia/
+cd Juno_x64/
+ls
+./Juno 
+./Juno 
+cd Projects/LightTable/
+cd LightTable/
+./LightTable 
+cd Projects/
+ls
+rm -rf ./LightTable/
+git clone https://github.com/LightTable/LightTable
+cd LightTable/
+ls
+make
+./linux_deps.sh 
+eix atom
+cd irclogs/
+ls
+conky &
+cd /usr/local/lib64/
+ls
+cp ~/Downloads/linux64/libudev.so.0 ./
+sudo cp ~/Downloads/linux64/libudev.so.0 ./
+LS
+ls
+ls -lah
+su
+cd //lib/
+ls
+cd gentoo/
+ls
+cd ..
+ls
+su
+cd irclogs/
+ls
+ls -lah
+ls -lah
+cd freenode/
+ls -lah
+ls -lah
+ls -lah
+ls
+ls -lah
+cd ..
+ls -lah
+emacs ../.emacs.el
+ls
+cd freenode/
+ls -lah
+ls -lah
+ls ~/.emacs.d/
+emacs ~/.emacs.d/mis.el
+emacs ~/.emacs.d/misc.el
+emacs ~/.emacs.d/misc.el
+ls -lah
+ls -lah ../
+cd ..
+ls -lah
+ls
+ls -lah
+rm -rf ./*
+ls -lah
+rm .##gentoo-science 
+ls -lah
+cd ..
+ls
+em \#.emacs.el# 
+rm \#.emacs.el# 
+ls -lah
+rm .warThunderProps.eblk 
+ls -lah
+eix -I r
+eix -I r-studio
+#eix -I r-studio
+eix r-studio
+eix R
+eix R | grep -i studio
+eix rstudio
+emacs .emacs.d/erc.el
+ls ./irclogs/
+ls -lah
+cd irclogs/
+ls
+ls
+cd ../.emacs.d/hooks.el
+emacs ../.emacs.d/hooks.el &
+cd ~/Projects/Julia/
+ls -lah
+ln -s ./Tutorials/ ./tutorials/
+ln -s ./Tutorials/ ./tutorials
+ls -lah
+cd tutorials/
+ls
+emacs Tutorial.jl &
+emacs Tutorial.jl &
+emacs Tutorial.jl &
+ls
+julia
+cd Projects/LightTable/
+ls
+cd ..
+rm -rf ./LightTable
+cd LightTable/
+ls
+eix libudev
+locate libudev.so.0
+ls
+ls -lah
+ls
+ls -lah
+ls -lah
+ls
+ls -lah
+./LightTable 
+./LightTable &
+./LightTable &
+./LightTable &
+./LightTable &
+./LightTable &
+./LightTable &
+julia
+./LightTable &
+./LightTable 
+./LightTable 
+locate Juno-LT
+cd .config/
+ls
+rm -rf Juno-LT
+rm -rf LightTable/
+julia
+conky &
+cd Projects/LaTeX/
+git clone https://github.com/madsdk/yasnippets-latex
+cd yasnippets-latex/
+ls
+emacs install.sh &
+./install.sh ~/.emacs.d/snippets/latex-mode/
+./install.sh ~/.emacs.d/snippets/latex-mode
+./install.sh ~/.emacs.d/snippets
+./install.sh ~/.emacs.d/
+emacs install.sh &
+cd ..
+rm -rf ./yasnippets-latex/
+ls
+git clone https://github.com/madjestic/yasnippets-latex
+ls
+cd yasnippets-latex/
+ls
+emacs ./install.sh &
+./install.sh 
+./install.sh ~/.emacs.d/
+cd ../..
+cd Haskell/
+ls
+git clone https://github.com/madjestic/haskell-snippets
+ls
+cd haskell-snippets/
+ls
+emacs haskell-snippets.el &
+cp ~/Projects/LaTeX/yasnippets-latex/install.sh ./
+ls
+emacs ./install.sh &
+./install.sh
+./install.sh ~/.emacs.d/
+./install.sh ~/.emacs.d
+emacs ./install.sh &
+./install.sh
+emacs ./install.sh &
+emacs ./install.sh &
+./install.sh
+./install.sh
+./install.sh
+./install.sh
+ls
+cd snippets/
+ls
+ls ./haskell-mode/
+ls
+cd ..
+ls
+cd snippets/
+ls
+ls
+cd ..
+ls
+./install.sh
+./install.sh
+ls
+git add install.sh
+git commit -am "adding install script"
+git push
+cd .emacs.d/snippets/
+ls
+cd latex-mode/
+emacs begin.yasnippet &
+cd .emacs.d/
+ls
+rm -rf session.106d750000014*
+ls
+rm \#lisp.el# 
+ls
+cd snippets/
+ls
+cd latex-mode/
+ls
+cd .emacs.d
+ls
+cd snippets/
+ls
+mkdit latex-mode
+mkdir latex-mode
+ls
+cd latex-mode/
+git clone https://github.com/madsdk/yasnippets-latex/tree/master/snippets
+git clone https://github.com/madsdk/yasnippets-latex
+ls
+cd yasnippets-latex/
+ls
+cd ..ls
+ls
+cd ..
+ls
+rm -rf ./yasnippets-latex/
+ls
+rm -rf ./
+rm -rf ./*
+ls
+ls
+cd ..
+ls
+rm ./latex-mode/
+rm -rf ./latex-mode/
+ls
+cd latex-mode/
+ls
+cd ..
+ls
+ls
+cd latex-mode/
+ls
+cd ..
+ls
+cd haskell-mode/
+ls
+ls -lah
+ls
+cd ..
+ls
+cd ..
+ls
+emacs haskell.el &
+emacs misc.el &
+emacs misc.el &
+cd ~/Projects/LaTeX/
+ls
+emacs draft.tex &
+emacs draft.tex &
+cd .emacs.d
+ls
+cp ~/Downloads/sr-speedbar.el ./
+ls
+touch misc.el
+emacs misc.el &
+su
+eselect python list
+eix tornado
+eselect python list
+eix ipython
+eix ihaskell
+julia
+ipython notebook --profile julia
+ipython notebook --profile julia
+eselect python list
+eselect python set 1
+sudo eselect python set 1
+eselect python set 1
+eselect python list
+ipython notebook --profile julia
+sudo eselect python set 3
+ipython notebook --profile julia
+ghci
+su
+ghci
+eix ihaskell
+cd Projects/LightTable/
+./LightTable 
+julia
+julia
+x fonts
+xlsfonts
+convert -list font
+cd Projects/LightTable/
+./LightTable 
+cd .emacs.d
+ls
+ls -lah
+rm .#session.106d7500000142307959400000010870594 
+ls -lah
+emacs erc.el
+eix emacs
+eix -I emacs
+emacs -V
+cd irclogs/
+ls
+uname -a
+julia
+cd ~/Screenshots/
+git add juno_error_00.png 
+git commit -am "error_message"
+git push
+git push
+conky &
+conky &
+cd irc
+ls
+ls -lah
+emacs .emacs.desktop
+emacs .emacs.desktop
+emacs .emacs.desktop.lock 
+rm -rf .emacs.desktop*
+ls
+ls
+ls -lah
+emacs .emacs.desktop.lock 
+emacs .emacs.desktop.lock 
+emacs .emacs.desktop
+emacs .emacs.desktop
+ls -lah
+emacs .emacs.desktop
+cd ..
+ls -lah
+emacs .emacs.desktop
+emacs .emacs.desktop
+emacs .emacs.el
+ipython notebook --profile haskell
+ipython notebook --profile haskell
+ghci
+ipython profile
+ipython profile list
+cd .ipython/
+ls
+cd profile_haskell/
+ls
+cd ~
+ipython notebook --profile=haskell
+ls
+cd .ipython/
+ls
+cd profile_haskell/
+ls
+cd startup/
+ls
+cd ..
+ls
+cd ~
+locate ihaskell
+eix cabal
+emerge -av dev-haskell/cabal-install
+su
+ls -lah
+cd ~
+ls
+cabal update
+cabal install ihaskell
+cd Projects/Haskell/
+git clone https://github.com/gibiansky/IHaskell
+cd IHaskell/
+ls
+./build.sh ihaskell
+git pull
+ghc -v
+eix ghc
+emerge --sync
+su
+conky &
+glxgears 
+glxgears 
+./Leadwerks
+su
+locate leadwerks
+locate steam
+locate tropico
+find .
+find . | grep -i lead
+find . | grep -i leadwerks
+cd .local/share/Steam/SteamApps/common/Leadwerks/
+ls
+optirun bash
+optirun ./Leadwerks
+primusrun ./Leadwerks
+cd /usr/local/lib64/
+ls
+cd ~
+locate libopenal.so
+cd houdini
+source houdini_setup
+houdini &
+conky &
+which conky
+cd Projects/Haskell/IHaskell/
+ls
+git pull
+git fetch
+git pull
+git fetch
+git pull
+ls
+history | grep -ir ihaskell
+history | grep -i ihaskell
+./build.sh ihaskell
+git fetch
+git pull
+./build.sh ihaskell
+./build.sh ihaskell
+ihaskell install
+ipython notebook
+eix jsonschema
+ipython notebook
+julia
+eix ipython
+su
+cd houdini
+source houdini_setup
+houdini
+locate julia | grep -i ebuild
+emacs /var/lib/layman/science/dev-lang/julia/julia-9999.ebuild
+su
+cd Projects/Mathematics/MST125/TMA02/
+emacs draft.tex &
+emacs .emacs.el &
+emacs .emacs.d/latex.el &
+emacs .emacs.d/latex.el &
+cd .emacs.d/
+ls
+cd snippets/
+ls
+cd latex-mode/
+ls
+emacs begin.yasnippet &
+emacs int.yasnippet 
+ls
+emacs matrix.yasnippet 
+eix utf8proc
+su
+ihaskell -v
+
+eix ihaskell
+emacs .emacs.d/latex.el
+emacs .emacs.el
+cd Projects/Mathematics/MST125/TMA02/
+ls
+emacs draft.tex
+emacs test.tex
+emacs test.tex
+emacs test.tex
+emacs draft.tex &
+emacs draft.tex &
+emacs draft.tex &
+cd Projects/
+mkdir emacs
+cd emacs/
+ls
+git clone https://github.com/tlh/workgroups.el
+ls
+cd workgroups.el/
+ls
+cd ~/.emacs.d/
+cp ~/Projects/emacs/workgroups.el/workgroups.el ./
+ls
+cd ..
+emacs .emacs.el &
+cd /usr/bin/
+ls
+cd ~/bin/
+ls
+cd ~
+cd bin/
+ls -lah
+cd ~
+cd houdini
+source houdini_setup
+houdini
+cd Projects/Mathematics/MST125/TMA02/
+ls
+emacs draft.tex
+emacs draft.tex
+emacs draft.tex
+emacs draft.tex
+emacs draft.tex
+emacs draft.tex
