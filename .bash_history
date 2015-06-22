@@ -7999,3 +7999,930 @@ emacs draft.tex
 emacs draft.tex
 emacs draft.tex
 emacs draft.tex
+ls
+git add .emacs.el
+git add .emacs.d/*.el
+git status
+git commit -am "some emacs configs"
+git push
+cd Projects/
+mkdir Games
+cd Games/
+mkdir Pong
+ls
+cd Pong/
+ls
+cd Assets/
+ls
+cd pong_assets/
+ls
+cd ..
+ls
+mv ./pong_assets/* ./
+ls
+rm -rf ./pong_assets
+ls
+ls
+ls
+cd bin/
+ls
+cd ..
+./bin/godot.x11.tools.64 
+cd Projects/godot/
+ls
+optirun bash
+eix -I utf8proc
+eix vivaldi
+cd ~/bin/
+su
+eix plank
+cd Projects/Godot_Scripting/
+ls
+cat sayhello.
+cat sayhello.scn 
+rm sayhello.scn 
+ls
+ls
+rm sayhello.gd 
+cat sayhello.gd 
+cd Downloads/
+ls
+cd \[BEST-TORRENTS.NET\]\ \ Zblizenia_DVD9/
+ls
+cd ./\[BEST-TORRENTS.NET\]/
+ls
+cd VIDEO_TS/
+ls
+cat VIDEO_TS.IFO 
+julia
+ls
+cd /run/media/madjestic/KINGSTON/lambda/madjestic/Downloads/
+ls
+ls -lah
+rm -rfls
+ls
+rm ./\[BEST-TORRENTS.NET\]\ \ Bogowie\ 720p/
+rm -rf ./\[BEST-TORRENTS.NET\]\ \ Bogowie\ 720p/
+ls
+cd .local/share/Trash/
+ls
+cat metadata 
+rm metadata 
+cat metadata 
+ls
+cd files/
+ls
+emacs metadata
+ls
+cd ..
+ls
+cd info/
+ls
+ls -lah
+cd ..
+ls
+rm -rf ./*
+ls
+su
+cp --help
+eix gcp
+cd /run/media/madjestic/KINGSTON/lambda/madjestic/Downloads/
+ls
+rm -rf ./\[BEST-TORRENTS.NET\]\ \ Zblizenia_DVD9/
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+pv
+cd Downloads/
+ls
+pv \[BEST-TORRENTS.NET\]\ \ Zblizenia_DVD9/ > /run/media/madjestic/KINGSTON/lambda/madjestic/Downloads/
+pv \[BEST-TORRENTS.NET\]\ \ Zblizenia_DVD9/ > /run/media/madjestic/KINGSTON/lambda/madjestic/Downloads/\[BEST-TORRENTS.NET\]\ \ Zblizenia_DVD9/
+pv \[BEST-TORRENTS.NET\]\ \ Zblizenia_DVD9/* > /run/media/madjestic/KINGSTON/lambda/madjestic/Downloads/\[BEST-TORRENTS.NET\]\ \ Zblizenia_DVD9/
+pv \[BEST-TORRENTS.NET\]\ \ Zblizenia_DVD9/* > /run/media/madjestic/KINGSTON/lambda/madjestic/Downloads/\[BEST-TORRENTS.NET\]\ \ Zblizenia_DVD9/*
+eix pv
+su
+cd Downloads/
+ls
+ls
+rm -rf \[BEST-TORRENTS.NET\]\ \ Zblizenia_DVD9/
+ls
+ls
+ls -lah
+cp -v ~/Downloads/\[BEST-TORRENTS.NET\]\ \ Zblizenia_DVD9/ ./
+cp -vR ~/Downloads/\[BEST-TORRENTS.NET\]\ \ Zblizenia_DVD9/ ./
+cd Projects/Games/GodotLife-dev/
+ls
+emacs new_canvasitemshader.shd &
+ls
+emacs engine.cfg 
+emacs new_canvasitemshadergraph.sgp 
+emacs paneldrag.gd 
+emacs worldengine.gd 
+ls
+./godot.x11.tools.64 
+ls
+./godot.x11.tools.64 
+glxgears 
+./godot.x11.tools.64 
+./godot.x11.tools.64 
+./godot.x11.tools.64 
+eix angur
+eix godot
+cd Screenshots/
+git add godot_materials.png
+git commit -am "materials issue with godot"
+git push
+cd Projects/Games/GodotLife-dev/
+ls
+cd release/
+ls
+ls -lah
+cd ..
+ls -lah
+emacs .fscache 
+ls
+emacs 2d_draw.scn &
+emacs 2d_draw.scn &
+ls -lah
+ls
+emacs 2d_draw.xscn &
+ls
+grep -ir "2d_draw.scn" .
+emacs engine.cfg &
+ls
+cd ..
+ls
+rm -rf ./GodotLife-dev/
+cd GodotLife-dev/
+ls
+emacs 2d_draw.xscn 
+ls
+rm test_shader.shd 
+ls
+eix godot
+cd Projects/
+git clone https://github.com/okamstudio/godot
+ls
+cd godot/
+ls
+scons platform=x11
+ls
+cd bin/
+ls
+optirun bash
+./godot.x11.tools.64 
+./godot.x11.tools.64 
+./godot.x11.tools.64 
+./godot.x11.tools.64 
+./godot.x11.tools.64 
+cd ..
+cd ..
+mkdir godot_dev
+cd godot_dev/
+ls
+git clone https://github.com/madjestic/godot
+ls
+cd godot/
+ls
+scons platform=x11
+ls
+cd bin/
+ls
+./godot.x11.tools.64 
+ls
+cd ..
+ls
+cd ..
+cd ..
+cd godot
+git fetch
+git pull
+scons platform=x11
+ls
+grep -ir "shader" .
+cd Projects/
+eix kdevelop
+eix -I kdevelop
+su
+emacs ~/Desktop/untitled.vfl &
+source houdini_setup
+houdini
+houdini
+houdini
+houdini
+houdini
+cd houdini
+optirun bash
+cd Screenshots/
+git add godot_materials2.png 
+git commit -am "adding vex vop example"
+git push
+emacs --server
+emacs --daemon
+cd bin/
+emacs startup.sh &
+ec
+ec
+emacs --daemon
+ec
+ec
+ec
+cd bin/
+ec start_ec.sh
+ec
+emacs --daemon
+ec start_ec.sh
+cd bin/
+emacs emacsd.sh
+chmod a+rx emacsd.sh 
+ls -lah
+emacs startup.sh 
+cd bin/
+emacs startup.sh 
+ls
+cd bin/
+ls -lah
+chmod a+rx start_ec.sh 
+ls -lah
+./start_ec.sh 
+ec
+ec ./start_ec.sh 
+./start_ec.sh
+ec
+./start_ec.sh
+cd ~
+emacs .bashrc
+emacsclient
+emacsclient -c
+emacs .bashrc
+emacs --daemon
+emacsclient -c
+cd bin/
+emacs start_ec.sh
+./start_ec.sh
+emacs --daemon
+./start_ec.sh
+./start_ec.sh
+./start_ec.sh
+./start_ec.sh
+emacsclient -t
+emacsclient -c
+emacsclient -ct
+emacsclient -tc
+cd ~
+emacs ~/.config/autostart/
+emacs --daemon
+cd bin/
+./emacsd.sh 
+ec
+eix creator
+su
+sudo /etc/init.d/serv
+su
+ls -lah /etc/rc.conf 
+su
+history | grep -i desktop
+locate plasma-desktop-appletsrc
+cd .kde4/share/config/
+ls
+ls -lah | grep -i plasma-desktop-appletsrc
+chmod a+rw plasma-desktop-appletsrc
+ls -lah
+ls -lah | grep -i plasma-desktop-appletsrc
+emacs plasma-desktop-appletsrc
+grep -ir "emacs" .
+grep -ir "GNU Emacs" .
+grep -ir "GNU emacs" .
+grep -ir "emacs" .
+grep -ir "_ec" .
+grep -ir "kwik" .
+emacs khotkeysrc &
+scons --help
+cd /home/madjestic/Projects/godot/main/
+ls
+qtcreator ./main.cpp &
+cd Projects/godot/
+ls
+cp Godot.creator ~/tmp/
+ls
+grep -ir "SConscript" .
+cd Downloads/
+mkdir QtCreator_Themes
+cd QtCreator_Themes/
+ls
+git clone https://github.com/alexpana/qt-creator-wombat-theme
+ls
+ls -lah
+cd qt-creator-wombat-theme/
+ls
+cd Projects/Qt/
+ls
+ls -la
+cd test/
+ls
+emacs test.pro
+cd ../..
+ls
+rm -rf ./godot
+git clone https://github.com/okamstudio/godot
+ls
+ls
+mv godot_dev godot
+cd godot/
+ls
+git fetch
+git pull
+git fetch upstream
+ls
+cd ..
+rm -rf ./godot/
+git clone https://github.com/madjestic/godot
+cd godot/
+git fetch upstream
+git fetch https://github.com/okamstudio/godot
+git pull
+git merge https://github.com/okamstudio/godot
+git merge https://github.com/okamstudio/godot/master
+git remote -v
+git remote add upstream https://github.com/okamstudio/godot
+git fetch upstream
+git merge upstream/master
+git status
+git push
+which scons
+cd ~/Projects/godot/
+ls
+cd ~/.config/QtProject/qtcreator/
+ls
+mkdir styles
+cd styles/
+cp ~/Downloads/QtCreator_Themes/qt-creator-wombat-theme ./
+cp -R ~/Downloads/QtCreator_Themes/qt-creator-wombat-theme ./
+ls
+ls
+ls
+cd qt-creator-wombat-theme/
+ls
+cd bin/
+ls -laht
+ls -lahT
+ls --help
+ls -laht 
+history 
+echo "qtcreator -stylesheet=~/.config/QtProject/qtcreator/styles/qt-creator-wombat-theme/stylesheet.css" >> qt.sh
+emacs qt.sh 
+qt
+./qt.sh
+ls
+chmod a+rwx qt.sh
+./qt.sh
+qtcreator -stylesheet=~/.config/QtProject/qtcreator/styles/qt-creator-wombat-theme/stylesheet.css
+qtcreator -stylesheet=/home/madjestic/.config/QtProject/qtcreator/styles/qt-creator-wombat-theme/stylesheet.css 
+emacs qt.sh
+./qt.sh
+locate wombat
+history | grep -i kde
+emacs .kde4/share/config/y
+cd .kde4/share/config/
+ls -laht
+emacs plasma-desktop-appletsrc &
+ls plasma-desktop-appletsrc
+ls -lah plasma-desktop-appletsrc
+chmod a-w plasma-desktop-appletsrc
+ls -lah plasma-desktop-appletsrc
+source houdini_setup
+cd houdini
+source houdini_setup
+optirun bash
+cd irclogs/
+ls
+emacs \#odforce\!madjestic\@irc.freenode.net\:6667.txt 
+sudo
+sudo ping -c3 www.google.com
+sudo ping -c3 www.google.com
+steam 
+cd Projects/Games/dimecity/
+ls
+cd english/
+ls
+eix dosbox
+emerge -av games-emulation/dosbox
+su
+eix games-emulation/dosbox
+cd ~/Projects/Games/dimecity/
+ls
+cd english/
+ls
+dos2unix ./DIME.EXE 
+eix dosbox
+cd ~
+ls
+dos2unix 
+dos2unix --help
+su
+ls
+config
+eix -sS dosbox
+locate dboxfe
+cd bin/
+ln --help
+locate dboxfe
+#ln -s /usr/portage/games-emulation/dboxfe/
+cd ..
+ln -s /usr/portage/games-emulation/dboxfe/ dosbox
+cd dosbox/
+ls
+cd files/
+ls
+cd..
+cd ..
+cd ~
+rm ./dosbox
+cd bin/
+ln -s /usr/games/bin/dboxfe dosbox
+ls
+chmod a+x dosbox 
+sudo chmod a+x dosbox 
+ls
+ls -lah
+./dosbox 
+./dosbox 
+ls
+ls -lah
+./dosbox 
+cd /usr/games/bin/
+ls
+ls -lah
+su
+./dosbox 
+houdini
+houdini
+houdini
+houdini
+cd houdini
+source houdini_setup
+optirun bash
+ghci
+ghci
+cd Projects/LaTeX/
+ln -s ~/Projects/Mathematics/MST125/TMA02 TMA02
+ls
+cd TMA02/
+ls
+julia
+ps -aux
+ps -aux | grep -ir vlc
+ps -aux | grep -i vlc
+kill -KILL 5227
+sudo ping -c3 www.google.com
+sudo ping -c3 www.google.com
+cd Projects/
+ls
+cd godot/
+ls
+ls
+cd ..
+ln -s ../godot Godot
+ls
+ls -lah
+rm Godot
+ln --help
+ln -s /home/madjestic/Projects/godot Godot 
+ls
+ls -lah
+ls -lah
+rm ./UE4Linux 
+ls
+cd godot/
+git fetch
+git status
+git pull
+git status
+git --help
+git  branch
+git log
+history | grep -i git
+fetch upstream
+git fetch upstream
+git merge upstream/master
+git pull
+history | grep -i godot
+scons platform=x11
+git checkout master
+git status
+git fetch upstream
+git merge upstream/master
+git pull
+git pull upstream/master
+git status
+git pull origin/master
+git branch
+git remote
+git remote set
+git remote add origin
+git remote -v
+git origin pull
+git remote origin pull
+git fetch upstream
+git pull upstream
+git pull upstream/master
+git fetch upstream
+git checkout master
+git push
+git fetch upstream
+git checkout master
+git merge upstream/master
+ls
+cd tools/
+ls
+cd editor/
+ls
+cd ..
+cd ..
+ls
+scons platform=x11
+ls
+ls
+cd ..
+ls
+ls -lah
+cd godot/
+ls -lah
+emacs Godot.config 
+grep -ir "editor_file_dialogue" .
+cd Projects/godot/
+ls
+history 
+scons platform=x11
+scons platform=x11
+cd Projects/3D-CoatV4-5/
+ls
+./3d-coat-64 
+optirun ./3d-coat-64 
+optirun ./3d-coat-64 
+history 
+./godot.x11.tools.64 
+cd Projects/godot/
+history 
+git fetch upstream
+git checkout master
+git merge upstream/master
+scons platform=x11
+ls
+cd bin/
+ls
+optirun ./godot.x11.tools.64 
+optirun bash
+julia
+julia
+julia
+./3d-coat-64 
+cd Projects/3D-CoatV4-5/
+ls
+optirun bash
+cd Projects/LaTeX/
+ls
+cd ..
+cd Mathematics/MST125/TMA02/
+ls
+emacs draft.tex &
+emacs draft.tex &
+ls
+cp draft.tex draft.tex.bak
+cp draft.tex.bak draft.tex
+emacs draft.tex &
+locate maxima
+eix maxima
+su
+locate maxima
+vlc
+vlc
+glxgears 
+cd Downloads/The.Colour.of.Magic.2008.720p.BluRay.DTS.x264-ESiR/
+ls
+cvlc Terry.Pratchett\'s.The.Colour.of.Magic.2008.Part.II.720p.BluRay.DTS.x264-ESiR.mkv 
+vlc Terry.Pratchett\'s.The.Colour.of.Magic.2008.Part.II.720p.BluRay.DTS.x264-ESiR.mkv 
+vlc Terry.Pratchett\'s.The.Colour.of.Magic.2008.Part.II.720p.BluRay.DTS.x264-ESiR.mkv 
+vlc Terry.Pratchett\'s.The.Colour.of.Magic.2008.Part.II.720p.BluRay.DTS.x264-ESiR.mkv 
+vlc Terry.Pratchett\'s.The.Colour.of.Magic.2008.Part.II.720p.BluRay.DTS.x264-ESiR.mkv 
+vlc
+vlc Terry.Pratchett\'s.The.Colour.of.Magic.2008.Part.II.720p.BluRay.DTS.x264-ESiR.mkv 
+vlc Terry.Pratchett\'s.The.Colour.of.Magic.2008.Part.II.720p.BluRay.DTS.x264-ESiR.mkv 
+vlc Terry.Pratchett\'s.The.Colour.of.Magic.2008.Part.II.720p.BluRay.DTS.x264-ESiR.mkv 
+vlc Terry.Pratchett\'s.The.Colour.of.Magic.2008.Part.II.720p.BluRay.DTS.x264-ESiR.mkv 
+vlc Terry.Pratchett\'s.The.Colour.of.Magic.2008.Part.II.720p.BluRay.DTS.x264-ESiR.mkv 
+vlc Terry.Pratchett\'s.The.Colour.of.Magic.2008.Part.II.720p.BluRay.DTS.x264-ESiR.mkv 
+vlc Terry.Pratchett\'s.The.Colour.of.Magic.2008.Part.II.720p.BluRay.DTS.x264-ESiR.mkv 
+vlc Terry.Pratchett\'s.The.Colour.of.Magic.2008.Part.II.720p.BluRay.DTS.x264-ESiR.mkv 
+vlc Terry.Pratchett\'s.The.Colour.of.Magic.2008.Part.II.720p.BluRay.DTS.x264-ESiR.mkv 
+vlc Terry.Pratchett\'s.The.Colour.of.Magic.2008.Part.II.720p.BluRay.DTS.x264-ESiR.mkv 
+vlc
+vlc
+vlc Terry.Pratchett\'s.The.Colour.of.Magic.2008.Part.II.720p.BluRay.DTS.x264-ESiR.mkv 
+vlc Terry.Pratchett\'s.The.Colour.of.Magic.2008.Part.II.720p.BluRay.DTS.x264-ESiR.mkv 
+cd ..
+ls
+rm -rf The.Colour.of.Magic.2008.720p.BluRay.DTS.x264-ESiR/
+cd Downloads/The.Colour.of.Magic.2008.720p.BluRay.DTS.x264-ESiR/
+ls
+vlc Terry.Pratchett\'s.The.Colour.of.Magic.2008.Part.II.720p.BluRay.DTS.x264-ESiR.mkv 
+optirun bash
+history 
+su
+eix gfk
+eix gdk
+eix gdk | grep -i python
+eix pygtk
+eselect python list
+su
+eix-sync 
+su
+python
+eix pygdk
+python
+su
+su
+eix dosbix
+eix dosbox
+cd Projects/
+git clone https://github.com/GNOME/pitivi
+ls
+cd pitivi/
+ls
+make
+emacs README 
+emacs RELEASE 
+emacs autogen.sh 
+ls
+emacs Makefile.am 
+./autogen.sh 
+ls
+make
+ls
+cd bin/
+ls
+./pitivi
+ls
+cd ..
+ls
+eselect python list
+eselect python set 1
+sudo eselect python set 1
+eselect python list
+ls
+./autogen.sh 
+ls
+make
+ls
+./autoregen.sh 
+ls
+./missing 
+make
+ls
+./install-sh 
+./py-compile 
+ls
+cd bin/
+ls
+./pitivi
+cd ..
+ls
+cd pitivi
+ls
+cd ..
+ls
+cd bin/
+ls
+make
+make all
+./pitivi
+eix gi
+eix gi | grep -i python
+./pitivi
+eix gdk
+eix gi | grep -i introspection
+eix -i "gobject-introspection"
+eix --help
+eix -S "gobject-introspection"
+eix -S "introspection"
+eix python-gobject
+su
+su
+eix -I qt
+cd Projects/
+mkdir tmp
+cd tmp/
+git clone https://github.com/EpicGames/UnrealEngine/tree/promoted
+su
+julia
+cd Projects/
+ls
+ln -s ./UnrealEngine/Engine/Binaries/Linux/UE4Editor ./UE4Linux
+ls
+./UE4Linux 
+glxgears 
+s
+./UE4Editor 
+cd ~/Projects/
+ls
+./UE4Linux 
+su
+cd Projects/
+ls
+git clone https://github.com/madjestic/UnrealEngine
+cd UnrealEngine/
+ls
+history | grep -i git
+git fetch upstream
+git pull upstream/master
+git remote add upstream
+git remote -v
+git remote add upstream https://github.com/EpicGames/UnrealEngine
+git remote -v
+git fetch upstream
+git pull upstream
+git pull upstream
+git pull upstream/promoted
+git fetch upstream/promoted
+git remote -v
+git checkout promoted
+git fetch upstream
+git status
+git checkout master
+ls
+ls -lah
+git status
+git remote -v
+git pull upstream
+git pull upstream/promoted
+git pull upstream/master
+git merge upstream/promoted
+git checkout promoted
+git checkout remote/promoted
+git status
+git checkout origin
+git status
+git revert ./*
+git -r revert ./*
+git revert ./
+git checkout .
+git status
+git merge upstream/promoted
+git commit -am "changes"
+git status
+git revert HEAD
+git revert -m HEAD
+git push
+cd ..
+rm -rf ./UnrealEngine
+git clone
+git clone https://github.com/madjestic/UnrealEngine
+cd UnrealEngine/
+ls
+git remote -v
+git remote add upstream https://github.com/EpicGames/UnrealEngine
+git remote -v
+git fetch upstream
+git fetch upstream
+git merge upstream/promoted
+git merge upstream/master
+git clone https://github.com/EpicGames/UnrealEngine
+cd ..
+rm -rf ./UnrealEngine/
+git clone https://github.com/EpicGames/UnrealEngine
+cd UnrealEngine/
+ls
+./Setup.sh 
+ls
+cd Engine/
+ls
+cd Binaries/
+ls
+cd Linux/
+ls
+ls
+ls
+cd ..
+ls
+cd ..
+ls
+cd Build/
+ls
+cd ..
+ls
+cd Programs/
+ls
+cd ..
+cd ..
+ls
+./GenerateProjectFiles.sh
+make
+git remote -v
+cd ..
+rm -rf ./UnrealEngine/
+git clone https://github.com/EpicGames/UnrealEngine -b promoted
+ls
+cd UnrealEngine/
+ls
+./Setup.sh 
+ls
+./GenerateProjectFiles.sh 
+cd ..
+ls
+ls
+cd UnrealEngine/
+ls
+make
+./GenerateProjectFiles.sh 
+emacs GenerateProjectFiles.sh 
+emacs GenerateProjectFiles.sh &
+cd Engine/Build/BatchFiles/Linux/
+ls
+emacs ./GenerateProjectFiles.sh 
+emacs ./GenerateProjectFiles.sh &
+mono -v
+mono -V
+eix -I mono
+ls
+cd ..
+cd ../..
+ls
+cd ..
+ls
+./GenerateProjectFiles.sh 
+ls
+make
+ls
+ls
+cd Engine/Binaries/Linux/
+ls
+optirun bash
+eix kmplayer
+su
+history 
+history 
+su
+eselect news read
+eselect news read all
+su
+eselect news read all
+su
+chromium --temp-profile &
+find /tmp/tmp.*/Default/Extensions/lccekmodgklaepjeofjdjpbminllajkg/0.3.0.5_0/_platform_specific/
+locate hotword-x86-64.nexe
+eix vivaldi
+rm -rf ./.config/chromium/Default/Extensions/lccekmodgklaepjeofjdjpbminllajkg/
+locate hotword-x86-64.nexe
+rm -rf /home/madjestic/.config/google-chrome/Default/Extensions/lccekmodgklaepjeofjdjpbminllajkg/
+locate hotword-x86-64.nexe
+eix chromium
+sudo
+sudo ping -c3 www.google.com
+layman -a |grep -i media
+layman -l | grep -i media
+layman -L | grep -i media
+layman -L | grep -i zugania
+layman -L
+layman -L | grep -i zug
+layman -a zugaina
+su
+sudo layman -a zugaina
+eix-sync 
+sudo eix-sync 
+eix popcorn
+cd /etc/portage/
+su
+locate hotword-x86
+locate hotword-x86*
+find /home/madjestic/ | grep -i hotword-x86
+eix blas-reference
+emacs .conkyrc &
+ps -aux | grep -i conky
+kill 1315
+kill 1320
+ps -aux | grep -i conky
+kill 1389
+kill 8266
+ps -aux | grep -i conky
+kill 8297
+kill 8344
+kill 8344
+ps -aux | grep -i conky
+kill 11763
+kill 13206
+kill 13339
+ps -aux | grep -i conky
+kill 13367
+kill 17480
+kill 17606
+ps -aux | grep -i conky
+kill 21853
+kill 23366
+kill 23675
+ps -aux | grep -i conky
+kill 28647
+ps -aux | grep -i conky

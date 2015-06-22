@@ -13,10 +13,10 @@ Natron-0.9.6=
 Natron-MaintenanceTool=
 Nuke8.0v4=
 NukeX8.0v4=
-PyAlaMode=2015-05-22
-PyCrust=2015-05-22
-PyShell=2015-05-22
-XRCed=2015-05-22
+PyAlaMode=
+PyCrust=
+PyShell=
+XRCed=
 audacity=
 ca.desrt.dconf-editor=
 calibre-ebook-edit=
@@ -89,6 +89,7 @@ nvidia-settings-nvidia-settings=
 okular=
 org.gnome.Cheese=
 qtconfig-qtgui-4=
+qtcreator-qt-creator=2015-05-27
 rawtherapee=
 rstudio=
 sandbox=
@@ -201,6 +202,10 @@ zvalue=7
 [Containments][1][Applets][11][LayoutInformation]
 Order=10
 
+[Containments][1][Applets][11][PopupApplet]
+DialogHeight=363
+DialogWidth=301
+
 [Containments][1][Applets][12]
 geometry=6,64,48,48
 immutability=2
@@ -211,7 +216,7 @@ zvalue=247
 Order=2
 
 [Containments][1][Applets][12][PopupApplet]
-DialogHeight=378
+DialogHeight=339
 DialogWidth=720
 
 [Containments][1][Applets][13]
@@ -224,7 +229,7 @@ zvalue=250
 Order=1
 
 [Containments][1][Applets][13][PopupApplet]
-DialogHeight=135
+DialogHeight=146
 DialogWidth=310
 
 [Containments][1][Applets][14]
@@ -358,13 +363,13 @@ wallpaperpluginmode=SingleImage
 zvalue=0
 
 [Containments][8][Applets][38]
-geometry=392,697,820,203
-immutability=2
+geometry=390,766,759,129
+immutability=1
 plugin=quicklaunch
-zvalue=254
+zvalue=266
 
 [Containments][8][Applets][38][Configuration]
-launchers=file:///usr/share/applications/kde4/krita.desktop,file:///usr/share/applications/spotify.desktop,file:///usr/share/applications/chromium-browser-chromium.desktop,file:///usr/share/applications/vivaldi-preview.desktop,file:///usr/share/applications/kde4/dolphin.desktop,file:///usr/share/applications/kde4/krusader.desktop,file:///home/madjestic/.local/share/applications/wxmaxima-wxmaxima-2.desktop,file:///home/madjestic/.local/share/applications/emacs.desktop,file:///home/madjestic/.kde4/share/apps/plasma-desktop/quicklaunch/Juno.desktop,file:///home/madjestic/.kde4/share/apps/plasma-desktop/quicklaunch/LT.desktop,file:///home/madjestic/.local/share/applications/steam-2.desktop,file:///usr/bin/conky
+launchers=file:///usr/share/applications/kde4/krita.desktop,file:///usr/share/applications/spotify.desktop,file:///usr/share/applications/chromium-browser-chromium.desktop,file:///usr/share/applications/vivaldi-preview.desktop,file:///usr/share/applications/kde4/dolphin.desktop,file:///usr/share/applications/kde4/krusader.desktop,file:///home/madjestic/.local/share/applications/wxmaxima-wxmaxima-2.desktop,file:///home/madjestic/.local/share/applications/emacs.desktop,file:///home/madjestic/.local/share/applications/steam-2.desktop,file:///usr/bin/conky,file:///home/madjestic/.kde4/share/apps/plasma-desktop/quicklaunch/launcher-r.desktop
 launchersOnPopup=
 
 [Containments][8][Wallpaper][image]

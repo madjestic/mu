@@ -1,3 +1,9 @@
+*/* abi_x86_32
+
+dev-lang/python sqlite
+
+>=media-libs/phonon-4.7.2 designer
+
 app-editors/emacs xft
 
 >=sys-devel/gcc-4.8.3:4.8 fortran
@@ -15,3 +21,7 @@ media-video/ffmpeg -cpu_flags_x86_sse -cpu_flags_x86_sse2
 >=sci-libs/fftw-3.3.4 threads
 
 >=sys-devel/llvm-3.5.0 clang
+
+# Qt-Creator
+>=dev-libs/libpcre-8.36 pcre16
+>=dev-libs/botan-1.10.5 threads

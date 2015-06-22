@@ -183,7 +183,7 @@
 (swap-buffer-mode)
 (show-paren-mode t)
 (set-default 'truncate-lines t)
-;;(powerline-default-theme)
+(powerline-default-theme)
 
 
 

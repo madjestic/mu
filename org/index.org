@@ -68,6 +68,12 @@ git commit -a
 # write the changes
 git push
 
+# syncing a fork:
+[[https://help.github.com/articles/syncing-a-fork/][Syncing a fork]]
+
+# UnrealEngine4 
+[[https://github.com/EpicGames/UnrealEngine/blob/promoted/Engine/Build/BatchFiles/Linux/README.md]]
+
 ** ### XMONAD             ###
 # application fast start
 # WINDOWS button is the one with the MSWindows logo on it
@@ -190,9 +196,13 @@ stack overflow question
 
 ** Create a Designe
 
+
 *** Design Ideas:
 
 [[http://wordpress.org/themes/][Cool_Ideas]]
+procedural houses in Houdini -> Godot
+notes to waves translator
+
 * Projects
 ** HNGL
 
