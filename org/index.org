@@ -41,7 +41,7 @@ revdep-rebuild -ip
 
 ** ### EMACS TIPS         ###
 # turn off line-wrapping:
-M-x toggle-truncate-lines
+M-x toggle-truncate-linesd
 
 ** ### MISC               ###
 4) Find out your own IP:
@@ -476,6 +476,8 @@ Sat Apr 26 16:03:45 CEST 2014
 
 	A linear transformation leaves the origin fixed.
 
+	If an implication is true, then its converse is either true or false.
+
 ** One-to-one linear transformations
 	 Determinant of One-to-one linear transformations does not equal 0.
 	 One-to-one linear transformations preserve linearity
@@ -659,3 +661,4 @@ Sat Apr 26 16:03:45 CEST 2014
 MESA_GL_VERSION_OVERRIDE=4.0 MESA_GLSL_VERSION_OVERRIDE=400 %command%
 * IRC
 	IRCnet Server : open.ircnet.net
+ffmpeg -i movie.%04d.png -c:v libx264 -r 30 out_x264.avi

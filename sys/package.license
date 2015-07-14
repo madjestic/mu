@@ -1,0 +1,8 @@
+# required by net-im/skype (argument)
+>=net-im/skype-4.2.0.13 skype-4.0.0.7-copyright
+>=games-rpg/wasteland2-1.0.0.4 GOG-EULA
+>=www-plugins/adobe-flash-11.2.202.406 AdobeFlash-11.x
+>=www-client/google-chrome-39.0.2171.71_p1 google-chrome
+>=www-plugins/chrome-binary-plugins-39.0.2171.19_beta1 google-chrome
+
+>=www-client/vivaldi-1.0.162.4_p1 Vivaldi

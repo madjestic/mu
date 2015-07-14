@@ -1,5 +1,7 @@
 */* abi_x86_32
 
+>=media-libs/libvpx-1.4.0 postproc
+
 dev-lang/python sqlite
 
 >=media-libs/phonon-4.7.2 designer

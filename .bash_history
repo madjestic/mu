@@ -8926,3 +8926,909 @@ kill 23675
 ps -aux | grep -i conky
 kill 28647
 ps -aux | grep -i conky
+git add .conkyrc
+git commit -an "saving conky config"
+git commit -am "saving conky config"
+git push
+ps -aux | grep -i conky
+emacs .conkyrc
+conky 
+emacs .conkyrc &
+conky 
+conky 
+julia
+emacs .conkyrc
+conky 
+cat /etc/portage/make.conf | grep -i ABI
+./godot.x11.tools.64 
+eix natron
+./godot.x11.tools.64 
+cd ../..
+ls
+cd tmp/
+ls
+cd ..
+cd Godot
+ls
+cd bin/
+ls
+./godot.x11.tools.64 
+cd Projects/
+ls
+cd Godot
+ls
+cd ..
+ls -lah
+cd Godot
+ls
+git status
+git fetch
+git status
+cd ..
+ls
+cd temp/
+ls
+ls -lah
+cd ..
+ls
+cd tmp/
+ls
+cd ..
+rm -rf ./tmp
+ln -s ./temp/ tmp
+ls
+ls -lah
+cd Godot
+ls
+cd bin/
+ls
+ls
+cd ..
+cd ..
+cd tmp/
+git clone https://github.com/okamstudio/godot
+ls
+cd godot/
+ls
+scons platform=x11
+cd bin/
+ls
+optirun bash
+optirun godot.x11.tools.64 
+cd bash
+optirun bash
+./UE4Editor 
+cd ../..
+cd ../..
+cd godot/bin/
+l
+ls
+cd Projects/godot/bin/
+./godot.x11.tools.64 
+cd ..
+cd ..
+ls
+cd UnrealEngine/
+ls
+cd Engine/Binaries/Linux/n
+cd Engine/Binaries/Linux/
+ls
+optirun bash
+cd ~/Projects/godot/bin/
+ls
+./godot.x11.tools.64 
+./godot.x11.tools.64 
+eix popcorn
+cd /home/madjestic/Downloads/houdini-14.0.361-linux_x86_64_gcc4.8/
+ls
+su
+haskell
+ghc
+ghci
+locate path
+locate path | grep -i walker
+cd /home/madjestic/Projects/Houdini/Heresy/PathWalker/backup/
+ls
+rm -rf ./*
+ls
+cd ..
+history | grep -i ffmpeg
+cd bin/
+su
+cd /home/madjestic/Desktop/Population_Sim/render/fluctating_masses/
+ls
+ffmpeg -i population_dynamics_fluctating_masses.mantra1.%04d.exr -c:v huffyuv out.avi
+ls
+ffmpeg -i movie.%04d.png -c:v huffyuv out.avi
+ffmpeg -i movie.%04d.png -c:v libx264 -r 30 out_x264.avi
+echo "ffmpeg -i movie.%04d.png -c:v libx264 -r 30 out_x264.avi" >> ~/org/index.org
+cd /etc/portage/
+ls
+grep -i "science" .
+grep -ir "science" .
+ls
+emacs make.conf
+eselect blas
+cd bin/
+su
+libtool: warning: remember to run 'libtool --finish /usr/lib64/blas/reference'
+ghci
+cd Projects/Haskell/
+mkdir Parser
+cd Parser/
+ls
+cd /etc/portage/
+ls -lah
+rm -rf ./._cfg000*
+sudo rm -rf ./._cfg000*
+ls -lah
+cd /usr/src/
+ls -lah
+cd linux-4.0.5-gentoo/
+ls
+su
+cd /etc/portage/
+su
+cd /etc/portage/
+su
+ls
+source houdini_setup
+houdini
+cd ..
+ls -lah
+mvlink houdini /opt/hfs14.0.361
+ls -lah
+cd houdini
+source houdini_setup
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+houdini
+cd houdini
+optirun bash
+cd /usr/src/linux
+su
+su
+su
+cd /usr/src/
+ls -lah
+glxgears 
+optirun bash
+cd /etc/
+ls -lah
+grep -ir ".cfg_" .
+sudo grep -ir ".cfg_" .
+sudo grep -ir "#.cfg_" .
+sudo grep -ir "#.cfg" .
+sudo grep -ir "#cfg" .
+history 
+su
+eix chrome
+eix chromi
+su
+ping -c2 www.google.com
+ping -c2 www.google.com
+history 
+ping -c3 www.google.com
+cd /boot/
+ls -lah
+cd Projects/Haskell/Parser/
+ls
+ghci
+touch Main.hs
+emacs Main.hs &
+emacs Main.hs &
+ping -c3 www.google.com
+ping -c3 www.google.com
+ping -c3 www.google.com
+cd bin/
+ls
+su
+dmesg 
+dmesg 
+dmesg 
+ifconfig 
+su
+su
+su
+ifconfig 
+ping -c3 www.google.com
+eix aeson
+steam 
+conky 
+optirun bash
+ps -aux | grep -i conky
+kill 2415
+kill 2433
+ps -aux | grep -i conky
+conky 
+cd Projects/Haskell/Parser/
+ls
+emacs Main.hs &
+mkdir ParsingStuffWithHaskell
+mv Main.hs ./ParsingStuffWithHaskell/
+eix hakyll
+su
+ping -c3 www.google.com
+ping -c3 www.google.com
+ping -c3 www.google.com
+ping -c3 www.google.com
+cabal
+cabal 
+
+cabal list glutil
+cd /etc/portage/
+su
+eix opengl | grep haskell
+eix dev-haskell/opengl
+emerge -av =dev-haskell/opengl-2.12.0.1
+su
+echo "happy screen recording on linux!"
+clear
+clear 
+echo "happy screen recording with \n: simplescreenrecorder"
+uname -a
+echo "foo /n bar"
+echo "foo \n bar"
+clear 
+uname -a
+clear 
+uname -a
+eix simple
+eix simple | grep -i | record
+eix simplescreen
+layman -a
+layman -l
+layman -L | grep gentoo
+layman -L | grep gentoo-overlay
+layman -L | grep media-video
+layman -L
+layman -L | grep -i anders
+layman -a anders-larsson
+su
+simplescreenrecorder 
+clear 
+simplescreenrecorder 
+cd Projects/Haskell/
+git clone https://github.com/vikrem/Harticle
+cd Harticle/
+optirun bash
+cd houdini
+optirun bash
+source houdini_setup
+houdini &
+cd /home/madjestic/Projects/Houdini/WaterMill/hip/
+ls
+houdini model.hipnc &
+houdini model.hipnc &
+ls
+emacs main.hs &
+ping -c2 www.google.com
+emacs main.hs &
+emacs main.hs &
+emacs main.hs &
+emacs main.hs &
+emacs main.hs &
+glxgears 
+emacs main.hs &
+emacs main.hs &
+ls
+su
+su
+cd /opt/bin/
+ls
+./nvidia-settings 
+ls -lah
+uname -a
+groups madjestic
+./adom
+eix nethack
+eix angband
+su
+locate adom
+cd /opt/bin/
+sudo ./adom -b
+uname -m
+cd Projects/
+git clone https://github.com/angband/angband
+cd angband/
+ls
+emacs readme.txt 
+sh autogen.sh 
+./configure --prefix=$HOME/Projects/Games/angband
+make
+make install
+cd ../
+ls
+cd Games/
+ls
+cd angband/
+ls
+cd games/
+ls
+./angband 
+./angband &
+su
+nethack
+cd /opt/bin/
+ls
+./adom
+sudo ./adom
+12a
+sudo ./adom
+su
+cd ~/Projects/Games/df_linux/
+ls
+cd raw/
+ls
+cd graphics/
+ls
+cd example/
+ls
+emacs dwarves.bmp 
+angband 
+angband 
+cd ~/Projects/Games/angband/
+ls
+cd games/
+ls
+./angband &
+cd ..
+ls
+cd ..
+ls
+cd df_linux/
+ls
+history 
+history | grep -i df
+ls
+touch play_df
+emacs ./play_df &
+ls
+chnod a+x play_df.sh
+chmod a+x play_df.sh
+ls
+./play_df.sh 
+./df -b
+ls
+./play_df.sh 
+ls
+cd ..
+ls
+cp -R df_linux/ ./df_linux_bak
+cd df_linux
+ls
+./play_df.sh 
+./play_df.sh 
+./play_df.sh 
+cd ..
+ls
+rm -rf ./df_linux
+cp -R ./df_linux_bak/ ./df_linux
+cd df_linux
+ls
+./play_df.sh 
+cd ..
+ls
+cd angband/
+ls
+cd games/
+ls
+./angband 
+ls
+./angband 
+./angband 
+ls
+cd ../..
+ls
+cd /etc/bin
+cd /opt/bin/
+ls
+sudo
+sudo ./adom 
+sudo ./adom 
+ls /opt/bin/
+cd .angband/Angband/save/
+ls
+emacs Madjestic 
+rm Madjestic 
+ls
+cd Projects/Games/
+ls
+cd /opt/bin/
+ls
+sudo ./adom 
+sudo ./adom 
+cd /opt/bin/
+ls
+sudo ./adom
+adom 
+adom 
+adom 
+sudo rm /var/games/adom/ADOM_HS.LCK 
+cd /var/games/
+ls -lah
+cd adom/
+ls -lah
+su
+kwordquiz
+cd Projects/Games/df_linux
+ls
+./play_df.sh 
+cd ..
+rm -rf ./df_linux
+cp -R ./df_linux_bak/ ./df_linux
+cd df_linux
+ls
+./play_df.sh 
+cd ..
+adom 
+adom 
+adom 
+ls
+cd Projects/Games/poschengband/
+ls
+sh autogen.sh 
+./config
+./configure 
+make clean
+make
+ls
+su
+ls
+locate poschenbang
+locate poschengband
+ls
+cd mk
+ls
+cd ..
+ls
+cd m4/
+ls
+cd ..
+ls
+locate poschengband
+find // | grep -i poschengband
+su
+ls
+emacs install-sh &
+emacs install-sh &
+grep -ir "poschengband" .
+ls
+cd Projects/Games/angband/
+ls
+cd games/
+./angband 
+ls
+cd /usr/local/games/
+ls
+su
+cd Projects/Games/
+ls
+rm -rf ./poschengband
+git clone https://github.com/poschengband/poschengband/tree/develop
+git clone https://github.com/poschengband
+git clone https://github.com/poschengband/poschengband
+cd poschengband/
+ls
+git branch
+cd ..
+rm -rf ./poschengband
+git clone -b develop https://github.com/poschengband/poschengband
+cd poschengband/
+ls
+sh autogen.sh 
+./config
+./configure 
+make clean
+make
+make install
+make install
+make install
+make install
+cd ~/bin/
+ls -lah /usr/local/games/poschengband poschengband
+ls -lah /opt/bin/adom adom
+ls -lah
+rm ./angband 
+ls -lah
+ln -s /opt/bin/adom adom
+ln -s /usr/local/games/poschengband poschengband
+ls -lah
+./poschengband 
+./poschengband 
+eix tome
+su
+tome 
+cd bin/
+ls
+./poschengband 
+./poschengband 
+./poschengband 
+./poschengband 
+./poschengband 
+ln -s ~/Projects/Games/angband/games/angband angband
+./angband 
+tome 
+eix poschengband
+cd Projects/Games/
+git clone https://github.com/poschengband/poschengband
+ls
+cd poschengband/
+ls
+cat readme
+cat readme.txt 
+ls
+tome
+tome
+eix shotcut
+piranha 
+su
+ls
+cat README 
+./ INSTALL.sh 
+./INSTALL.sh 
+ls
+su
+optirun bash
+optirun piranha
+piranha 
+su
+ls
+emacs INSTALL.sh &
+emacs INSTALL.sh &
+cd ..
+rm -rf ./piranha_linux_8.0.0-10_installer
+rm piranha_linux_8.0.0-10_installer.t
+rm piranha_linux_8.0.0-10_installer*
+ping -c2 www.google.com
+ping -c2 www.google.com
+ping -c2 www.google.com
+ping -c2 www.google.com
+ping -c2 www.google.com
+ping -c2 www.google.com
+su
+shotcut 
+eix jack
+eix libjack
+eix libjack
+shotcut 
+su
+shotcut 
+shotcut 
+su
+source houdini_setup
+houdini
+shotcut 
+cd houdini
+optirun bash
+shotcut 
+optirun bash
+ping -c3 www.google.com
+ping -c3 www.youtube.com
+ping -c3 www.youtube.nl
+optirun shotcut
+shotcut 
+shotcut 
+optirun bash
+cd Projects/Games/angband/
+ls
+cd games/
+./angband 
+cd bin/
+su
+su
+cd Projects/Mathematics/
+touch Notes.tex
+emacs Notes.tex &
+su
+cd Projects/OpenGL/
+ls
+mkdir frag_shader_without_vertex_shader
+ls
+cd frag_shader_without_vertex_shader/
+ls
+emacs Main.c
+emacs Main.c &
+gcc --help
+man gcc
+info gcc
+ls
+gcc Main.c
+gcc Main.c
+gcc Main.c
+gcc Main.c
+source houdini_setup
+houdini
+houdini
+cd houdini
+optirun bash
+eix graphicx
+eix ctan
+eix graphics
+eix graphics | grep -i latex
+eix VirtualBox
+eix popcorn
+su
+popcorntime-bin
+cd Projects/Games/angband/
+ls
+cd ga
+cd games/
+ls
+./angband 
+cd Projects/OpenGL/
+ls
+cd frag_shader_without_vertex_shader/
+gcc Main.c
+g++ Main.c
+gcc Main.c
+eix glfw
+gcc Main.c
+BUILD_SHARED_LIBS=ON gcc Main.c
+$BUILD_SHARED_LIBS=ON gcc Main.c
+BUILD_SHARED_LIBS=ON gcc Main.c
+cd Projects/C
+ls
+cd OpenGL/
+ls
+cd openglbook/
+ls
+cd chapter-2.1/
+ls
+./app
+optirun app
+ls
+rm app
+make
+ls
+optirun bash
+./app
+ls
+emacs chapter.2.1.c &
+ls
+emacs makefile &
+su
+conky &
+cd Projects/OpenGL/
+ls
+ln -s ../C/OpenGL ./C/OpenGL
+ln -rs ../C/OpenGL ./C/OpenGL
+ln -rs ../C/OpenGL ./C_OpenGL
+ls
+ls -lah
+mvlink OpenGL mathematic_OpenGL
+ls -lah
+ls
+cd glfw/
+cd ..
+ls
+cd C
+ls
+cd OpenGL/
+ls
+eix systemd
+eix -I systemd
+eix eudev
+su
+cd Projects/OpenGL/
+ls
+mkdir glfw
+cd glfw/
+emacs Main.c
+cp ~/Projects/OpenGL/C_OpenGL/openglbook/chapter-2.1/makefile ./makefile
+ls
+emacs makefile 
+make
+ls
+emacs makefile 
+emacs makefile &
+make
+cd ..
+ls
+ls -lah
+mvlink OpenGL mathematics_OpenGL
+ls
+ls -lah
+mvlink ./OpenGL ./mathematics_OpenGL
+ls -lah
+cd OpenGL/
+ls
+rm mathematic_OpenGL 
+ls
+rm mathematics_OpenGL 
+ls
+cd ..
+ls
+ls -lah
+mv OpenGL M_OpenGL
+ls
+mv M_OpenGL mathematics_OpenGL
+ls
+cd mathematics_OpenGL/
+ls
+cd OpenGL/
+ls
+cd ..
+ls
+ls
+cd ..
+ls
+cd C_OpenGL/
+ls
+cd openglbook/
+ls
+cd chapter-2.1/
+ls
+ping -c3 www.google.com
+ping -c3 www.google.com
+uname -a
+./godot.x11.tools.64 
+./godot.x11.tools.64 
+cd Projects/
+ls
+cd godot/
+ls
+cd ..
+ls
+cd tmp/
+ls
+git clone https://github.com/okamstudio/godot
+ls
+cd godot/
+ls
+scons platform=x11
+ls
+cd bin/
+ls
+optirun bash
+ls
+./godot.x11.tools.64 
+ls
+cd ..
+ls
+cd ..
+ls
+rm -rf ./godot/
+mv ./tmp/godot ./
+ls
+cd godot/
+ls
+cd bin/
+ls
+cd Projects/godot/
+ls
+cd bin/
+optirun bash
+cd ~
+popcorntime-bin 
+cd bin/
+./update.sh 
+su
+sudo shutdown -h now
+upower -d
+eix upower
+su
+su
+cd /org/freedesktop/UPower/devices/line_power_AC
+cd /org/freedesktop/UPower/devices
+upower -e
+upower -V
+upower -v
+emacs /etc/portage/make.conf
+upower -d
+eix upower
+ps -aux 
+ps -aux | grep -i upower
+upower --help
+upower -d
+
+upower -i
+locate battery
+/sys/class/power_supply/
+ls /sys/class/power_supply/
+cd /sys/class/power_supply/
+ls
+ls -lah
+cd AC
+ls
+cd power/
+ls
+cd ..
+ls
+cd device/
+ls
+cd power
+ls
+cd ..
+ls
+cd power_supply/
+ls
+cd AC/
+ls
+cd device/
+ls
+cd physical_node/
+cd physical_node/
+ls -lah
+cd subsystem/
+ls
+cd ~
+locate BAT0
+upower 
+upower --help
+upower -e
+upower -m
+upower -d
+upower -d
+eix -I udev
+eix -I eudev
+locate emerge.log
+emacs /var/log/emerge.log &
+ls
+cd /var/log
+ls
+ls -lah
+emacs emerge.log 
+emacs emerge-fetch.log 
+ck-list-sessions 
+ls
+emacs emerge.log 
+grep -i "udev" ./emerge
+grep -i "udev" ./emerge.log 
+su
+su
+eix udev-extras
+eix pm-utils
+upower -w
+eix upowerd
+eix polkit
+eix -I polkit
+eix udev
+history 
+history | grep -i udev
+su
+/sys/class/power_supply/
+cd /sys/class/power_supply/
+ls
+ls -lah
+cd /usr/src/
+ls
+cd /boot/
+ls
+su
+su
+eix acpi
+su
+uname -a
+ls /sys/class/power_supply/
+ls /sys/class/power_supply/
+acpi_listen 
+ls /proc/acpi/
+su
+ls /sys/class/power_supply/
+uname -a
+su
+ls /sys/class/power_supply/
+ls
+su
+su
+eix acpi
+su
+acpi -i
+ls /sys/class/power_supply/
+su
+su
+su
+su
