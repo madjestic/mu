@@ -1,0 +1,195 @@
+[32;01m * [39;49;00mPackage:    dev-libs/libsigc++-3.0.6
+[32;01m * [39;49;00mRepository: gentoo
+[32;01m * [39;49;00mMaintainer: gnome@gentoo.org
+[32;01m * [39;49;00mUSE:        abi_x86_32 abi_x86_64 amd64 elibc_glibc kernel_linux userland_GNU
+[32;01m * [39;49;00mFEATURES:   network-sandbox preserve-libs sandbox userpriv usersandbox
+>>> Unpacking source...
+>>> Unpacking libsigc++-3.0.6.tar.xz to /tmp/portage/dev-libs/libsigc++-3.0.6/work
+>>> Source unpacked in /tmp/portage/dev-libs/libsigc++-3.0.6/work
+>>> Preparing source in /tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6 ...
+>>> Source prepared.
+>>> Configuring source in /tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6 ...
+ [32;01m*[0m abi_x86_32.x86: running multilib-minimal_abi_src_configure
+meson setup --buildtype plain --libdir lib --localstatedir /var/lib --prefix /usr --sysconfdir /etc --wrap-mode nodownload --build.pkg-config-path /usr/share/pkgconfig:/usr/share/pkgconfig --pkg-config-path /usr/share/pkgconfig:/usr/share/pkgconfig --native-file /tmp/portage/dev-libs/libsigc++-3.0.6/temp/meson.i686-pc-linux-gnu.x86.ini -Dbuild-examples=false -Dbuild-documentation=false /tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6 /tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6-abi_x86_32.x86
+Generating targets:   0%|                                                     | 0/3 [00:00<?, ?it/s]                                                                                                    Writing build.ninja:   0%|                                                   | 0/40 [00:00<?, ?it/s]                                                                                                    DEPRECATION: c_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
+DEPRECATION: c_link_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
+DEPRECATION: cpp_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
+DEPRECATION: cpp_link_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
+DEPRECATION: fortran_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
+DEPRECATION: fortran_link_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
+DEPRECATION: objc_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
+DEPRECATION: objc_link_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
+DEPRECATION: objcpp_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
+DEPRECATION: objcpp_link_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
+The Meson build system
+Version: 0.56.2
+Source dir: /tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6
+Build dir: /tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6-abi_x86_32.x86
+Build type: native build
+Project name: libsigc++
+Project version: 3.0.6
+C++ compiler for the host machine: x86_64-pc-linux-gnu-g++ -m32 (gcc 9.3.0 "x86_64-pc-linux-gnu-g++ (Gentoo 9.3.0-r2 p4) 9.3.0")
+C++ linker for the host machine: x86_64-pc-linux-gnu-g++ -m32 ld.bfd 2.35.2
+Host machine cpu family: x86
+Host machine cpu: i686
+Program python3 found: YES (/usr/bin/python3.7)
+Using 'BOOST_INCLUDEDIR' from environment with value: '/usr/include'
+Using 'BOOST_LIBRARYDIR' from environment with value: '/usr/lib'
+Using 'BOOST_INCLUDEDIR' from environment with value: '/usr/include'
+Using 'BOOST_LIBRARYDIR' from environment with value: '/usr/lib'
+Run-time dependency Boost (found: system, timer) found: YES 1.75.0
+Program mm-common-get found: YES (/usr/bin/mm-common-get)
+Program perl found: YES (/usr/bin/perl)
+Program doxygen found: YES (/usr/bin/doxygen)
+Program dot found: YES (/usr/bin/dot)
+Program xsltproc found: YES (/usr/bin/xsltproc)
+Compiler for C++ supports arguments -Wall: YES 
+../libsigc++-3.0.6/meson.build:168: WARNING: Consider using the built-in warning_level option instead of using "-Wall".
+Configuring sigc++-3.0.pc using configuration
+Configuring sigc++-3.0-uninstalled.pc using configuration
+Configuring sigc++config.h using configuration
+Configuring sigc.rc using configuration
+Program /usr/bin/python3.7 found: YES (/usr/bin/python3.7)
+Found pkg-config: /usr/bin/x86_64-pc-linux-gnu-pkg-config (0.29.2)
+Run-time dependency mm-common-libstdc++ found: YES 1.0.1
+Configuring Doxyfile using configuration
+Program xsltproc found: YES (/usr/bin/xsltproc)
+Program xmllint found: YES (/usr/bin/xmllint)
+Program dblatex found: NO
+Program docbook2pdf found: NO
+Program /usr/bin/python3.7 found: YES (/usr/bin/python3.7)
+Message: 
+------
+libsigc++ 3.0.6
+
+         Maintainer mode: if-git-build (false)
+       Compiler warnings: min
+    Build deprecated API: true
+Build HTML documentation: false
+          XML validation: true
+               Build PDF: false
+  Build example programs: false
+               Benchmark: false
+Directories:
+                  prefix: /usr
+              includedir: /usr/include
+        includesigcxxdir: /usr/include/sigc++-3.0
+                  libdir: /usr/lib
+        includeconfigdir: /usr/lib/sigc++-3.0/include
+            pkgconfigdir: /usr/lib/pkgconfig
+                 datadir: /usr/share
+                  docdir: /usr/share/doc/libsigc++-3.0
+              devhelpdir: /usr/share/devhelp/books/libsigc++-3.0
+             tutorialdir: /usr/share/doc/libsigc++-3.0/tutorial
+------
+Build targets in project: 3
+
+Found ninja-1.10.2 at /usr/bin/ninja
+ [32;01m*[0m abi_x86_64.amd64: running multilib-minimal_abi_src_configure
+meson setup --buildtype plain --libdir lib64 --localstatedir /var/lib --prefix /usr --sysconfdir /etc --wrap-mode nodownload --build.pkg-config-path /usr/share/pkgconfig --pkg-config-path /usr/share/pkgconfig --native-file /tmp/portage/dev-libs/libsigc++-3.0.6/temp/meson.x86_64-pc-linux-gnu.amd64.ini -Dbuild-examples=false -Dbuild-documentation=false /tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6 /tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6-abi_x86_64.amd64
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/mesonbuild/mesonmain.py", line 140, in run
+    return options.run_func(options)
+  File "/usr/lib/python3.7/site-packages/mesonbuild/msetup.py", line 253, in run
+    app.generate()
+  File "/usr/lib/python3.7/site-packages/mesonbuild/msetup.py", line 161, in generate
+    self._generate(env)
+  File "/usr/lib/python3.7/site-packages/mesonbuild/msetup.py", line 200, in _generate
+    intr.run()
+  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreter.py", line 4715, in run
+    super().run()
+  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 519, in run
+    self.evaluate_codeblock(self.ast, start=1)
+  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 544, in evaluate_codeblock
+    raise e
+  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 537, in evaluate_codeblock
+    self.evaluate_statement(cur)
+  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 552, in evaluate_statement
+    self.assignment(cur)
+  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 1219, in assignment
+    value = self.evaluate_statement(node.value)
+  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 550, in evaluate_statement
+    return self.function_call(cur)
+  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 909, in function_call
+    return func(node, func_args, kwargs)
+  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 393, in wrapped
+    return f(*wrapped_args, **wrapped_kwargs)
+  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 393, in wrapped
+    return f(*wrapped_args, **wrapped_kwargs)
+  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 393, in wrapped
+    return f(*wrapped_args, **wrapped_kwargs)
+  [Previous line repeated 3 more times]
+  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 209, in wrapped
+    ret = f(*wrapped_args, **wrapped_kwargs)
+  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 228, in wrapped
+    return f(*wrapped_args, **wrapped_kwargs)
+  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreter.py", line 3731, in func_dependency
+    d = self.dependency_impl(name, display_name, kwargs)
+  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreter.py", line 3825, in dependency_impl
+    dep = dependencies.find_external_dependency(name, self.environment, kwargs)
+  File "/usr/lib/python3.7/site-packages/mesonbuild/dependencies/base.py", line 2393, in find_external_dependency
+    d = c()
+  File "/usr/lib/python3.7/site-packages/mesonbuild/dependencies/boost.py", line 384, in __init__
+    self.detect_boost_env()
+  File "/usr/lib/python3.7/site-packages/mesonbuild/dependencies/boost.py", line 455, in detect_boost_env
+    return self.detect_split_root(inc_dir, lib_dir)
+  File "/usr/lib/python3.7/site-packages/mesonbuild/dependencies/boost.py", line 673, in detect_split_root
+    self.is_found = self.run_check([boost_inc_dir], [lib_dir])
+  File "/usr/lib/python3.7/site-packages/mesonbuild/dependencies/boost.py", line 483, in run_check
+    libs = self.detect_libraries(i)
+  File "/usr/lib/python3.7/site-packages/mesonbuild/dependencies/boost.py", line 655, in detect_libraries
+    if not i.is_file() or i.is_symlink():
+  File "/usr/lib/python3.7/pathlib.py", line 1387, in is_file
+    return S_ISREG(self.stat().st_mode)
+  File "/usr/lib/python3.7/pathlib.py", line 1183, in stat
+    return self._accessor.stat(self)
+PermissionError: [Errno 13] Permission denied: '/usr/lib64/libidn.so.11'
+DEPRECATION: c_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
+DEPRECATION: c_link_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
+DEPRECATION: cpp_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
+DEPRECATION: cpp_link_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
+DEPRECATION: fortran_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
+DEPRECATION: fortran_link_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
+DEPRECATION: objc_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
+DEPRECATION: objc_link_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
+DEPRECATION: objcpp_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
+DEPRECATION: objcpp_link_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
+The Meson build system
+Version: 0.56.2
+Source dir: /tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6
+Build dir: /tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6-abi_x86_64.amd64
+Build type: native build
+Project name: libsigc++
+Project version: 3.0.6
+C++ compiler for the host machine: x86_64-pc-linux-gnu-g++ (gcc 9.3.0 "x86_64-pc-linux-gnu-g++ (Gentoo 9.3.0-r2 p4) 9.3.0")
+C++ linker for the host machine: x86_64-pc-linux-gnu-g++ ld.bfd 2.35.2
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Program python3 found: YES (/usr/bin/python3.7)
+Using 'BOOST_INCLUDEDIR' from environment with value: '/usr/include'
+Using 'BOOST_LIBRARYDIR' from environment with value: '/usr/lib64'
+Using 'BOOST_INCLUDEDIR' from environment with value: '/usr/include'
+Using 'BOOST_LIBRARYDIR' from environment with value: '/usr/lib64'
+ [31;01m*[0m ERROR: dev-libs/libsigc++-3.0.6::gentoo failed (configure phase):
+ [31;01m*[0m   (no error message)
+ [31;01m*[0m 
+ [31;01m*[0m Call stack:
+ [31;01m*[0m     ebuild.sh, line  125:  Called src_configure
+ [31;01m*[0m   environment, line 3114:  Called multilib-minimal_src_configure
+ [31;01m*[0m   environment, line 2103:  Called multilib_foreach_abi 'multilib-minimal_abi_src_configure'
+ [31;01m*[0m   environment, line 2356:  Called multibuild_foreach_variant '_multilib_multibuild_wrapper' 'multilib-minimal_abi_src_configure'
+ [31;01m*[0m   environment, line 2033:  Called _multibuild_run '_multilib_multibuild_wrapper' 'multilib-minimal_abi_src_configure'
+ [31;01m*[0m   environment, line 2031:  Called _multilib_multibuild_wrapper 'multilib-minimal_abi_src_configure'
+ [31;01m*[0m   environment, line  573:  Called multilib-minimal_abi_src_configure
+ [31;01m*[0m   environment, line 2097:  Called multilib_src_configure
+ [31;01m*[0m   environment, line 2574:  Called meson_src_configure
+ [31;01m*[0m   environment, line 1965:  Called die
+ [31;01m*[0m The specific snippet of code:
+ [31;01m*[0m       "${mesonargs[@]}" ) || die
+ [31;01m*[0m 
+ [31;01m*[0m If you need support, post the output of `emerge --info '=dev-libs/libsigc++-3.0.6::gentoo'`,
+ [31;01m*[0m the complete build log and the output of `emerge -pqv '=dev-libs/libsigc++-3.0.6::gentoo'`.
+ [31;01m*[0m The complete build log is located at '/tmp/portage/dev-libs/libsigc++-3.0.6/temp/build.log'.
+ [31;01m*[0m The ebuild environment file is located at '/tmp/portage/dev-libs/libsigc++-3.0.6/temp/environment'.
+ [31;01m*[0m Working directory: '/tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6-abi_x86_64.amd64'
+ [31;01m*[0m S: '/tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6'
