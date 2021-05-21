@@ -1,195 +1,437 @@
-[32;01m * [39;49;00mPackage:    dev-libs/libsigc++-3.0.6
-[32;01m * [39;49;00mRepository: gentoo
-[32;01m * [39;49;00mMaintainer: gnome@gentoo.org
-[32;01m * [39;49;00mUSE:        abi_x86_32 abi_x86_64 amd64 elibc_glibc kernel_linux userland_GNU
-[32;01m * [39;49;00mFEATURES:   network-sandbox preserve-libs sandbox userpriv usersandbox
->>> Unpacking source...
->>> Unpacking libsigc++-3.0.6.tar.xz to /tmp/portage/dev-libs/libsigc++-3.0.6/work
->>> Source unpacked in /tmp/portage/dev-libs/libsigc++-3.0.6/work
->>> Preparing source in /tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6 ...
->>> Source prepared.
->>> Configuring source in /tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6 ...
- [32;01m*[0m abi_x86_32.x86: running multilib-minimal_abi_src_configure
-meson setup --buildtype plain --libdir lib --localstatedir /var/lib --prefix /usr --sysconfdir /etc --wrap-mode nodownload --build.pkg-config-path /usr/share/pkgconfig:/usr/share/pkgconfig --pkg-config-path /usr/share/pkgconfig:/usr/share/pkgconfig --native-file /tmp/portage/dev-libs/libsigc++-3.0.6/temp/meson.i686-pc-linux-gnu.x86.ini -Dbuild-examples=false -Dbuild-documentation=false /tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6 /tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6-abi_x86_32.x86
-Generating targets:   0%|                                                     | 0/3 [00:00<?, ?it/s]                                                                                                    Writing build.ninja:   0%|                                                   | 0/40 [00:00<?, ?it/s]                                                                                                    DEPRECATION: c_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
-DEPRECATION: c_link_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
-DEPRECATION: cpp_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
-DEPRECATION: cpp_link_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
-DEPRECATION: fortran_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
-DEPRECATION: fortran_link_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
-DEPRECATION: objc_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
-DEPRECATION: objc_link_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
-DEPRECATION: objcpp_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
-DEPRECATION: objcpp_link_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
-The Meson build system
-Version: 0.56.2
-Source dir: /tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6
-Build dir: /tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6-abi_x86_32.x86
-Build type: native build
-Project name: libsigc++
-Project version: 3.0.6
-C++ compiler for the host machine: x86_64-pc-linux-gnu-g++ -m32 (gcc 9.3.0 "x86_64-pc-linux-gnu-g++ (Gentoo 9.3.0-r2 p4) 9.3.0")
-C++ linker for the host machine: x86_64-pc-linux-gnu-g++ -m32 ld.bfd 2.35.2
-Host machine cpu family: x86
-Host machine cpu: i686
-Program python3 found: YES (/usr/bin/python3.7)
-Using 'BOOST_INCLUDEDIR' from environment with value: '/usr/include'
-Using 'BOOST_LIBRARYDIR' from environment with value: '/usr/lib'
-Using 'BOOST_INCLUDEDIR' from environment with value: '/usr/include'
-Using 'BOOST_LIBRARYDIR' from environment with value: '/usr/lib'
-Run-time dependency Boost (found: system, timer) found: YES 1.75.0
-Program mm-common-get found: YES (/usr/bin/mm-common-get)
-Program perl found: YES (/usr/bin/perl)
-Program doxygen found: YES (/usr/bin/doxygen)
-Program dot found: YES (/usr/bin/dot)
-Program xsltproc found: YES (/usr/bin/xsltproc)
-Compiler for C++ supports arguments -Wall: YES 
-../libsigc++-3.0.6/meson.build:168: WARNING: Consider using the built-in warning_level option instead of using "-Wall".
-Configuring sigc++-3.0.pc using configuration
-Configuring sigc++-3.0-uninstalled.pc using configuration
-Configuring sigc++config.h using configuration
-Configuring sigc.rc using configuration
-Program /usr/bin/python3.7 found: YES (/usr/bin/python3.7)
-Found pkg-config: /usr/bin/x86_64-pc-linux-gnu-pkg-config (0.29.2)
-Run-time dependency mm-common-libstdc++ found: YES 1.0.1
-Configuring Doxyfile using configuration
-Program xsltproc found: YES (/usr/bin/xsltproc)
-Program xmllint found: YES (/usr/bin/xmllint)
-Program dblatex found: NO
-Program docbook2pdf found: NO
-Program /usr/bin/python3.7 found: YES (/usr/bin/python3.7)
-Message: 
-------
-libsigc++ 3.0.6
+Emerging (1 of 97) dev-db/mysql-connector-c-8.0.23-r1::gentoo
+ * mysql-boost-8.0.23.tar.gz BLAKE2B SHA512 size ;-) ...                                                                                                                                       [ ok ]
+ >>> Unpacking source...
+ >>> Unpacking mysql-boost-8.0.23.tar.gz to /tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/work
+ >>> Source unpacked in /tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/work
+ >>> Preparing source in /tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/work/mysql-8.0.23 ...
+  * Applying mysql-connector-c-8.0.22-always-build-decompress-utilities.patch ...                                                                                                               [ ok ]
+   * Applying mysql-connector-c-8.0.19-do-not-install-comp_err.patch ...
+   patching file utilities/CMakeLists.txt
+   Hunk #1 succeeded at 28 with fuzz 2 (offset 1 line).                                                                                                                                           [ ok ]
+    * Working in BUILD_DIR: "/tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/work/mysql-connector-c-8.0.23_build"
+     * Hardcoded definition(s) removed in CMakeLists.txt:
+      *    SET(CMAKE_BUILD_TYPE "Debug" CACHE STRING ${BUILDTYPE_DOCSTRING} FORCE)
+      >>> Source prepared.
+      >>> Configuring source in /tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/work/mysql-8.0.23 ...
+       * abi_x86_32.x86: running multilib-minimal_abi_src_configure
+        * Working in BUILD_DIR: "/tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/work/mysql-connector-c-8.0.23_build-abi_x86_32.x86"
+	cmake -C /tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/work/mysql-connector-c-8.0.23_build-abi_x86_32.x86/gentoo_common_config.cmake -G Ninja -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_C_FLAGS_RELWITHDEBINFO=-DNDEBUG -DCMAKE_CXX_FLAGS_RELWITHDEBINFO=-DNDEBUG -DINSTALL_LAYOUT=RPM -DINSTALL_LIBDIR=lib -DWITH_DEFAULT_COMPILER_OPTIONS=OFF -DENABLED_LOCAL_INFILE=ON -DMYSQL_UNIX_ADDR=/run/mysqld/mysqld.sock -DWITH_LZ4=system -DWITH_NUMA=OFF -DWITH_SSL=system -DWITH_ZLIB=system -DWITH_ZSTD=system -DLIBMYSQL_OS_OUTPUT_NAME=mysqlclient -DSHARED_LIB_PATCH_VERSION=0 -DCMAKE_POSITION_INDEPENDENT_CODE=ON -DWITHOUT_SERVER=ON -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_TOOLCHAIN_FILE=/tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/work/mysql-connector-c-8.0.23_build-abi_x86_32.x86/gentoo_toolchain.cmake  /tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/work/mysql-8.0.23
+	loading initial cache file /tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/work/mysql-connector-c-8.0.23_build-abi_x86_32.x86/gentoo_common_config.cmake
+	-- Running cmake version 3.20.2
+	CMake Deprecation Warning at CMakeLists.txt:140 (CMAKE_POLICY):
+	  The OLD behavior for policy CMP0075 will be removed from a future version
+	    of CMake.
 
-         Maintainer mode: if-git-build (false)
-       Compiler warnings: min
-    Build deprecated API: true
-Build HTML documentation: false
-          XML validation: true
-               Build PDF: false
-  Build example programs: false
-               Benchmark: false
-Directories:
-                  prefix: /usr
-              includedir: /usr/include
-        includesigcxxdir: /usr/include/sigc++-3.0
-                  libdir: /usr/lib
-        includeconfigdir: /usr/lib/sigc++-3.0/include
-            pkgconfigdir: /usr/lib/pkgconfig
-                 datadir: /usr/share
-                  docdir: /usr/share/doc/libsigc++-3.0
-              devhelpdir: /usr/share/devhelp/books/libsigc++-3.0
-             tutorialdir: /usr/share/doc/libsigc++-3.0/tutorial
-------
-Build targets in project: 3
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+    policies are deprecated and that a policy should be set to OLD only under
+      specific short-term circumstances.  Projects should be ported to the NEW
+        behavior and not rely on setting a policy to OLD.
 
-Found ninja-1.10.2 at /usr/bin/ninja
- [32;01m*[0m abi_x86_64.amd64: running multilib-minimal_abi_src_configure
-meson setup --buildtype plain --libdir lib64 --localstatedir /var/lib --prefix /usr --sysconfdir /etc --wrap-mode nodownload --build.pkg-config-path /usr/share/pkgconfig --pkg-config-path /usr/share/pkgconfig --native-file /tmp/portage/dev-libs/libsigc++-3.0.6/temp/meson.x86_64-pc-linux-gnu.amd64.ini -Dbuild-examples=false -Dbuild-documentation=false /tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6 /tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6-abi_x86_64.amd64
-Traceback (most recent call last):
-  File "/usr/lib/python3.7/site-packages/mesonbuild/mesonmain.py", line 140, in run
-    return options.run_func(options)
-  File "/usr/lib/python3.7/site-packages/mesonbuild/msetup.py", line 253, in run
-    app.generate()
-  File "/usr/lib/python3.7/site-packages/mesonbuild/msetup.py", line 161, in generate
-    self._generate(env)
-  File "/usr/lib/python3.7/site-packages/mesonbuild/msetup.py", line 200, in _generate
-    intr.run()
-  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreter.py", line 4715, in run
-    super().run()
-  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 519, in run
-    self.evaluate_codeblock(self.ast, start=1)
-  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 544, in evaluate_codeblock
-    raise e
-  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 537, in evaluate_codeblock
-    self.evaluate_statement(cur)
-  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 552, in evaluate_statement
-    self.assignment(cur)
-  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 1219, in assignment
-    value = self.evaluate_statement(node.value)
-  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 550, in evaluate_statement
-    return self.function_call(cur)
-  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 909, in function_call
-    return func(node, func_args, kwargs)
-  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 393, in wrapped
-    return f(*wrapped_args, **wrapped_kwargs)
-  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 393, in wrapped
-    return f(*wrapped_args, **wrapped_kwargs)
-  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 393, in wrapped
-    return f(*wrapped_args, **wrapped_kwargs)
-  [Previous line repeated 3 more times]
-  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 209, in wrapped
-    ret = f(*wrapped_args, **wrapped_kwargs)
-  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreterbase.py", line 228, in wrapped
-    return f(*wrapped_args, **wrapped_kwargs)
-  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreter.py", line 3731, in func_dependency
-    d = self.dependency_impl(name, display_name, kwargs)
-  File "/usr/lib/python3.7/site-packages/mesonbuild/interpreter.py", line 3825, in dependency_impl
-    dep = dependencies.find_external_dependency(name, self.environment, kwargs)
-  File "/usr/lib/python3.7/site-packages/mesonbuild/dependencies/base.py", line 2393, in find_external_dependency
-    d = c()
-  File "/usr/lib/python3.7/site-packages/mesonbuild/dependencies/boost.py", line 384, in __init__
-    self.detect_boost_env()
-  File "/usr/lib/python3.7/site-packages/mesonbuild/dependencies/boost.py", line 455, in detect_boost_env
-    return self.detect_split_root(inc_dir, lib_dir)
-  File "/usr/lib/python3.7/site-packages/mesonbuild/dependencies/boost.py", line 673, in detect_split_root
-    self.is_found = self.run_check([boost_inc_dir], [lib_dir])
-  File "/usr/lib/python3.7/site-packages/mesonbuild/dependencies/boost.py", line 483, in run_check
-    libs = self.detect_libraries(i)
-  File "/usr/lib/python3.7/site-packages/mesonbuild/dependencies/boost.py", line 655, in detect_libraries
-    if not i.is_file() or i.is_symlink():
-  File "/usr/lib/python3.7/pathlib.py", line 1387, in is_file
-    return S_ISREG(self.stat().st_mode)
-  File "/usr/lib/python3.7/pathlib.py", line 1183, in stat
-    return self._accessor.stat(self)
-PermissionError: [Errno 13] Permission denied: '/usr/lib64/libidn.so.11'
-DEPRECATION: c_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
-DEPRECATION: c_link_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
-DEPRECATION: cpp_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
-DEPRECATION: cpp_link_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
-DEPRECATION: fortran_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
-DEPRECATION: fortran_link_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
-DEPRECATION: objc_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
-DEPRECATION: objc_link_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
-DEPRECATION: objcpp_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
-DEPRECATION: objcpp_link_args in the [properties] section of the machine file is deprecated, use the [built-in options] section.
-The Meson build system
-Version: 0.56.2
-Source dir: /tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6
-Build dir: /tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6-abi_x86_64.amd64
-Build type: native build
-Project name: libsigc++
-Project version: 3.0.6
-C++ compiler for the host machine: x86_64-pc-linux-gnu-g++ (gcc 9.3.0 "x86_64-pc-linux-gnu-g++ (Gentoo 9.3.0-r2 p4) 9.3.0")
-C++ linker for the host machine: x86_64-pc-linux-gnu-g++ ld.bfd 2.35.2
-Host machine cpu family: x86_64
-Host machine cpu: x86_64
-Program python3 found: YES (/usr/bin/python3.7)
-Using 'BOOST_INCLUDEDIR' from environment with value: '/usr/include'
-Using 'BOOST_LIBRARYDIR' from environment with value: '/usr/lib64'
-Using 'BOOST_INCLUDEDIR' from environment with value: '/usr/include'
-Using 'BOOST_LIBRARYDIR' from environment with value: '/usr/lib64'
- [31;01m*[0m ERROR: dev-libs/libsigc++-3.0.6::gentoo failed (configure phase):
- [31;01m*[0m   (no error message)
- [31;01m*[0m 
- [31;01m*[0m Call stack:
- [31;01m*[0m     ebuild.sh, line  125:  Called src_configure
- [31;01m*[0m   environment, line 3114:  Called multilib-minimal_src_configure
- [31;01m*[0m   environment, line 2103:  Called multilib_foreach_abi 'multilib-minimal_abi_src_configure'
- [31;01m*[0m   environment, line 2356:  Called multibuild_foreach_variant '_multilib_multibuild_wrapper' 'multilib-minimal_abi_src_configure'
- [31;01m*[0m   environment, line 2033:  Called _multibuild_run '_multilib_multibuild_wrapper' 'multilib-minimal_abi_src_configure'
- [31;01m*[0m   environment, line 2031:  Called _multilib_multibuild_wrapper 'multilib-minimal_abi_src_configure'
- [31;01m*[0m   environment, line  573:  Called multilib-minimal_abi_src_configure
- [31;01m*[0m   environment, line 2097:  Called multilib_src_configure
- [31;01m*[0m   environment, line 2574:  Called meson_src_configure
- [31;01m*[0m   environment, line 1965:  Called die
- [31;01m*[0m The specific snippet of code:
- [31;01m*[0m       "${mesonargs[@]}" ) || die
- [31;01m*[0m 
- [31;01m*[0m If you need support, post the output of `emerge --info '=dev-libs/libsigc++-3.0.6::gentoo'`,
- [31;01m*[0m the complete build log and the output of `emerge -pqv '=dev-libs/libsigc++-3.0.6::gentoo'`.
- [31;01m*[0m The complete build log is located at '/tmp/portage/dev-libs/libsigc++-3.0.6/temp/build.log'.
- [31;01m*[0m The ebuild environment file is located at '/tmp/portage/dev-libs/libsigc++-3.0.6/temp/environment'.
- [31;01m*[0m Working directory: '/tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6-abi_x86_64.amd64'
- [31;01m*[0m S: '/tmp/portage/dev-libs/libsigc++-3.0.6/work/libsigc++-3.0.6'
+
+-- Found Git: /usr/bin/git (found version "2.26.2")
+-- MySQL 8.0.23
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/x86_64-pc-linux-gnu-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/x86_64-pc-linux-gnu-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Source directory /tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/work/mysql-8.0.23
+-- Binary directory /tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/work/mysql-connector-c-8.0.23_build-abi_x86_32.x86
+-- CMAKE_GENERATOR: Ninja
+-- Looking for SHM_HUGETLB
+-- Looking for SHM_HUGETLB - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of void *
+-- Check size of void * - done
+-- SIZEOF_VOIDP 4
+-- Packaging as: mysql-8.0.23-Linux-i686
+-- Performing Test C_LD_LLD_RESULT
+-- Performing Test C_LD_LLD_RESULT - Success
+-- Performing Test CXX_LD_LLD_RESULT
+-- Performing Test CXX_LD_LLD_RESULT - Success
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE
+-- Looking for floor
+-- Looking for floor - not found
+-- Looking for floor in m
+-- Looking for floor in m - found
+-- Looking for gethostbyname_r
+-- Looking for gethostbyname_r - found
+-- Looking for bind
+-- Looking for bind - found
+-- Looking for crypt
+-- Looking for crypt - not found
+-- Looking for crypt in crypt
+-- Looking for crypt in crypt - found
+-- Looking for setsockopt
+-- Looking for setsockopt - found
+-- Looking for dlopen
+-- Looking for dlopen - not found
+-- Looking for dlopen in dl
+-- Looking for dlopen in dl - found
+-- Looking for sched_yield
+-- Looking for sched_yield - found
+-- Looking for clock_gettime
+-- Looking for clock_gettime - found
+-- Looking for timer_create
+-- Looking for timer_create - not found
+-- Looking for timer_create in rt
+-- Looking for timer_create in rt - found
+-- Looking for atomic_thread_fence
+-- Looking for atomic_thread_fence - not found
+-- Looking for atomic_thread_fence in atomic
+-- Looking for atomic_thread_fence in atomic - found
+-- Looking for backtrace
+-- Looking for backtrace - found
+-- Looking for include file alloca.h
+-- Looking for include file alloca.h - found
+-- Looking for include file arpa/inet.h
+-- Looking for include file arpa/inet.h - found
+-- Looking for include file dlfcn.h
+-- Looking for include file dlfcn.h - found
+-- Looking for include file endian.h
+-- Looking for include file endian.h - found
+-- Looking for include file execinfo.h
+-- Looking for include file execinfo.h - found
+-- Looking for include file fpu_control.h
+-- Looking for include file fpu_control.h - found
+-- Looking for include file grp.h
+-- Looking for include file grp.h - found
+-- Looking for include file langinfo.h
+-- Looking for include file langinfo.h - found
+-- Looking for include file malloc.h
+-- Looking for include file malloc.h - found
+-- Looking for include file netinet/in.h
+-- Looking for include file netinet/in.h - found
+-- Looking for include file poll.h
+-- Looking for include file poll.h - found
+-- Looking for include file pwd.h
+-- Looking for include file pwd.h - found
+-- Looking for include file strings.h
+-- Looking for include file strings.h - found
+-- Looking for include file sys/ioctl.h
+-- Looking for include file sys/ioctl.h - found
+-- Looking for include file sys/mman.h
+-- Looking for include file sys/mman.h - found
+-- Looking for include file sys/prctl.h
+-- Looking for include file sys/prctl.h - found
+-- Looking for include file sys/resource.h
+-- Looking for include file sys/resource.h - found
+-- Looking for include file sys/select.h
+-- Looking for include file sys/select.h - found
+-- Looking for include file sys/socket.h
+-- Looking for include file sys/socket.h - found
+-- Looking for include files curses.h, term.h
+-- Looking for include files curses.h, term.h - found
+-- Looking for include file termios.h
+-- Looking for include file termios.h - found
+-- Looking for include file termio.h
+-- Looking for include file termio.h - found
+-- Looking for include file unistd.h
+-- Looking for include file unistd.h - found
+-- Looking for include file sys/wait.h
+-- Looking for include file sys/wait.h - found
+-- Looking for include file sys/param.h
+-- Looking for include file sys/param.h - found
+-- Looking for include file fnmatch.h
+-- Looking for include file fnmatch.h - found
+-- Looking for include file sys/un.h
+-- Looking for include file sys/un.h - found
+-- Looking for include files sys/types.h, sasl/sasl.h
+-- Looking for include files sys/types.h, sasl/sasl.h - not found
+-- Looking for _aligned_malloc
+-- Looking for _aligned_malloc - not found
+-- Looking for backtrace
+-- Looking for backtrace - found
+-- Looking for index
+-- Looking for index - found
+-- Looking for chown
+-- Looking for chown - found
+-- Looking for cuserid
+-- Looking for cuserid - found
+-- Looking for directio
+-- Looking for directio - not found
+-- Looking for ftruncate
+-- Looking for ftruncate - found
+-- Looking for fchmod
+-- Looking for fchmod - found
+-- Looking for fcntl
+-- Looking for fcntl - found
+-- Looking for fdatasync
+-- Looking for fdatasync - found
+-- Looking for fdatasync
+-- Looking for fdatasync - found
+-- Looking for fedisableexcept
+-- Looking for fedisableexcept - found
+-- Looking for fsync
+-- Looking for fsync - found
+-- Looking for gethrtime
+-- Looking for gethrtime - not found
+-- Looking for getpass
+-- Looking for getpass - found
+-- Looking for getpassphrase
+-- Looking for getpassphrase - not found
+-- Looking for getpwnam
+-- Looking for getpwnam - found
+-- Looking for getpwuid
+-- Looking for getpwuid - found
+-- Looking for getrusage
+-- Looking for getrusage - found
+-- Looking for initgroups
+-- Looking for initgroups - found
+-- Looking for issetugid
+-- Looking for issetugid - not found
+-- Looking for getuid
+-- Looking for getuid - found
+-- Looking for geteuid
+-- Looking for geteuid - found
+-- Looking for getgid
+-- Looking for getgid - found
+-- Looking for getegid
+-- Looking for getegid - found
+-- Looking for madvise
+-- Looking for madvise - found
+-- Looking for malloc_info
+-- Looking for malloc_info - found
+-- Looking for mlock
+-- Looking for mlock - found
+-- Looking for mlockall
+-- Looking for mlockall - found
+-- Looking for mmap64
+-- Looking for mmap64 - found
+-- Looking for poll
+-- Looking for poll - found
+-- Looking for posix_fallocate
+-- Looking for posix_fallocate - found
+-- Looking for posix_memalign
+-- Looking for posix_memalign - found
+-- Looking for pthread_condattr_setclock
+-- Looking for pthread_condattr_setclock - found
+-- Looking for pthread_getaffinity_np
+-- Looking for pthread_getaffinity_np - found
+-- Looking for pthread_sigmask
+-- Looking for pthread_sigmask - found
+-- Looking for sleep
+-- Looking for sleep - found
+-- Looking for stpcpy
+-- Looking for stpcpy - found
+-- Looking for stpncpy
+-- Looking for stpncpy - found
+-- Looking for strlcpy
+-- Looking for strlcpy - not found
+-- Looking for strndup
+-- Looking for strndup - found
+-- Looking for strlcat
+-- Looking for strlcat - not found
+-- Looking for strsignal
+-- Looking for strsignal - found
+-- Looking for tell
+-- Looking for tell - not found
+-- Looking for vasprintf
+-- Looking for vasprintf - found
+-- Looking for memalign
+-- Looking for memalign - found
+-- Looking for nl_langinfo
+-- Looking for nl_langinfo - found
+-- Looking for ntohll
+-- Looking for ntohll - not found
+-- Looking for epoll_create
+-- Looking for epoll_create - found
+-- Looking for include file sys/time.h
+-- Looking for include file sys/time.h - found
+-- Looking for include file sys/times.h
+-- Looking for include file sys/times.h - found
+-- Looking for times
+-- Looking for times - found
+-- Looking for gettimeofday
+-- Looking for gettimeofday - found
+-- Looking for lrand48
+-- Looking for lrand48 - found
+-- Looking for TIOCGWINSZ
+-- Looking for TIOCGWINSZ - found
+-- Looking for FIONREAD
+-- Looking for FIONREAD - found
+-- Looking for FIONREAD
+-- Looking for FIONREAD - not found
+-- Looking for MADV_DONTDUMP
+-- Looking for MADV_DONTDUMP - found
+-- Performing Test HAVE_O_TMPFILE
+-- Performing Test HAVE_O_TMPFILE - Success
+-- Looking for timer_create
+-- Looking for timer_create - found
+-- Looking for timer_settime
+-- Looking for timer_settime - found
+-- Looking for kqueue
+-- Looking for kqueue - not found
+-- Performing Test HAVE_SETNS
+-- Performing Test HAVE_SETNS - Success
+-- Looking for EVFILT_TIMER
+-- Looking for EVFILT_TIMER - not found
+-- Looking for le64toh
+-- Looking for le64toh - found
+-- Looking for le32toh
+-- Looking for le32toh - found
+-- Looking for le16toh
+-- Looking for le16toh - found
+-- Looking for htole64
+-- Looking for htole64 - found
+-- Looking for htole32
+-- Looking for htole32 - found
+-- Looking for htole16
+-- Looking for htole16 - found
+-- Check size of char *
+-- Check size of char * - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of short
+-- Check size of short - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of time_t
+-- Check size of time_t - done
+-- Performing Test HAVE_TM_GMTOFF
+-- Performing Test HAVE_TM_GMTOFF - Success
+-- Check size of ulong
+-- Check size of ulong - done
+-- Check size of u_int32_t
+-- Check size of u_int32_t - done
+-- Performing Test HAVE_VISIBILITY_HIDDEN
+-- Performing Test HAVE_VISIBILITY_HIDDEN - Success
+-- Performing Test HAVE_CLOCK_GETTIME
+-- Performing Test HAVE_CLOCK_GETTIME - Success
+-- Performing Test HAVE_CLOCK_REALTIME
+-- Performing Test HAVE_CLOCK_REALTIME - Success
+-- Checking stack direction : -1
+-- Looking for include files time.h, sys/time.h
+-- Looking for include files time.h, sys/time.h - found
+-- Looking for O_NONBLOCK
+-- Looking for O_NONBLOCK - found
+-- Performing Test HAVE_PAUSE_INSTRUCTION
+-- Performing Test HAVE_PAUSE_INSTRUCTION - Success
+-- Looking for C++ include cxxabi.h
+-- Looking for C++ include cxxabi.h - found
+-- Performing Test HAVE_ABI_CXA_DEMANGLE
+-- Performing Test HAVE_ABI_CXA_DEMANGLE - Success
+-- Performing Test HAVE_BUILTIN_UNREACHABLE
+-- Performing Test HAVE_BUILTIN_UNREACHABLE - Success
+-- Performing Test HAVE_BUILTIN_EXPECT
+-- Performing Test HAVE_BUILTIN_EXPECT - Success
+-- Looking for __builtin_stpcpy
+-- Looking for __builtin_stpcpy - found
+-- Performing Test HAVE_GCC_SYNC_BUILTINS
+-- Performing Test HAVE_GCC_SYNC_BUILTINS - Success
+-- Performing Test HAVE_SYS_GETTID
+-- Performing Test HAVE_SYS_GETTID - Success
+-- Performing Test HAVE_PTHREAD_GETTHREADID_NP
+-- Performing Test HAVE_PTHREAD_GETTHREADID_NP - Failed
+-- Performing Test HAVE_PTHREAD_THREADID_NP
+-- Performing Test HAVE_PTHREAD_THREADID_NP - Failed
+-- Performing Test HAVE_INTEGER_PTHREAD_SELF
+-- Performing Test HAVE_INTEGER_PTHREAD_SELF - Success
+-- Looking for netinet/in6.h
+-- Looking for netinet/in6.h - not found
+-- Check size of struct in6_addr
+-- Check size of struct in6_addr - failed
+-- Performing Test HAVE_SOCKADDR_IN_SIN_LEN
+-- Performing Test HAVE_SOCKADDR_IN_SIN_LEN - Failed
+-- Performing Test HAVE_SOCKADDR_IN6_SIN6_LEN
+-- Performing Test HAVE_SOCKADDR_IN6_SIN6_LEN - Failed
+-- Looking for include file numa.h
+-- Looking for include file numa.h - not found
+-- Looking for include file numaif.h
+-- Looking for include file numaif.h - not found
+-- NUMA library missing or required version not available
+-- Found ZLIB: /usr/lib/libz.so (found version "1.2.9")
+-- ZLIB_VERSION (system) is 1.2.9
+CMake Error at cmake/zlib.cmake:118 (MESSAGE):
+  ZLIB version must be at least 1.2.11, found 1.2.9.
+
+  Please use -DWITH_ZLIB=bundled
+  Call Stack (most recent call first):
+    CMakeLists.txt:1334 (MYSQL_CHECK_ZLIB)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/work/mysql-connector-c-8.0.23_build-abi_x86_32.x86/CMakeFiles/CMakeOutput.log".
+See also "/tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/work/mysql-connector-c-8.0.23_build-abi_x86_32.x86/CMakeFiles/CMakeError.log".
+ * ERROR: dev-db/mysql-connector-c-8.0.23-r1::gentoo failed (configure phase):
+  *   cmake failed
+   *
+    * Call stack:
+     *     ebuild.sh, line  125:  Called src_configure
+      *   environment, line 2598:  Called cmake-multilib_src_configure
+       *   environment, line  719:  Called multilib-minimal_src_configure
+        *   environment, line 1941:  Called multilib_foreach_abi 'multilib-minimal_abi_src_configure'
+	 *   environment, line 2194:  Called multibuild_foreach_variant '_multilib_multibuild_wrapper' 'multilib-minimal_abi_src_configure'
+	  *   environment, line 1871:  Called _multibuild_run '_multilib_multibuild_wrapper' 'multilib-minimal_abi_src_configure'
+	   *   environment, line 1869:  Called _multilib_multibuild_wrapper 'multilib-minimal_abi_src_configure'
+	    *   environment, line  497:  Called multilib-minimal_abi_src_configure
+	     *   environment, line 1935:  Called multilib_src_configure
+	      *   environment, line 2412:  Called cmake_src_configure
+	       *   environment, line  974:  Called die
+	        * The specific snippet of code:
+		 *       "${CMAKE_BINARY}" "${cmakeargs[@]}" "${CMAKE_USE_DIR}" || die "cmake failed";
+		  *
+		   * If you need support, post the output of `emerge --info '=dev-db/mysql-connector-c-8.0.23-r1::gentoo'`,
+		    * the complete build log and the output of `emerge -pqv '=dev-db/mysql-connector-c-8.0.23-r1::gentoo'`.
+		     * The complete build log is located at '/tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/temp/build.log'.
+		      * The ebuild environment file is located at '/tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/temp/environment'.
+		       * Working directory: '/tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/work/mysql-connector-c-8.0.23_build-abi_x86_32.x86'
+		        * S: '/tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/work/mysql-8.0.23'
+
+>>> Failed to emerge dev-db/mysql-connector-c-8.0.23-r1, Log file:
+
+>>>  '/tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/temp/build.log'
+
+ * Messages for package media-libs/mesa-21.1.0:
+
+ * Ignoring USE=vdpau      since VIDEO_CARDS does not contain r300, r600, radeonsi, or nouveau
+
+ * Messages for package dev-db/mysql-connector-c-8.0.23-r1:
+
+ * ERROR: dev-db/mysql-connector-c-8.0.23-r1::gentoo failed (configure phase):
+  *   cmake failed
+   *
+    * Call stack:
+     *     ebuild.sh, line  125:  Called src_configure
+      *   environment, line 2598:  Called cmake-multilib_src_configure
+       *   environment, line  719:  Called multilib-minimal_src_configure
+        *   environment, line 1941:  Called multilib_foreach_abi 'multilib-minimal_abi_src_configure'
+	 *   environment, line 2194:  Called multibuild_foreach_variant '_multilib_multibuild_wrapper' 'multilib-minimal_abi_src_configure'
+	  *   environment, line 1871:  Called _multibuild_run '_multilib_multibuild_wrapper' 'multilib-minimal_abi_src_configure'
+	   *   environment, line 1869:  Called _multilib_multibuild_wrapper 'multilib-minimal_abi_src_configure'
+	    *   environment, line  497:  Called multilib-minimal_abi_src_configure
+	     *   environment, line 1935:  Called multilib_src_configure
+	      *   environment, line 2412:  Called cmake_src_configure
+	       *   environment, line  974:  Called die
+	        * The specific snippet of code:
+		 *       "${CMAKE_BINARY}" "${cmakeargs[@]}" "${CMAKE_USE_DIR}" || die "cmake failed";
+		  *
+		   * If you need support, post the output of `emerge --info '=dev-db/mysql-connector-c-8.0.23-r1::gentoo'`,
+		    * the complete build log and the output of `emerge -pqv '=dev-db/mysql-connector-c-8.0.23-r1::gentoo'`.
+		     * The complete build log is located at '/tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/temp/build.log'.
+		      * The ebuild environment file is located at '/tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/temp/environment'.
+		       * Working directory: '/tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/work/mysql-connector-c-8.0.23_build-abi_x86_32.x86'
+		        * S: '/tmp/portage/dev-db/mysql-connector-c-8.0.23-r1/work/mysql-8.0.23'
+			
